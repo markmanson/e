@@ -1,0 +1,42 @@
+DEBUG 2017-12-01 12:28:39,342 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-01 12:28:39,514 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-12-01 12:28:39,514 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-12-01 12:28:41,123 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-12-01 12:28:41,233 makepdffile Of CandStatus - loading successful
+DEBUG 2017-12-01 12:28:41,233 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-01 12:28:41,592 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-12-01 12:28:41,842 makepdffile Of CandStatus - End Write on page
+INFO  2017-12-01 12:28:41,842 makepdffile Of CandStatus - Int_values
+INFO  2017-12-01 12:28:41,842 makepdffile Of CandStatus - total_values
+INFO  2017-12-01 12:28:41,842 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-12-01 12:28:41,842 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-12-01 12:28:41,842 drawTable Of CandStatus - te(1):
+INFO  2017-12-01 12:28:41,842 drawTable Of CandStatus - End of Write data
+INFO  2017-12-01 12:28:41,842 drawTable Of CandStatus - End of Rows
+INFO  2017-12-01 12:28:41,842 drawTable Of CandStatus - End of Columns
+DEBUG 2017-12-01 14:55:06,967 generateQuePanel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.generateQuePanel(Int32 intCurrPage) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 1327
+DEBUG 2017-12-01 14:56:01,967 generateQuePanel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.generateQuePanel(Int32 intCurrPage) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 1327
+DEBUG 2017-12-01 16:50:28,748 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 657
+DEBUG 2017-12-01 16:50:28,764 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 657
+DEBUG 2017-12-01 16:50:28,764 InsertData Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.InsertData() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 2474
+ERROR 2017-12-01 17:33:37,577 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-12-01 17:33:37,592 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+DEBUG 2017-12-01 17:33:37,592 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+ERROR 2017-12-01 17:33:47,514 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-12-01 17:33:47,514 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+DEBUG 2017-12-01 17:33:47,514 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717

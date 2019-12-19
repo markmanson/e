@@ -1,0 +1,80 @@
+DEBUG 2014-04-04 09:41:06,564 btn_login_Click Of Login - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.unirecruite.login.btn_login_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-04-04 10:41:51,641 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2014-04-04 10:41:51,907 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2014-04-04 10:41:51,907 InsertData Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.InsertData()
+DEBUG 2014-04-04 12:12:53,983 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2014-04-04 14:52:37,765 btn_login_Click Of Login - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.unirecruite.login.btn_login_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-04-04 15:51:48,241 btn_login_Click Of Login - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.unirecruite.login.btn_login_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-04-04 16:26:25,213 btn_login_Click Of Login - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.unirecruite.login.btn_login_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-04-04 17:09:47,500 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2014-04-04 17:09:47,531 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2014-04-04 17:09:47,531 InsertData Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.InsertData()
+DEBUG 2014-04-04 17:12:09,985 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2014-04-04 17:12:09,985 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2014-04-04 17:12:09,985 InsertData Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.InsertData()
+DEBUG 2014-04-04 17:12:14,344 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2014-04-04 17:12:19,000 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2014-04-04 17:13:02,313 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2014-04-04 17:13:02,313 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2014-04-04 17:13:02,313 InsertData Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.InsertData()
+DEBUG 2014-04-04 19:08:38,531 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)

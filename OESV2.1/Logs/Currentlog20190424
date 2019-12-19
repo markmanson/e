@@ -1,0 +1,12 @@
+DEBUG 2019-04-24 13:46:10,265 GetPersonalData Of register - Error :System.InvalidCastException: Operator '=' is not defined for type 'DBNull' and string "M".
+   at Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   at Unirecruite.unirecruite.register.GetPersonalData() in D:\OESV2\Source Code\Development Area\OESV2.1\register.aspx.vb:line 1582
+DEBUG 2019-04-24 13:46:28,321 GetPersonalData Of register - Error :System.InvalidCastException: Operator '=' is not defined for type 'DBNull' and string "M".
+   at Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   at Unirecruite.unirecruite.register.GetPersonalData() in D:\OESV2\Source Code\Development Area\OESV2.1\register.aspx.vb:line 1582
+DEBUG 2019-04-24 13:46:39,762 GetPersonalData Of register - Error :System.InvalidCastException: Operator '=' is not defined for type 'DBNull' and string "M".
+   at Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   at Unirecruite.unirecruite.register.GetPersonalData() in D:\OESV2\Source Code\Development Area\OESV2.1\register.aspx.vb:line 1582
+DEBUG 2019-04-24 13:47:01,661 GetPersonalData Of register - Error :System.InvalidCastException: Operator '=' is not defined for type 'DBNull' and string "M".
+   at Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   at Unirecruite.unirecruite.register.GetPersonalData() in D:\OESV2\Source Code\Development Area\OESV2.1\register.aspx.vb:line 1582

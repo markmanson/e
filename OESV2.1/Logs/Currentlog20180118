@@ -1,0 +1,46 @@
+DEBUG 2018-01-18 10:23:07,062 checkTestAppeared Of QuestionPaper - Error :System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at Unirecruite.QuestionPaper.checkTestAppeared() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 2208
+DEBUG 2018-01-18 10:23:07,296 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 356
+DEBUG 2018-01-18 10:46:33,828 sendMail Of search - Error :System.Web.HttpException: The transport failed to connect to the server.
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x80040213): The transport failed to connect to the server.
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrUserID, String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\search.aspx.vb:line 2801
+DEBUG 2018-01-18 10:46:54,906 sendMail Of search - Error :System.Web.HttpException: The transport failed to connect to the server.
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x80040213): The transport failed to connect to the server.
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrUserID, String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\search.aspx.vb:line 2801

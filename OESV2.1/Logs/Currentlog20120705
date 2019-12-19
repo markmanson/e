@@ -1,0 +1,6 @@
+DEBUG 2012-07-05 09:31:10,765 imgBtnSubmit_Click Of CourseRegistration - Error :System.InvalidCastException: Conversion from string "60%" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Unirecruite.CourseRegistration.imgBtnSubmit_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\UksTraining\Unirecruite\CourseRegistration.aspx.vb:line 698

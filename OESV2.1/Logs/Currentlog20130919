@@ -1,0 +1,2 @@
+DEBUG 2013-09-19 15:02:12,243 ImgBtnBack_Click Of CourseRegistration - Error:System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.CourseRegistration.ImgBtnBack_Click(Object sender, ImageClickEventArgs e)

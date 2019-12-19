@@ -1,0 +1,32 @@
+DEBUG 2015-10-26 13:38:50,754 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-10-26 15:11:50,754 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2015-10-26 15:11:50,785 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2015-10-26 15:11:50,785 InsertData Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.InsertData()
+DEBUG 2015-10-26 15:11:50,879 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2015-10-26 15:11:50,879 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2015-10-26 15:11:50,879 InsertData Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.InsertData()
+DEBUG 2015-10-26 15:11:58,676 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2015-10-26 15:11:58,676 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2015-10-26 15:11:58,676 InsertData Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.InsertData()

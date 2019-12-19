@@ -1,0 +1,81 @@
+DEBUG 2012-09-03 11:11:30,234 Page_Load Of searchQuestion - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.searchQuestion.Page_Load(Object sender, EventArgs e)
+DEBUG 2012-09-03 11:59:23,843 Getit Of searchQuestion - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category)
+DEBUG 2012-09-03 11:59:45,218 Getit Of searchQuestion - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category)
+DEBUG 2012-09-03 12:01:10,062 populatequesans Of question_ans - Error :System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.ListItemCollection.get_Item(Int32 index)
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType)
+DEBUG 2012-09-03 12:01:10,062 Page_Load Of question_ans - Error :System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType)
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e)
+DEBUG 2012-09-03 12:02:18,828 Getit Of searchQuestion - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category)
+DEBUG 2012-09-03 12:03:48,093 populatequesans Of question_ans - Error :System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.ListItemCollection.get_Item(Int32 index)
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType)
+DEBUG 2012-09-03 12:03:48,093 Page_Load Of question_ans - Error :System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType)
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e)
+DEBUG 2012-09-03 12:04:38,093 enableDisable Of searchQuestion - ChkSelect ALL : 
+System.InvalidOperationException: Showing a modal dialog box or form when the application is not running in UserInteractive mode is not a valid operation. Specify the ServiceNotification or DefaultDesktopOnly style to display a notification from a service application.
+   at System.Windows.Forms.MessageBox.ShowCore(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options, Boolean showHelp)
+   at System.Windows.Forms.MessageBox.Show(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options)
+   at Microsoft.VisualBasic.Interaction.MsgBox(Object Prompt, MsgBoxStyle Buttons, Object Title)
+   at Unirecruite.unirecruite.searchQuestion.enableDisable(Boolean flg, Boolean blflg)
+DEBUG 2012-09-03 12:04:38,296 imgBtnDisable_Click Of searchQuestion - Error :System.InvalidOperationException: Showing a modal dialog box or form when the application is not running in UserInteractive mode is not a valid operation. Specify the ServiceNotification or DefaultDesktopOnly style to display a notification from a service application.
+   at Unirecruite.unirecruite.searchQuestion.enableDisable(Boolean flg, Boolean blflg)
+   at Unirecruite.unirecruite.searchQuestion.imgBtnDisable_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2012-09-03 12:05:43,859 Getit Of searchQuestion - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category)
+DEBUG 2012-09-03 12:51:08,906 enableDisable Of searchQuestion - ChkSelect ALL : 
+System.InvalidOperationException: Showing a modal dialog box or form when the application is not running in UserInteractive mode is not a valid operation. Specify the ServiceNotification or DefaultDesktopOnly style to display a notification from a service application.
+   at System.Windows.Forms.MessageBox.ShowCore(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options, Boolean showHelp)
+   at System.Windows.Forms.MessageBox.Show(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options)
+   at Microsoft.VisualBasic.Interaction.MsgBox(Object Prompt, MsgBoxStyle Buttons, Object Title)
+   at Unirecruite.unirecruite.searchQuestion.enableDisable(Boolean flg, Boolean blflg)
+DEBUG 2012-09-03 12:51:08,921 imgBtnDisable_Click Of searchQuestion - Error :System.InvalidOperationException: Showing a modal dialog box or form when the application is not running in UserInteractive mode is not a valid operation. Specify the ServiceNotification or DefaultDesktopOnly style to display a notification from a service application.
+   at Unirecruite.unirecruite.searchQuestion.enableDisable(Boolean flg, Boolean blflg)
+   at Unirecruite.unirecruite.searchQuestion.imgBtnDisable_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2012-09-03 12:51:50,328 enableDisable Of searchQuestion - ChkSelect ALL : 
+System.InvalidOperationException: Showing a modal dialog box or form when the application is not running in UserInteractive mode is not a valid operation. Specify the ServiceNotification or DefaultDesktopOnly style to display a notification from a service application.
+   at System.Windows.Forms.MessageBox.ShowCore(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options, Boolean showHelp)
+   at System.Windows.Forms.MessageBox.Show(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options)
+   at Microsoft.VisualBasic.Interaction.MsgBox(Object Prompt, MsgBoxStyle Buttons, Object Title)
+   at Unirecruite.unirecruite.searchQuestion.enableDisable(Boolean flg, Boolean blflg)
+DEBUG 2012-09-03 12:51:50,328 imgBtnDisable_Click Of searchQuestion - Error :System.InvalidOperationException: Showing a modal dialog box or form when the application is not running in UserInteractive mode is not a valid operation. Specify the ServiceNotification or DefaultDesktopOnly style to display a notification from a service application.
+   at Unirecruite.unirecruite.searchQuestion.enableDisable(Boolean flg, Boolean blflg)
+   at Unirecruite.unirecruite.searchQuestion.imgBtnDisable_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2012-09-03 12:56:32,656 enableDisable Of searchQuestion - ChkSelect ALL : 
+System.InvalidOperationException: Showing a modal dialog box or form when the application is not running in UserInteractive mode is not a valid operation. Specify the ServiceNotification or DefaultDesktopOnly style to display a notification from a service application.
+   at System.Windows.Forms.MessageBox.ShowCore(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options, Boolean showHelp)
+   at System.Windows.Forms.MessageBox.Show(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options)
+   at Microsoft.VisualBasic.Interaction.MsgBox(Object Prompt, MsgBoxStyle Buttons, Object Title)
+   at Unirecruite.unirecruite.searchQuestion.enableDisable(Boolean flg, Boolean blflg)
+DEBUG 2012-09-03 12:56:32,656 imgBtnDisable_Click Of searchQuestion - Error :System.InvalidOperationException: Showing a modal dialog box or form when the application is not running in UserInteractive mode is not a valid operation. Specify the ServiceNotification or DefaultDesktopOnly style to display a notification from a service application.
+   at Unirecruite.unirecruite.searchQuestion.enableDisable(Boolean flg, Boolean blflg)
+   at Unirecruite.unirecruite.searchQuestion.imgBtnDisable_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2012-09-03 13:16:21,687 Getit Of searchQuestion - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category)

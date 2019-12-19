@@ -1,0 +1,29 @@
+DEBUG 2012-08-27 10:53:04,562 imgBtnBack_Click Of question_paper - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.unirecruite.BulkQuestionsInsert.imgBtnBack_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2012-08-27 10:57:01,906 imgBtnBack_Click Of question_paper - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.unirecruite.BulkQuestionsInsert.imgBtnBack_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2012-08-27 12:01:43,984 btn_login_Click Of Login - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.unirecruite.login.btn_login_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2012-08-27 13:58:42,578 imgBtnBack_Click Of question_paper - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.unirecruite.BulkQuestionsInsert.imgBtnBack_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2012-08-27 17:17:19,671 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()

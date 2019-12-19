@@ -1,0 +1,12 @@
+DEBUG 2013-07-08 11:08:40,421 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2013-07-08 11:08:40,703 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2013-07-08 11:45:32,078 btn_login_Click Of Login - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.unirecruite.login.btn_login_Click(Object sender, ImageClickEventArgs e)

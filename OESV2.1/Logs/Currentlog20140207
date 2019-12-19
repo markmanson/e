@@ -1,0 +1,54 @@
+DEBUG 2014-02-07 08:55:21,061 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x800705AF): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 800705af.
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category)
+DEBUG 2014-02-07 08:55:29,608 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x800705AF): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 800705af.
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category)
+DEBUG 2014-02-07 08:55:42,577 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x800705AF): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 800705af.
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category)
+DEBUG 2014-02-07 08:55:51,827 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x800705AF): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 800705af.
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category)
+DEBUG 2014-02-07 08:56:09,624 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x800705AF): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 800705af.
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category)
+DEBUG 2014-02-07 08:56:45,139 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x800705AF): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 800705af.
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category)
+DEBUG 2014-02-07 10:59:43,827 img_saveexit_Click Of register - Error :System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at Unirecruite.unirecruite.register.PageValidation()
+   at Unirecruite.unirecruite.register.img_saveexit_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-02-07 10:59:53,952 img_saveexit_Click Of register - Error :System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at Unirecruite.unirecruite.register.fnc_ins_data()
+   at Unirecruite.unirecruite.register.img_saveexit_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-02-07 11:00:09,311 img_saveexit_Click Of register - Error :System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at Unirecruite.unirecruite.register.fnc_ins_data()
+   at Unirecruite.unirecruite.register.img_saveexit_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-02-07 11:01:33,233 img_saveexit_Click Of register - Error :System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at Unirecruite.unirecruite.register.fnc_ins_data()
+   at Unirecruite.unirecruite.register.img_saveexit_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-02-07 11:07:05,905 sendMail Of search - Error :System.Runtime.InteropServices.COMException (0x800705AF): Retrieving the COM class factory for component with CLSID {CD000001-8B95-11D1-82DB-00C04FB1625D} failed due to the following error: 800705af.
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime)
+DEBUG 2014-02-07 11:07:05,921 sendMail Of search - Error :System.Runtime.InteropServices.COMException (0x800705AF): Retrieving the COM class factory for component with CLSID {CD000001-8B95-11D1-82DB-00C04FB1625D} failed due to the following error: 800705af.
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime)
+DEBUG 2014-02-07 11:07:05,936 sendMail Of search - Error :System.Runtime.InteropServices.COMException (0x800705AF): Retrieving the COM class factory for component with CLSID {CD000001-8B95-11D1-82DB-00C04FB1625D} failed due to the following error: 800705af.
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime)
+DEBUG 2014-02-07 15:17:52,171 btn_login_Click Of Login - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.unirecruite.login.btn_login_Click(Object sender, ImageClickEventArgs e)

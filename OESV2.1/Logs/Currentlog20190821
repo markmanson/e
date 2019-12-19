@@ -1,0 +1,87 @@
+ERROR 2019-08-21 10:56:28,011 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2019-08-21 10:56:28,027 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESv2\Source Code\Development Area\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 1586
+DEBUG 2019-08-21 10:56:28,027 ExportExamDetails Of CandStatus - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 1586
+DEBUG 2019-08-21 10:56:28,355 DGReport_ItemCommand Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESv2\Source Code\Development Area\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 2241
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 2396
+ERROR 2019-08-21 10:57:47,487 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2019-08-21 10:57:47,488 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESv2\Source Code\Development Area\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 1586
+DEBUG 2019-08-21 10:57:47,488 ExportExamDetails Of CandStatus - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 1586
+DEBUG 2019-08-21 10:57:47,677 DGReport_ItemCommand Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESv2\Source Code\Development Area\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 2241
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 2396
+ERROR 2019-08-21 10:57:54,950 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2019-08-21 10:57:54,950 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESv2\Source Code\Development Area\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 1586
+DEBUG 2019-08-21 10:57:54,951 ExportExamDetails Of CandStatus - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 1586
+DEBUG 2019-08-21 10:57:55,161 DGReport_ItemCommand Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESv2\Source Code\Development Area\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 2241
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 2396
+ERROR 2019-08-21 10:58:00,813 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2019-08-21 10:58:00,814 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESv2\Source Code\Development Area\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 1586
+DEBUG 2019-08-21 10:58:00,814 ExportExamDetails Of CandStatus - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 1586
+DEBUG 2019-08-21 10:58:01,057 DGReport_ItemCommand Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESv2\Source Code\Development Area\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 2241
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 2396
+ERROR 2019-08-21 10:58:14,096 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2019-08-21 10:58:14,096 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESv2\Source Code\Development Area\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 1586
+DEBUG 2019-08-21 10:58:14,097 ExportExamDetails Of CandStatus - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 1586
+DEBUG 2019-08-21 10:58:14,301 DGReport_ItemCommand Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESv2\Source Code\Development Area\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 2241
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 2396
+ERROR 2019-08-21 10:58:25,033 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2019-08-21 10:58:25,034 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESv2\Source Code\Development Area\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 1586
+DEBUG 2019-08-21 10:58:25,034 ExportExamDetails Of CandStatus - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 1586
+DEBUG 2019-08-21 10:58:25,290 DGReport_ItemCommand Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESv2\Source Code\Development Area\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 2241
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\OESv2\Source Code\Development Area\OESV2.1\CandStatus.aspx.vb:line 2396
+DEBUG 2019-08-21 11:00:05,315 Getit Of WebForm3 - Error :System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OESv2\Source Code\Development Area\OESV2.1\ExcelImport\Upload Bulk User Data\Center_Details.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at Unirecruite.unirecruite.WebForm3.CreateCSVFile(DataTable dt, String strFilePath) in D:\OESv2\Source Code\Development Area\OESV2.1\BulkImport.aspx.vb:line 1470
+   at Unirecruite.unirecruite.WebForm3.Getit() in D:\OESv2\Source Code\Development Area\OESV2.1\BulkImport.aspx.vb:line 1415

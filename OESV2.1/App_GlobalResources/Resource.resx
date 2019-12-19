@@ -1,0 +1,1917 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddCourse_ClsCrsDts" xml:space="preserve">
+    <value>Class / Course Details</value>
+  </data>
+  <data name="AddCourse_ClsNm" xml:space="preserve">
+    <value>Class Name</value>
+  </data>
+  <data name="AddCourse_ClsRgsDts" xml:space="preserve">
+    <value>Class/Course Registration Details</value>
+  </data>
+  <data name="AddCourse_CrsNm" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="AdminList_AdminNm" xml:space="preserve">
+    <value>Administrator name</value>
+  </data>
+  <data name="AdminList_AdminSrch" xml:space="preserve">
+    <value>Administrator Search</value>
+  </data>
+  <data name="AdminList_DOB" xml:space="preserve">
+    <value>Date of birth</value>
+  </data>
+  <data name="AdminList_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="AdminList_LoginNm" xml:space="preserve">
+    <value>Login name</value>
+  </data>
+  <data name="AdminList_UserID" xml:space="preserve">
+    <value>User ID</value>
+  </data>
+  <data name="admin_AdminList" xml:space="preserve">
+    <value>Administrator List</value>
+  </data>
+  <data name="admin_AsgnExam" xml:space="preserve">
+    <value>Assign Exam to Student</value>
+  </data>
+  <data name="admin_AssignWeightage" xml:space="preserve">
+    <value>Assign Weightage</value>
+  </data>
+  <data name="admin_BulkImport" xml:space="preserve">
+    <value>BulkImport UserData</value>
+  </data>
+  <data name="admin_clsMaiten" xml:space="preserve">
+    <value>Class Maintenance</value>
+  </data>
+  <data name="admin_CndSts" xml:space="preserve">
+    <value>Candidate Status(Provisional mark-sheet)</value>
+  </data>
+  <data name="admin_CndtimeInfo" xml:space="preserve">
+    <value>Candidate Time Information</value>
+  </data>
+  <data name="admin_CountQuePubl" xml:space="preserve">
+    <value>Count of Question Published</value>
+  </data>
+  <data name="admin_CrsMain" xml:space="preserve">
+    <value>Course Maintenance</value>
+  </data>
+  <data name="admin_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="admin_Exam" xml:space="preserve">
+    <value>Exam</value>
+  </data>
+  <data name="admin_ExamRpt" xml:space="preserve">
+    <value>Exam Report</value>
+  </data>
+  <data name="admin_Maintenance" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="admin_MngCrse" xml:space="preserve">
+    <value>Manage Course</value>
+  </data>
+  <data name="admin_NewUser" xml:space="preserve">
+    <value>New User</value>
+  </data>
+  <data name="admin_QstMain" xml:space="preserve">
+    <value>Question Maintenance</value>
+  </data>
+  <data name="admin_Regis" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="admin_SbjMain" xml:space="preserve">
+    <value>Subject Maintenance</value>
+  </data>
+  <data name="admin_StudList" xml:space="preserve">
+    <value>Student List</value>
+  </data>
+  <data name="admin_SubjectMaintenance" xml:space="preserve">
+    <value>Subject Maintenance</value>
+  </data>
+  <data name="admin_uplVideo" xml:space="preserve">
+    <value>Upload Videos</value>
+  </data>
+  <data name="admin_UpVideo" xml:space="preserve">
+    <value>Upload Videos</value>
+  </data>
+  <data name="admin_VideoList" xml:space="preserve">
+    <value>Videos List</value>
+  </data>
+  <data name="admin_VidList" xml:space="preserve">
+    <value>VideosList</value>
+  </data>
+  <data name="AppearedExam_ClsNm" xml:space="preserve">
+    <value>Class Name</value>
+  </data>
+  <data name="AppearedExam_CndNm" xml:space="preserve">
+    <value>Candidate Name</value>
+  </data>
+  <data name="AppearedExam_CrsNm" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="AppearedExam_dts" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="AppearedExam_Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="AppearedExam_qno" xml:space="preserve">
+    <value>qno</value>
+  </data>
+  <data name="AppearedExam_Ques" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="AppearedExam_testTyp" xml:space="preserve">
+    <value>testtype</value>
+  </data>
+  <data name="AppearedExam_UserID" xml:space="preserve">
+    <value>User Id</value>
+  </data>
+  <data name="AppearedExam_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="BulkImport_btnImpData" xml:space="preserve">
+    <value>Import Data</value>
+  </data>
+  <data name="BulkImport_btnImpDts" xml:space="preserve">
+    <value>Import Detail</value>
+  </data>
+  <data name="BulkImport_ChoseFile" xml:space="preserve">
+    <value>Choose File</value>
+  </data>
+  <data name="BulkImport_clickhere" xml:space="preserve">
+    <value>click here</value>
+  </data>
+  <data name="BulkImport_Header" xml:space="preserve">
+    <value>Please click here to download user's bulk data import template file</value>
+  </data>
+  <data name="BulkImport_Please" xml:space="preserve">
+    <value>Please</value>
+  </data>
+  <data name="BulkImport_todownload" xml:space="preserve">
+    <value>to download user's bulk data import template file</value>
+  </data>
+  <data name="BulkImport_UplDts" xml:space="preserve">
+    <value>Upload User Details</value>
+  </data>
+  <data name="CandStatus_ClsNm" xml:space="preserve">
+    <value>Class Name</value>
+  </data>
+  <data name="CandStatus_CndDts" xml:space="preserve">
+    <value>Candidate Details</value>
+  </data>
+  <data name="CandStatus_CndNm" xml:space="preserve">
+    <value>Candidate Name</value>
+  </data>
+  <data name="CandStatus_CrsNm" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="CandStatus_DisableExam" xml:space="preserve">
+    <value>Disable </value>
+  </data>
+  <data name="CandStatus_ExamAppearedDate" xml:space="preserve">
+    <value>Exam Appeared Date </value>
+  </data>
+  <data name="CandStatus_ExamAppearedDteTm" xml:space="preserve">
+    <value>Exam Appeared Date-Time</value>
+  </data>
+  <data name="CandStatus_ExamAssignedDte" xml:space="preserve">
+    <value>Exam Assigned Date </value>
+  </data>
+  <data name="CandStatus_ExamDts" xml:space="preserve">
+    <value>Exam Details</value>
+  </data>
+  <data name="CandStatus_ExamSts" xml:space="preserve">
+    <value>Exam Status</value>
+  </data>
+  <data name="CandStatus_ExmAssgDte" xml:space="preserve">
+    <value>Exam Asssigned Date</value>
+  </data>
+  <data name="CandStatus_From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="CandStatus_Grade" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="CandStatus_Grd" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="CandStatus_LgnNm" xml:space="preserve">
+    <value>Login Name</value>
+  </data>
+  <data name="CandStatus_MaxMrks" xml:space="preserve">
+    <value>Total Marks</value>
+  </data>
+  <data name="CandStatus_MrkObt" xml:space="preserve">
+    <value>Marks Obtained</value>
+  </data>
+  <data name="CandStatus_Pwd" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="CandStatus_Remder" xml:space="preserve">
+    <value>Reminder</value>
+  </data>
+  <data name="CandStatus_SrchCondition" xml:space="preserve">
+    <value>Search Conditions</value>
+  </data>
+  <data name="CandStatus_Sts" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="CandStatus_To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="centerMaintenance_btnBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="centerMaintenance_btnClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="centerMaintenance_btnNewclass" xml:space="preserve">
+    <value>New Class Registration</value>
+  </data>
+  <data name="centerMaintenance_btnSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="centerMaintenance_City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="centerMaintenance_ClsCode" xml:space="preserve">
+    <value>Class Code</value>
+  </data>
+  <data name="centerMaintenance_ClsDts" xml:space="preserve">
+    <value>Class Details</value>
+  </data>
+  <data name="centerMaintenance_ClsNm" xml:space="preserve">
+    <value>Class Name</value>
+  </data>
+  <data name="centerMaintenance_CntNo" xml:space="preserve">
+    <value>Contact No</value>
+  </data>
+  <data name="centerMaintenance_Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="centerMaintenance_OwnerNm" xml:space="preserve">
+    <value>Owner Name</value>
+  </data>
+  <data name="centerMaintenance_SrhCon" xml:space="preserve">
+    <value>Search Conditions</value>
+  </data>
+  <data name="centerMaintenance_SrNo" xml:space="preserve">
+    <value>Sr.No.</value>
+  </data>
+  <data name="centerMaintenance_State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="centerMaintenance_SubMain" xml:space="preserve">
+    <value>Subject Maintenace</value>
+  </data>
+  <data name="CenterRegistration_Adrss" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="CenterRegistration_btnBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="CenterRegistration_btnClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="CenterRegistration_btnRegis" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="CenterRegistration_City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="CenterRegistration_ClassRegis" xml:space="preserve">
+    <value>Class Registration</value>
+  </data>
+  <data name="CenterRegistration_clsCode" xml:space="preserve">
+    <value>Class Code</value>
+  </data>
+  <data name="CenterRegistration_clsNm" xml:space="preserve">
+    <value>Class Name</value>
+  </data>
+  <data name="CenterRegistration_ClsRegDts" xml:space="preserve">
+    <value>Class Registration Details</value>
+  </data>
+  <data name="CenterRegistration_CntNo" xml:space="preserve">
+    <value>Contact No</value>
+  </data>
+  <data name="CenterRegistration_Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="CenterRegistration_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="CenterRegistration_OwNm" xml:space="preserve">
+    <value>Owner Name</value>
+  </data>
+  <data name="CenterRegistration_Pincd" xml:space="preserve">
+    <value>Pin Code</value>
+  </data>
+  <data name="CenterRegistration_State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Common_btnBck" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Common_btnClr" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Common_BtnSrch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Common_Disable" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="Common_Enble" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="Common_GoToPage" xml:space="preserve">
+    <value>Go to Page No</value>
+  </data>
+  <data name="Common_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Common_logoff" xml:space="preserve">
+    <value>Log off</value>
+  </data>
+  <data name="Common_Regis" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="Common_Revm" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="Common_SelectAll" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="Common_Sltall" xml:space="preserve">
+    <value>SelectAll</value>
+  </data>
+  <data name="Common_SltDeslt" xml:space="preserve">
+    <value>Select / Deselect</value>
+  </data>
+  <data name="Common_SrchResult" xml:space="preserve">
+    <value>Search Results</value>
+  </data>
+  <data name="Common_SrNo" xml:space="preserve">
+    <value>Sr. No.</value>
+  </data>
+  <data name="Common_TtlRrd" xml:space="preserve">
+    <value>Total Records</value>
+  </data>
+  <data name="Common_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="CourseMaintenance_btnBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="CourseMaintenance_btnClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="CourseMaintenance_btnDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CourseMaintenance_btnDisable" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="CourseMaintenance_btnEnable" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="CourseMaintenance_btnNewCourseregis" xml:space="preserve">
+    <value>New Course Registration</value>
+  </data>
+  <data name="CourseMaintenance_btnSrch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="CourseMaintenance_CrNm" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="CourseMaintenance_CrsDts" xml:space="preserve">
+    <value>Course Details</value>
+  </data>
+  <data name="CourseMaintenance_GotoPageNo" xml:space="preserve">
+    <value>Go to page no</value>
+  </data>
+  <data name="CourseMaintenance_MainCrs" xml:space="preserve">
+    <value>Main Course</value>
+  </data>
+  <data name="CourseMaintenance_PsingMks" xml:space="preserve">
+    <value>Passing marks(%)</value>
+  </data>
+  <data name="CourseMaintenance_SltAll" xml:space="preserve">
+    <value>SelectAll</value>
+  </data>
+  <data name="CourseMaintenance_SrchCnd" xml:space="preserve">
+    <value>Search Conditions</value>
+  </data>
+  <data name="CourseMaintenance_SrhResults" xml:space="preserve">
+    <value>Search Result</value>
+  </data>
+  <data name="CourseMaintenance_SrNo" xml:space="preserve">
+    <value>Sr.No.</value>
+  </data>
+  <data name="CourseMaintenance_TtlallotedXamMin" xml:space="preserve">
+    <value>Time Alloted Exam Time(Minute)</value>
+  </data>
+  <data name="CourseMaintenance_TtlMrks" xml:space="preserve">
+    <value>Total Marks</value>
+  </data>
+  <data name="CourseMaintenance_TtlRrds" xml:space="preserve">
+    <value>Total Records</value>
+  </data>
+  <data name="CourseMaintenance_TtlTime" xml:space="preserve">
+    <value>Total Alloted Exam Time(Minute)</value>
+  </data>
+  <data name="CourseMaintenance_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="CourseRegistration_btnBck" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="CourseRegistration_btnClr" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="CourseRegistration_btnReg" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="CourseRegistration_CourseCode" xml:space="preserve">
+    <value>Course Code</value>
+  </data>
+  <data name="CourseRegistration_CrsNm" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="CourseRegistration_CrsRegis" xml:space="preserve">
+    <value>Course Registration</value>
+  </data>
+  <data name="CourseRegistration_CrsRegisDts" xml:space="preserve">
+    <value>Course Registration Details</value>
+  </data>
+  <data name="CourseRegistration_MainCrs" xml:space="preserve">
+    <value>Main Course</value>
+  </data>
+  <data name="CourseRegistration_PsingMrks" xml:space="preserve">
+    <value>Passing Marks(%)</value>
+  </data>
+  <data name="CourseRegistration_ttlAllotExam" xml:space="preserve">
+    <value>Total Alloted Exam Time(Minute)</value>
+  </data>
+  <data name="CourseRegistration_ttlMrks" xml:space="preserve">
+    <value>Total Marks</value>
+  </data>
+  <data name="CourseRegistration_ValCrs" xml:space="preserve">
+    <value>Please Select Main Course</value>
+  </data>
+  <data name="CourseRegistration_ValCrsCd" xml:space="preserve">
+    <value>Please Enter Course Code</value>
+  </data>
+  <data name="CourseRegistration_ValNm" xml:space="preserve">
+    <value>Please Enter Course Name</value>
+  </data>
+  <data name="CourseRegistration_ValTtlalloted" xml:space="preserve">
+    <value>Please Enter Total Alloted Exam Time in Minutes</value>
+  </data>
+  <data name="CourseRegistration_ValTtlMrk" xml:space="preserve">
+    <value>Please Enter Total Marks</value>
+  </data>
+  <data name="CourseRegistration_ValTtlPassMrk" xml:space="preserve">
+    <value>Please Enter Total Passing Marks</value>
+  </data>
+  <data name="ExamCount_Asked" xml:space="preserve">
+    <value>Asked</value>
+  </data>
+  <data name="ExamCount_CrsNm" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="ExamCount_Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="ExamCount_SrchCon" xml:space="preserve">
+    <value>Search Conditions</value>
+  </data>
+  <data name="ExamCount_SrchRes" xml:space="preserve">
+    <value>Search Result</value>
+  </data>
+  <data name="ExamCount_SubNm" xml:space="preserve">
+    <value>Subject Name</value>
+  </data>
+  <data name="ExamCount_test" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="ExamCount_TtlRcrds" xml:space="preserve">
+    <value>Total Records :</value>
+  </data>
+  <data name="ExamCount_TtlXamCon" xml:space="preserve">
+    <value>Total Exam Conducted :</value>
+  </data>
+  <data name="ExamCount_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="ManageCourse_Bck" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="ManageCourse_btnAddNewCourse" xml:space="preserve">
+    <value>Add New Course</value>
+  </data>
+  <data name="ManageCourse_Clr" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="ManageCourse_clsNm" xml:space="preserve">
+    <value>Class Name</value>
+  </data>
+  <data name="ManageCourse_CntrDts" xml:space="preserve">
+    <value>Center/Course Details</value>
+  </data>
+  <data name="ManageCourse_CrsNm" xml:space="preserve">
+    <value>CourseName</value>
+  </data>
+  <data name="ManageCourse_Srch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="ManageCourse_SrchCndtion" xml:space="preserve">
+    <value>Search Condition</value>
+  </data>
+  <data name="ManageVideo_AddCategory" xml:space="preserve">
+    <value>Add New/Remove Category</value>
+  </data>
+  <data name="ManageVideo_SelectFile" xml:space="preserve">
+    <value>Select File</value>
+  </data>
+  <data name="ManageVideo_UpVideo" xml:space="preserve">
+    <value>Upload Video/PPT file</value>
+  </data>
+  <data name="Master_2010" xml:space="preserve">
+    <value>2010-11 Unitech Systems, All Rights Reserved.</value>
+  </data>
+  <data name="Master_CopyRight" xml:space="preserve">
+    <value>Copyright</value>
+  </data>
+  <data name="Master_Footer" xml:space="preserve">
+    <value>This site is best viewed in Internet Explorer 11, Mozilla 3.6, Chrome 67.0 browsers or above and screen resolution 1204 X 768</value>
+  </data>
+  <data name="Master_StPower" xml:space="preserve">
+    <value>Site Powered by:</value>
+  </data>
+  <data name="Master_US" xml:space="preserve">
+    <value>Unitech Systems</value>
+  </data>
+  <data name="Master_Version" xml:space="preserve">
+    <value>Version 1.1</value>
+  </data>
+  <data name="QuestionAns_FillIntheBlank" xml:space="preserve">
+    <value>Fill in the blanks and match the following</value>
+  </data>
+  <data name="QuestionAns_Listing" xml:space="preserve">
+    <value>Listening and single answer</value>
+  </data>
+  <data name="QuestionAns_Qesaauest" xml:space="preserve">
+    <value>Question:</value>
+  </data>
+  <data name="QuestionAns_Que" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="QuestionAns_QuesDts" xml:space="preserve">
+    <value>Question Details</value>
+  </data>
+  <data name="QuestionAns_SubNm" xml:space="preserve">
+    <value>Subject Name</value>
+  </data>
+  <data name="QuestionAns_TFSA" xml:space="preserve">
+    <value>True false and Single Answer</value>
+  </data>
+  <data name="QuestionAns_Validation" xml:space="preserve">
+    <value>This is a required field!</value>
+  </data>
+  <data name="register_AddDts" xml:space="preserve">
+    <value>Address Details</value>
+  </data>
+  <data name="register_ClsNm" xml:space="preserve">
+    <value>Class Name</value>
+  </data>
+  <data name="register_ConPwd" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="register_DOB" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="register_EmAdd" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="register_F" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="register_Finish1" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="register_FNm" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="register_Gen" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="register_LgnDts" xml:space="preserve">
+    <value>Login Details</value>
+  </data>
+  <data name="register_logID" xml:space="preserve">
+    <value>Login ID</value>
+  </data>
+  <data name="register_LstNm" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="register_M" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="register_MidNm" xml:space="preserve">
+    <value>Middle Name</value>
+  </data>
+  <data name="register_MobNo" xml:space="preserve">
+    <value>Mobile Number (10 Digit)</value>
+  </data>
+  <data name="register_Photo" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="register_pwd" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="register_RNo" xml:space="preserve">
+    <value>Roll Number</value>
+  </data>
+  <data name="register_UsDts" xml:space="preserve">
+    <value>User Details</value>
+  </data>
+  <data name="register_UserRegis" xml:space="preserve">
+    <value>User Registration Details</value>
+  </data>
+  <data name="register_UserTy" xml:space="preserve">
+    <value>User Type</value>
+  </data>
+  <data name="searchQuestion_QueID" xml:space="preserve">
+    <value>Question ID</value>
+  </data>
+  <data name="searchQuestion_Ques" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="searchQuestion_QuesAnyKey" xml:space="preserve">
+    <value>Question (Any keyword)</value>
+  </data>
+  <data name="searchQuestion_QueSrch" xml:space="preserve">
+    <value>Question Search</value>
+  </data>
+  <data name="searchQuestion_SelectAll" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="searchQuestion_SltDselt" xml:space="preserve">
+    <value>Select / DeSelect</value>
+  </data>
+  <data name="searchQuestion_SrchCon" xml:space="preserve">
+    <value>Search Condition</value>
+  </data>
+  <data name="searchQuestion_SubNm" xml:space="preserve">
+    <value>Subject Name</value>
+  </data>
+  <data name="searchQuestion_TstTyp" xml:space="preserve">
+    <value>Test Type</value>
+  </data>
+  <data name="searchQuestion_Viw" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Search_CenterCrsInfo" xml:space="preserve">
+    <value>Centre and Course Information</value>
+  </data>
+  <data name="Search_ClsNm" xml:space="preserve">
+    <value>Class Name</value>
+  </data>
+  <data name="Search_CrsNm" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Search_ExamDate" xml:space="preserve">
+    <value>Examination Date</value>
+  </data>
+  <data name="StudentSearch_btnDel" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="StudentSearch_CenterNm" xml:space="preserve">
+    <value>Centre Name</value>
+  </data>
+  <data name="StudentSearch_ClsNm" xml:space="preserve">
+    <value>Class Name</value>
+  </data>
+  <data name="StudentSearch_CndNm" xml:space="preserve">
+    <value>Candidate name</value>
+  </data>
+  <data name="StudentSearch_DOB" xml:space="preserve">
+    <value>Date of birth</value>
+  </data>
+  <data name="StudentSearch_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="StudentSearch_RNo" xml:space="preserve">
+    <value>Roll Number</value>
+  </data>
+  <data name="StudentSearch_StdDts" xml:space="preserve">
+    <value>Student Details</value>
+  </data>
+  <data name="StudentTimeInfo_AppearExamTo" xml:space="preserve">
+    <value>Appeared Exam Date (To)</value>
+  </data>
+  <data name="StudentTimeInfo_ApperExam" xml:space="preserve">
+    <value>Appeared Exam Date (From)</value>
+  </data>
+  <data name="StudentTimeInfo_AssignExam" xml:space="preserve">
+    <value>Assigned Exam time (Min)</value>
+  </data>
+  <data name="StudentTimeInfo_ClsNm" xml:space="preserve">
+    <value>Class Name</value>
+  </data>
+  <data name="StudentTimeInfo_ClsNm1" xml:space="preserve">
+    <value>Class Name</value>
+  </data>
+  <data name="StudentTimeInfo_CndiNm" xml:space="preserve">
+    <value>Candidate Name</value>
+  </data>
+  <data name="StudentTimeInfo_CndNm" xml:space="preserve">
+    <value>Candidate Name</value>
+  </data>
+  <data name="StudentTimeInfo_ConsTme" xml:space="preserve">
+    <value>Consume time (Min)</value>
+  </data>
+  <data name="StudentTimeInfo_CrsNm" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="StudentTimeInfo_CrsNm1" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="StudentTimeInfo_noOFLogin" xml:space="preserve">
+    <value>No. Of Login Attempt</value>
+  </data>
+  <data name="StudentTimeInfo_SrchExam" xml:space="preserve">
+    <value>Search Candidate Appeared in Exam</value>
+  </data>
+  <data name="StudentTimeInfo_Written" xml:space="preserve">
+    <value>Written Test Appeared Date</value>
+  </data>
+  <data name="SubjectRegistration_SbjSrch" xml:space="preserve">
+    <value>Subject Search / Registration Details</value>
+  </data>
+  <data name="SubjectRegistration_SubCode" xml:space="preserve">
+    <value>Subject Code</value>
+  </data>
+  <data name="SubjectRegistration_SubNm" xml:space="preserve">
+    <value>Subject Name</value>
+  </data>
+  <data name="VideoList_Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="VideoList_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="VideoList_FileNm" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="VideoList_Title" xml:space="preserve">
+    <value>Video/ppt Title</value>
+  </data>
+  <data name="WeightMgt_BasicQue" xml:space="preserve">
+    <value>Basic Questions (%)</value>
+  </data>
+  <data name="WeightMgt_Blank" xml:space="preserve">
+    <value>Blanks (%)</value>
+  </data>
+  <data name="WeightMgt_bscQue" xml:space="preserve">
+    <value>Basic Questions</value>
+  </data>
+  <data name="WeightMgt_CrsNm" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="WeightMgt_Interque" xml:space="preserve">
+    <value>Inter. Questions</value>
+  </data>
+  <data name="WeightMgt_Interques" xml:space="preserve">
+    <value>Intermediate Questions (%)</value>
+  </data>
+  <data name="WeightMgt_MultipleChoice" xml:space="preserve">
+    <value>Multiple Choice (%)</value>
+  </data>
+  <data name="WeightMgt_SubNm" xml:space="preserve">
+    <value>Subject Name</value>
+  </data>
+  <data name="WeightMgt_SubWeight" xml:space="preserve">
+    <value>Subject Weightage (%)</value>
+  </data>
+  <data name="WeightMgt_TF" xml:space="preserve">
+    <value>True/False (%)</value>
+  </data>
+  <data name="WeightMgt_ttlMrk" xml:space="preserve">
+    <value>Total Marks</value>
+  </data>
+  <data name="WeightMgt_ttlMrks" xml:space="preserve">
+    <value>Total Marks</value>
+  </data>
+  <data name="WeightMgt_ttlQue" xml:space="preserve">
+    <value>Total Questions</value>
+  </data>
+  <data name="WeightMgt_VctSpceSub" xml:space="preserve">
+    <value>Vacant space for Subject (%)</value>
+  </data>
+  <data name="WeightMgt_WeightageDetails" xml:space="preserve">
+    <value>Weightage Details</value>
+  </data>
+  <data name="WeightSearch_BasicQues" xml:space="preserve">
+    <value>Basic Questions (%)</value>
+  </data>
+  <data name="WeightSearch_Blank" xml:space="preserve">
+    <value>Blanks (%)</value>
+  </data>
+  <data name="WeightSearch_CrsDts" xml:space="preserve">
+    <value>Course Details</value>
+  </data>
+  <data name="WeightSearch_CrsNm" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="WeightSearch_InterQues" xml:space="preserve">
+    <value>Intermediate Questions (%)</value>
+  </data>
+  <data name="WeightSearch_Mtlplec" xml:space="preserve">
+    <value>Multiple Choice (%)</value>
+  </data>
+  <data name="WeightSearch_Rmv" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="WeightSearch_SubNm" xml:space="preserve">
+    <value>Subject Name</value>
+  </data>
+  <data name="WeightSearch_TF" xml:space="preserve">
+    <value>True/False(%)</value>
+  </data>
+  <data name="WeightSearch_Weightage" xml:space="preserve">
+    <value>Weightage(%)</value>
+  </data>
+  <data name="WeightSearch_WeightID" xml:space="preserve">
+    <value>Weightage ID</value>
+  </data>
+  <data name="AdminList_TotRecord" xml:space="preserve">
+    <value>Total Records</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Common_First" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="Common_Last" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="Common_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Common_Prev" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Search_AssignExam" xml:space="preserve">
+    <value>Assign Exam</value>
+  </data>
+  <data name="Search_Select" xml:space="preserve">
+    <value>--Select--</value>
+  </data>
+  <data name="Common_Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="AppearedExam_PSCandidateName" xml:space="preserve">
+    <value>Please Select Candidate Name</value>
+  </data>
+  <data name="AppearedExam_PSCentName" xml:space="preserve">
+    <value>Please select Centre Name</value>
+  </data>
+  <data name="Common_NoRecFound" xml:space="preserve">
+    <value>No Record(s) Found</value>
+  </data>
+  <data name="Error_MSG" xml:space="preserve">
+    <value>System error occured. Please contact to Administrator !</value>
+  </data>
+  <data name="CenterRegistration_FN" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="CenterRegistration_LN" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="CenterRegistration_MN" xml:space="preserve">
+    <value>Middle Name</value>
+  </data>
+  <data name="CourseMaintainance_NCR" xml:space="preserve">
+    <value>New Course Registration</value>
+  </data>
+  <data name="Common_Nlnk" xml:space="preserve">
+    <value>New Link</value>
+  </data>
+  <data name="WeightManage_AssSubWeigh" xml:space="preserve">
+    <value>You can assign subject weightage</value>
+  </data>
+  <data name="WeightManage_Enternumval" xml:space="preserve">
+    <value>Please enter the numeric value in Subject Weightage</value>
+  </data>
+  <data name="WeightManage_EnterSubWeig" xml:space="preserve">
+    <value>Please enter the Subject Weightage</value>
+  </data>
+  <data name="WeightManage_Entertruefa" xml:space="preserve">
+    <value>Please enter the value in True/False</value>
+  </data>
+  <data name="WeightManage_EqualtoHundred" xml:space="preserve">
+    <value>Total of Question Type percentage must be equal to 100</value>
+  </data>
+  <data name="WeightManage_Intermediate" xml:space="preserve">
+    <value>Total of Basic and Intermediate Type percentage must be equal to 100</value>
+  </data>
+  <data name="WeightManage_NotSufficien" xml:space="preserve">
+    <value>Not sufficient space in the course</value>
+  </data>
+  <data name="WeightManage_SelectCours" xml:space="preserve">
+    <value>Please select a course</value>
+  </data>
+  <data name="WeightManage_SelectSubj" xml:space="preserve">
+    <value>Please select a subject</value>
+  </data>
+  <data name="WeightManage_SubjAlready" xml:space="preserve">
+    <value>This Subject is already registerd in this Course . Please Select another Subject.</value>
+  </data>
+  <data name="WeightManage_SuccessReg" xml:space="preserve">
+    <value>Successfully Registered</value>
+  </data>
+  <data name="WeightManage_SuccessUpd" xml:space="preserve">
+    <value>Successfully Updated</value>
+  </data>
+  <data name="WeightManage_WeighExceed" xml:space="preserve">
+    <value>Subject weightage exceeds the available weightage for the subject.</value>
+  </data>
+  <data name="WeightMgt_IntQ" xml:space="preserve">
+    <value>Please enter the value in Intermediate Questions</value>
+  </data>
+  <data name="WeightMgt_MCQ" xml:space="preserve">
+    <value>Please enter the value in Multiple Choice</value>
+  </data>
+  <data name="WeightMgt_NewSubjectCoLi" xml:space="preserve">
+    <value>New subject should not exceed the course limit. Please verify vacant space for subject.</value>
+  </data>
+  <data name="WeightMgt_NoSpace" xml:space="preserve">
+    <value>There is no space for additional subject in this course. Please check vacant space for subject.</value>
+  </data>
+  <data name="WeightMgt_NumTrFaVal" xml:space="preserve">
+    <value>Please enter the numeric value in True/False</value>
+  </data>
+  <data name="WeightMgt_NumValBasicQ" xml:space="preserve">
+    <value>Please enter the numeric value in Basic Questions</value>
+  </data>
+  <data name="WeightMgt_NumvalBlanks" xml:space="preserve">
+    <value>Please enter the numeric value in Blanks</value>
+  </data>
+  <data name="WeightMgt_NumvalMCQ" xml:space="preserve">
+    <value>Please enter the numeric value in Multiple Choice</value>
+  </data>
+  <data name="WeightMgt_NVIQ" xml:space="preserve">
+    <value>Please enter the numeric value in Intermediate Questions</value>
+  </data>
+  <data name="WeightMgt_ValBasic" xml:space="preserve">
+    <value>Please enter the value in Basic Questions</value>
+  </data>
+  <data name="WeightMgt_ValBlanks" xml:space="preserve">
+    <value>Please enter the value in Blanks</value>
+  </data>
+  <data name="Common_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="ChangePass_OlPwd" xml:space="preserve">
+    <value>Old Password</value>
+  </data>
+  <data name="ChangePass_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ChangePass_ChPwdHe" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="ChangePass_CPwd" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="ChangePass_NPwd" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="ChangePass_OPwd" xml:space="preserve">
+    <value>Old Password</value>
+  </data>
+  <data name="ChangePass_PwdChng" xml:space="preserve">
+    <value>Password Changed Successfully</value>
+  </data>
+  <data name="SubjectRegistration_Subdet" xml:space="preserve">
+    <value>Subject Details</value>
+  </data>
+  <data name="AdminList_AdminSrchRes" xml:space="preserve">
+    <value>Administrator Search Result</value>
+  </data>
+  <data name="AdministratorList_AdminLst" xml:space="preserve">
+    <value>Administrator List</value>
+  </data>
+  <data name="CentreMaintainance_ClsMain" xml:space="preserve">
+    <value>Class Maintenance</value>
+  </data>
+  <data name="CourseMaintenance_crsMain" xml:space="preserve">
+    <value>Course Maintenance</value>
+  </data>
+  <data name="ManageCourse_Managecrs" xml:space="preserve">
+    <value>Manage Course</value>
+  </data>
+  <data name="SubjectRegistration_SubReg" xml:space="preserve">
+    <value>Subject Maintenance</value>
+  </data>
+  <data name="WeightSearch_WgtSrh" xml:space="preserve">
+    <value>Weight Search</value>
+  </data>
+  <data name="AppearedExam_Head" xml:space="preserve">
+    <value>Exam Report</value>
+  </data>
+  <data name="ExamCount_Head" xml:space="preserve">
+    <value>Count of Question Published</value>
+  </data>
+  <data name="Search_Head" xml:space="preserve">
+    <value>Assign Exam to Student</value>
+  </data>
+  <data name="StudentTimeInfo_Head" xml:space="preserve">
+    <value>Candidate Time Information</value>
+  </data>
+  <data name="ChangePass_NewConNoMch" xml:space="preserve">
+    <value>New password and confirm password do not match</value>
+  </data>
+  <data name="ChangePass_OpwdWrng" xml:space="preserve">
+    <value>The Old Password Seems to be wrong</value>
+  </data>
+  <data name="ChangePass_Pfillcpwd" xml:space="preserve">
+    <value>Please fill the confirm password</value>
+  </data>
+  <data name="ChangePass_Pfillnpwd" xml:space="preserve">
+    <value>Please fill the New Password</value>
+  </data>
+  <data name="ChangePass_Pfillopwd" xml:space="preserve">
+    <value>Please fill the Old Password</value>
+  </data>
+  <data name="ChangePass_PwdValidate" xml:space="preserve">
+    <value>The Password must have at least one Uppercase, one Lowercase character, one number and one special character with range of 8 to 16 character length</value>
+  </data>
+  <data name="register_Admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="register_Student" xml:space="preserve">
+    <value>Student</value>
+  </data>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="VideoList_NoVFound" xml:space="preserve">
+    <value>No video found</value>
+  </data>
+  <data name="ManVideo_CatAdd" xml:space="preserve">
+    <value>Category Added</value>
+  </data>
+  <data name="ManVideo_CatAddSucc" xml:space="preserve">
+    <value>Category added successfully</value>
+  </data>
+  <data name="ManVideo_CatDelSucc" xml:space="preserve">
+    <value>Category deleted successfully</value>
+  </data>
+  <data name="ManVideo_EnCatName" xml:space="preserve">
+    <value>Please enter a category name</value>
+  </data>
+  <data name="ManVideo_EnNCatName" xml:space="preserve">
+    <value>Please enter new category name</value>
+  </data>
+  <data name="ManVideo_GiSoTitle" xml:space="preserve">
+    <value>Please give some title</value>
+  </data>
+  <data name="ManVideo_PptUpSucc" xml:space="preserve">
+    <value>ppt file uploaded successfully</value>
+  </data>
+  <data name="ManVideo_RootCntdel" xml:space="preserve">
+    <value>Root Category cannot be deleted</value>
+  </data>
+  <data name="ManVideo_SelAnCat" xml:space="preserve">
+    <value>Please select any category</value>
+  </data>
+  <data name="ManVideo_SelCat" xml:space="preserve">
+    <value>please select a category</value>
+  </data>
+  <data name="ManVideo_SelFile" xml:space="preserve">
+    <value>Please select a file</value>
+  </data>
+  <data name="ManVideo_SelMp4Fo" xml:space="preserve">
+    <value>Failed to Upload. Please select a file with mp4 format</value>
+  </data>
+  <data name="ManVideo_ViUpSucc" xml:space="preserve">
+    <value>Video uploaded successfully</value>
+  </data>
+  <data name="CandStat_ProMark" xml:space="preserve">
+    <value>Provision Marksheet</value>
+  </data>
+  <data name="CandStat_Reassign" xml:space="preserve">
+    <value>Reassign</value>
+  </data>
+  <data name="SearchQues_BlkInstQues" xml:space="preserve">
+    <value>Bulk Insert Question</value>
+  </data>
+  <data name="searchques_Exactm" xml:space="preserve">
+    <value>Exact Match</value>
+  </data>
+  <data name="SearchQues_Export" xml:space="preserve">
+    <value>Export Match The Following</value>
+  </data>
+  <data name="SearchQues_ExportQues" xml:space="preserve">
+    <value>Export Question T/F &amp; MC Question</value>
+  </data>
+  <data name="SearchQues_NewQues" xml:space="preserve">
+    <value>New Question</value>
+  </data>
+  <data name="SearchQues_QtnMain" xml:space="preserve">
+    <value>Question Maintenance</value>
+  </data>
+  <data name="searchQues_selectsub" xml:space="preserve">
+    <value>Select Subject</value>
+  </data>
+  <data name="BulkImport_BulkUserData" xml:space="preserve">
+    <value>Bulk Import User Data</value>
+  </data>
+  <data name="BulkImport_ChooseFile" xml:space="preserve">
+    <value>Choose the File</value>
+  </data>
+  <data name="BulkImport_Import_Data" xml:space="preserve">
+    <value>Import Data</value>
+  </data>
+  <data name="BulkImport_Import_Detail" xml:space="preserve">
+    <value>Import Detail</value>
+  </data>
+  <data name="BulkImport_ImpSummary" xml:space="preserve">
+    <value>Import Summary</value>
+  </data>
+  <data name="BulkImport_UpUserDetail" xml:space="preserve">
+    <value>Upload User Details</value>
+  </data>
+  <data name="BulQImpo_2007" xml:space="preserve">
+    <value>2007 version (.xlsx) File not supported. Please select xls file</value>
+  </data>
+  <data name="BulQImpo_BrowImp" xml:space="preserve">
+    <value>Please browse the file before importing the data</value>
+  </data>
+  <data name="BulQImpo_DataImpoSucc" xml:space="preserve">
+    <value>Data Imported Sucessfully</value>
+  </data>
+  <data name="BulQImpo_Download" xml:space="preserve">
+    <value>Please click on below links to download question's bulk data import template file</value>
+  </data>
+  <data name="BulQImpo_DuRec" xml:space="preserve">
+    <value>Duplicate Records</value>
+  </data>
+  <data name="BulQImpo_ErrCont" xml:space="preserve">
+    <value>An Error was occured Please contact the technical person</value>
+  </data>
+  <data name="BulQImpo_FiAlImpo" xml:space="preserve">
+    <value>The File Is Already Imported</value>
+  </data>
+  <data name="BulQImpo_FileHavPro" xml:space="preserve">
+    <value>Sheet Name or File having Problem. Please Upload question with appropriate Template.</value>
+  </data>
+  <data name="BulQImpo_FillBlank" xml:space="preserve">
+    <value>Filling the blanks and match the following</value>
+  </data>
+  <data name="BulQImpo_InRec" xml:space="preserve">
+    <value>Inserted Records</value>
+  </data>
+  <data name="BulQImpo_InvalidFile" xml:space="preserve">
+    <value>Invalid file. Please select a valid file.</value>
+  </data>
+  <data name="BulQImpo_TFMul" xml:space="preserve">
+    <value>True/False and Multi-Choice</value>
+  </data>
+  <data name="BulQImpo_TotDuRec" xml:space="preserve">
+    <value>Total No. Of Duplicate Records Are:</value>
+  </data>
+  <data name="BulQImpo_TotInRec" xml:space="preserve">
+    <value>Total No. Of Inserted Records Are:</value>
+  </data>
+  <data name="BulQImpo_TotRec" xml:space="preserve">
+    <value>Total No. Of Records Are:</value>
+  </data>
+  <data name="BulQImpo_UpQDet" xml:space="preserve">
+    <value>Upload Question Details</value>
+  </data>
+  <data name="Common_DeSelAll" xml:space="preserve">
+    <value>Deselect All</value>
+  </data>
+  <data name="ExamCount_SelCoNameFir" xml:space="preserve">
+    <value>Select the Course name First</value>
+  </data>
+  <data name="ExamCount_SelMainCoFir" xml:space="preserve">
+    <value>Select the Main Course First</value>
+  </data>
+  <data name="Search_AlreAppForExam" xml:space="preserve">
+    <value>has/have already appeared for the examination.</value>
+  </data>
+  <data name="Search_CheEmaID" xml:space="preserve">
+    <value>Please check their email id</value>
+  </data>
+  <data name="Search_EmExamDate" xml:space="preserve">
+    <value>Empty Examination Date. Please Verify!!</value>
+  </data>
+  <data name="Search_ExamDueInFut" xml:space="preserve">
+    <value>Examination should be due in the near future, it cannot be conducted in the past. Please change the examination date.</value>
+  </data>
+  <data name="Search_ExAssignSucc" xml:space="preserve">
+    <value>Exam Assigned Successfully</value>
+  </data>
+  <data name="Search_MailNSent" xml:space="preserve">
+    <value>Mail not sent</value>
+  </data>
+  <data name="Search_MailSentSucc" xml:space="preserve">
+    <value>Mail sent successfully</value>
+  </data>
+  <data name="Search_NotEnoughQ" xml:space="preserve">
+    <value>There are not enough question for the test. Please verify!!</value>
+  </data>
+  <data name="Search_PlEnExamDate" xml:space="preserve">
+    <value>Please enter Examination date.</value>
+  </data>
+  <data name="Search_PlEnValExDate" xml:space="preserve">
+    <value>Please enter valid Examination date.</value>
+  </data>
+  <data name="Search_PlSelClName" xml:space="preserve">
+    <value>Please Select Class Name</value>
+  </data>
+  <data name="Search_PlSelCoName" xml:space="preserve">
+    <value>Please Select Course Name</value>
+  </data>
+  <data name="Search_SelAtLeOneChck" xml:space="preserve">
+    <value>Select at least one checkbox to assign exam.</value>
+  </data>
+  <data name="Search_SelCenFirst" xml:space="preserve">
+    <value>Select the Centre First</value>
+  </data>
+  <data name="CenterMaintainance_sltchk" xml:space="preserve">
+    <value>Please Select At Least One CheckBox For Enable Class</value>
+  </data>
+  <data name="CenterMaintainance_sltchkdisable" xml:space="preserve">
+    <value>Please Select At Least One CheckBox For Disable Class</value>
+  </data>
+  <data name="CenterMaintanance_del" xml:space="preserve">
+    <value>Please select atleast one class to delete!</value>
+  </data>
+  <data name="CenterMaintanance_delerr" xml:space="preserve">
+    <value>Selected data deleted successfully</value>
+  </data>
+  <data name="CenterMaintanance_noerr" xml:space="preserve">
+    <value>Please Enter Numbers In Contact No.</value>
+  </data>
+  <data name="CenterRegistration_adderr" xml:space="preserve">
+    <value>Please Enter Address.</value>
+  </data>
+  <data name="CenterRegistration_cityerr" xml:space="preserve">
+    <value>Please Enter City Name.</value>
+  </data>
+  <data name="CenterRegistration_clsmdf" xml:space="preserve">
+    <value>Class Modification</value>
+  </data>
+  <data name="CenterRegistration_clsmdfdts" xml:space="preserve">
+    <value>Class Modification Details</value>
+  </data>
+  <data name="CenterRegistration_clsnmerr" xml:space="preserve">
+    <value>Please Enter Class Name.</value>
+  </data>
+  <data name="CenterRegistration_clsregs" xml:space="preserve">
+    <value>Class Registered Successfully.</value>
+  </data>
+  <data name="CenterRegistration_Clsupdt" xml:space="preserve">
+    <value>Class Updated Successfully...</value>
+  </data>
+  <data name="CenterRegistration_Contacterr" xml:space="preserve">
+    <value>Please Enter Contact No.</value>
+  </data>
+  <data name="CenterRegistration_countryerr" xml:space="preserve">
+    <value>Please Enter Country Name.</value>
+  </data>
+  <data name="CenterRegistration_emailerr" xml:space="preserve">
+    <value>Please Enter Email ID.</value>
+  </data>
+  <data name="CenterRegistration_fnerr" xml:space="preserve">
+    <value>Please Enter First Name.</value>
+  </data>
+  <data name="CenterRegistration_lnerr" xml:space="preserve">
+    <value>Please Enter Last Name.</value>
+  </data>
+  <data name="CenterRegistration_pinerr" xml:space="preserve">
+    <value>Please Enter Pin Code.</value>
+  </data>
+  <data name="CenterRegistration_stateerr" xml:space="preserve">
+    <value>Please Enter State Name.</value>
+  </data>
+  <data name="CenterRegistration_validemailerr" xml:space="preserve">
+    <value>Please Enter valid Email Address.</value>
+  </data>
+  <data name="CourseMaintananace_delcrs" xml:space="preserve">
+    <value>Please select at least one course.</value>
+  </data>
+  <data name="CourseMaintananace_totalalltedtime" xml:space="preserve">
+    <value>Please Enter Numbers In Total Alloted Exam Time(Minute)</value>
+  </data>
+  <data name="CourseMaintanance_crsdel" xml:space="preserve">
+    <value>Course deleted successfully.</value>
+  </data>
+  <data name="CourseMaintanance_crsdisable" xml:space="preserve">
+    <value>You can not disable this course(s), because an exam is assigned to the student(s). Please delete assigned exam using 'candidate status search' link.</value>
+  </data>
+  <data name="CourseMaintanance_crsupdted" xml:space="preserve">
+    <value>Course updated successfully</value>
+  </data>
+  <data name="CourseMaintanance_delcrsass" xml:space="preserve">
+    <value>You can not delete this course(s), because an exam is assigned to the student(s). Please delete assigned exam using 'candidate status search' link.</value>
+  </data>
+  <data name="CourseMaintanance_sltmaincrs" xml:space="preserve">
+    <value>Please Select Main Course.</value>
+  </data>
+  <data name="CourseRegistration_creerr" xml:space="preserve">
+    <value>Entered Course Name is already exists. Please enter different Course Name.</value>
+  </data>
+  <data name="CourseRegistration_crscd" xml:space="preserve">
+    <value>Please Enter Course Code.</value>
+  </data>
+  <data name="CourseRegistration_crsmd" xml:space="preserve">
+    <value>Course Modification</value>
+  </data>
+  <data name="CourseRegistration_crsmddts" xml:space="preserve">
+    <value>Course Modification Details</value>
+  </data>
+  <data name="CourseRegistration_crsnmer" xml:space="preserve">
+    <value>Please Enter Course Name.</value>
+  </data>
+  <data name="CourseRegistration_crsregsucl" xml:space="preserve">
+    <value>Course Registered Successfully</value>
+  </data>
+  <data name="CourseRegistration_notaeerr" xml:space="preserve">
+    <value>Please Enter Numbers In Total Alloted Exam Time(Minute).</value>
+  </data>
+  <data name="CourseRegistration_pasmrks" xml:space="preserve">
+    <value>Please Enter Total Passing Marks.</value>
+  </data>
+  <data name="CourseRegistration_sltadDis" xml:space="preserve">
+    <value>Please select atleast one administration for Disable</value>
+  </data>
+  <data name="CourseRegistration_sltoneade" xml:space="preserve">
+    <value>Please select atleast one administration for Enable</value>
+  </data>
+  <data name="CourseRegistration_taet" xml:space="preserve">
+    <value>Please Enter Total Alloted Exam Time in Minutes.</value>
+  </data>
+  <data name="CourseRegistration_totalmrks" xml:space="preserve">
+    <value>Please Enter Total Marks.</value>
+  </data>
+  <data name="QuestionAns_Ans" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="QuestionAns_Anserr" xml:space="preserve">
+    <value>Please Enter Answer value</value>
+  </data>
+  <data name="QuestionAns_atone" xml:space="preserve">
+    <value>Please select atleast one correct option</value>
+  </data>
+  <data name="QuestionAns_audioerr" xml:space="preserve">
+    <value>Please Upload Audio File</value>
+  </data>
+  <data name="Questionans_Coaf" xml:space="preserve">
+    <value>Choose Only Audio File</value>
+  </data>
+  <data name="Questionans_coimf" xml:space="preserve">
+    <value>Choose only Image File</value>
+  </data>
+  <data name="QuestionAns_Correctoptn" xml:space="preserve">
+    <value>Correct Option</value>
+  </data>
+  <data name="QuestionAns_Digerr" xml:space="preserve">
+    <value>Please Enter Digits only</value>
+  </data>
+  <data name="QuestionAns_ep1" xml:space="preserve">
+    <value>The Option</value>
+  </data>
+  <data name="QuestionAns_ep2" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="QuestionAns_ep3" xml:space="preserve">
+    <value>have the same value. Please provide unique option</value>
+  </data>
+  <data name="QuestionAns_errms" xml:space="preserve">
+    <value>A similar question already exists.</value>
+  </data>
+  <data name="Questionans_errmsg" xml:space="preserve">
+    <value>This is Required Field !</value>
+  </data>
+  <data name="QuestionAns_Fiberr" xml:space="preserve">
+    <value>Please Enter fill in the blanks or match the following type question</value>
+  </data>
+  <data name="QuestionAns_FIBMTF" xml:space="preserve">
+    <value>Fill in the blanks and Match the following</value>
+  </data>
+  <data name="QuestionAns_fileerr" xml:space="preserve">
+    <value>Invalid File Format use only .wav and .mp3 file format</value>
+  </data>
+  <data name="QuestionAns_imgerr" xml:space="preserve">
+    <value>Invalid File Format use only Image Format (i.e bmp,gif,png,jpg,jpeg )</value>
+  </data>
+  <data name="QuestionAns_onlyans" xml:space="preserve">
+    <value>Please Enter Only</value>
+  </data>
+  <data name="QuestionAns_opterr1" xml:space="preserve">
+    <value>Option 1 can't be blank</value>
+  </data>
+  <data name="QuestionAns_opterr2" xml:space="preserve">
+    <value>Option 2 can't be blank</value>
+  </data>
+  <data name="QuestionAns_optn" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="Questionans_preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="QuestionAns_qcb" xml:space="preserve">
+    <value>Question can't be blank</value>
+  </data>
+  <data name="QuestionAns_QMD" xml:space="preserve">
+    <value>Question Modification Details</value>
+  </data>
+  <data name="QuestionAns_QRD" xml:space="preserve">
+    <value>Question Registration Details</value>
+  </data>
+  <data name="QuestionAns_Quesnlvl" xml:space="preserve">
+    <value>Question Level</value>
+  </data>
+  <data name="QuestionAns_regsuces" xml:space="preserve">
+    <value>Question Registered Successfully</value>
+  </data>
+  <data name="Questionans_Subnam" xml:space="preserve">
+    <value>Subject Name</value>
+  </data>
+  <data name="QuestionAns_uperr" xml:space="preserve">
+    <value>Upload File will take Few Miniute to show</value>
+  </data>
+  <data name="SubjectRegistration_maincrs" xml:space="preserve">
+    <value>Please select MainCourse.</value>
+  </data>
+  <data name="SubjectRegistration_subname" xml:space="preserve">
+    <value>Please Enter Subject Name.</value>
+  </data>
+  <data name="AddCourse_crsexisted" xml:space="preserve">
+    <value>Particular Course you Selected is already registered in this Class</value>
+  </data>
+  <data name="AddCourse_crssucreg" xml:space="preserve">
+    <value>Course successfully registered</value>
+  </data>
+  <data name="AddCourse_sltclserr" xml:space="preserve">
+    <value>Please select a Class</value>
+  </data>
+  <data name="AddCourse_sltcrserr" xml:space="preserve">
+    <value>Please select a Course</value>
+  </data>
+  <data name="AddCourse_wgtcrs" xml:space="preserve">
+    <value>Weightage is incomplete for this course</value>
+  </data>
+  <data name="AddCourse_wgtntassgn" xml:space="preserve">
+    <value>Weightage is not assigned for this course</value>
+  </data>
+  <data name="CandStatus_chkbxdel" xml:space="preserve">
+    <value>Please Select At Least One CheckBox For Delete</value>
+  </data>
+  <data name="CandStatus_dateerr" xml:space="preserve">
+    <value>Please enter Exam Appeared From date in YYYY/MM/DD format</value>
+  </data>
+  <data name="CandStatus_delsuc" xml:space="preserve">
+    <value>Test Record Deleted Successfully.</value>
+  </data>
+  <data name="CandStatus_Examapgrtrexm" xml:space="preserve">
+    <value>Please enter Exam Appeared To date greater than Exam Appeared From date.</value>
+  </data>
+  <data name="CandStatus_Examappdate" xml:space="preserve">
+    <value>Please enter Exam Appeared From date.</value>
+  </data>
+  <data name="CandStatus_Examasdat" xml:space="preserve">
+    <value>Please enter Exam Assigned From date.</value>
+  </data>
+  <data name="CandStatus_Examdategreater" xml:space="preserve">
+    <value>Please enter Exam Assigned To date greater than Exam Assigned From date.</value>
+  </data>
+  <data name="CandStatus_Mailerr" xml:space="preserve">
+    <value>Mail can't be sent as Name or EmailID is empty.</value>
+  </data>
+  <data name="CandStatus_mailsent" xml:space="preserve">
+    <value>Mail sent successfully.</value>
+  </data>
+  <data name="CandStatus_verify" xml:space="preserve">
+    <value>There are not enough question for the test. Please verify!!</value>
+  </data>
+  <data name="CandStatus_vlddateerr" xml:space="preserve">
+    <value>Please enter valid Exam Appeared From date.</value>
+  </data>
+  <data name="StudentSearch_delerr" xml:space="preserve">
+    <value>You can not delete this student(s), because an exam records are exist. Please delete exam record using 'candidate status' link.</value>
+  </data>
+  <data name="StudentSearch_recupdated" xml:space="preserve">
+    <value>Record Updated Successfully</value>
+  </data>
+  <data name="StudentSearch_sltonecand" xml:space="preserve">
+    <value>Please select atleast one candidate for Enable</value>
+  </data>
+  <data name="StudentSearch_sltoneDelete" xml:space="preserve">
+    <value>Please select atleast one candidate for Delete</value>
+  </data>
+  <data name="StudentSearch_sltonedisable" xml:space="preserve">
+    <value>Please select atleast one candidate for Disable</value>
+  </data>
+  <data name="StudentSearch_sndelsuc" xml:space="preserve">
+    <value>Student Name deleted successfully.</value>
+  </data>
+  <data name="SubjectMaintenance_passingmarks" xml:space="preserve">
+    <value>Please Enter Passing Marks.</value>
+  </data>
+  <data name="SubjectMaintenance_sltdelsuc" xml:space="preserve">
+    <value>Selected data deleted successfully</value>
+  </data>
+  <data name="SubjectMaintenance_sltonechkdisable" xml:space="preserve">
+    <value>Please Select At Least One CheckBox For Disable Subject</value>
+  </data>
+  <data name="SubjectMaintenance_sltonechkenable" xml:space="preserve">
+    <value>Please Select At Least One CheckBox For Enable Subject</value>
+  </data>
+  <data name="SubjectMaintenance_sltonedel" xml:space="preserve">
+    <value>Please select atleast one subject to delete!</value>
+  </data>
+  <data name="SubjectMaintenance_Subdelsuc" xml:space="preserve">
+    <value>Subject Deleted Successfully</value>
+  </data>
+  <data name="SubjectMaintenance_subdisreff" xml:space="preserve">
+    <value>You can not disable this subject(s) because this subject(s) is being reffered in a course</value>
+  </data>
+  <data name="SubjectMaintenance_Subdtsupdated" xml:space="preserve">
+    <value>Subject Details updated successfully.</value>
+  </data>
+  <data name="SubjectMaintenance_subexist" xml:space="preserve">
+    <value>This Subject is already registered in system as a course. Please choose another Subject Name.</value>
+  </data>
+  <data name="SubjectMaintenance_subregerr" xml:space="preserve">
+    <value>This Subject is already registered in system. Please choose another Subject Name.</value>
+  </data>
+  <data name="SubjectMaintenance_subregsuc" xml:space="preserve">
+    <value>Subject Successfully Registered.</value>
+  </data>
+  <data name="WeightSearch_sltrecdisable" xml:space="preserve">
+    <value>Please select atleast one record to Disable</value>
+  </data>
+  <data name="WeightSearch_sltrecenable" xml:space="preserve">
+    <value>Please select atleast one record to Enable</value>
+  </data>
+  <data name="WeightSearch_subrmcrs" xml:space="preserve">
+    <value>Subject successfully removed from the course.</value>
+  </data>
+  <data name="AdminList_SelDel" xml:space="preserve">
+    <value>Please select atleast one administration for Delete</value>
+  </data>
+  <data name="Registration_addvalid" xml:space="preserve">
+    <value>Please enter Address details in less then 100 characters</value>
+  </data>
+  <data name="Registration_contactno" xml:space="preserve">
+    <value>Please enter 10 digit mobile number.</value>
+  </data>
+  <data name="Registration_DOBvalid" xml:space="preserve">
+    <value>Please enter date of birth.</value>
+  </data>
+  <data name="Registration_emailvalid" xml:space="preserve">
+    <value>Please enter email address</value>
+  </data>
+  <data name="Registration_existuser" xml:space="preserve">
+    <value>A user with this Loginname or Password already exists</value>
+  </data>
+  <data name="Registration_invldpicerr" xml:space="preserve">
+    <value>File is invalid for photo</value>
+  </data>
+  <data name="Registration_loginid" xml:space="preserve">
+    <value>Please enter Login ID.</value>
+  </data>
+  <data name="Registration_loginidvalid" xml:space="preserve">
+    <value>Please enter valid Login ID.</value>
+  </data>
+  <data name="Registration_msgbox" xml:space="preserve">
+    <value>Data Save Successfully</value>
+  </data>
+  <data name="Registration_passd" xml:space="preserve">
+    <value>Please enter Password</value>
+  </data>
+  <data name="Registration_pswdcnfpswdvalid" xml:space="preserve">
+    <value>Password and Confirm Password are different. Please enter both again.</value>
+  </data>
+  <data name="Registration_pswdcnpsd" xml:space="preserve">
+    <value>Please enter Password and Confirm Password</value>
+  </data>
+  <data name="Registration_rollnoval" xml:space="preserve">
+    <value>Please enter Roll Number.</value>
+  </data>
+  <data name="Registration_validemail" xml:space="preserve">
+    <value>Please enter valid email address</value>
+  </data>
+  <data name="Registration_vldalpha" xml:space="preserve">
+    <value>Please enter alphabets only.</value>
+  </data>
+  <data name="Register_UsMoDet" xml:space="preserve">
+    <value>User Modification Details</value>
+  </data>
+  <data name="MasterPage_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="MasterPage_Welcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="AssignedExam_AssignedExam" xml:space="preserve">
+    <value>Assigned Exam</value>
+  </data>
+  <data name="AssignedExam_centrnm" xml:space="preserve">
+    <value>Center Name</value>
+  </data>
+  <data name="AssignedExam_crsnm" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="AssignedExam_examid" xml:space="preserve">
+    <value>Exam Id</value>
+  </data>
+  <data name="AssignedExam_Exampass" xml:space="preserve">
+    <value>Exam Password</value>
+  </data>
+  <data name="AssignedExam_Exmdate" xml:space="preserve">
+    <value>Exam Date</value>
+  </data>
+  <data name="AssignedExam_LastDate" xml:space="preserve">
+    <value>Last Date</value>
+  </data>
+  <data name="AssignedExam_link" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="AssignedExam_Rollno" xml:space="preserve">
+    <value>Roll Number</value>
+  </data>
+  <data name="ResultBox_Examapdat" xml:space="preserve">
+    <value>Exam Appeared Date</value>
+  </data>
+  <data name="ResultBox_obtainedmarks" xml:space="preserve">
+    <value>Obtained Marks</value>
+  </data>
+  <data name="ResultBox_Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="Register_Inst" xml:space="preserve">
+    <value>Only Upload photos with extension .jpeg, .jpg, .png, .bmp, .tiff</value>
+  </data>
+  <data name="changepass_PlEnAllField" xml:space="preserve">
+    <value>Please enter all Fields</value>
+  </data>
+  <data name="ManageVideo_VideoFormat" xml:space="preserve">
+    <value>Only Upload Video/PPT with extension .mp4, .ppt, .pptx</value>
+  </data>
+  <data name="ManageVideo_flv" xml:space="preserve">
+    <value>.flv format for video is not supported</value>
+  </data>
+  <data name="Master_AssExam" xml:space="preserve">
+    <value>Assigned Exam</value>
+  </data>
+  <data name="Master_ChangePass" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="Master_ExamBox" xml:space="preserve">
+    <value>Exam Box</value>
+  </data>
+  <data name="Master_Livevdo" xml:space="preserve">
+    <value>Live Videos</value>
+  </data>
+  <data name="Master_Persnal" xml:space="preserve">
+    <value>Personal Details</value>
+  </data>
+  <data name="Master_Profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="StudHome_Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="StudHome_ExamData" xml:space="preserve">
+    <value>Exam Appeared Status</value>
+  </data>
+  <data name="StudHome_SecData" xml:space="preserve">
+    <value>Section Wise Performance</value>
+  </data>
+  <data name="admin_grmrper" xml:space="preserve">
+    <value>Grammar Performance</value>
+  </data>
+  <data name="admin_listningper" xml:space="preserve">
+    <value>Listening Performance</value>
+  </data>
+  <data name="admin_Readingper" xml:space="preserve">
+    <value>Reading Performance</value>
+  </data>
+  <data name="admin_vbpr" xml:space="preserve">
+    <value>Vocabulary Performance</value>
+  </data>
+  <data name="Master_logout" xml:space="preserve">
+    <value>LOGOUT</value>
+  </data>
+  <data name="VideoLive_livevdo" xml:space="preserve">
+    <value>Live Videos</value>
+  </data>
+  <data name="Common_AddMo" xml:space="preserve">
+    <value>Add More</value>
+  </data>
+  <data name="Common_NoOfRecords" xml:space="preserve">
+    <value>No. of Records:</value>
+  </data>
+  <data name="Common_record" xml:space="preserve">
+    <value>records</value>
+  </data>
+  <data name="Common_Show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Common_ChoosePhoto" xml:space="preserve">
+    <value>Choose Photo</value>
+  </data>
+  <data name="Common_Basic" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="Common_InterMediate" xml:space="preserve">
+    <value>Intermediate</value>
+  </data>
+  <data name="WeightMana_DifLevel" xml:space="preserve">
+    <value>Difficulty Level</value>
+  </data>
+  <data name="CandStatus_Appeared" xml:space="preserve">
+    <value>Appeared Date</value>
+  </data>
+  <data name="CandStatus_AssgnDate" xml:space="preserve">
+    <value>Assigned Date</value>
+  </data>
+  <data name="CandStatus_Class" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="CandStatus_Course" xml:space="preserve">
+    <value>Course</value>
+  </data>
+  <data name="CandStatus_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="CourseMain_SectionDesc" xml:space="preserve">
+    <value>Section Description</value>
+  </data>
+  <data name="AnswerDetail_ans" xml:space="preserve">
+    <value>Answer Details</value>
+  </data>
+  <data name="Ans_Not" xml:space="preserve">
+    <value>Not attempted</value>
+  </data>
+  <data name="Ans_AnsOption" xml:space="preserve">
+    <value>Answered Option</value>
+  </data>
+  <data name="Ans_CorOption" xml:space="preserve">
+    <value>Correct option</value>
+  </data>
+  <data name="Ans_option" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="WeightMgmt_Blnk" xml:space="preserve">
+    <value>Blank</value>
+  </data>
+  <data name="WeightMgmt_Mchoic" xml:space="preserve">
+    <value>Multiple Choice</value>
+  </data>
+  <data name="WeightMgmt_QuesTypWiseWeight" xml:space="preserve">
+    <value>Question Type Wise Weightage</value>
+  </data>
+  <data name="WeightMgmt_Trfa" xml:space="preserve">
+    <value>True/False</value>
+  </data>
+  <data name="Cand_Status_ExcelSheet" xml:space="preserve">
+    <value>Sorry! Can't Download the Excelsheet</value>
+  </data>
+</root>

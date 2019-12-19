@@ -1,0 +1,48 @@
+ERROR 2017-11-28 10:37:47,342 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-28 10:37:47,577 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in C:\Users\Nisha\Desktop\Unirecruite27112017\ExamResult.aspx.vb:line 717
+DEBUG 2017-11-28 10:37:47,577 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in C:\Users\Nisha\Desktop\Unirecruite27112017\ExamResult.aspx.vb:line 717
+ERROR 2017-11-28 14:31:09,733 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-28 14:31:09,748 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in C:\Users\Nisha\Desktop\Unirecruite27112017\ExamResult.aspx.vb:line 717
+DEBUG 2017-11-28 14:31:09,748 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in C:\Users\Nisha\Desktop\Unirecruite27112017\ExamResult.aspx.vb:line 717
+ERROR 2017-11-28 14:31:21,295 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-28 14:31:21,295 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in C:\Users\Nisha\Desktop\Unirecruite27112017\ExamResult.aspx.vb:line 717
+DEBUG 2017-11-28 14:31:21,295 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in C:\Users\Nisha\Desktop\Unirecruite27112017\ExamResult.aspx.vb:line 717
+ERROR 2017-11-28 14:31:31,764 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-28 14:31:31,764 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in C:\Users\Nisha\Desktop\Unirecruite27112017\ExamResult.aspx.vb:line 717
+DEBUG 2017-11-28 14:31:31,764 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in C:\Users\Nisha\Desktop\Unirecruite27112017\ExamResult.aspx.vb:line 717
+ERROR 2017-11-28 14:35:53,420 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-28 14:35:53,420 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in C:\Users\Nisha\Desktop\Unirecruite27112017\ExamResult.aspx.vb:line 717
+DEBUG 2017-11-28 14:35:53,420 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in C:\Users\Nisha\Desktop\Unirecruite27112017\ExamResult.aspx.vb:line 717
+ERROR 2017-11-28 15:32:22,155 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-28 15:32:22,155 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in C:\Users\Nisha\Desktop\Unirecruite27112017\ExamResult.aspx.vb:line 717
+DEBUG 2017-11-28 15:32:22,155 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in C:\Users\Nisha\Desktop\Unirecruite27112017\ExamResult.aspx.vb:line 717

@@ -1,0 +1,81 @@
+DEBUG 2015-07-24 09:02:39,734 fnc_update Of register - Error :System.Data.SqlClient.SqlException: UPDATE statement conflicted with COLUMN FOREIGN KEY constraint 'FK_M_USER_INFO_M_Centers'. The conflict occurred in database 'Oes_Final1', table 'M_Centers', column 'Center_ID'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.unirecruite.register.fnc_update() in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\register.aspx.vb:line 723
+DEBUG 2015-07-24 09:02:39,906 img_update_Click Of register - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.unirecruite.register.fnc_update() in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\register.aspx.vb:line 864
+   at Unirecruite.unirecruite.register.img_update_Click(Object sender, ImageClickEventArgs e) in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\register.aspx.vb:line 899
+DEBUG 2015-07-24 09:22:10,671 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 194
+DEBUG 2015-07-24 14:25:08,015 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 343
+DEBUG 2015-07-24 14:26:37,031 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Syntax error converting the varchar value 'err' to a column of data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 323
+DEBUG 2015-07-24 14:50:05,921 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2015-07-24 14:50:06,015 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2015-07-24 14:50:06,015 makepdffile Of CandStatus - Being initialize document
+DEBUG 2015-07-24 14:50:07,843 makepdffile Of CandStatus - load Error document initialization is failes
+DEBUG 2015-07-24 14:50:08,031 makepdffile Of CandStatus - loading successful
+DEBUG 2015-07-24 14:50:08,031 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2015-07-24 14:50:08,468 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2015-07-24 14:50:08,703 makepdffile Of CandStatus - End Write on page
+INFO  2015-07-24 14:50:08,703 makepdffile Of CandStatus - Int_values
+INFO  2015-07-24 14:50:08,703 makepdffile Of CandStatus - total_values
+INFO  2015-07-24 14:50:08,703 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2015-07-24 14:50:08,703 drawTable Of CandStatus - contentStream.setFont:
+INFO  2015-07-24 14:50:08,703 drawTable Of CandStatus - te(1):
+INFO  2015-07-24 14:50:08,718 drawTable Of CandStatus - End of Write data
+INFO  2015-07-24 14:50:08,718 drawTable Of CandStatus - End of Rows
+INFO  2015-07-24 14:50:08,718 drawTable Of CandStatus - End of Columns
+DEBUG 2015-07-24 16:52:36,109 fnc_update Of register - Error :System.Data.SqlClient.SqlException: UPDATE statement conflicted with COLUMN FOREIGN KEY constraint 'FK_M_USER_INFO_M_Centers'. The conflict occurred in database 'Oes_Final1', table 'M_Centers', column 'Center_ID'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.unirecruite.register.fnc_update() in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\register.aspx.vb:line 723
+DEBUG 2015-07-24 16:52:36,140 img_update_Click Of register - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.unirecruite.register.fnc_update() in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\register.aspx.vb:line 864
+   at Unirecruite.unirecruite.register.img_update_Click(Object sender, ImageClickEventArgs e) in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\register.aspx.vb:line 899

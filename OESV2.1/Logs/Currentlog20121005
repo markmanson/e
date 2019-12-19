@@ -1,0 +1,6 @@
+DEBUG 2012-10-05 09:09:58,455 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2012-10-05 09:58:09,408 Page_Load Of CandStatus - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.CandStatus.Page_Load(Object sender, EventArgs e)
+DEBUG 2012-10-05 10:37:34,955 Page_Load Of CandStatus - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.CandStatus.Page_Load(Object sender, EventArgs e)

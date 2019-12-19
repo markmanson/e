@@ -1,0 +1,203 @@
+DEBUG 2019-12-12 10:51:48,038 BindGrid Of  - Error :System.Data.SqlClient.SqlException: The conversion of a varchar data type to a smalldatetime data type resulted in an out-of-range value.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.StudentTimeInfo.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\StudentTimeInfo.aspx.vb:line 721
+DEBUG 2019-12-12 10:51:48,053 BtnSearch_Click Of  - Error :System.Data.SqlClient.SqlException: The conversion of a varchar data type to a smalldatetime data type resulted in an out-of-range value.
+   at Unirecruite.StudentTimeInfo.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\StudentTimeInfo.aspx.vb:line 781
+   at Unirecruite.StudentTimeInfo.BtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\StudentTimeInfo.aspx.vb:line 414
+DEBUG 2019-12-12 10:55:21,346 BindGrid Of  - Error :System.Data.SqlClient.SqlException: The conversion of a varchar data type to a smalldatetime data type resulted in an out-of-range value.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.StudentTimeInfo.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\StudentTimeInfo.aspx.vb:line 721
+DEBUG 2019-12-12 11:03:09,311 BtnSearch_Click Of  - Error :System.Data.SqlClient.SqlException: The conversion of a varchar data type to a smalldatetime data type resulted in an out-of-range value.
+   at Unirecruite.StudentTimeInfo.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\StudentTimeInfo.aspx.vb:line 781
+   at Unirecruite.StudentTimeInfo.BtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\StudentTimeInfo.aspx.vb:line 414
+DEBUG 2019-12-12 11:16:07,292 BindGrid Of  - Error :System.Data.SqlClient.SqlException: The conversion of a varchar data type to a smalldatetime data type resulted in an out-of-range value.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.StudentTimeInfo.BindGrid()
+DEBUG 2019-12-12 11:16:07,307 BtnSearch_Click Of  - Error :System.Data.SqlClient.SqlException: The conversion of a varchar data type to a smalldatetime data type resulted in an out-of-range value.
+   at Unirecruite.StudentTimeInfo.BindGrid()
+   at Unirecruite.StudentTimeInfo.BtnSearch_Click(Object sender, EventArgs e)
+DEBUG 2019-12-12 11:33:33,356 imgBtnDelete_Click Of CourseMaintenance - Error :System.Data.SqlClient.SqlException: Incorrect syntax near 'IN'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.CenterMaintenance.imgBtnDelete_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CentreMaintenance.aspx.vb:line 803
+DEBUG 2019-12-12 11:36:22,605 imgBtnDelete_Click Of CourseMaintenance - Error :System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_M_USER_INFO_M_Centers". The conflict occurred in database "OES_Final1", table "dbo.M_USER_INFO", column 'Center_ID'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.CenterMaintenance.imgBtnDelete_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CentreMaintenance.aspx.vb:line 803
+DEBUG 2019-12-12 11:44:45,579 imgBtnDelete_Click Of CourseMaintenance - Error :System.Data.SqlClient.SqlException: Incorrect syntax near '='.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.CenterMaintenance.imgBtnDelete_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CentreMaintenance.aspx.vb:line 803
+DEBUG 2019-12-12 13:56:01,441 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 241
+DEBUG 2019-12-12 13:56:17,826 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 241
+DEBUG 2019-12-12 13:56:33,713 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 241
+DEBUG 2019-12-12 13:56:45,722 DisplayVideoListGrid Of vidoelist - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 243
+DEBUG 2019-12-12 14:03:46,854 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 241
+DEBUG 2019-12-12 14:04:26,464 DisplayVideoListGrid Of vidoelist - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 243
+DEBUG 2019-12-12 14:04:34,840 DisplayVideoListGrid Of vidoelist - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 243
+DEBUG 2019-12-12 14:04:47,090 DisplayVideoListGrid Of vidoelist - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 252
+DEBUG 2019-12-12 14:06:09,346 DisplayVideoListGrid Of vidoelist - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 243
+DEBUG 2019-12-12 14:09:50,670 DisplayVideoListGrid Of vidoelist - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 243
+DEBUG 2019-12-12 14:11:18,899 DisplayVideoListGrid Of vidoelist - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 243
+DEBUG 2019-12-12 14:16:17,592 DisplayVideoListGrid Of vidoelist - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 246
+DEBUG 2019-12-12 14:16:35,008 DisplayVideoListGrid Of vidoelist - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 246
+DEBUG 2019-12-12 14:25:09,591 DisplayVideoListGrid Of vidoelist - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 246
+DEBUG 2019-12-12 15:02:56,560 DisplayVideoListGrid Of vidoelist - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 248
+DEBUG 2019-12-12 15:05:27,996 DisplayVideoListGrid Of vidoelist - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 249
+DEBUG 2019-12-12 15:06:05,847 DisplayVideoListGrid Of vidoelist - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 249
+DEBUG 2019-12-12 15:28:21,088 DGReport_ItemCommand Of CandStatus - Error :System.Data.SqlClient.SqlException: Incorrect syntax near '='.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 3126
+DEBUG 2019-12-12 15:30:51,819 DisplayVideoListGrid Of vidoelist - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID)
+DEBUG 2019-12-12 16:30:41,901 Btn_login_Click Of Login - Error :System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136

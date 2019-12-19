@@ -1,0 +1,16 @@
+DEBUG 2015-02-04 14:33:55,968 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Microsoft.Office.Interop.Excel.Workbooks.Add(Object Template)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\searchQuestion.aspx.vb:line 1515
+DEBUG 2015-02-04 14:37:45,890 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 148
+DEBUG 2015-02-04 14:37:45,905 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 148
+DEBUG 2015-02-04 15:10:44,311 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Exception from HRESULT: 0x800A03EC
+   at Microsoft.Office.Interop.Excel.Workbooks.Add(Object Template)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\searchQuestion.aspx.vb:line 1515
+DEBUG 2015-02-04 15:41:31,811 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\searchQuestion.aspx.vb:line 1512
+DEBUG 2015-02-04 15:42:02,202 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\searchQuestion.aspx.vb:line 1512
+DEBUG 2015-02-04 16:57:37,515 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x800706BE): リモート プロシージャ コールに失敗しました。 (Exception from HRESULT: 0x800706BE)
+   at Microsoft.Office.Interop.Excel.Workbooks.Add(Object Template)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\searchQuestion.aspx.vb:line 1515

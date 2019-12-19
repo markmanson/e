@@ -1,0 +1,150 @@
+DEBUG 2019-12-17 11:46:05,219 BindGrid Of CourseMaintenance - Error :System.Data.SqlClient.SqlException: Incorrect syntax near 'Description'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.CourseMaintenance.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CourseMaintenance.aspx.vb:line 413
+DEBUG 2019-12-17 11:46:05,232 Page_Load Of CourseMaintenance - Error :System.Data.SqlClient.SqlException: Incorrect syntax near 'Description'.
+   at Unirecruite.CourseMaintenance.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CourseMaintenance.aspx.vb:line 470
+   at Unirecruite.CourseMaintenance.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CourseMaintenance.aspx.vb:line 68
+DEBUG 2019-12-17 11:48:06,793 BindGrid Of CourseMaintenance - Error :System.InvalidCastException: Conversion from string "Reading" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at Unirecruite.CourseMaintenance.BindGrid()
+DEBUG 2019-12-17 11:48:06,840 Page_Load Of CourseMaintenance - Error :System.InvalidCastException: Conversion from string "Reading" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Unirecruite.CourseMaintenance.BindGrid()
+   at Unirecruite.CourseMaintenance.Page_Load(Object sender, EventArgs e)
+DEBUG 2019-12-17 11:48:18,199 BindGrid Of CourseMaintenance - Error :System.InvalidCastException: Conversion from string "Reading" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at Unirecruite.CourseMaintenance.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CourseMaintenance.aspx.vb:line 383
+DEBUG 2019-12-17 11:48:18,226 Page_Load Of CourseMaintenance - Error :System.InvalidCastException: Conversion from string "Reading" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Unirecruite.CourseMaintenance.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CourseMaintenance.aspx.vb:line 470
+   at Unirecruite.CourseMaintenance.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CourseMaintenance.aspx.vb:line 68
+DEBUG 2019-12-17 11:48:37,464 BindGrid Of CourseMaintenance - Error :System.InvalidCastException: Conversion from string "Reading" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at Unirecruite.CourseMaintenance.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CourseMaintenance.aspx.vb:line 383
+DEBUG 2019-12-17 11:48:37,469 Page_Load Of CourseMaintenance - Error :System.InvalidCastException: Conversion from string "Reading" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Unirecruite.CourseMaintenance.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CourseMaintenance.aspx.vb:line 470
+   at Unirecruite.CourseMaintenance.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CourseMaintenance.aspx.vb:line 68
+DEBUG 2019-12-17 11:48:53,229 BindGrid Of CourseMaintenance - Error :System.InvalidCastException: Conversion from string "Reading" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at Unirecruite.CourseMaintenance.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CourseMaintenance.aspx.vb:line 383
+DEBUG 2019-12-17 11:48:53,237 Page_Load Of CourseMaintenance - Error :System.InvalidCastException: Conversion from string "Reading" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Unirecruite.CourseMaintenance.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CourseMaintenance.aspx.vb:line 470
+   at Unirecruite.CourseMaintenance.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CourseMaintenance.aspx.vb:line 68
+DEBUG 2019-12-17 11:53:20,330 BindGrid Of CourseMaintenance - Error :System.InvalidCastException: Conversion from string "Reading" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at Unirecruite.CourseMaintenance.BindGrid()
+DEBUG 2019-12-17 11:53:20,345 Page_Load Of CourseMaintenance - Error :System.InvalidCastException: Conversion from string "Reading" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Unirecruite.CourseMaintenance.BindGrid()
+   at Unirecruite.CourseMaintenance.Page_Load(Object sender, EventArgs e)
+DEBUG 2019-12-17 16:12:34,354 fnc_ins_data Of register - Error :System.Data.SqlClient.SqlException: The conversion of a varchar data type to a smalldatetime data type resulted in an out-of-range value.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.unirecruite.register.fnc_ins_data() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\register.aspx.vb:line 509
+DEBUG 2019-12-17 16:12:34,376 img_saveexit_Click Of register - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.unirecruite.register.fnc_ins_data() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\register.aspx.vb:line 618
+   at Unirecruite.unirecruite.register.img_saveexit_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\register.aspx.vb:line 1017
+DEBUG 2019-12-17 16:13:17,622 fnc_ins_data Of register - Error :System.Data.SqlClient.SqlException: The conversion of a varchar data type to a smalldatetime data type resulted in an out-of-range value.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.unirecruite.register.fnc_ins_data() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\register.aspx.vb:line 509
+DEBUG 2019-12-17 16:13:38,832 img_saveexit_Click Of register - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.unirecruite.register.fnc_ins_data() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\register.aspx.vb:line 618
+   at Unirecruite.unirecruite.register.img_saveexit_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\register.aspx.vb:line 1017
+DEBUG 2019-12-17 16:18:32,482 fnc_ins_data Of register - Error :System.Data.SqlClient.SqlException: The conversion of a varchar data type to a smalldatetime data type resulted in an out-of-range value.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.unirecruite.register.fnc_ins_data() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\register.aspx.vb:line 509
+DEBUG 2019-12-17 16:18:32,490 img_saveexit_Click Of register - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.unirecruite.register.fnc_ins_data() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\register.aspx.vb:line 618
+   at Unirecruite.unirecruite.register.img_saveexit_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\register.aspx.vb:line 1017
+DEBUG 2019-12-17 16:23:57,642 fnc_ins_data Of register - Error :System.Data.SqlClient.SqlException: The conversion of a varchar data type to a smalldatetime data type resulted in an out-of-range value.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.unirecruite.register.fnc_ins_data() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\register.aspx.vb:line 509
+DEBUG 2019-12-17 16:23:57,643 img_saveexit_Click Of register - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.unirecruite.register.fnc_ins_data() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\register.aspx.vb:line 618
+   at Unirecruite.unirecruite.register.img_saveexit_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\register.aspx.vb:line 1017

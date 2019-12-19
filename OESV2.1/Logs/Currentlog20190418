@@ -1,0 +1,54 @@
+DEBUG 2019-04-18 09:05:44,371 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Office Excel cannot access the file 'D:\OESV2\Source Code\Development Area\OESV2.1\ExcelImport\1ED42000'. There are several possible reasons:
+
+? The file name or path does not exist.
+? The file is being used by another program.
+? The workbook you are trying to save has the same name as a currently open workbook.
+   at Microsoft.Office.Interop.Excel.WorkbookClass.SaveAs(Object Filename, Object FileFormat, Object Password, Object WriteResPassword, Object ReadOnlyRecommended, Object CreateBackup, XlSaveAsAccessMode AccessMode, Object ConflictResolution, Object AddToMru, Object TextCodepage, Object TextVisualLayout, Object Local)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\OESV2\Source Code\Development Area\OESV2.1\searchQuestion.aspx.vb:line 2092
+DEBUG 2019-04-18 09:06:01,637 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Office Excel cannot access the file 'D:\OESV2\Source Code\Development Area\OESV2.1\ExcelImport\02252000'. There are several possible reasons:
+
+? The file name or path does not exist.
+? The file is being used by another program.
+? The workbook you are trying to save has the same name as a currently open workbook.
+   at Microsoft.Office.Interop.Excel.WorkbookClass.SaveAs(Object Filename, Object FileFormat, Object Password, Object WriteResPassword, Object ReadOnlyRecommended, Object CreateBackup, XlSaveAsAccessMode AccessMode, Object ConflictResolution, Object AddToMru, Object TextCodepage, Object TextVisualLayout, Object Local)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\OESV2\Source Code\Development Area\OESV2.1\searchQuestion.aspx.vb:line 2092
+DEBUG 2019-04-18 14:25:06,897 btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - 既存の接続はリモート ホストに強制的に切断されました。)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.WriteSni()
+   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode)
+   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()
+   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.login.btn_login_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\login.aspx.vb:line 151
+ERROR 2019-04-18 14:38:51,399 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2019-04-18 14:38:51,414 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESV2\Source Code\Development Area\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OESV2\Source Code\Development Area\OESV2.1\ExamResult.aspx.vb:line 153
+DEBUG 2019-04-18 14:38:51,415 ExportExamDetails Of ExamResult - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OESV2\Source Code\Development Area\OESV2.1\ExamResult.aspx.vb:line 153
+ERROR 2019-04-18 14:47:07,024 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2019-04-18 14:47:07,037 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESV2\Source Code\Development Area\OESV2.1\ExcelImport\StudentExamDetails.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OESV2\Source Code\Development Area\OESV2.1\ExamResult.aspx.vb:line 153
+DEBUG 2019-04-18 14:47:07,037 ExportExamDetails Of ExamResult - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OESV2\Source Code\Development Area\OESV2.1\ExamResult.aspx.vb:line 153
+ERROR 2019-04-18 14:51:18,432 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2019-04-18 14:51:18,445 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Office Excel cannot access the file 'D:\OESV2\Source Code\Development Area\OESV2.1\ExcelImport'. There are several possible reasons:
+
+? The file name or path does not exist.
+? The file is being used by another program.
+? The workbook you are trying to save has the same name as a currently open workbook.
+   at Microsoft.Office.Interop.Excel.WorkbookClass.SaveAs(Object Filename, Object FileFormat, Object Password, Object WriteResPassword, Object ReadOnlyRecommended, Object CreateBackup, XlSaveAsAccessMode AccessMode, Object ConflictResolution, Object AddToMru, Object TextCodepage, Object TextVisualLayout, Object Local)
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OESV2\Source Code\Development Area\OESV2.1\ExamResult.aspx.vb:line 750
+DEBUG 2019-04-18 14:51:18,445 ExportExamDetails Of ExamResult - Error :   at Microsoft.Office.Interop.Excel.WorkbookClass.SaveAs(Object Filename, Object FileFormat, Object Password, Object WriteResPassword, Object ReadOnlyRecommended, Object CreateBackup, XlSaveAsAccessMode AccessMode, Object ConflictResolution, Object AddToMru, Object TextCodepage, Object TextVisualLayout, Object Local)
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OESV2\Source Code\Development Area\OESV2.1\ExamResult.aspx.vb:line 750

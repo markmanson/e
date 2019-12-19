@@ -1,0 +1,11 @@
+DEBUG 2015-02-05 09:13:38,952 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Exception from HRESULT: 0x800A03EC
+   at Microsoft.Office.Interop.Excel.Workbooks.Add(Object Template)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\searchQuestion.aspx.vb:line 1515
+DEBUG 2015-02-05 09:39:29,265 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Exception from HRESULT: 0x800A03EC
+   at Microsoft.Office.Interop.Excel.Workbooks.Add(Object Template)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\searchQuestion.aspx.vb:line 1515
+DEBUG 2015-02-05 15:14:20,639 Getit Of searchQuestion - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\searchQuestion.aspx.vb:line 1774

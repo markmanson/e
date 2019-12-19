@@ -1,0 +1,5 @@
+DEBUG 2018-01-19 10:43:11,859 ImageButton1_Click Of search - Error :System.InvalidOperationException: Showing a modal dialog box or form when the application is not running in UserInteractive mode is not a valid operation. Specify the ServiceNotification or DefaultDesktopOnly style to display a notification from a service application.
+   at System.Windows.Forms.MessageBox.ShowCore(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options, Boolean showHelp)
+   at System.Windows.Forms.MessageBox.Show(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options)
+   at Microsoft.VisualBasic.Interaction.MsgBox(Object Prompt, MsgBoxStyle Buttons, Object Title)
+   at Unirecruite.unirecruite.search.ImageButton1_Click(Object sender, ImageClickEventArgs e) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\search.aspx.vb:line 3145

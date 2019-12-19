@@ -1,0 +1,16 @@
+DEBUG 2014-09-04 08:40:38,859 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2014-09-04 08:40:39,125 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2014-09-04 08:40:39,125 makepdffile Of CandStatus - Being initialize document
+DEBUG 2014-09-04 08:40:41,234 makepdffile Of CandStatus - load Error document initialization is failes
+DEBUG 2014-09-04 08:40:41,484 makepdffile Of CandStatus - loading successful
+DEBUG 2014-09-04 08:40:41,484 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2014-09-04 08:40:41,906 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2014-09-04 08:40:42,093 makepdffile Of CandStatus - End Write on page
+INFO  2014-09-04 08:40:42,093 makepdffile Of CandStatus - Int_values
+INFO  2014-09-04 08:40:42,093 makepdffile Of CandStatus - total_values
+INFO  2014-09-04 08:40:42,093 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2014-09-04 08:40:42,093 drawTable Of CandStatus - contentStream.setFont:
+INFO  2014-09-04 08:40:42,093 drawTable Of CandStatus - te(1):
+INFO  2014-09-04 08:40:42,109 drawTable Of CandStatus - End of Write data
+INFO  2014-09-04 08:40:42,109 drawTable Of CandStatus - End of Rows
+INFO  2014-09-04 08:40:42,109 drawTable Of CandStatus - End of Columns

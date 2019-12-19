@@ -1,0 +1,9 @@
+DEBUG 2016-02-04 15:56:53,409 Getit Of WebForm3 - Error :System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\Virtual host\OES\Excel Import\Upload Bulk User Data\Center_Details.csv'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at Unirecruite.unirecruite.WebForm3.CreateCSVFile(DataTable dt, String strFilePath)
+   at Unirecruite.unirecruite.WebForm3.Getit()

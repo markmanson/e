@@ -1,0 +1,9 @@
+DEBUG 2012-10-30 10:46:08,606 Page_Load Of CandStatus - Error :System.InvalidCastException: Operator '=' is not defined for type 'DBNull' and 'Nothing'.
+   at Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   at Unirecruite.unirecruite.CandStatus.Page_Load(Object sender, EventArgs e)
+DEBUG 2012-10-30 11:48:26,351 btn_login_Click Of Login - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.unirecruite.login.btn_login_Click(Object sender, ImageClickEventArgs e)

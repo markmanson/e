@@ -1,0 +1,116 @@
+DEBUG 2019-04-26 13:22:03,012 btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - 既存の接続はリモート ホストに強制的に切断されました。)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.WriteSni()
+   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode)
+   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()
+   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.login.btn_login_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\login.aspx.vb:line 151
+DEBUG 2019-04-26 14:46:00,468 GetQTypeCountForSubject Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.GetQTypeCountForSubject(Int32 test_type, Int32 totalMarks, String Course_id) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 5032
+DEBUG 2019-04-26 14:46:00,486 CheckQuestions Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at Unirecruite.QuestionPaper.GetQTypeCountForSubject(Int32 test_type, Int32 totalMarks, String Course_id) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 5078
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4515
+DEBUG 2019-04-26 14:46:00,500 Page_Load Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4816
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 412
+DEBUG 2019-04-26 14:48:04,725 GetQTypeCountForSubject Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.GetQTypeCountForSubject(Int32 test_type, Int32 totalMarks, String Course_id) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 5032
+DEBUG 2019-04-26 14:48:04,738 CheckQuestions Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at Unirecruite.QuestionPaper.GetQTypeCountForSubject(Int32 test_type, Int32 totalMarks, String Course_id) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 5078
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4515
+DEBUG 2019-04-26 14:48:04,751 Page_Load Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4816
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 412
+DEBUG 2019-04-26 14:51:44,199 GetQTypeCountForSubject Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.GetQTypeCountForSubject(Int32 test_type, Int32 totalMarks, String Course_id) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 5032
+DEBUG 2019-04-26 14:51:44,206 CheckQuestions Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at Unirecruite.QuestionPaper.GetQTypeCountForSubject(Int32 test_type, Int32 totalMarks, String Course_id) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 5078
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4515
+DEBUG 2019-04-26 14:51:44,212 Page_Load Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4816
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 412
+DEBUG 2019-04-26 15:12:36,430 GetQTypeCountForSubject Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.GetQTypeCountForSubject(Int32 test_type, Int32 totalMarks, String Course_id) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 5032
+DEBUG 2019-04-26 15:12:36,438 CheckQuestions Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at Unirecruite.QuestionPaper.GetQTypeCountForSubject(Int32 test_type, Int32 totalMarks, String Course_id) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 5078
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4515
+DEBUG 2019-04-26 15:12:36,452 Page_Load Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4816
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 412
+DEBUG 2019-04-26 15:13:43,700 GetQTypeCountForSubject Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.GetQTypeCountForSubject(Int32 test_type, Int32 totalMarks, String Course_id) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 5032
+DEBUG 2019-04-26 15:13:43,715 CheckQuestions Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at Unirecruite.QuestionPaper.GetQTypeCountForSubject(Int32 test_type, Int32 totalMarks, String Course_id) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 5078
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4515
+DEBUG 2019-04-26 15:13:43,729 Page_Load Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4816
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 412
+DEBUG 2019-04-26 15:44:56,747 GetQTypeCountForSubject Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.GetQTypeCountForSubject(Int32 test_type, Int32 totalMarks, String Course_id) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 5032
+DEBUG 2019-04-26 15:44:56,759 CheckQuestions Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at Unirecruite.QuestionPaper.GetQTypeCountForSubject(Int32 test_type, Int32 totalMarks, String Course_id) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 5078
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4515
+DEBUG 2019-04-26 15:44:56,774 Page_Load Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4816
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 412
+DEBUG 2019-04-26 15:56:21,177 GetQTypeCountForSubject Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.GetQTypeCountForSubject(Int32 test_type, Int32 totalMarks, String Course_id) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 5032
+DEBUG 2019-04-26 15:56:21,192 CheckQuestions Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at Unirecruite.QuestionPaper.GetQTypeCountForSubject(Int32 test_type, Int32 totalMarks, String Course_id) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 5078
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4515
+DEBUG 2019-04-26 15:56:21,205 Page_Load Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4816
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 412
+DEBUG 2019-04-26 15:57:21,801 GetQTypeCountForSubject Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.GetQTypeCountForSubject(Int32 test_type, Int32 totalMarks, String Course_id) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 5032
+DEBUG 2019-04-26 15:57:21,818 CheckQuestions Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at Unirecruite.QuestionPaper.GetQTypeCountForSubject(Int32 test_type, Int32 totalMarks, String Course_id) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 5078
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4515
+DEBUG 2019-04-26 15:57:21,834 Page_Load Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4816
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 412
+DEBUG 2019-04-26 16:10:31,847 sendMail Of search - Error :System.Web.HttpException: サーバーによって 1 つまたは複数の受信者アドレスが拒否されました。サーバーからの応答は次のとおりです。530 Authentication required
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x8004020F): サーバーによって 1 つまたは複数の受信者アドレスが拒否されました。サーバーからの応答は次のとおりです。530 Authentication required
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrUserID, String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime) in D:\OESV2\Source Code\Development Area\OESV2.1\search.aspx.vb:line 2802

@@ -1,0 +1,69 @@
+DEBUG 2014-06-19 15:15:19,919 checkTestAppeared Of QuestionPaper - Error :System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Unirecruite.QuestionPaper.checkTestAppeared() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 2108
+DEBUG 2014-06-19 15:15:20,169 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Syntax error converting the varchar value 'J' to a column of data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 323
+DEBUG 2014-06-19 15:15:50,732 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 194
+DEBUG 2014-06-19 15:48:37,888 checkTestAppeared Of QuestionPaper - Error :System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Unirecruite.QuestionPaper.checkTestAppeared() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 2108
+DEBUG 2014-06-19 15:48:37,888 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Syntax error converting the varchar value 'J' to a column of data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 323
+DEBUG 2014-06-19 15:50:03,951 checkTestAppeared Of QuestionPaper - Error :System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Unirecruite.QuestionPaper.checkTestAppeared() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 2108
+DEBUG 2014-06-19 15:50:03,951 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Syntax error converting the varchar value 'J' to a column of data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 323
+DEBUG 2014-06-19 15:52:10,576 checkTestAppeared Of QuestionPaper - Error :System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Unirecruite.QuestionPaper.checkTestAppeared() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 2108
+DEBUG 2014-06-19 15:52:10,576 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Syntax error converting the varchar value 'J' to a column of data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 323
+DEBUG 2014-06-19 16:05:45,685 checkTestAppeared Of QuestionPaper - Error :System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Unirecruite.QuestionPaper.checkTestAppeared() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 2108
+DEBUG 2014-06-19 16:05:45,701 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Syntax error converting the varchar value 'J' to a column of data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 323

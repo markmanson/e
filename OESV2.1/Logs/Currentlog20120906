@@ -1,0 +1,166 @@
+DEBUG 2012-09-06 10:37:50,484 sendMail Of search - Error :System.Web.HttpException: ?T?[?o?[?E?a?A?AÅe??M?O?A?h???X?a?ÅeÅhU?3?e?U?É ???B?T?[?o?[?c?c?IÅÒ?Åg??I???I?A?ÅN?e?A?ÅE?B452 <bharat@usindia.com> is over quota and can't send mail
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x8004020E): ?T?[?o?[?E?a?A?AÅe??M?O?A?h???X?a?ÅeÅhU?3?e?U?É ???B?T?[?o?[?c?c?IÅÒ?Åg??I???I?A?ÅN?e?A?ÅE?B452 <bharat@usindia.com> is over quota and can't send mail
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime)
+DEBUG 2012-09-06 10:37:51,500 sendMail Of search - Error :System.Web.HttpException: ?T?[?o?[?E?a?A?AÅe??M?O?A?h???X?a?ÅeÅhU?3?e?U?É ???B?T?[?o?[?c?c?IÅÒ?Åg??I???I?A?ÅN?e?A?ÅE?B452 <bharat@usindia.com> is over quota and can't send mail
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x8004020E): ?T?[?o?[?E?a?A?AÅe??M?O?A?h???X?a?ÅeÅhU?3?e?U?É ???B?T?[?o?[?c?c?IÅÒ?Åg??I???I?A?ÅN?e?A?ÅE?B452 <bharat@usindia.com> is over quota and can't send mail
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime)
+DEBUG 2012-09-06 10:37:51,921 sendMail Of search - Error :System.Web.HttpException: ?T?[?o?[?E?a?A?AÅe??M?O?A?h???X?a?ÅeÅhU?3?e?U?É ???B?T?[?o?[?c?c?IÅÒ?Åg??I???I?A?ÅN?e?A?ÅE?B452 <bharat@usindia.com> is over quota and can't send mail
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x8004020E): ?T?[?o?[?E?a?A?AÅe??M?O?A?h???X?a?ÅeÅhU?3?e?U?É ???B?T?[?o?[?c?c?IÅÒ?Åg??I???I?A?ÅN?e?A?ÅE?B452 <bharat@usindia.com> is over quota and can't send mail
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime)
+DEBUG 2012-09-06 10:37:52,234 sendMail Of search - Error :System.Web.HttpException: ?T?[?o?[?E?a?A?AÅe??M?O?A?h???X?a?ÅeÅhU?3?e?U?É ???B?T?[?o?[?c?c?IÅÒ?Åg??I???I?A?ÅN?e?A?ÅE?B452 <bharat@usindia.com> is over quota and can't send mail
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x8004020E): ?T?[?o?[?E?a?A?AÅe??M?O?A?h???X?a?ÅeÅhU?3?e?U?É ???B?T?[?o?[?c?c?IÅÒ?Åg??I???I?A?ÅN?e?A?ÅE?B452 <bharat@usindia.com> is over quota and can't send mail
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime)
+DEBUG 2012-09-06 10:37:52,578 sendMail Of search - Error :System.Web.HttpException: ?T?[?o?[?E?a?A?AÅe??M?O?A?h???X?a?ÅeÅhU?3?e?U?É ???B?T?[?o?[?c?c?IÅÒ?Åg??I???I?A?ÅN?e?A?ÅE?B452 <bharat@usindia.com> is over quota and can't send mail
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x8004020E): ?T?[?o?[?E?a?A?AÅe??M?O?A?h???X?a?ÅeÅhU?3?e?U?É ???B?T?[?o?[?c?c?IÅÒ?Åg??I???I?A?ÅN?e?A?ÅE?B452 <bharat@usindia.com> is over quota and can't send mail
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime)
+DEBUG 2012-09-06 10:37:52,890 sendMail Of search - Error :System.Web.HttpException: ?T?[?o?[?E?a?A?AÅe??M?O?A?h???X?a?ÅeÅhU?3?e?U?É ???B?T?[?o?[?c?c?IÅÒ?Åg??I???I?A?ÅN?e?A?ÅE?B452 <bharat@usindia.com> is over quota and can't send mail
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x8004020E): ?T?[?o?[?E?a?A?AÅe??M?O?A?h???X?a?ÅeÅhU?3?e?U?É ???B?T?[?o?[?c?c?IÅÒ?Åg??I???I?A?ÅN?e?A?ÅE?B452 <bharat@usindia.com> is over quota and can't send mail
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime)
+DEBUG 2012-09-06 11:54:10,203 InsertIntoT_Result Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1)
+DEBUG 2012-09-06 12:53:10,875 InsertIntoT_Result Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1)
+DEBUG 2012-09-06 12:59:15,843 InsertIntoT_Result Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1)
+DEBUG 2012-09-06 12:59:48,015 InsertIntoT_Result Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1)
+DEBUG 2012-09-06 12:59:48,609 InsertIntoT_Result Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '1'  Key being added: '1'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1)
+DEBUG 2012-09-06 13:00:38,546 InsertIntoT_Result Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1)
+DEBUG 2012-09-06 13:01:21,093 InsertIntoT_Result Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1)
+DEBUG 2012-09-06 13:01:55,984 InsertIntoT_Result Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1)
+DEBUG 2012-09-06 13:03:22,515 InsertIntoT_Result Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1)
+DEBUG 2012-09-06 13:04:07,203 InsertIntoT_Result Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1)
+DEBUG 2012-09-06 14:44:37,828 InsertIntoT_Result Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1)
+DEBUG 2012-09-06 15:35:11,062 InsertIntoT_Result Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1)
+DEBUG 2012-09-06 15:36:06,453 Getit Of searchQuestion - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category)
+DEBUG 2012-09-06 15:36:50,500 populatequesans Of question_ans - Error :System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.ListItemCollection.get_Item(Int32 index)
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType)
+DEBUG 2012-09-06 15:36:50,500 Page_Load Of question_ans - Error :System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType)
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e)
+DEBUG 2012-09-06 16:15:11,734 populatequesans Of question_ans - Error :System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.ListItemCollection.get_Item(Int32 index)
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType)
+DEBUG 2012-09-06 16:15:11,750 Page_Load Of question_ans - Error :System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType)
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e)

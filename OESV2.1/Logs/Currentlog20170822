@@ -1,0 +1,88 @@
+DEBUG 2017-08-22 09:28:08,781 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-08-22 09:28:09,015 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-08-22 09:28:09,015 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-08-22 09:28:11,031 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-08-22 09:28:11,156 makepdffile Of CandStatus - loading successful
+DEBUG 2017-08-22 09:28:11,156 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-08-22 09:28:11,687 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-08-22 09:28:11,843 makepdffile Of CandStatus - End Write on page
+INFO  2017-08-22 09:28:11,843 makepdffile Of CandStatus - Int_values
+INFO  2017-08-22 09:28:11,843 makepdffile Of CandStatus - total_values
+INFO  2017-08-22 09:28:11,843 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-08-22 09:28:11,843 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-08-22 09:28:11,843 drawTable Of CandStatus - te(1):
+INFO  2017-08-22 09:28:11,859 drawTable Of CandStatus - End of Write data
+INFO  2017-08-22 09:28:11,859 drawTable Of CandStatus - End of Rows
+INFO  2017-08-22 09:28:11,859 drawTable Of CandStatus - End of Columns
+DEBUG 2017-08-22 09:28:12,750 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-08-22 09:28:12,750 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-08-22 09:28:12,750 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-08-22 09:28:12,750 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-08-22 09:28:12,796 makepdffile Of CandStatus - loading successful
+DEBUG 2017-08-22 09:28:12,796 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-08-22 09:28:12,796 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-08-22 09:28:12,796 makepdffile Of CandStatus - End Write on page
+INFO  2017-08-22 09:28:12,796 makepdffile Of CandStatus - Int_values
+INFO  2017-08-22 09:28:12,796 makepdffile Of CandStatus - total_values
+INFO  2017-08-22 09:28:12,796 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-08-22 09:28:12,796 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-08-22 09:28:12,796 drawTable Of CandStatus - te(1):
+INFO  2017-08-22 09:28:12,796 drawTable Of CandStatus - End of Write data
+INFO  2017-08-22 09:28:12,796 drawTable Of CandStatus - End of Rows
+INFO  2017-08-22 09:28:12,796 drawTable Of CandStatus - End of Columns
+DEBUG 2017-08-22 09:33:49,265 sendMail Of search - Error :System.Web.HttpException: The server rejected one or more recipient addresses. The server response was: 553 This server does not accept routed mail
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x8004020F): The server rejected one or more recipient addresses. The server response was: 553 This server does not accept routed mail
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrUserID, String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\search.aspx.vb:line 2800
+DEBUG 2017-08-22 09:33:49,750 sendMail Of search - Error :System.Web.HttpException: The server rejected one or more recipient addresses. The server response was: 553 This server does not accept routed mail
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x8004020F): The server rejected one or more recipient addresses. The server response was: 553 This server does not accept routed mail
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrUserID, String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\search.aspx.vb:line 2800
+DEBUG 2017-08-22 09:33:50,203 sendMail Of search - Error :System.Web.HttpException: The server rejected one or more recipient addresses. The server response was: 553 This server does not accept routed mail
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x8004020F): The server rejected one or more recipient addresses. The server response was: 553 This server does not accept routed mail
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrUserID, String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\search.aspx.vb:line 2800
+DEBUG 2017-08-22 10:19:54,312 SendMailFunction Of CandStatus - Error :System.Web.HttpException: The server rejected one or more recipient addresses. The server response was: 553 This server does not accept routed mail
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x8004020F): The server rejected one or more recipient addresses. The server response was: 553 This server does not accept routed mail
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.CandStatus.SendMailFunction() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 5046

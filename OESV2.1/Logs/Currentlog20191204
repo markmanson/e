@@ -1,0 +1,81 @@
+DEBUG 2019-12-04 08:30:53,028 SearchGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 730
+DEBUG 2019-12-04 08:30:53,043 imgBtnSearch_Click Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 763
+   at Unirecruite.SubjectRegistration.imgBtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 576
+DEBUG 2019-12-04 08:57:41,467 SearchGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 730
+DEBUG 2019-12-04 08:57:41,481 imgBtnSearch_Click Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 763
+   at Unirecruite.SubjectRegistration.imgBtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 576
+DEBUG 2019-12-04 10:24:46,884 retTestInfo Of search - Error :System.Data.SqlClient.SqlException: The multi-part identifier "c.course_name" could not be bound.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.search.retTestInfo(String sqlstr) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\search.aspx.vb:line 669
+DEBUG 2019-12-04 10:24:46,902 BindCourse Of search - Error :System.Data.SqlClient.SqlException: The multi-part identifier "c.course_name" could not be bound.
+   at Unirecruite.unirecruite.search.retTestInfo(String sqlstr) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\search.aspx.vb:line 675
+   at Unirecruite.unirecruite.search.BindCourse() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\search.aspx.vb:line 620
+DEBUG 2019-12-04 10:24:46,905 sel_subjectid_SelectedIndexChanged Of search - Error :System.Data.SqlClient.SqlException: The multi-part identifier "c.course_name" could not be bound.
+   at Unirecruite.unirecruite.search.BindCourse() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\search.aspx.vb:line 645
+   at Unirecruite.unirecruite.search.sel_subjectid_SelectedIndexChanged(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\search.aspx.vb:line 3877
+DEBUG 2019-12-04 10:25:59,439 retTestInfo Of search - Error :System.Data.SqlClient.SqlException: The multi-part identifier "c.course_name" could not be bound.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.search.retTestInfo(String sqlstr) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\search.aspx.vb:line 669
+DEBUG 2019-12-04 10:25:59,452 BindCourse Of search - Error :System.Data.SqlClient.SqlException: The multi-part identifier "c.course_name" could not be bound.
+   at Unirecruite.unirecruite.search.retTestInfo(String sqlstr) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\search.aspx.vb:line 675
+   at Unirecruite.unirecruite.search.BindCourse() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\search.aspx.vb:line 620
+DEBUG 2019-12-04 10:25:59,457 sel_subjectid_SelectedIndexChanged Of search - Error :System.Data.SqlClient.SqlException: The multi-part identifier "c.course_name" could not be bound.
+   at Unirecruite.unirecruite.search.BindCourse() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\search.aspx.vb:line 645
+   at Unirecruite.unirecruite.search.sel_subjectid_SelectedIndexChanged(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\search.aspx.vb:line 3877
+DEBUG 2019-12-04 16:50:05,140 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - 既存の接続はリモート ホストに強制的に切断されました。)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.WriteSni()
+   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode)
+   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()
+   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 145
+DEBUG 2019-12-04 16:58:50,366 Page_Unload Of StudentSearch - Error :System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.AdminList.Page_Unload(Object Sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AdminList.aspx.vb:line 100

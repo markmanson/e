@@ -1,0 +1,42 @@
+DEBUG 2017-09-13 10:24:44,287 imgbtndelete_Click Of StudentSearch - Error :System.Data.SqlClient.SqlException: DELETE statement conflicted with COLUMN REFERENCE constraint 'FK_T_Result_M_USER_INFO'. The conflict occurred in database 'OES_Final1', table 'T_Result', column 'userid'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.StudentSearch.imgbtndelete_Click(Object sender, ImageClickEventArgs e) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\StudentSearch.aspx.vb:line 873
+DEBUG 2017-09-13 10:51:04,256 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-09-13 10:51:04,397 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-09-13 10:51:04,397 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-09-13 10:51:06,412 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-09-13 10:51:06,522 makepdffile Of CandStatus - loading successful
+DEBUG 2017-09-13 10:51:06,537 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-09-13 10:51:07,084 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-09-13 10:51:07,334 makepdffile Of CandStatus - End Write on page
+INFO  2017-09-13 10:51:07,334 makepdffile Of CandStatus - Int_values
+INFO  2017-09-13 10:51:07,334 makepdffile Of CandStatus - total_values
+INFO  2017-09-13 10:51:07,334 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-09-13 10:51:07,334 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-09-13 10:51:07,334 drawTable Of CandStatus - te(1):
+INFO  2017-09-13 10:51:07,334 drawTable Of CandStatus - End of Write data
+INFO  2017-09-13 10:51:07,334 drawTable Of CandStatus - End of Rows
+INFO  2017-09-13 10:51:07,334 drawTable Of CandStatus - End of Columns
+DEBUG 2017-09-13 10:52:11,178 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-09-13 10:52:11,178 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-09-13 10:52:11,178 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-09-13 10:52:11,178 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-09-13 10:52:11,225 makepdffile Of CandStatus - loading successful
+DEBUG 2017-09-13 10:52:11,225 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-09-13 10:52:11,225 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-09-13 10:52:11,225 makepdffile Of CandStatus - End Write on page
+INFO  2017-09-13 10:52:11,225 makepdffile Of CandStatus - Int_values
+INFO  2017-09-13 10:52:11,225 makepdffile Of CandStatus - total_values
+INFO  2017-09-13 10:52:11,225 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-09-13 10:52:11,225 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-09-13 10:52:11,225 drawTable Of CandStatus - te(1):
+INFO  2017-09-13 10:52:11,225 drawTable Of CandStatus - End of Write data
+INFO  2017-09-13 10:52:11,225 drawTable Of CandStatus - End of Rows
+INFO  2017-09-13 10:52:11,225 drawTable Of CandStatus - End of Columns

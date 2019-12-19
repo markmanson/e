@@ -1,0 +1,29 @@
+DEBUG 2013-09-06 13:45:10,312 imgBtnBack_Click Of WebForm3 - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.unirecruite.WebForm3.imgBtnBack_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2013-09-06 14:10:44,718 checkTestAppeared Of QuestionPaper - Error :System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Unirecruite.QuestionPaper.checkTestAppeared()
+DEBUG 2013-09-06 14:10:44,796 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Syntax error converting the varchar value 'J' to a column of data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2013-09-06 14:47:02,093 checkTestAppeared Of QuestionPaper - Error :System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Unirecruite.QuestionPaper.checkTestAppeared()
+DEBUG 2013-09-06 14:47:02,093 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Syntax error converting the varchar value 'J' to a column of data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)

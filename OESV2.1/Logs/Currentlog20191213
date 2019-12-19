@@ -1,0 +1,494 @@
+DEBUG 2019-12-13 09:17:12,830 DGReport_ItemCommand Of CandStatus - Error :System.Data.SqlClient.SqlException: Incorrect syntax near '='.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 3126
+DEBUG 2019-12-13 09:17:35,892 DGReport_ItemCommand Of CandStatus - Error :System.Data.SqlClient.SqlException: Incorrect syntax near '='.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 3212
+ERROR 2019-12-13 09:20:41,223 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2019-12-13 09:20:41,238 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 1592
+DEBUG 2019-12-13 09:20:41,238 ExportExamDetails Of CandStatus - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 1592
+DEBUG 2019-12-13 09:20:41,412 DGReport_ItemCommand Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2247
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2402
+DEBUG 2019-12-13 09:21:09,959 btnOkay2_Click Of CandStatus - Error :System.Data.SqlClient.SqlException: The conversion of a varchar data type to a smalldatetime data type resulted in an out-of-range value.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.unirecruite.CandStatus.btnOkay2_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 5754
+DEBUG 2019-12-13 09:21:47,010 btnOkay2_Click Of CandStatus - Error :System.Data.SqlClient.SqlException: The conversion of a varchar data type to a smalldatetime data type resulted in an out-of-range value.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.unirecruite.CandStatus.btnOkay2_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 5754
+DEBUG 2019-12-13 09:24:26,240 btnOkay2_Click Of CandStatus - Error :System.Data.SqlClient.SqlException: The conversion of a varchar data type to a smalldatetime data type resulted in an out-of-range value.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.unirecruite.CandStatus.btnOkay2_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 5754
+DEBUG 2019-12-13 10:05:52,392 btnOkay_Click Of CandStatus - Error :System.Data.SqlClient.SqlException: The conversion of a varchar data type to a smalldatetime data type resulted in an out-of-range value.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.unirecruite.CandStatus.btnOkay_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 4304
+DEBUG 2019-12-13 10:13:40,352 btnOkay2_Click Of CandStatus - Error :System.Data.SqlClient.SqlException: The conversion of a varchar data type to a smalldatetime data type resulted in an out-of-range value.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.unirecruite.CandStatus.btnOkay2_Click(Object sender, EventArgs e)
+ERROR 2019-12-13 10:18:31,908 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2019-12-13 10:18:31,929 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 1592
+DEBUG 2019-12-13 10:18:31,929 ExportExamDetails Of CandStatus - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 1592
+DEBUG 2019-12-13 10:18:32,259 DGReport_ItemCommand Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2247
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2402
+ERROR 2019-12-13 10:25:11,113 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2019-12-13 10:25:11,114 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 1592
+DEBUG 2019-12-13 10:25:11,114 ExportExamDetails Of CandStatus - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 1592
+DEBUG 2019-12-13 10:25:11,243 DGReport_ItemCommand Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2247
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2402
+ERROR 2019-12-13 10:39:05,015 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2019-12-13 10:39:05,038 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   場所 Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   場所 Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) 場所 D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:行 1592
+DEBUG 2019-12-13 10:39:05,038 ExportExamDetails Of CandStatus - Error :   場所 Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   場所 Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) 場所 D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:行 1592
+DEBUG 2019-12-13 10:39:05,303 DGReport_ItemCommand Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   場所 Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) 場所 D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:行 2247
+   場所 Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) 場所 D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:行 2403
+ERROR 2019-12-13 10:41:48,755 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2019-12-13 10:41:48,756 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 1592
+DEBUG 2019-12-13 10:41:48,757 ExportExamDetails Of CandStatus - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 1592
+DEBUG 2019-12-13 10:41:48,877 DGReport_ItemCommand Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2247
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2403
+ERROR 2019-12-13 10:43:04,429 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2019-12-13 10:43:04,443 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Office Excel cannot access the file 'D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ExcelImport'. There are several possible reasons:
+
+? The file name or path does not exist.
+? The file is being used by another program.
+? The workbook you are trying to save has the same name as a currently open workbook.
+   at Microsoft.Office.Interop.Excel.WorkbookClass.SaveAs(Object Filename, Object FileFormat, Object Password, Object WriteResPassword, Object ReadOnlyRecommended, Object CreateBackup, XlSaveAsAccessMode AccessMode, Object ConflictResolution, Object AddToMru, Object TextCodepage, Object TextVisualLayout, Object Local)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2195
+DEBUG 2019-12-13 10:43:04,444 ExportExamDetails Of CandStatus - Error :   at Microsoft.Office.Interop.Excel.WorkbookClass.SaveAs(Object Filename, Object FileFormat, Object Password, Object WriteResPassword, Object ReadOnlyRecommended, Object CreateBackup, XlSaveAsAccessMode AccessMode, Object ConflictResolution, Object AddToMru, Object TextCodepage, Object TextVisualLayout, Object Local)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2195
+DEBUG 2019-12-13 10:43:04,587 DGReport_ItemCommand Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Office Excel cannot access the file 'D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ExcelImport'. There are several possible reasons:
+
+? The file name or path does not exist.
+? The file is being used by another program.
+? The workbook you are trying to save has the same name as a currently open workbook.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2247
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2403
+ERROR 2019-12-13 10:43:18,929 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2019-12-13 10:43:18,929 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Office Excel cannot access the file 'D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ExcelImport'. There are several possible reasons:
+
+? The file name or path does not exist.
+? The file is being used by another program.
+? The workbook you are trying to save has the same name as a currently open workbook.
+   at Microsoft.Office.Interop.Excel.WorkbookClass.SaveAs(Object Filename, Object FileFormat, Object Password, Object WriteResPassword, Object ReadOnlyRecommended, Object CreateBackup, XlSaveAsAccessMode AccessMode, Object ConflictResolution, Object AddToMru, Object TextCodepage, Object TextVisualLayout, Object Local)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2195
+DEBUG 2019-12-13 10:43:18,930 ExportExamDetails Of CandStatus - Error :   at Microsoft.Office.Interop.Excel.WorkbookClass.SaveAs(Object Filename, Object FileFormat, Object Password, Object WriteResPassword, Object ReadOnlyRecommended, Object CreateBackup, XlSaveAsAccessMode AccessMode, Object ConflictResolution, Object AddToMru, Object TextCodepage, Object TextVisualLayout, Object Local)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2195
+DEBUG 2019-12-13 10:43:19,070 DGReport_ItemCommand Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Office Excel cannot access the file 'D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ExcelImport'. There are several possible reasons:
+
+? The file name or path does not exist.
+? The file is being used by another program.
+? The workbook you are trying to save has the same name as a currently open workbook.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2247
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2403
+ERROR 2019-12-13 10:52:16,053 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2019-12-13 10:52:16,054 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Office Excel cannot access the file 'D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ExcelImport'. There are several possible reasons:
+
+? The file name or path does not exist.
+? The file is being used by another program.
+? The workbook you are trying to save has the same name as a currently open workbook.
+   at Microsoft.Office.Interop.Excel.WorkbookClass.SaveAs(Object Filename, Object FileFormat, Object Password, Object WriteResPassword, Object ReadOnlyRecommended, Object CreateBackup, XlSaveAsAccessMode AccessMode, Object ConflictResolution, Object AddToMru, Object TextCodepage, Object TextVisualLayout, Object Local)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2195
+DEBUG 2019-12-13 10:52:16,055 ExportExamDetails Of CandStatus - Error :   at Microsoft.Office.Interop.Excel.WorkbookClass.SaveAs(Object Filename, Object FileFormat, Object Password, Object WriteResPassword, Object ReadOnlyRecommended, Object CreateBackup, XlSaveAsAccessMode AccessMode, Object ConflictResolution, Object AddToMru, Object TextCodepage, Object TextVisualLayout, Object Local)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2195
+DEBUG 2019-12-13 10:52:16,148 DGReport_ItemCommand Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Office Excel cannot access the file 'D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ExcelImport'. There are several possible reasons:
+
+? The file name or path does not exist.
+? The file is being used by another program.
+? The workbook you are trying to save has the same name as a currently open workbook.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2247
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 2403
+DEBUG 2019-12-13 11:21:03,821 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 244
+DEBUG 2019-12-13 11:25:24,329 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Invalid column name '_ctl0_ContentPlaceHolder1_trvwCate'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 244
+DEBUG 2019-12-13 11:26:04,030 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Invalid column name '_ctl0_ContentPlaceHolder1_trvwCate'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 244
+DEBUG 2019-12-13 11:26:22,433 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Invalid column name '_ctl0_ContentPlaceHolder1_trvwCate'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 244
+DEBUG 2019-12-13 11:27:37,404 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Invalid column name '_ctl0_ContentPlaceHolder1_trvwCat'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 244
+DEBUG 2019-12-13 11:27:49,578 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Invalid column name '_ctl0_ContentPlaceHolder1_trvwCat'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 244
+DEBUG 2019-12-13 11:38:01,169 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Invalid column name '_ctl0_ContentPlaceHolder1_PageS'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 244
+DEBUG 2019-12-13 11:38:04,270 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Invalid column name '_ctl0_ContentPlaceHolder1_PageS'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 244
+DEBUG 2019-12-13 11:38:06,727 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Invalid column name '_ctl0_ContentPlaceHolder1_PageS'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 244
+DEBUG 2019-12-13 11:38:09,568 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Invalid column name '_ctl0_ContentPlaceHolder1_PageS'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 244
+DEBUG 2019-12-13 11:38:17,646 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Invalid column name '_ctl0_ContentPlaceHolder1_i'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 244
+DEBUG 2019-12-13 11:38:27,168 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Invalid column name '_ctl0_ContentPlaceHolder1_'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 244
+DEBUG 2019-12-13 11:48:16,120 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Invalid column name '_ctl0_ContentPlaceHolder1_PageS'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 244
+DEBUG 2019-12-13 15:34:50,699 DisplayVideoListGrid Of vidoelist - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 269
+DEBUG 2019-12-13 15:43:37,503 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Invalid column name '_ctl0_ContentPlaceHolder1_trvwCat'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 264
+DEBUG 2019-12-13 15:44:13,477 DisplayVideoListGrid Of vidoelist - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 275
+DEBUG 2019-12-13 15:44:43,651 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Invalid column name '_ctl0_ContentPlaceHolder1_DGData__ctl3_Ln'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 264
+DEBUG 2019-12-13 15:58:45,718 DisplayVideoListGrid Of vidoelist - Error :System.Data.SqlClient.SqlException: Invalid column name '_ctl0_ContentPlaceHolder1_trvwCat'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Unirecruite.VideoList.DisplayVideoListGrid(String CategoryID) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\VideoList.aspx.vb:line 264

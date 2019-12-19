@@ -1,0 +1,269 @@
+DEBUG 2017-11-21 10:32:22,843 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 652
+DEBUG 2017-11-21 10:32:23,140 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 652
+DEBUG 2017-11-21 10:32:23,140 InsertData Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.InsertData() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 2415
+DEBUG 2017-11-21 10:32:23,312 GetCandidateResult Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Unirecruite.QuestionPaper.GetCandidateResult(String CandidateID, String courseID) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 5678
+DEBUG 2017-11-21 10:32:24,875 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 652
+DEBUG 2017-11-21 10:32:24,906 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 652
+DEBUG 2017-11-21 10:32:24,906 InsertData Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.InsertData() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 2415
+DEBUG 2017-11-21 11:11:03,906 GetCandidateResult Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: 'Name'  Key being added: 'Name'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetCandidateResult(String CandidateID, String courseID) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 5682
+DEBUG 2017-11-21 11:11:31,421 GetCandidateResult Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: 'Name'  Key being added: 'Name'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetCandidateResult(String CandidateID, String courseID) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 5682
+DEBUG 2017-11-21 11:16:29,375 GetCandidateResult Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: 'Name'  Key being added: 'Name'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetCandidateResult(String CandidateID, String courseID) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 5682
+DEBUG 2017-11-21 11:21:28,328 GetCandidateResult Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: 'Name'  Key being added: 'Name'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetCandidateResult(String CandidateID, String courseID) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 5682
+DEBUG 2017-11-21 11:24:47,109 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 652
+DEBUG 2017-11-21 11:24:47,109 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 652
+DEBUG 2017-11-21 11:24:47,109 InsertData Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.InsertData() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 2415
+DEBUG 2017-11-21 13:08:02,390 GetCandidateResult Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: 'Name'  Key being added: 'Name'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetCandidateResult(String CandidateID, String courseID) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 5682
+DEBUG 2017-11-21 13:10:45,750 GetCandidateResult Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: 'Name'  Key being added: 'Name'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetCandidateResult(String CandidateID, String courseID) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 5682
+ERROR 2017-11-21 13:23:07,953 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 13:23:08,109 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+DEBUG 2017-11-21 13:23:08,109 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+ERROR 2017-11-21 13:23:29,125 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 13:23:29,125 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+DEBUG 2017-11-21 13:23:29,125 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+ERROR 2017-11-21 13:49:46,750 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 13:49:46,750 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+DEBUG 2017-11-21 13:49:46,750 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+ERROR 2017-11-21 13:49:57,578 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 13:49:57,578 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+DEBUG 2017-11-21 13:49:57,578 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+ERROR 2017-11-21 14:20:43,468 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 14:20:43,468 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+DEBUG 2017-11-21 14:20:43,468 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+ERROR 2017-11-21 14:24:41,843 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 14:24:41,843 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+DEBUG 2017-11-21 14:24:41,843 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+ERROR 2017-11-21 14:24:52,343 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 14:24:52,343 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+DEBUG 2017-11-21 14:24:52,343 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+DEBUG 2017-11-21 14:42:24,281 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 652
+DEBUG 2017-11-21 14:42:24,281 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 652
+DEBUG 2017-11-21 14:42:24,296 InsertData Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.InsertData() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 2415
+DEBUG 2017-11-21 14:42:24,312 GetCandidateResult Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Unirecruite.QuestionPaper.GetCandidateResult(String CandidateID, String courseID) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 5678
+ERROR 2017-11-21 15:08:54,046 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 15:08:54,046 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+DEBUG 2017-11-21 15:08:54,046 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 717
+DEBUG 2017-11-21 16:13:33,109 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-11-21 16:13:33,250 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-11-21 16:13:33,250 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-11-21 16:13:35,328 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-11-21 16:13:35,500 makepdffile Of CandStatus - loading successful
+DEBUG 2017-11-21 16:13:35,500 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-11-21 16:13:36,156 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-11-21 16:13:36,390 makepdffile Of CandStatus - End Write on page
+INFO  2017-11-21 16:13:36,390 makepdffile Of CandStatus - Int_values
+INFO  2017-11-21 16:13:36,390 makepdffile Of CandStatus - total_values
+INFO  2017-11-21 16:13:36,390 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-11-21 16:13:36,390 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-11-21 16:13:36,390 drawTable Of CandStatus - te(1):
+INFO  2017-11-21 16:13:36,390 drawTable Of CandStatus - End of Write data
+INFO  2017-11-21 16:13:36,390 drawTable Of CandStatus - End of Rows
+INFO  2017-11-21 16:13:36,390 drawTable Of CandStatus - End of Columns
+ERROR 2017-11-21 17:31:47,265 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 17:31:47,281 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Exception from HRESULT: 0x800A03EC
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 152
+DEBUG 2017-11-21 17:31:47,281 ExportExamDetails Of ExamResult - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 152
+ERROR 2017-11-21 17:50:21,203 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 17:50:21,203 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2017-11-21 17:50:21,203 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2017-11-21 17:50:58,078 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 17:50:58,078 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2017-11-21 17:50:58,078 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2017-11-21 17:52:02,265 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 17:52:02,265 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2017-11-21 17:52:02,265 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2017-11-21 17:52:56,375 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 17:52:56,375 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2017-11-21 17:52:56,375 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2017-11-21 18:06:25,734 ExportExamDetails Of searchExamAppeared - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 937
+DEBUG 2017-11-21 18:06:25,812 ExportExamDetails Of searchExamAppeared - Error :   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 937
+DEBUG 2017-11-21 18:06:25,843 ExportAppearedExamDetails_Click Of searchExamAppeared - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 2028
+   at Unirecruite.AppearedExam.ExportAppearedExamDetails_Click(Object sender, ImageClickEventArgs e) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 3153
+DEBUG 2017-11-21 18:06:56,000 ExportExamDetails Of searchExamAppeared - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 937
+DEBUG 2017-11-21 18:06:56,000 ExportExamDetails Of searchExamAppeared - Error :   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 937
+DEBUG 2017-11-21 18:06:56,000 ExportAppearedExamDetails_Click Of searchExamAppeared - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 2028
+   at Unirecruite.AppearedExam.ExportAppearedExamDetails_Click(Object sender, ImageClickEventArgs e) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 3153
+DEBUG 2017-11-21 18:07:26,265 ExportExamDetails Of searchExamAppeared - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 937
+DEBUG 2017-11-21 18:07:26,265 ExportExamDetails Of searchExamAppeared - Error :   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 937
+DEBUG 2017-11-21 18:07:26,265 ExportAppearedExamDetails_Click Of searchExamAppeared - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 2028
+   at Unirecruite.AppearedExam.ExportAppearedExamDetails_Click(Object sender, ImageClickEventArgs e) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 3153
+DEBUG 2017-11-21 18:07:56,765 ExportExamDetails Of searchExamAppeared - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 937
+DEBUG 2017-11-21 18:07:56,765 ExportExamDetails Of searchExamAppeared - Error :   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 937
+DEBUG 2017-11-21 18:07:56,765 ExportAppearedExamDetails_Click Of searchExamAppeared - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 2028
+   at Unirecruite.AppearedExam.ExportAppearedExamDetails_Click(Object sender, ImageClickEventArgs e) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 3153
+DEBUG 2017-11-21 18:08:44,125 ExportExamDetails Of searchExamAppeared - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 937
+DEBUG 2017-11-21 18:08:44,125 ExportExamDetails Of searchExamAppeared - Error :   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 937
+DEBUG 2017-11-21 18:08:44,125 ExportAppearedExamDetails_Click Of searchExamAppeared - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 2028
+   at Unirecruite.AppearedExam.ExportAppearedExamDetails_Click(Object sender, ImageClickEventArgs e) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 3153
+ERROR 2017-11-21 19:27:00,656 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 19:27:00,656 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2017-11-21 19:27:00,656 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2017-11-21 19:27:42,593 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 19:27:42,593 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2017-11-21 19:27:42,593 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2017-11-21 19:28:37,156 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 19:28:37,156 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2017-11-21 19:28:37,156 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2017-11-21 19:30:42,953 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 19:30:42,953 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2017-11-21 19:30:42,953 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2017-11-21 20:34:10,046 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 20:34:10,046 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2017-11-21 20:34:10,046 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2017-11-21 20:34:48,734 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 20:34:48,734 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2017-11-21 20:34:48,734 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2017-11-21 21:15:37,343 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-11-21 21:15:37,343 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2017-11-21 21:15:37,343 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150

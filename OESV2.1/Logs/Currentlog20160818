@@ -1,0 +1,35 @@
+ERROR 2016-08-18 21:42:22,828 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2016-08-18 21:42:22,875 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80040154.
+   at Unirecruite.ExamResult.ExportExamDetails()
+DEBUG 2016-08-18 21:42:22,875 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails()
+DEBUG 2016-08-18 21:53:10,421 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2016-08-18 21:53:10,453 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2016-08-18 21:53:10,453 makepdffile Of CandStatus - Being initialize document
+DEBUG 2016-08-18 21:53:11,484 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2016-08-18 21:53:11,593 makepdffile Of CandStatus - loading successful
+DEBUG 2016-08-18 21:53:11,593 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2016-08-18 21:53:11,796 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2016-08-18 21:53:12,000 makepdffile Of CandStatus - End Write on page
+INFO  2016-08-18 21:53:12,000 makepdffile Of CandStatus - Int_values
+INFO  2016-08-18 21:53:12,000 makepdffile Of CandStatus - total_values
+INFO  2016-08-18 21:53:12,000 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2016-08-18 21:53:12,000 drawTable Of CandStatus - contentStream.setFont:
+INFO  2016-08-18 21:53:12,000 drawTable Of CandStatus - te(1):
+INFO  2016-08-18 21:53:12,000 drawTable Of CandStatus - End of Write data
+INFO  2016-08-18 21:53:12,000 drawTable Of CandStatus - End of Rows
+INFO  2016-08-18 21:53:12,000 drawTable Of CandStatus - End of Columns
+DEBUG 2016-08-18 23:02:32,093 btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: Unclosed quotation mark before the character string 'admin''.
+Line 1: Incorrect syntax near 'admin''.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.login.btn_login_Click(Object sender, ImageClickEventArgs e)

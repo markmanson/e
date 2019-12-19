@@ -1,0 +1,21 @@
+DEBUG 2018-02-07 10:27:34,951 checkTestAppeared Of QuestionPaper - Error :System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Unirecruite.QuestionPaper.checkTestAppeared() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 2184
+DEBUG 2018-02-07 10:27:35,201 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Syntax error converting the varchar value 'J' to a column of data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 336
+DEBUG 2018-02-07 16:45:32,826 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '9'  Key being added: '9'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4506
+DEBUG 2018-02-07 16:45:33,029 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4585
+DEBUG 2018-02-07 16:45:33,029 Page_Load Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4699
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 412

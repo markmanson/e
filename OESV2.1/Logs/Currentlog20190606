@@ -1,0 +1,6 @@
+DEBUG 2019-06-06 08:48:12,111 populatequesans Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 551
+DEBUG 2019-06-06 08:48:12,150 Page_Load Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 754
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147

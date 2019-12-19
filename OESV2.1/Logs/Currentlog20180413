@@ -1,0 +1,63 @@
+DEBUG 2018-04-13 08:39:57,983 ExportExamDetails Of searchExamAppeared - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.AppearedExam.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 937
+DEBUG 2018-04-13 08:39:58,092 ExportExamDetails Of searchExamAppeared - Error :   at Unirecruite.AppearedExam.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 937
+DEBUG 2018-04-13 08:39:58,139 ExportAppearedExamDetails_Click Of searchExamAppeared - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.AppearedExam.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 2028
+   at Unirecruite.AppearedExam.ExportAppearedExamDetails_Click(Object sender, ImageClickEventArgs e) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 3153
+ERROR 2018-04-13 09:14:24,436 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2018-04-13 09:14:24,467 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2018-04-13 09:14:24,467 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2018-04-13 09:22:42,436 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2018-04-13 09:22:42,436 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2018-04-13 09:22:42,436 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2018-04-13 09:39:06,389 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2018-04-13 09:39:06,389 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2018-04-13 09:39:06,389 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2018-04-13 09:43:15,358 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2018-04-13 09:43:15,358 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2018-04-13 09:43:15,358 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2018-04-13 09:45:02,264 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2018-04-13 09:45:02,358 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1529
+DEBUG 2018-04-13 09:45:02,358 ExportExamDetails Of CandStatus - Error :   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1529
+ERROR 2018-04-13 09:51:34,467 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2018-04-13 09:51:34,467 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2018-04-13 09:51:34,467 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2018-04-13 10:43:08,295 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2018-04-13 10:43:08,311 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2018-04-13 10:43:08,311 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2018-04-13 11:28:12,670 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2018-04-13 11:28:12,686 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2018-04-13 11:28:12,686 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2018-04-13 11:33:15,295 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2018-04-13 11:33:15,295 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2018-04-13 11:33:15,295 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2018-04-13 11:35:27,061 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2018-04-13 11:35:27,061 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2018-04-13 11:35:27,061 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2018-04-13 11:53:57,483 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2018-04-13 11:53:57,483 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2018-04-13 11:53:57,483 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2018-04-13 12:57:31,686 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2018-04-13 12:57:31,686 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2018-04-13 12:57:31,686 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+ERROR 2018-04-13 14:53:54,952 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2018-04-13 14:53:54,967 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2018-04-13 14:53:54,967 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150

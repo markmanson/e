@@ -1,0 +1,10 @@
+DEBUG 2017-09-29 11:41:48,375 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '27'  Key being added: '27'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4449
+DEBUG 2017-09-29 11:41:48,484 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4528
+DEBUG 2017-09-29 11:41:48,484 Page_Load Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4642
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 406

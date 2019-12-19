@@ -1,0 +1,10 @@
+DEBUG 2017-03-20 08:59:37,428 Page_Load Of search - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.search.Page_Load(Object sender, EventArgs e)
+DEBUG 2017-03-20 08:59:37,569 Page_Load Of search - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.search.Page_Load(Object sender, EventArgs e)
+DEBUG 2017-03-20 08:59:43,897 Page_Load Of search - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.search.Page_Load(Object sender, EventArgs e)
+DEBUG 2017-03-20 08:59:43,897 Page_Load Of search - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.search.Page_Load(Object sender, EventArgs e)
+DEBUG 2017-03-20 09:01:20,069 Page_Load Of searchQuestion - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.searchQuestion.Page_Load(Object sender, EventArgs e)

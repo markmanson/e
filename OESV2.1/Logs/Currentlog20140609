@@ -1,0 +1,22 @@
+DEBUG 2014-06-09 16:29:25,453 img_saveexit_Click Of register - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.register.img_saveexit_Click(Object sender, ImageClickEventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\register.aspx.vb:line 963
+DEBUG 2014-06-09 16:36:57,281 img_saveexit_Click Of register - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.register.img_saveexit_Click(Object sender, ImageClickEventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\register.aspx.vb:line 963
+DEBUG 2014-06-09 16:44:52,828 img_saveexit_Click Of register - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.register.img_saveexit_Click(Object sender, ImageClickEventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\register.aspx.vb:line 963
+DEBUG 2014-06-09 16:47:18,625 img_saveexit_Click Of register - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.register.img_saveexit_Click(Object sender, ImageClickEventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\register.aspx.vb:line 963
+DEBUG 2014-06-09 16:53:11,890 img_saveexit_Click Of register - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.register.img_saveexit_Click(Object sender, ImageClickEventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\register.aspx.vb:line 963
+DEBUG 2014-06-09 17:04:40,843 Page_Load Of search - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.search.Page_Load(Object sender, EventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\search.aspx.vb:line 143
+DEBUG 2014-06-09 17:22:13,828 DGReport_ItemCommand Of CandStatus - Error :System.InvalidOperationException: Showing a modal dialog box or form when the application is not running in UserInteractive mode is not a valid operation. Specify the ServiceNotification or DefaultDesktopOnly style to display a notification from a service application.
+   at System.Windows.Forms.MessageBox.ShowCore(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options, Boolean showHelp)
+   at System.Windows.Forms.MessageBox.Show(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options)
+   at Microsoft.VisualBasic.Interaction.MsgBox(Object Prompt, MsgBoxStyle Buttons, Object Title)
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1882
+DEBUG 2014-06-09 17:23:04,671 DGReport_ItemCommand Of CandStatus - Error :System.InvalidOperationException: Showing a modal dialog box or form when the application is not running in UserInteractive mode is not a valid operation. Specify the ServiceNotification or DefaultDesktopOnly style to display a notification from a service application.
+   at System.Windows.Forms.MessageBox.ShowCore(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options, Boolean showHelp)
+   at System.Windows.Forms.MessageBox.Show(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options)
+   at Microsoft.VisualBasic.Interaction.MsgBox(Object Prompt, MsgBoxStyle Buttons, Object Title)
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1882

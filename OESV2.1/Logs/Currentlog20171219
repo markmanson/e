@@ -1,0 +1,10 @@
+DEBUG 2017-12-19 10:14:25,984 imgbtndelete_Click Of StudentSearch - Error :System.Data.SqlClient.SqlException: DELETE statement conflicted with COLUMN REFERENCE constraint 'FK_T_Result_M_USER_INFO'. The conflict occurred in database 'OES_Final1', table 'T_Result', column 'userid'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.StudentSearch.imgbtndelete_Click(Object sender, ImageClickEventArgs e) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\StudentSearch.aspx.vb:line 873

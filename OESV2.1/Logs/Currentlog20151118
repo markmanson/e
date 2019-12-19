@@ -1,0 +1,16 @@
+DEBUG 2015-11-18 14:47:07,347 CheckImage Of ExamResult - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.ExamResult.CheckImage(String value)
+ERROR 2015-11-18 14:47:07,597 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2015-11-18 14:47:07,597 ExportExamDetails Of ExamResult - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.ExamResult.CheckImage(String value)
+   at Unirecruite.ExamResult.ExportExamDetails()
+DEBUG 2015-11-18 14:47:07,597 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.CheckImage(String value)
+   at Unirecruite.ExamResult.ExportExamDetails()
+DEBUG 2015-11-18 14:47:33,159 CheckImage Of ExamResult - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.ExamResult.CheckImage(String value)
+ERROR 2015-11-18 14:47:33,159 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2015-11-18 14:47:33,159 ExportExamDetails Of ExamResult - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.ExamResult.CheckImage(String value)
+   at Unirecruite.ExamResult.ExportExamDetails()
+DEBUG 2015-11-18 14:47:33,159 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.CheckImage(String value)
+   at Unirecruite.ExamResult.ExportExamDetails()

@@ -1,0 +1,34 @@
+DEBUG 2019-05-28 16:48:21,596 populatequesans Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 549
+DEBUG 2019-05-28 16:48:21,653 Page_Load Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 752
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-05-28 16:54:44,388 populatequesans Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 549
+DEBUG 2019-05-28 16:54:44,412 Page_Load Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 752
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-05-28 17:02:15,904 populatequesans Of question_ans - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - セマフォがタイムアウトしました。)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSni(DbAsyncResult asyncResult, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.ReadBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.ReadByte()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 439
+DEBUG 2019-05-28 17:02:15,918 Page_Load Of question_ans - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - セマフォがタイムアウトしました。)
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 752
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147

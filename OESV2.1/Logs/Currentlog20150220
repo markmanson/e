@@ -1,0 +1,38 @@
+DEBUG 2015-02-20 13:18:53,467 PowerFailureProblem Of QuestionPaper - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.QuestionPaper.PowerFailureProblem() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4053
+DEBUG 2015-02-20 13:19:00,920 PowerFailureProblem Of QuestionPaper - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.QuestionPaper.PowerFailureProblem() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4053
+DEBUG 2015-02-20 13:19:43,998 PowerFailureProblem Of QuestionPaper - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.QuestionPaper.PowerFailureProblem() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4053
+DEBUG 2015-02-20 13:20:22,545 PowerFailureProblem Of QuestionPaper - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.QuestionPaper.PowerFailureProblem() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4053
+DEBUG 2015-02-20 13:21:11,608 PowerFailureProblem Of QuestionPaper - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.QuestionPaper.PowerFailureProblem() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4053
+DEBUG 2015-02-20 14:26:29,342 PowerFailureProblem Of QuestionPaper - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.QuestionPaper.PowerFailureProblem() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4053
+DEBUG 2015-02-20 14:56:01,655 PowerFailureProblem Of QuestionPaper - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.QuestionPaper.PowerFailureProblem() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4053
+DEBUG 2015-02-20 14:57:40,467 PowerFailureProblem Of QuestionPaper - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.QuestionPaper.PowerFailureProblem() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4053
+DEBUG 2015-02-20 15:40:04,670 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Invalid column name 'err'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 194

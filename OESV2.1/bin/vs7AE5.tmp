@@ -1,0 +1,6193 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Unirecruite
+</name>
+</assembly>
+<members>
+<member name="F:Unirecruite.unirecruite.searchQuestion.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.sel_test_type">
+	<summary>
+sel_test_type control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.txt_question">
+	<summary>
+txt_question control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.ChkExactSearch">
+	<summary>
+ChkExactSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.imgBtnSearch">
+	<summary>
+imgBtnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.imgBtnClear">
+	<summary>
+imgBtnClear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.btnNewQuestion">
+	<summary>
+btnNewQuestion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.btnQuestion">
+	<summary>
+btnQuestion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.BtnRemove">
+	<summary>
+BtnRemove control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.ExportQueAnsTF">
+	<summary>
+ExportQueAnsTF control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.ExportQA_Match">
+	<summary>
+ExportQA_Match control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.gridDiv">
+	<summary>
+gridDiv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.LblRecCnt">
+	<summary>
+LblRecCnt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.DGData">
+	<summary>
+DGData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.imgfirst">
+	<summary>
+imgfirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.imgprev">
+	<summary>
+imgprev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.tblPagebuttons">
+	<summary>
+tblPagebuttons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.imgnext">
+	<summary>
+imgnext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.imglast">
+	<summary>
+imglast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.ddlPages">
+	<summary>
+ddlPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.imgBtnEnable">
+	<summary>
+imgBtnEnable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.searchQuestion.imgBtnDisable">
+	<summary>
+imgBtnDisable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.lblhead">
+	<summary>
+lblhead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.ddlCourse">
+	<summary>
+ddlCourse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.lblCourseMarks">
+	<summary>
+lblCourseMarks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.lblMarks">
+	<summary>
+lblMarks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.updatespan">
+	<summary>
+updatespan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.ddlSubject">
+	<summary>
+ddlSubject control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.lblTotQue">
+	<summary>
+lblTotQue control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.lblTotalQuestion">
+	<summary>
+lblTotalQuestion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.lblTotMarks">
+	<summary>
+lblTotMarks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.lblTotalMarks">
+	<summary>
+lblTotalMarks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.lblBasicQ">
+	<summary>
+lblBasicQ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.lblBasicQuestion">
+	<summary>
+lblBasicQuestion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.lblIntQ">
+	<summary>
+lblIntQ control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.lblInterQuestion">
+	<summary>
+lblInterQuestion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.lblVacant">
+	<summary>
+lblVacant control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.txtWeight">
+	<summary>
+txtWeight control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.txtTF">
+	<summary>
+txtTF control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.txtMChoice">
+	<summary>
+txtMChoice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.txtBlank">
+	<summary>
+txtBlank control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.txtBasicq">
+	<summary>
+txtBasicq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.txtIntermediateq">
+	<summary>
+txtIntermediateq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.imgBtnSubmit">
+	<summary>
+imgBtnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.imgBtnClear">
+	<summary>
+imgBtnClear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.imgBtnUpdate">
+	<summary>
+imgBtnUpdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.ImgBtnBack">
+	<summary>
+ImgBtnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightageManagement.imgBtnReset">
+	<summary>
+imgBtnReset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.ddlMainCourse">
+	<summary>
+ddlMainCourse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.ddlCourses">
+	<summary>
+ddlCourses control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.txtTotalTime">
+	<summary>
+txtTotalTime control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.imgBtnSearch">
+	<summary>
+imgBtnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.imgBtnClear">
+	<summary>
+imgBtnClear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.ImgBtnBack">
+	<summary>
+ImgBtnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.imgBtnNewCourseRegistration">
+	<summary>
+imgBtnNewCourseRegistration control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.DivGrid">
+	<summary>
+DivGrid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.lblrecords">
+	<summary>
+lblrecords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.DataGridCourseDetails">
+	<summary>
+DataGridCourseDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.imgfirst">
+	<summary>
+imgfirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.imgprev">
+	<summary>
+imgprev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.tblPagebuttons">
+	<summary>
+tblPagebuttons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.imgnext">
+	<summary>
+imgnext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.imglast">
+	<summary>
+imglast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.ddlPages">
+	<summary>
+ddlPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.imgBtnEnable">
+	<summary>
+imgBtnEnable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.imgBtnDisable">
+	<summary>
+imgBtnDisable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseMaintenance.imgBtnDelete">
+	<summary>
+imgBtnDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.errorMsg">
+	<summary>
+errorMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.lblfn">
+	<summary>
+lblfn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.txtfn">
+	<summary>
+txtfn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.lblddlname">
+	<summary>
+lblddlname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.ddlcenter">
+	<summary>
+ddlcenter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.BtnSearch">
+	<summary>
+BtnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.btnclear">
+	<summary>
+btnclear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.gridDiv">
+	<summary>
+gridDiv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.lblrecords">
+	<summary>
+lblrecords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.DGData">
+	<summary>
+DGData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.imgfirst">
+	<summary>
+imgfirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.imgprev">
+	<summary>
+imgprev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.tblPagebuttons">
+	<summary>
+tblPagebuttons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.imgnext">
+	<summary>
+imgnext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.imglast">
+	<summary>
+imglast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.ddlPages">
+	<summary>
+ddlPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.imgbtnenable">
+	<summary>
+imgbtnenable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.imgbtndisable">
+	<summary>
+imgbtndisable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentSearch.imgbtndelete">
+	<summary>
+imgbtndelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoLive.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoLive.Script1">
+	<summary>
+Script1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoLive.Up1">
+	<summary>
+Up1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoLive.trvwCategory">
+	<summary>
+trvwCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoLive.tblvdoList">
+	<summary>
+tblvdoList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoLive.LblTitle">
+	<summary>
+LblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AddCourse.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AddCourse.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AddCourse.ddlCenters">
+	<summary>
+ddlCenters control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AddCourse.ddlCourses">
+	<summary>
+ddlCourses control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AddCourse.imgBtnRegister">
+	<summary>
+imgBtnRegister control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AddCourse.ImageButton2">
+	<summary>
+ImageButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AddCourse.imgBtnClear">
+	<summary>
+imgBtnClear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AddCourse.imgBtnBack">
+	<summary>
+imgBtnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AddCourse.ImageButton5">
+	<summary>
+ImageButton5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AnswerDetail.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AnswerDetail.tblDetail">
+	<summary>
+tblDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AnswerDetail.tdQues">
+	<summary>
+tdQues control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AnswerDetail.tdOptions">
+	<summary>
+tdOptions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AnswerDetail.tdCorrectOption">
+	<summary>
+tdCorrectOption control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AnswerDetail.tdGivenAnswer">
+	<summary>
+tdGivenAnswer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AnswerDetail.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AnswerDetail.lblTotalMarks">
+	<summary>
+lblTotalMarks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AnswerDetail.lblMarksObtained">
+	<summary>
+lblMarksObtained control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.h1">
+	<summary>
+h1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.FrmCStatus">
+	<summary>
+FrmCStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.LblMsg">
+	<summary>
+LblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.LblUserName">
+	<summary>
+LblUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.dblCenter">
+	<summary>
+dblCenter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.Label10">
+	<summary>
+Label10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.ddlcourse">
+	<summary>
+ddlcourse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.Label11">
+	<summary>
+Label11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.TxtUserName">
+	<summary>
+TxtUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.LblExamDate">
+	<summary>
+LblExamDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.TxtFrom">
+	<summary>
+TxtFrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.imgbtnfrom">
+	<summary>
+imgbtnfrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.CalendarExtender2">
+	<summary>
+CalendarExtender2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.TxtTo">
+	<summary>
+TxtTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.imgBtnTo">
+	<summary>
+imgBtnTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.CalendarExtender3">
+	<summary>
+CalendarExtender3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.BtnSearch">
+	<summary>
+BtnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.btnclear">
+	<summary>
+btnclear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.Panel1">
+	<summary>
+Panel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.lbldate">
+	<summary>
+lbldate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.txtnewdate">
+	<summary>
+txtnewdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.btnCalander">
+	<summary>
+btnCalander control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.btnOkay">
+	<summary>
+btnOkay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.btnPopUpCancel">
+	<summary>
+btnPopUpCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.CalendarExtender1">
+	<summary>
+CalendarExtender1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.ModalPopupExtender1">
+	<summary>
+ModalPopupExtender1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.gridDiv">
+	<summary>
+gridDiv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.label">
+	<summary>
+label control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.LblRecCnt">
+	<summary>
+LblRecCnt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.DGReport">
+	<summary>
+DGReport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.imgfirst">
+	<summary>
+imgfirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.imgprev">
+	<summary>
+imgprev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.tblPagebuttons">
+	<summary>
+tblPagebuttons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.imgnext">
+	<summary>
+imgnext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.imglast">
+	<summary>
+imglast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ReassignExam.ddlPages">
+	<summary>
+ddlPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.errorMsg">
+	<summary>
+errorMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.lblddlname">
+	<summary>
+lblddlname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.sel_subjectid">
+	<summary>
+sel_subjectid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.LblExamDate">
+	<summary>
+LblExamDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.TextFromApp">
+	<summary>
+TextFromApp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.ImageButton3">
+	<summary>
+ImageButton3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.CalendarExtender1">
+	<summary>
+CalendarExtender1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.Lblsubname">
+	<summary>
+Lblsubname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.ddlcourse">
+	<summary>
+ddlcourse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.Label5">
+	<summary>
+Label5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.TxtToApp">
+	<summary>
+TxtToApp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.imgBtnTo">
+	<summary>
+imgBtnTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.CalendarExtender3">
+	<summary>
+CalendarExtender3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.txtCandidateName">
+	<summary>
+txtCandidateName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.BtnSearch">
+	<summary>
+BtnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.btnclear">
+	<summary>
+btnclear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.gridDiv">
+	<summary>
+gridDiv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.lblrecords">
+	<summary>
+lblrecords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.DGData">
+	<summary>
+DGData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.imgfirst">
+	<summary>
+imgfirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.imgprev">
+	<summary>
+imgprev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.tblPagebuttons">
+	<summary>
+tblPagebuttons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.imgnext">
+	<summary>
+imgnext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.imglast">
+	<summary>
+imglast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentTimeInfo.ddlPages">
+	<summary>
+ddlPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.errorMsg">
+	<summary>
+errorMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.lblfn">
+	<summary>
+lblfn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.txtfn">
+	<summary>
+txtfn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.BtnSearch">
+	<summary>
+BtnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.btnclear">
+	<summary>
+btnclear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.gridDiv">
+	<summary>
+gridDiv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.lblrecords">
+	<summary>
+lblrecords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.DGData">
+	<summary>
+DGData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.imgfirst">
+	<summary>
+imgfirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.imgprev">
+	<summary>
+imgprev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.tblPagebuttons">
+	<summary>
+tblPagebuttons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.imgnext">
+	<summary>
+imgnext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.imglast">
+	<summary>
+imglast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.ddlPages">
+	<summary>
+ddlPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.imgbtnenable">
+	<summary>
+imgbtnenable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.imgbtndisable">
+	<summary>
+imgbtndisable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AdminList.imgbtndelete">
+	<summary>
+imgbtndelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.login.frm_login">
+	<summary>
+frm_login control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.login.lbl_saved">
+	<summary>
+lbl_saved control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.login.txt_login">
+	<summary>
+txt_login control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.login.txt_pwd">
+	<summary>
+txt_pwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.login.btn_login">
+	<summary>
+btn_login control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.login.Clear">
+	<summary>
+Clear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.login.ImageButton1">
+	<summary>
+ImageButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoList.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoList.Script1">
+	<summary>
+Script1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoList.Up1">
+	<summary>
+Up1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoList.trvwCategory">
+	<summary>
+trvwCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoList.errorMsg">
+	<summary>
+errorMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoList.gridDiv">
+	<summary>
+gridDiv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoList.lblrecords">
+	<summary>
+lblrecords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoList.DGData">
+	<summary>
+DGData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoList.imgfirst">
+	<summary>
+imgfirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoList.imgprev">
+	<summary>
+imgprev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoList.tblPagebuttons">
+	<summary>
+tblPagebuttons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoList.imgnext">
+	<summary>
+imgnext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoList.imglast">
+	<summary>
+imglast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.VideoList.ddlPages">
+	<summary>
+ddlPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm1.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm1.lnkProfile">
+	<summary>
+lnkProfile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm1.btnChange">
+	<summary>
+btnChange control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.tbl_feedback">
+	<summary>
+tbl_feedback control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.BtnImpData">
+	<summary>
+BtnImpData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.btnDetails">
+	<summary>
+btnDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.MyFile">
+	<summary>
+MyFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.imgBtnImpData">
+	<summary>
+imgBtnImpData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.imgBtnDetails">
+	<summary>
+imgBtnDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.imgBtnBack">
+	<summary>
+imgBtnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.lblCsvFormat">
+	<summary>
+lblCsvFormat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.lblSummary">
+	<summary>
+lblSummary control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.lblTotal">
+	<summary>
+lblTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.lblInserted">
+	<summary>
+lblInserted control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.lblDuplicate">
+	<summary>
+lblDuplicate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.DataGrid1">
+	<summary>
+DataGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.tblpages">
+	<summary>
+tblpages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.imgfirst">
+	<summary>
+imgfirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.imgprev">
+	<summary>
+imgprev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.tblPagebuttons">
+	<summary>
+tblPagebuttons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.imgnext">
+	<summary>
+imgnext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.imglast">
+	<summary>
+imglast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.BulkQuestionsInsert.ddlPages">
+	<summary>
+ddlPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:Unirecruite.QuestionPaper.RemoveDuplicateRows(System.Data.DataTable,System.String)">
+	<summary>
+ Monal shah
+ 2011/9/16
+ For removing duplicate data from the datatable
+ </summary>
+	<param name="dTable"></param>
+	<param name="colName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:Unirecruite.unirecruite.RptPrint.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.RptPrint.LblCandStatus">
+	<summary>
+LblCandStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.RptPrint.BtnPrint">
+	<summary>
+BtnPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.RptPrint.BtnBack">
+	<summary>
+BtnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.RptPrint.DgPrnReport">
+	<summary>
+DgPrnReport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.admin.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.admin.tblSearch">
+	<summary>
+tblSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentLogin.frm_login">
+	<summary>
+frm_login control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentLogin.lbl_saved">
+	<summary>
+lbl_saved control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentLogin.txt_login">
+	<summary>
+txt_login control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentLogin.txt_pwd">
+	<summary>
+txt_pwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentLogin.imgBtnSubmit">
+	<summary>
+imgBtnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentLogin.imgBtnBack">
+	<summary>
+imgBtnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.UserQuestion.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.UserQuestion.errorMsg">
+	<summary>
+errorMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.UserQuestion.lblQuestion">
+	<summary>
+lblQuestion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.UserQuestion.lblrecords">
+	<summary>
+lblrecords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.UserQuestion.DGData">
+	<summary>
+DGData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.UserQuestion.imgfirst">
+	<summary>
+imgfirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.UserQuestion.imgprev">
+	<summary>
+imgprev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.UserQuestion.tblPagebuttons">
+	<summary>
+tblPagebuttons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.UserQuestion.imgnext">
+	<summary>
+imgnext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.UserQuestion.imglast">
+	<summary>
+imglast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.UserQuestion.ddlPages">
+	<summary>
+ddlPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.UserQuestion.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExaminationInfo1.f1">
+	<summary>
+f1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExaminationInfo1.LblTime">
+	<summary>
+LblTime control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExaminationInfo1.lblPageNo">
+	<summary>
+lblPageNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExaminationInfo1.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExaminationInfo1.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExaminationInfo1.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExaminationInfo1.imgBtnStartExamination">
+	<summary>
+imgBtnStartExamination control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.h1">
+	<summary>
+h1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.frm_register">
+	<summary>
+frm_register control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.tdAdmin">
+	<summary>
+tdAdmin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.LblMsg1">
+	<summary>
+LblMsg1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.lblLegend">
+	<summary>
+lblLegend control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.Usertype">
+	<summary>
+Usertype control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.cmb_usertype">
+	<summary>
+cmb_usertype control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.txt_firstname">
+	<summary>
+txt_firstname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.txt_middlename">
+	<summary>
+txt_middlename control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.txt_surname">
+	<summary>
+txt_surname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.txt_dob">
+	<summary>
+txt_dob control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.btnCalander">
+	<summary>
+btnCalander control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.CalendarExtender1">
+	<summary>
+CalendarExtender1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.Lnl">
+	<summary>
+Lnl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.rblist_sex">
+	<summary>
+rblist_sex control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.txt_email">
+	<summary>
+txt_email control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.txt_phone">
+	<summary>
+txt_phone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.txtperadd">
+	<summary>
+txtperadd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.Uploader">
+	<summary>
+Uploader control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.StudentImage">
+	<summary>
+StudentImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.trClassHead">
+	<summary>
+trClassHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.rollnumber">
+	<summary>
+rollnumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.txtrollnumber">
+	<summary>
+txtrollnumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.centerrowt">
+	<summary>
+centerrowt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.centerrow">
+	<summary>
+centerrow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.Labelcentre">
+	<summary>
+Labelcentre control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.ddlCenters">
+	<summary>
+ddlCenters control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.trSpace1">
+	<summary>
+trSpace1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.trSpace2">
+	<summary>
+trSpace2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.headrow">
+	<summary>
+headrow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.contentrow">
+	<summary>
+contentrow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.txt_login">
+	<summary>
+txt_login control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.lbl_password">
+	<summary>
+lbl_password control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.txt_password">
+	<summary>
+txt_password control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.trChangePass">
+	<summary>
+trChangePass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.lnk_chpass">
+	<summary>
+lnk_chpass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.trpwd">
+	<summary>
+trpwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.lbl_confpassword">
+	<summary>
+lbl_confpassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.txt_confpassword">
+	<summary>
+txt_confpassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.tblResult">
+	<summary>
+tblResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.img_saveexit">
+	<summary>
+img_saveexit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.img_update">
+	<summary>
+img_update control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.imgClear">
+	<summary>
+imgClear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.register.imgReset">
+	<summary>
+imgReset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseRegistration.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseRegistration.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseRegistration.legendLabel">
+	<summary>
+legendLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseRegistration.lblhead">
+	<summary>
+lblhead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseRegistration.ddlMainCourse">
+	<summary>
+ddlMainCourse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseRegistration.TxtCourseCode">
+	<summary>
+TxtCourseCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseRegistration.TxtCourseName">
+	<summary>
+TxtCourseName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseRegistration.txtTotalTime">
+	<summary>
+txtTotalTime control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseRegistration.txtTotalMarks">
+	<summary>
+txtTotalMarks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseRegistration.txtPassingMarks">
+	<summary>
+txtPassingMarks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseRegistration.imgBtnSubmit">
+	<summary>
+imgBtnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseRegistration.imgBtnClear">
+	<summary>
+imgBtnClear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseRegistration.imgBtnUpdate">
+	<summary>
+imgBtnUpdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseRegistration.ImgBtnBack">
+	<summary>
+ImgBtnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CourseRegistration.imgBtnReset">
+	<summary>
+imgBtnReset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm3.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm3.ddlClass">
+	<summary>
+ddlClass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm3.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm3.txtAppFromDate">
+	<summary>
+txtAppFromDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm3.imgBtnFrom">
+	<summary>
+imgBtnFrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm3.CalExFrom">
+	<summary>
+CalExFrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm3.ddlCourse">
+	<summary>
+ddlCourse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm3.txtAppToDate">
+	<summary>
+txtAppToDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm3.imgBtnTo">
+	<summary>
+imgBtnTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm3.CalExTo">
+	<summary>
+CalExTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm3.BtnSearch">
+	<summary>
+BtnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm3.btnclear">
+	<summary>
+btnclear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm3.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm3.trGrid">
+	<summary>
+trGrid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm3.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm3.GVResult">
+	<summary>
+GVResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.changepass.frm_login">
+	<summary>
+frm_login control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.changepass.lbl_passchange">
+	<summary>
+lbl_passchange control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.changepass.lblOldPass">
+	<summary>
+lblOldPass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.changepass.txt_oldpass">
+	<summary>
+txt_oldpass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.changepass.lblNewPass">
+	<summary>
+lblNewPass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.changepass.txt_newpass">
+	<summary>
+txt_newpass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.changepass.lblRetypeNewPass">
+	<summary>
+lblRetypeNewPass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.changepass.txt_confpassword">
+	<summary>
+txt_confpassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.changepass.btn_update">
+	<summary>
+btn_update control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.changepass.imgbtn_cancel">
+	<summary>
+imgbtn_cancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.changepass.validreqdoldpass">
+	<summary>
+validreqdoldpass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.changepass.validreqdnewpass">
+	<summary>
+validreqdnewpass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.changepass.validoldpass">
+	<summary>
+validoldpass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.changepass.validreqdconfpass">
+	<summary>
+validreqdconfpass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.changepass.validcompnewconf">
+	<summary>
+validcompnewconf control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.changepass.ValidationSummary1">
+	<summary>
+ValidationSummary1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.frmSearch">
+	<summary>
+frmSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.lblReocrds">
+	<summary>
+lblReocrds control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.lblddlname">
+	<summary>
+lblddlname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.lblstar">
+	<summary>
+lblstar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.sel_subjectid">
+	<summary>
+sel_subjectid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.Lblsubname">
+	<summary>
+Lblsubname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.ddlcourse">
+	<summary>
+ddlcourse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.searchUser">
+	<summary>
+searchUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.btnclear">
+	<summary>
+btnclear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.img_cancel">
+	<summary>
+img_cancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.cmbSearch">
+	<summary>
+cmbSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.gridDiv">
+	<summary>
+gridDiv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.tblResult">
+	<summary>
+tblResult control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.tblExam">
+	<summary>
+tblExam control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.txtExamDate">
+	<summary>
+txtExamDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.btnCalander">
+	<summary>
+btnCalander control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.CalendarExtender1">
+	<summary>
+CalendarExtender1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.Mail">
+	<summary>
+Mail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.search.summarycont">
+	<summary>
+summarycont control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.LblMsg">
+	<summary>
+LblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.LblUserName">
+	<summary>
+LblUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.dblCenter">
+	<summary>
+dblCenter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.Label10">
+	<summary>
+Label10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.dblCourse">
+	<summary>
+dblCourse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.Label11">
+	<summary>
+Label11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.TxtUserName">
+	<summary>
+TxtUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.LblStatus">
+	<summary>
+LblStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.ddlStatus">
+	<summary>
+ddlStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.lblgrade">
+	<summary>
+lblgrade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.ddlgrade">
+	<summary>
+ddlgrade control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.LblExamDate">
+	<summary>
+LblExamDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.TxtFrom">
+	<summary>
+TxtFrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.imgbtnfrom">
+	<summary>
+imgbtnfrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.CalendarExtender2">
+	<summary>
+CalendarExtender2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.TxtTo">
+	<summary>
+TxtTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.imgBtnTo">
+	<summary>
+imgBtnTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.CalendarExtender3">
+	<summary>
+CalendarExtender3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.Label5">
+	<summary>
+Label5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.Label6">
+	<summary>
+Label6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.txtAppFromDate">
+	<summary>
+txtAppFromDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.ImageButton1">
+	<summary>
+ImageButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.CalendarExtender4">
+	<summary>
+CalendarExtender4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.Label8">
+	<summary>
+Label8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.TxtAppToDate">
+	<summary>
+TxtAppToDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.ImageButton2">
+	<summary>
+ImageButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.CalendarExtender5">
+	<summary>
+CalendarExtender5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.BtnSearch">
+	<summary>
+BtnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.btnclear">
+	<summary>
+btnclear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.UpdatePanel1">
+	<summary>
+UpdatePanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.Panel1">
+	<summary>
+Panel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.lbldate">
+	<summary>
+lbldate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.txtnewdate">
+	<summary>
+txtnewdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.btnCalander">
+	<summary>
+btnCalander control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.btnOkay">
+	<summary>
+btnOkay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.btnPopUpCancel">
+	<summary>
+btnPopUpCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.CalendarExtender1">
+	<summary>
+CalendarExtender1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.ModalPopupExtender1">
+	<summary>
+ModalPopupExtender1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.Panel2">
+	<summary>
+Panel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.lbldate2">
+	<summary>
+lbldate2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.txtReassign">
+	<summary>
+txtReassign control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.imgBtnReassign">
+	<summary>
+imgBtnReassign control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.btnOkay2">
+	<summary>
+btnOkay2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.btnPopUpCancel2">
+	<summary>
+btnPopUpCancel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.btnCancel2">
+	<summary>
+btnCancel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.CalendarExtender6">
+	<summary>
+CalendarExtender6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.ModalPopupExtender2">
+	<summary>
+ModalPopupExtender2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.gridDiv">
+	<summary>
+gridDiv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.label">
+	<summary>
+label control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.LblRecCnt">
+	<summary>
+LblRecCnt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.DGReport">
+	<summary>
+DGReport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.imgfirst">
+	<summary>
+imgfirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.imgprev">
+	<summary>
+imgprev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.tblPagebuttons">
+	<summary>
+tblPagebuttons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.imgnext">
+	<summary>
+imgnext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.imglast">
+	<summary>
+imglast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.ddlPages">
+	<summary>
+ddlPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.CandStatus.imgBtnDelete">
+	<summary>
+imgBtnDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite._error.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.ddlcourse">
+	<summary>
+ddlcourse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.sel_subjectid">
+	<summary>
+sel_subjectid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.searchbtn">
+	<summary>
+searchbtn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.btnClear">
+	<summary>
+btnClear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.gridDiv">
+	<summary>
+gridDiv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.lbltext">
+	<summary>
+lbltext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.lblcount">
+	<summary>
+lblcount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.lblrecords">
+	<summary>
+lblrecords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.DataGrid2">
+	<summary>
+DataGrid2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.imgfirst">
+	<summary>
+imgfirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.imgprev">
+	<summary>
+imgprev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.tblPagebuttons">
+	<summary>
+tblPagebuttons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.imgnext">
+	<summary>
+imgnext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.imglast">
+	<summary>
+imglast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamCount.ddlPages">
+	<summary>
+ddlPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm2.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm2.ddlClass">
+	<summary>
+ddlClass control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm2.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm2.txtAppFromDate">
+	<summary>
+txtAppFromDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm2.imgBtnFrom">
+	<summary>
+imgBtnFrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm2.CalExFrom">
+	<summary>
+CalExFrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm2.ddlCourse">
+	<summary>
+ddlCourse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm2.txtAppToDate">
+	<summary>
+txtAppToDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm2.imgBtnTo">
+	<summary>
+imgBtnTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm2.CalExTo">
+	<summary>
+CalExTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm2.BtnSearch">
+	<summary>
+BtnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm2.btnclear">
+	<summary>
+btnclear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm2.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm2.trGrid">
+	<summary>
+trGrid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm2.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WebForm2.GVExam">
+	<summary>
+GVExam control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.tbl_feedback">
+	<summary>
+tbl_feedback control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.MyFile">
+	<summary>
+MyFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.BtnImpData">
+	<summary>
+BtnImpData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.btnDetails">
+	<summary>
+btnDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.imgBtnImpData">
+	<summary>
+imgBtnImpData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.imgBtnDetails">
+	<summary>
+imgBtnDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.imgBtnBack">
+	<summary>
+imgBtnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.lblmessage">
+	<summary>
+lblmessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.gridDiv">
+	<summary>
+gridDiv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.lblSummary">
+	<summary>
+lblSummary control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.lblTotal">
+	<summary>
+lblTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.lblInserted">
+	<summary>
+lblInserted control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.lblDuplicate">
+	<summary>
+lblDuplicate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.DataGrid1">
+	<summary>
+DataGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.imgfirst">
+	<summary>
+imgfirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.imgprev">
+	<summary>
+imgprev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.tblPagebuttons">
+	<summary>
+tblPagebuttons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.imgnext">
+	<summary>
+imgnext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.imglast">
+	<summary>
+imglast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.WebForm3.ddlPages">
+	<summary>
+ddlPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.txtCenterName">
+	<summary>
+txtCenterName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.txtCenterCode">
+	<summary>
+txtCenterCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.txtOwnerName">
+	<summary>
+txtOwnerName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.txtCity">
+	<summary>
+txtCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.txtstate">
+	<summary>
+txtstate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.txtCountry">
+	<summary>
+txtCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.txtContactNo">
+	<summary>
+txtContactNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.imgBtnSearch">
+	<summary>
+imgBtnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.imgBtnClear">
+	<summary>
+imgBtnClear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.ImgBtnBack">
+	<summary>
+ImgBtnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.imgBtnNewCentreRegistration">
+	<summary>
+imgBtnNewCentreRegistration control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.DivGrid">
+	<summary>
+DivGrid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.lblrecords">
+	<summary>
+lblrecords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.DataGridCenterDetails">
+	<summary>
+DataGridCenterDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.imgfirst">
+	<summary>
+imgfirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.imgprev">
+	<summary>
+imgprev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.tblPagebuttons">
+	<summary>
+tblPagebuttons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.imgnext">
+	<summary>
+imgnext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.imglast">
+	<summary>
+imglast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.ddlPages">
+	<summary>
+ddlPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.imgBtnEnable">
+	<summary>
+imgBtnEnable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.imgBtnDisable">
+	<summary>
+imgBtnDisable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterMaintenance.imgBtnDelete">
+	<summary>
+imgBtnDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.MasterPage.lbluser">
+	<summary>
+lbluser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.MasterPage.ContentPlaceHolder1">
+	<summary>
+ContentPlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.Up1">
+	<summary>
+Up1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.MainTable">
+	<summary>
+MainTable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.imgStudent">
+	<summary>
+imgStudent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.lblStudentId">
+	<summary>
+lblStudentId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.HiddenField1">
+	<summary>
+HiddenField1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.lblExamNameandCode">
+	<summary>
+lblExamNameandCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.lblTotalMarks">
+	<summary>
+lblTotalMarks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.tblAudio">
+	<summary>
+tblAudio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.tblQuestion">
+	<summary>
+tblQuestion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.TblAllquestions">
+	<summary>
+TblAllquestions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.TblAllNavigation">
+	<summary>
+TblAllNavigation control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.imgBtnFirst">
+	<summary>
+imgBtnFirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.imgBtnPrevious">
+	<summary>
+imgBtnPrevious control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.imgBtnNext">
+	<summary>
+imgBtnNext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.imgBtnLast">
+	<summary>
+imgBtnLast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.imgBtnUnAnswer">
+	<summary>
+imgBtnUnAnswer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.imgBtnEndExam">
+	<summary>
+imgBtnEndExam control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.rdbAllId">
+	<summary>
+rdbAllId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.rdbCheckedId">
+	<summary>
+rdbCheckedId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.queNotAttempt">
+	<summary>
+queNotAttempt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.currTime">
+	<summary>
+currTime control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.ddCheckQuestionId">
+	<summary>
+ddCheckQuestionId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.hiddButton">
+	<summary>
+hiddButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.QuestionPaper.HiddenField2">
+	<summary>
+HiddenField2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageVideo.Script1">
+	<summary>
+Script1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageVideo.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageVideo.Up1">
+	<summary>
+Up1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageVideo.trvwCategory">
+	<summary>
+trvwCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageVideo.txtNewCat">
+	<summary>
+txtNewCat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageVideo.imgbtnAddCat">
+	<summary>
+imgbtnAddCat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageVideo.imgbtnDelCat">
+	<summary>
+imgbtnDelCat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageVideo.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageVideo.txtCat">
+	<summary>
+txtCat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageVideo.txtTitle">
+	<summary>
+txtTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageVideo.Uploader">
+	<summary>
+Uploader control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageVideo.imgbtnSubmit">
+	<summary>
+imgbtnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageVideo.ImageButton1">
+	<summary>
+ImageButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.frm_quesans">
+	<summary>
+frm_quesans control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.lbl">
+	<summary>
+lbl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.TABLE1">
+	<summary>
+TABLE1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.chknormal">
+	<summary>
+chknormal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.chkblanks">
+	<summary>
+chkblanks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.chkcho">
+	<summary>
+chkcho control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.rowsubject">
+	<summary>
+rowsubject control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.cmb_subject">
+	<summary>
+cmb_subject control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.TxtSubject">
+	<summary>
+TxtSubject control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.fileUpldaudio">
+	<summary>
+fileUpldaudio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.HiddenField1">
+	<summary>
+HiddenField1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.HiddenField2">
+	<summary>
+HiddenField2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.queAudio">
+	<summary>
+queAudio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.rowquestion">
+	<summary>
+rowquestion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.txt_Question">
+	<summary>
+txt_Question control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.Img">
+	<summary>
+Img control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.fileuldque">
+	<summary>
+fileuldque control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.quesimage">
+	<summary>
+quesimage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.lnkquestion">
+	<summary>
+lnkquestion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.TABLE2">
+	<summary>
+TABLE2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.TABLE3">
+	<summary>
+TABLE3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.TABLE4">
+	<summary>
+TABLE4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.pnl">
+	<summary>
+pnl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.img_update">
+	<summary>
+img_update control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.img_saveexit">
+	<summary>
+img_saveexit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.img_savecont">
+	<summary>
+img_savecont control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.img_addmore">
+	<summary>
+img_addmore control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.btnDel">
+	<summary>
+btnDel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.imgbtnclr">
+	<summary>
+imgbtnclr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.imgbtnreset">
+	<summary>
+imgbtnreset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.unirecruite.question_ans.hdn">
+	<summary>
+hdn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentInfo.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentInfo.f1">
+	<summary>
+f1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentInfo.lblName">
+	<summary>
+lblName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentInfo.lblCenterName">
+	<summary>
+lblCenterName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentInfo.lblDOB">
+	<summary>
+lblDOB control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentInfo.StudentImage">
+	<summary>
+StudentImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.StudentInfo.lnkbtnNext">
+	<summary>
+lnkbtnNext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.errorMsg">
+	<summary>
+errorMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.lblddlname">
+	<summary>
+lblddlname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.lblstar">
+	<summary>
+lblstar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.sel_subjectid">
+	<summary>
+sel_subjectid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.Lblsubname">
+	<summary>
+Lblsubname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.ddlcourse">
+	<summary>
+ddlcourse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.ddlcandidates">
+	<summary>
+ddlcandidates control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.BtnSearch">
+	<summary>
+BtnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.btnclear">
+	<summary>
+btnclear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.ExportAppearedExamDetails">
+	<summary>
+ExportAppearedExamDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.gridDiv">
+	<summary>
+gridDiv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.lblrecords">
+	<summary>
+lblrecords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.DGData">
+	<summary>
+DGData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.imgfirst">
+	<summary>
+imgfirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.imgprev">
+	<summary>
+imgprev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.tblPagebuttons">
+	<summary>
+tblPagebuttons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.imgnext">
+	<summary>
+imgnext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.imglast">
+	<summary>
+imglast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.AppearedExam.ddlPages">
+	<summary>
+ddlPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.legendLabel">
+	<summary>
+legendLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.lblhead">
+	<summary>
+lblhead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.txtCenterName">
+	<summary>
+txtCenterName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.txtCentreCode">
+	<summary>
+txtCentreCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.TxtFName">
+	<summary>
+TxtFName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.TxtMName">
+	<summary>
+TxtMName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.TxtLName">
+	<summary>
+TxtLName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.TxtCentreAddress">
+	<summary>
+TxtCentreAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.txtCity">
+	<summary>
+txtCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.txtstate">
+	<summary>
+txtstate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.txtCountry">
+	<summary>
+txtCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.txtPinCode">
+	<summary>
+txtPinCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.txtContactNo">
+	<summary>
+txtContactNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.txtEmail">
+	<summary>
+txtEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.imgBtnSubmit">
+	<summary>
+imgBtnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.imgBtnClear">
+	<summary>
+imgBtnClear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.imgBtnUpdate">
+	<summary>
+imgBtnUpdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.ImgBtnBack">
+	<summary>
+ImgBtnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.CenterRegistration.imgBtnReset">
+	<summary>
+imgBtnReset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamResult.LblName">
+	<summary>
+LblName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamResult.LblClassName">
+	<summary>
+LblClassName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamResult.LblTestName">
+	<summary>
+LblTestName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamResult.LblDate">
+	<summary>
+LblDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamResult.LblTotalMarks">
+	<summary>
+LblTotalMarks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamResult.LblMarksObtained">
+	<summary>
+LblMarksObtained control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ExamResult.LblStatus">
+	<summary>
+LblStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:Unirecruite.FlvMetaInfo.#ctor">
+	<summary>
+ The duration in seconds of the video
+ </summary>
+</member><member name="P:Unirecruite.FlvMetaInfo.Width">
+	<summary>
+ The width in pixels of the video
+ </summary>
+</member><member name="P:Unirecruite.FlvMetaInfo.Height">
+	<summary>
+ The height in pixels of the video
+ </summary>
+</member><member name="P:Unirecruite.FlvMetaInfo.VideoDataRate">
+	<summary>
+ The data rate in KB/sec of the video 
+ </summary>
+</member><member name="P:Unirecruite.FlvMetaInfo.AudioDataRate">
+	<summary>
+ The data rate in KB/sec of the video's audio track
+ </summary>
+</member><member name="P:Unirecruite.FlvMetaInfo.FrameRate">
+	<summary>
+ The frame rate of the video
+ </summary>
+</member><member name="P:Unirecruite.FlvMetaInfo.CreationDate">
+	<summary>
+ The creation date of the video
+ </summary>
+</member><member name="P:Unirecruite.FlvMetaInfo.HasMetaData">
+	<summary>
+ Whether or not the FLV has meta data
+ </summary>
+</member><member name="T:Unirecruite.FlvMetaInfo">
+	<summary>
+ Read only container holding meta data embedded in FLV files
+ </summary>
+</member><member name="F:Unirecruite.ManageCourse.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.ddlCenters">
+	<summary>
+ddlCenters control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.txtCenterName">
+	<summary>
+txtCenterName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.ddlCourses">
+	<summary>
+ddlCourses control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.txtCourseName">
+	<summary>
+txtCourseName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.imgBtnSearch">
+	<summary>
+imgBtnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.imgBtnClear">
+	<summary>
+imgBtnClear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.ImgBtnBack">
+	<summary>
+ImgBtnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.imgBtnNewCourse">
+	<summary>
+imgBtnNewCourse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.DivGrid">
+	<summary>
+DivGrid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.lblrecords">
+	<summary>
+lblrecords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.DataGridCourseDetails">
+	<summary>
+DataGridCourseDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.imgfirst">
+	<summary>
+imgfirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.imgprev">
+	<summary>
+imgprev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.tblPagebuttons">
+	<summary>
+tblPagebuttons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.imgnext">
+	<summary>
+imgnext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.imglast">
+	<summary>
+imglast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.ddlPages">
+	<summary>
+ddlPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.imgBtnEnable">
+	<summary>
+imgBtnEnable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.ManageCourse.imgBtnDisable">
+	<summary>
+imgBtnDisable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.txtSubjectName">
+	<summary>
+txtSubjectName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.txtSubCode">
+	<summary>
+txtSubCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.chkrow">
+	<summary>
+chkrow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.chkcourse">
+	<summary>
+chkcourse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.maincourserow">
+	<summary>
+maincourserow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.ddlMainCourse">
+	<summary>
+ddlMainCourse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.textboxcoderow">
+	<summary>
+textboxcoderow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.txtcoursecode">
+	<summary>
+txtcoursecode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.textboxrow">
+	<summary>
+textboxrow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.txtTotalTime">
+	<summary>
+txtTotalTime control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.textMarksrow">
+	<summary>
+textMarksrow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.txtTotalMarks">
+	<summary>
+txtTotalMarks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.textPassmarksrow">
+	<summary>
+textPassmarksrow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.txtPassMarks">
+	<summary>
+txtPassMarks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.imgBtnSearch">
+	<summary>
+imgBtnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.imgBtnClear">
+	<summary>
+imgBtnClear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.imgBtnBack">
+	<summary>
+imgBtnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.imgBtnSubmit">
+	<summary>
+imgBtnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.imgBtnUpdate">
+	<summary>
+imgBtnUpdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.gridDiv">
+	<summary>
+gridDiv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.LblTotalRecCnt">
+	<summary>
+LblTotalRecCnt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.DataGridSubjectDetails">
+	<summary>
+DataGridSubjectDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.imgfirst">
+	<summary>
+imgfirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.imgprev">
+	<summary>
+imgprev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.tblPagebuttons">
+	<summary>
+tblPagebuttons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.imgnext">
+	<summary>
+imgnext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.imglast">
+	<summary>
+imglast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.ddlPages">
+	<summary>
+ddlPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.imgBtnEnable">
+	<summary>
+imgBtnEnable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.imgBtnDisable">
+	<summary>
+imgBtnDisable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.SubjectRegistration.imgBtnDelete">
+	<summary>
+imgBtnDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.errorMsg">
+	<summary>
+errorMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.lblcn">
+	<summary>
+lblcn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.txtcn">
+	<summary>
+txtcn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.ddlCourses">
+	<summary>
+ddlCourses control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.lblsn">
+	<summary>
+lblsn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.txtsn">
+	<summary>
+txtsn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.ddlSubjects">
+	<summary>
+ddlSubjects control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.BtnSearch">
+	<summary>
+BtnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.btnclear">
+	<summary>
+btnclear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.btnNewLink">
+	<summary>
+btnNewLink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.gridDiv">
+	<summary>
+gridDiv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.tblCourse">
+	<summary>
+tblCourse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.lblrecords">
+	<summary>
+lblrecords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.DGData">
+	<summary>
+DGData control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.imgfirst">
+	<summary>
+imgfirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.imgprev">
+	<summary>
+imgprev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.tblPagebuttons">
+	<summary>
+tblPagebuttons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.imgnext">
+	<summary>
+imgnext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.imglast">
+	<summary>
+imglast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.ddlPages">
+	<summary>
+ddlPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.imgbtnenable">
+	<summary>
+imgbtnenable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Unirecruite.WeightSearch.imgbtndisable">
+	<summary>
+imgbtndisable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

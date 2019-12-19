@@ -1,0 +1,17 @@
+DEBUG 2014-07-29 16:22:03,281 fnc_ins_data Of register - Error :System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Unirecruite.unirecruite.register.fnc_ins_data() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\register.aspx.vb:line 486
+DEBUG 2014-07-29 16:22:03,375 img_saveexit_Click Of register - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.unirecruite.register.fnc_ins_data() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\register.aspx.vb:line 582
+   at Unirecruite.unirecruite.register.img_saveexit_Click(Object sender, ImageClickEventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\register.aspx.vb:line 958
+DEBUG 2014-07-29 17:38:37,203 Page_Load Of register - Error :System.InvalidCastException: Conversion from string "err" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObjectNotEqual(Object Left, Object Right, Boolean TextCompare)
+   at Unirecruite.unirecruite.register.Page_Load(Object sender, EventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\register.aspx.vb:line 141

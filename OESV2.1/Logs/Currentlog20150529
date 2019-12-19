@@ -1,0 +1,7 @@
+DEBUG 2015-05-29 11:18:03,984 CheckImage Of ExamResult - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.ExamResult.CheckImage(String value) in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 784
+DEBUG 2015-05-29 11:18:04,078 ExportExamDetails Of ExamResult - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.ExamResult.CheckImage(String value) in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 809
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 551
+DEBUG 2015-05-29 11:18:04,078 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.CheckImage(String value) in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 809
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 551

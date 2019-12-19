@@ -1,0 +1,6 @@
+DEBUG 2017-09-06 15:19:10,381 FillListOfCourse Of register - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.register.FillListOfCourse() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\register.aspx.vb:line 1955
+ERROR 2017-09-06 16:43:21,740 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-09-06 16:43:21,803 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2017-09-06 16:43:21,803 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150

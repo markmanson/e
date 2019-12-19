@@ -1,0 +1,6 @@
+DEBUG 2012-06-18 08:59:15,143 ImageButton1_Click Of search - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.search.UpdForOnlineTest() in D:\OESV2\Source Code\Development Area\UksTraining\Unirecruite\search.aspx.vb:line 2239
+   at Unirecruite.unirecruite.search.ImageButton1_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\UksTraining\Unirecruite\search.aspx.vb:line 3047
+DEBUG 2012-06-18 09:48:45,752 ImageButton1_Click Of search - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.search.UpdForOnlineTest() in D:\OESV2\Source Code\Development Area\UksTraining\Unirecruite\search.aspx.vb:line 2239
+   at Unirecruite.unirecruite.search.ImageButton1_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\UksTraining\Unirecruite\search.aspx.vb:line 3047

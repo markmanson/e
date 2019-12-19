@@ -1,0 +1,56 @@
+DEBUG 2015-02-12 10:05:25,640 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\searchQuestion.aspx.vb:line 1512
+DEBUG 2015-02-12 10:30:39,640 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 148
+DEBUG 2015-02-12 10:30:39,671 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 148
+DEBUG 2015-02-12 10:33:01,328 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x800706BE): リモート プロシージャ コールに失敗しました。 (Exception from HRESULT: 0x800706BE)
+   at Microsoft.Office.Interop.Excel.Workbooks.Add(Object Template)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\searchQuestion.aspx.vb:line 1515
+DEBUG 2015-02-12 10:57:51,765 Getit Of searchQuestion - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\searchQuestion.aspx.vb:line 1774
+DEBUG 2015-02-12 11:01:38,109 Getit Of searchQuestion - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\searchQuestion.aspx.vb:line 1774
+DEBUG 2015-02-12 11:02:18,406 Getit Of searchQuestion - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\searchQuestion.aspx.vb:line 1774
+DEBUG 2015-02-12 11:14:29,765 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Exception from HRESULT: 0x800A03EC
+   at Microsoft.Office.Interop.Excel.Workbooks.Add(Object Template)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\searchQuestion.aspx.vb:line 1515
+DEBUG 2015-02-12 17:59:52,593 GetMarksForSubject Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '528'  Key being added: '528'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4707
+DEBUG 2015-02-12 17:59:52,718 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '528'  Key being added: '528'
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4721
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4368
+DEBUG 2015-02-12 17:59:52,718 Page_Load Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '528'  Key being added: '528'
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4654
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 399
+DEBUG 2015-02-12 18:02:08,171 GetMarksForSubject Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '528'  Key being added: '528'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4707
+DEBUG 2015-02-12 18:02:08,171 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '528'  Key being added: '528'
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4721
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4368
+DEBUG 2015-02-12 18:02:08,171 Page_Load Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '528'  Key being added: '528'
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4654
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 399
+DEBUG 2015-02-12 18:57:29,781 GetMarksForSubject Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '528'  Key being added: '528'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4707
+DEBUG 2015-02-12 18:57:29,796 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '528'  Key being added: '528'
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4721
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4368
+DEBUG 2015-02-12 18:57:29,796 Page_Load Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '528'  Key being added: '528'
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4654
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 399

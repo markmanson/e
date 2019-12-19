@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+</HEAD>
+
+<BODY>
+Dear <b>#Name#</b>,<br><br>
+
+You are requested to appear for online examination.<br><br>
+
+Examination details are mentioned below:-<br>
+
+<table border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse;border:none;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0in 5.4pt 0in 5.4pt;mso-border-insideh:none;mso-border-insidev:none'>
+	<tr style='mso-yfti-irow:4'>
+		<td width=155 valign=top style='width:116.6pt;padding:0in 5.4pt 0in 5.4pt'>
+			UserName
+		</td>
+		<td width=108 valign=top style='width:81.0pt;padding:0in 5.4pt 0in 5.4pt'>
+			:  #UserId#
+		</td>
+	</tr>
+	<tr style='mso-yfti-irow:5;mso-yfti-lastrow:yes'>
+		<td width=155 valign=top style='width:116.6pt;padding:0in 5.4pt 0in 5.4pt'>
+			Password
+		</td>
+		<td width=108 valign=top style='width:81.0pt;padding:0in 5.4pt 0in 5.4pt'>
+			:  #Password#
+		</td>
+	</tr>
+	<tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+		<td width=155 valign=top style='width:116.6pt;padding:0in 5.4pt 0in 5.4pt'>
+			Class Name
+		</td>
+		<td width=108 valign=top style='width:81.0pt;padding:0in 5.4pt 0in 5.4pt'>
+			:  #ClassName#
+		</td>
+	</tr>
+	<tr style='mso-yfti-irow:1'>
+		<td width=155 valign=top style='width:116.6pt;padding:0in 5.4pt 0in 5.4pt'>
+			Test Name
+		</td>
+		<td width=108 valign=top style='width:81.0pt;padding:0in 5.4pt 0in 5.4pt'>
+			:  #sub#
+		</td>
+	</tr>
+	<tr style='mso-yfti-irow:2'>
+		<td width=155 valign=top style='width:116.6pt;padding:0in 5.4pt 0in 5.4pt'>
+			Examination Date
+		</td>
+		<td width=108 valign=top style='width:81.0pt;padding:0in 5.4pt 0in 5.4pt'>
+			:  #date#
+		</td>
+	</tr>
+<!--	<tr style='mso-yfti-irow:3'>
+		<td width=155 valign=top style='width:116.6pt;padding:0in 5.4pt 0in 5.4pt'>
+			Total Marks
+		</td>
+		<td width=108 valign=top style='width:81.0pt;padding:0in 5.4pt 0in 5.4pt'>
+			:  #Marks#
+		</td>
+	</tr>-->
+</table>
+<br><br>
+
+<!--Click Here to appear for examination #links#<br><br>-->
+To Appear for Examination. Please <a href="#links#">Click Here.</a><br><br>
+
+<!--Thanking You,<br>
+Administrator<br>
+Unikaihatsu Software Pvt. Ltd.<br>-->
+Regards,<br>
+#TeacherName#<br><br>
+<p lang="EN-US"
+						style="font-size: 11.0pt; font-family: Times New Roman; font-weight: bold; text-align: center;">
+						<b><span>This is a system generated e-mail. Please do not reply to this e-mail.</span>
+						</b>
+					</p>
+</BODY>
+</HTML>

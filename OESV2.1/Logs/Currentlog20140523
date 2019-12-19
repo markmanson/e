@@ -1,0 +1,24 @@
+DEBUG 2014-05-23 19:22:11,873 ExportExamDetails Of searchExamAppeared - Error :System.Web.HttpException: The remote host closed the connection. The error code is 0x80072746.
+   at System.Web.Hosting.ISAPIWorkerRequestInProcForIIS6.FlushCore(Byte[] status, Byte[] header, Int32 keepConnected, Int32 totalBodySize, Int32 numBodyFragments, IntPtr[] bodyFragments, Int32[] bodyFragmentLengths, Int32 doneWithSession, Int32 finalStatus, Boolean& async)
+   at System.Web.Hosting.ISAPIWorkerRequest.FlushCachedResponse(Boolean isFinal)
+   at System.Web.Hosting.ISAPIWorkerRequest.FlushResponse(Boolean finalFlush)
+   at System.Web.HttpResponse.Flush(Boolean finalFlush)
+   at System.Web.HttpResponse.Flush()
+   at Unirecruite.AppearedExam.ExportExamDetails()
+DEBUG 2014-05-23 19:22:11,967 ExportAppearedExamDetails_Click Of searchExamAppeared - Error :System.Web.HttpException: Cannot redirect after HTTP headers have been sent.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.AppearedExam.ExportExamDetails()
+   at Unirecruite.AppearedExam.ExportAppearedExamDetails_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-05-23 19:28:43,201 ExportExamDetails Of searchExamAppeared - Error :System.Web.HttpException: The remote host closed the connection. The error code is 0x80072746.
+   at System.Web.Hosting.ISAPIWorkerRequestInProcForIIS6.FlushCore(Byte[] status, Byte[] header, Int32 keepConnected, Int32 totalBodySize, Int32 numBodyFragments, IntPtr[] bodyFragments, Int32[] bodyFragmentLengths, Int32 doneWithSession, Int32 finalStatus, Boolean& async)
+   at System.Web.Hosting.ISAPIWorkerRequest.FlushCachedResponse(Boolean isFinal)
+   at System.Web.Hosting.ISAPIWorkerRequest.FlushResponse(Boolean finalFlush)
+   at System.Web.HttpResponse.Flush(Boolean finalFlush)
+   at System.Web.HttpResponse.Flush()
+   at Unirecruite.AppearedExam.ExportExamDetails()
+DEBUG 2014-05-23 19:28:43,201 ExportAppearedExamDetails_Click Of searchExamAppeared - Error :System.Web.HttpException: Cannot redirect after HTTP headers have been sent.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.AppearedExam.ExportExamDetails()
+   at Unirecruite.AppearedExam.ExportAppearedExamDetails_Click(Object sender, ImageClickEventArgs e)

@@ -1,0 +1,68 @@
+DEBUG 2017-10-05 09:30:00,165 sendMail Of search - Error :System.Web.HttpException: The transport failed to connect to the server.
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x80040213): The transport failed to connect to the server.
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrUserID, String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\search.aspx.vb:line 2800
+DEBUG 2017-10-05 09:30:22,790 sendMail Of search - Error :System.Web.HttpException: The transport failed to connect to the server.
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x80040213): The transport failed to connect to the server.
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrUserID, String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\search.aspx.vb:line 2800
+DEBUG 2017-10-05 09:30:43,790 sendMail Of search - Error :System.Web.HttpException: The transport failed to connect to the server.
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x80040213): The transport failed to connect to the server.
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrUserID, String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\search.aspx.vb:line 2800
+ERROR 2017-10-05 16:22:34,603 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-10-05 16:22:34,603 ExportExamDetails Of ExamResult - Error :System.UnauthorizedAccessException: Access to the path 'D:\Virtual host\OES\Excel Import\StudentExamDetails.XLS' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 727
+DEBUG 2017-10-05 16:22:34,603 ExportExamDetails Of ExamResult - Error :   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 727
+ERROR 2017-10-05 17:41:19,087 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-10-05 17:41:19,087 ExportExamDetails Of ExamResult - Error :System.UnauthorizedAccessException: Access to the path 'D:\Virtual host\OES\Excel Import\StudentExamDetails.XLS' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 727
+DEBUG 2017-10-05 17:41:19,087 ExportExamDetails Of ExamResult - Error :   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 727
+DEBUG 2017-10-05 18:12:50,962 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '5'  Key being added: '5'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4449
+DEBUG 2017-10-05 18:12:50,993 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4528
+DEBUG 2017-10-05 18:12:50,993 Page_Load Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4642
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 406

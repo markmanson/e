@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript">
+  function myKeyUp(event){
+    var wholeString = document.getElementById('myEl');
+   	var wholeStringvalue = document.getElementById('myEl').value;
+   	var startPosition = wholeString.selectionStart;
+    lstr = wholeStringvalue.substring(0, startPosition);
+    rstr = wholeStringvalue.substring(startPosition + 1, wholeStringvalue.length)
+	document.getElementById('myEl').value = lstr.concat(rstr);
+	wholeString.focus();
+	wholeString.selectionEnd = startPosition;
+  }
+</script>
+<body>
+<input type="text" id=myEl name="firstname" maxlength="30" value="abcdefghijklmnopqrstuvwxyzabc" size=30 onkeyup="myKeyUp(event)">
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+DEBUG 2015-09-23 09:15:22,718 BtnSearch_Click Of CandStatus - Error :System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: value
+   at System.Web.UI.WebControls.DataGrid.set_CurrentPageIndex(Int32 value)
+   at Unirecruite.unirecruite.CandStatus.BindGrid()
+   at Unirecruite.unirecruite.CandStatus.BtnSearch_Click(Object sender, ImageClickEventArgs e)

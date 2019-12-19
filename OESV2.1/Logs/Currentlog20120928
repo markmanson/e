@@ -1,0 +1,2 @@
+DEBUG 2012-09-28 10:59:27,187 Page_Load Of Studentinfo - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.StudentInfo.Page_Load(Object sender, EventArgs e)

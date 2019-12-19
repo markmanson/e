@@ -1,0 +1,66 @@
+DEBUG 2017-05-19 14:59:43,796 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2017-05-19 14:59:43,906 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2017-05-19 14:59:43,906 InsertData Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.InsertData()
+ERROR 2017-05-19 16:46:28,531 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-05-19 16:46:28,625 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails()
+DEBUG 2017-05-19 16:46:28,625 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails()
+DEBUG 2017-05-19 16:48:31,203 GetCandidateResult Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'order'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Unirecruite.QuestionPaper.GetCandidateResult(String CandidateID, String courseID)
+DEBUG 2017-05-19 16:52:50,906 DGReport_ItemCommand Of CandStatus - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e)
+ERROR 2017-05-19 17:13:45,968 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-05-19 17:13:45,968 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails()
+DEBUG 2017-05-19 17:13:45,968 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails()
+ERROR 2017-05-19 17:17:35,515 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-05-19 17:17:35,515 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails()
+DEBUG 2017-05-19 17:17:35,515 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails()
+ERROR 2017-05-19 17:20:41,890 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-05-19 17:20:41,890 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails()
+DEBUG 2017-05-19 17:20:41,890 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails()
+ERROR 2017-05-19 17:27:56,187 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-05-19 17:27:56,187 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails()
+DEBUG 2017-05-19 17:27:56,187 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails()

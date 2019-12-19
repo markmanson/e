@@ -1,0 +1,14 @@
+DEBUG 2014-02-24 18:05:31,734 Page_Load Of ExamCount - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at Unirecruite.ExamCount.Page_Load(Object sender, EventArgs e)
+DEBUG 2014-02-24 18:06:34,796 Page_Load Of ExamCount - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at Unirecruite.ExamCount.Page_Load(Object sender, EventArgs e)
+DEBUG 2014-02-24 18:07:10,406 Page_Load Of question_ans - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e)
+DEBUG 2014-02-24 18:07:29,328 Page_Load Of question_ans - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e)

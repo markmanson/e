@@ -1,0 +1,120 @@
+DEBUG 2017-07-18 09:12:33,469 imgbtndelete_Click Of StudentSearch - Error :System.Data.SqlClient.SqlException: DELETE statement conflicted with COLUMN REFERENCE constraint 'FK_T_Result_M_USER_INFO'. The conflict occurred in database 'OES_Final1', table 'T_Result', column 'userid'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.StudentSearch.imgbtndelete_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2017-07-18 09:13:02,672 imgbtndelete_Click Of StudentSearch - Error :System.Data.SqlClient.SqlException: DELETE statement conflicted with COLUMN REFERENCE constraint 'FK_T_Result_M_USER_INFO'. The conflict occurred in database 'OES_Final1', table 'T_Result', column 'userid'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.StudentSearch.imgbtndelete_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2017-07-18 09:26:00,250 imgbtndelete_Click Of StudentSearch - Error :System.Data.SqlClient.SqlException: DELETE statement conflicted with COLUMN REFERENCE constraint 'FK_T_Result_M_USER_INFO'. The conflict occurred in database 'OES_Final1', table 'T_Result', column 'userid'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.StudentSearch.imgbtndelete_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2017-07-18 09:32:52,969 imgbtndelete_Click Of StudentSearch - Error :System.Data.SqlClient.SqlException: DELETE statement conflicted with COLUMN REFERENCE constraint 'FK_T_Result_M_USER_INFO'. The conflict occurred in database 'OES_Final1', table 'T_Result', column 'userid'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.StudentSearch.imgbtndelete_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2017-07-18 09:33:16,844 imgBtnDelete_Click Of CourseMaintenance - Error :System.Data.SqlClient.SqlException: DELETE statement conflicted with COLUMN REFERENCE constraint 'FK_M_USER_INFO_M_Centers'. The conflict occurred in database 'OES_Final1', table 'M_USER_INFO', column 'Center_ID'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.CenterMaintenance.imgBtnDelete_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2017-07-18 09:33:52,985 imgbtndelete_Click Of StudentSearch - Error :System.Data.SqlClient.SqlException: DELETE statement conflicted with COLUMN REFERENCE constraint 'FK_T_Result_M_USER_INFO'. The conflict occurred in database 'OES_Final1', table 'T_Result', column 'userid'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.StudentSearch.imgbtndelete_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2017-07-18 09:34:08,032 imgbtndelete_Click Of StudentSearch - Error :System.Data.SqlClient.SqlException: DELETE statement conflicted with COLUMN REFERENCE constraint 'FK_T_Result_M_USER_INFO'. The conflict occurred in database 'OES_Final1', table 'T_Result', column 'userid'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.StudentSearch.imgbtndelete_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2017-07-18 09:35:12,407 imgbtndelete_Click Of StudentSearch - Error :System.Data.SqlClient.SqlException: DELETE statement conflicted with COLUMN REFERENCE constraint 'FK_T_Result_M_USER_INFO'. The conflict occurred in database 'OES_Final1', table 'T_Result', column 'userid'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.StudentSearch.imgbtndelete_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2017-07-18 09:35:59,485 imgbtndelete_Click Of StudentSearch - Error :System.Data.SqlClient.SqlException: DELETE statement conflicted with COLUMN REFERENCE constraint 'FK_T_Result_M_USER_INFO'. The conflict occurred in database 'OES_Final1', table 'T_Result', column 'userid'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.StudentSearch.imgbtndelete_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2017-07-18 09:55:47,657 imgbtndelete_Click Of StudentSearch - Error :System.Data.SqlClient.SqlException: DELETE statement conflicted with COLUMN REFERENCE constraint 'FK_T_Result_M_USER_INFO'. The conflict occurred in database 'OES_Final1', table 'T_Result', column 'userid'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.StudentSearch.imgbtndelete_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2017-07-18 11:24:54,063 imgBtnDelete_Click Of CourseMaintenance - Error :System.Data.SqlClient.SqlException: DELETE statement conflicted with COLUMN REFERENCE constraint 'FK_M_USER_INFO_M_Centers'. The conflict occurred in database 'OES_Final1', table 'M_USER_INFO', column 'Center_ID'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.CenterMaintenance.imgBtnDelete_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2017-07-18 11:47:13,157 imgbtndelete_Click Of StudentSearch - Error :System.Data.SqlClient.SqlException: DELETE statement conflicted with COLUMN REFERENCE constraint 'FK_T_Result_M_USER_INFO'. The conflict occurred in database 'OES_Final1', table 'T_Result', column 'userid'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.StudentSearch.imgbtndelete_Click(Object sender, ImageClickEventArgs e)

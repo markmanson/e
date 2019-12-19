@@ -1,0 +1,484 @@
+﻿
+
+
+
+ <!--added by Sumit Tawade [15/10/2019]-->
+<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterPage.master.vb"
+    Inherits="Unirecruite.MasterPage" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8"/>
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>Untitled Page</title>
+
+  <link rel="stylesheet" href="build/css/bootstrap.min.css"/>
+    <%--<script src="build/js/jquery.min.js"></script>
+    <script src="build/js/popper.min.js"></script>
+    <script src="build/js/bootstrap.min.js"></script>--%>
+    <link rel="stylesheet" href="build/css/font-awesome.min.css"/>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css"/>
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css"/>
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css"/>
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet"/>
+    <!-- changes in css -->
+    <link rel="stylesheet" href="build/css/designupdate.css"/>  
+    <style type="text/css">
+        .layout-navbar-fixed .wrapper .main-header {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    
+    z-index: 1037;
+}
+        .layout-footer-fixed .wrapper .main-footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+   
+    padding-top:0.5em;
+    z-index: 1032;
+}
+    </style>
+    
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"/>
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css"/>
+
+
+    <style>
+        .main-footer {
+            height:5%;
+             
+        }
+
+        .main-header {
+            height:5%;
+            /*background-color:#096e8a;*/
+        }
+        .ddllng {
+            position: fixed;
+            top: 3px;
+             right: 80px;
+        }
+        .nav-link {
+           
+        }
+
+        #avtar {
+            border-color:brown;
+        }
+    </style>
+
+</head>
+    <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+    <form id="aspnetForm" runat="server"  method="post">
+        <div class="wrapper">
+
+    <!-- Navbar For Top Navigation -->
+    <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+        <!-- Left navbar links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
+          </li>
+        </ul>
+        <!-- Right navbar links -->
+        <ul class="navbar-nav ml-auto">
+           <%-- <li>               
+               <%-- <input type="checkbox" name="my-checkbox" checked="checked" data-bootstrap-switch=""/>
+                <input type="checkbox" name="my-checkbox" checked="checked" data-bootstrap-switch="" data-off-color="danger" data-on-color="success"/>           
+            </li>--%>
+
+            <li class="nav-item">
+                <div class="ddllng">
+                <asp:DropDownList class="form-control" ID="ddlLanguages" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ChangeLanguage" >
+                <asp:ListItem  text="us.png" Value="en-us"/>
+                <asp:ListItem Text="日本語" Value="ja-jp" />
+                </asp:DropDownList>
+                    </div>
+            </li>
+
+               <%-- <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="far fa-bell"></i>
+          <span class="badge badge-warning navbar-badge">15</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <span class="dropdown-item dropdown-header">15 Notifications</span>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-envelope mr-2"></i> 4 new messages
+            <span class="float-right text-muted text-sm">3 mins</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-users mr-2"></i> 8 friend requests
+            <span class="float-right text-muted text-sm">12 hours</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-file mr-2"></i> 3 new reports
+            <span class="float-right text-muted text-sm">2 days</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+        </div>
+      </li>--%>
+
+
+            <li class="nav-item dropdown">
+               
+            <a class="nav-link" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="true" id="avtar">           
+             <img class="user-avtar rounded-circle" src="images/us.png" alt="usindia" width="25"/>  
+            <%--<h6><b> LOGOUT</b></h6>--%>
+         </a>
+         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right" >
+          <span class="dropdown-item dropdown-header"></span>
+          <%-- <div class="dropdown-divider"></div>
+         <a href="#" class="dropdown-item">
+            <i class="fas fa-user"></i> <b>Profile</b>
+           
+          </a>--%>
+         <%-- <div class="dropdown-divider"></div>--%>
+          <a href="changepass.aspx" class="dropdown-item">
+            <i class="fas fa-edit"></i> <b><%=Resources.Resource.ChangePass_ChPwdHe %></b> 
+         
+          </a>
+          <%--<div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-cog"></i> <b>Setting</b>
+          
+          </a>--%>
+          <div class="dropdown-divider" style="background-color:lightblue"></div>
+          <a href="login.aspx" class="dropdown-item dropdown-footer"><b><%=Resources.Resource.Master_logout %></b></a>
+        </div>
+      </li>
+
+        </ul>
+    </nav>
+    <!-- ./Navbar For Top Navigation -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="http://usindia.com/index.php/en/" class="brand-link">
+        <h3>
+          <i class="fa fa-graduation-cap" style="margin-left: 10px;"></i>
+          <span class="brand-text">E-exam Tool</span>
+        </h3>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="images/us.png" class="img-circle elevation-2" alt="usindia"/>
+        </div>
+        <div class="info">
+          <span class="font-weight-bolder" style="color: white;"> <%=Resources.Resource.MasterPage_Welcome%></span><br />
+          <asp:Label ID="lbluser" runat="server" class="d-block" ForeColor="White" ></asp:Label>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          
+            <!-- Added By Sumit Tawade [16/10/2019]-->
+
+            <% If (Session("UniUserType") = 1 Or Session("UniUserType") = 2) Then  %>
+
+            <!--Ended By Sumit Tawade-->
+
+            <li class="nav-item">
+            <a href="admin.aspx" class="nav-link">
+              <i class="nav-icon fa fa-home"></i>
+              <p>
+               <%=Resources.Resource.MasterPage_Home%>
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-edit"></i>
+              <p>
+                  <%=Resources.Resource.admin_NewUser%>
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="register.aspx" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p><%=Resources.Resource.admin_Regis%></p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="AdminList.aspx" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p><%=Resources.Resource.admin_AdminList%></p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-desktop"></i>
+              <p>
+                <%=Resources.Resource.admin_Maintenance%>
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="CentreMaintenance.aspx" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p><%=Resources.Resource.admin_clsMaiten%></p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="CourseMaintenance.aspx" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p><%=Resources.Resource.admin_CrsMain%></p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="ManageCourse.aspx" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p><%=Resources.Resource.admin_MngCrse%></p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="SubjectRegistration.aspx" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p><%=Resources.Resource.admin_SubjectMaintenance%></p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="WeightSearch.aspx" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p><%=Resources.Resource.admin_AssignWeightage%></p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="searchQuestion.aspx" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p><%=Resources.Resource.admin_QstMain%></p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="CandStatus.aspx" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p><%=Resources.Resource.admin_CndSts%></p>
+                </a>
+              </li>
+             <%-- <li class="nav-item">
+                <a href="BulkImport.aspx" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p><%=Resources.Resource.admin_BulkImport%></p>
+                </a>
+              </li>--%>
+              <li class="nav-item">
+                <a href="StudentSearch.aspx" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p><%=Resources.Resource.admin_StudList%></p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="ManageVideo.aspx" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p><%=Resources.Resource.admin_UpVideo%></p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="VideoList.aspx" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p><%=Resources.Resource.admin_VideoList%></p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-book"></i>
+              <p>
+               <%=Resources.Resource.admin_Exam%>
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="search.aspx" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p><%=Resources.Resource.admin_AsgnExam%></p>
+                </a>
+              </li>
+              <%--<li class="nav-item">
+                <a href="ExamCount.aspx" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p><%=Resources.Resource.admin_CountQuePubl%></p>
+                </a>
+              </li>--%>
+              <li class="nav-item">
+                <a href="AppearedExam.aspx" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p><%=Resources.Resource.admin_ExamRpt%></p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="StudentTimeInfo.aspx" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p><%=Resources.Resource.admin_CndtimeInfo%></p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+            <% Else %>
+
+            <li class="nav-item">
+            <a href="StudHome.aspx" class="nav-link">
+              <i class="nav-icon fa fa-home"></i>
+              <p>
+               <%=Resources.Resource.MasterPage_Home%>
+              </p>
+            </a>
+          </li>
+
+           <li class="nav-item has-treeview">
+            <a href = "#" class="nav-link">
+              <i class="nav-icon fa fa-user"></i>
+              <p>
+                <%=Resources.Resource.Master_Persnal%>
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href = "register.aspx?E=1" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p><%=Resources.Resource.Master_Profile%></p>
+                </a>
+              </li>
+             <%-- <li class="nav-item">
+                <a href = "" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p> <%=Resources.Resource.Master_ChangePass%></p>
+                </a>
+              </li>--%>
+            </ul>
+          </li>
+          <li Class="nav-item has-treeview">
+            <a href = "#" Class="nav-link">
+              <i Class="nav-icon fa fa-book"></i>
+              <p>
+                  <%=Resources.Resource.Master_ExamBox%>
+                <i Class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul Class="nav nav-treeview">
+              <li Class="nav-item">
+                <a href = "AssignedExam.aspx" Class="nav-link">
+                  <i Class="far fa-circle nav-icon"></i>
+                  <p>  <%=Resources.Resource.Master_AssExam%></p>
+                </a>
+              </li>
+              <li Class="nav-item">
+                <a href = "ResultBox.aspx" Class="nav-link">
+                  <i Class="far fa-circle nav-icon"></i>
+                  <p> <%=Resources.Resource.ResultBox_Result%></p>
+                </a>
+              </li>
+              <li Class="nav-item">
+                <a href = "VideoLive.aspx" Class="nav-link">
+                  <i Class="far fa-circle nav-icon"></i>
+                  <p> <%=Resources.Resource.Master_Livevdo%></p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <% End If %>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+  </div>
+  <!-- /.content-wrapper -->
+  
+  <!-- Control Sidebar to separate content and sidebar scrollling separate -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+  
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <strong>Copyright &reg; 2019-20.All rights reserved by <a href="http://www.usindia.com"><u>Unikaihatsu Software Pvt Ltd.</u></a></strong>
+    <div class="float-right d-none d-sm-inline-block">
+      <b><u>Version 2.0.1</u></b>
+    </div>
+  </footer>
+  <!-- ./Main Footer -->
+</div>
+
+        <script>
+            $(function () {
+
+                $("input[data-bootstrap-switch]").each(function(){
+                $(this).bootstrapSwitch('state', $(this).prop('checked'));
+                });
+
+            })
+        </script>
+
+<%--<script src="plugins/jquery/jquery.min.js"></script>--%>
+<!-- Bootstrap -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+
+<!-- OPTIONAL SCRIPTS -->
+<script src="dist/js/demo.js"></script>
+
+<!-- PAGE PLUGINS -->
+<!-- jQuery Mapael -->
+<script src="plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
+<script src="plugins/raphael/raphael.min.js"></script>
+<script src="plugins/jquery-mapael/jquery.mapael.min.js"></script>
+<script src="plugins/jquery-mapael/maps/usa_states.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+        <%--<script src="plugins/jquery/jquery.min.js"></script>--%>
+
+
+
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- PAGE SCRIPTS -->
+<script src="dist/js/pages/dashboard2.js"></script>
+        
+</form>
+</body>
+</html>
+<!--Ended by -->

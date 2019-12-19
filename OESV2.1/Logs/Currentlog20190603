@@ -1,0 +1,105 @@
+DEBUG 2019-06-03 09:32:41,195 populatequesans Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 549
+DEBUG 2019-06-03 09:32:41,237 Page_Load Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 752
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-06-03 09:32:52,047 populatequesans Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 549
+DEBUG 2019-06-03 09:32:52,062 Page_Load Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 752
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-06-03 09:34:01,220 populatequesans Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 549
+DEBUG 2019-06-03 09:34:01,235 Page_Load Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 752
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-06-03 09:41:39,602 populatequesans Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 549
+DEBUG 2019-06-03 09:41:39,607 Page_Load Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 752
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-06-03 10:17:10,587 populatequesans Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 549
+DEBUG 2019-06-03 10:17:10,597 Page_Load Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 752
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-06-03 10:17:54,412 populatequesans Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 549
+DEBUG 2019-06-03 10:17:54,426 Page_Load Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 752
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-06-03 13:06:35,756 btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - 既存の接続はリモート ホストに強制的に切断されました。)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.WriteSni()
+   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode)
+   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()
+   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.login.btn_login_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\login.aspx.vb:line 151
+DEBUG 2019-06-03 13:20:51,629 frm_quesans_Init Of question_ans - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - 既存の接続はリモート ホストに強制的に切断されました。)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.WriteSni()
+   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode)
+   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()
+   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at Unirecruite.unirecruite.question_ans.frm_quesans_Init(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2827
+DEBUG 2019-06-03 13:20:51,688 populatequesans Of question_ans - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 734
+DEBUG 2019-06-03 13:20:51,702 Page_Load Of question_ans - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 752
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-06-03 13:24:15,571 frm_quesans_Init Of question_ans - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - 既存の接続はリモート ホストに強制的に切断されました。)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.WriteSni()
+   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode)
+   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()
+   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at Unirecruite.unirecruite.question_ans.frm_quesans_Init(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2827
+DEBUG 2019-06-03 14:03:45,566 populatequesans Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 549
+DEBUG 2019-06-03 14:03:45,594 Page_Load Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 752
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-06-03 16:42:17,725 frm_quesans_Init Of question_ans - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - 既存の接続はリモート ホストに強制的に切断されました。)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.WriteSni()
+   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode)
+   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()
+   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at Unirecruite.unirecruite.question_ans.frm_quesans_Init(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2827
+DEBUG 2019-06-03 16:42:17,839 populatequesans Of question_ans - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 734
+DEBUG 2019-06-03 16:42:17,852 Page_Load Of question_ans - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 752
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147

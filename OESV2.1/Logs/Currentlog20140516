@@ -1,0 +1,70 @@
+DEBUG 2014-05-16 08:49:01,734 sendMail Of search - Error :System.Web.HttpException: ?T?[?o?[?E?a?A?AÅe??M?O?A?h???X?a?ÅeÅhU?3?e?U?É ???B?T?[?o?[?c?c?IÅÒ?Åg??I???I?A?ÅN?e?A?ÅE?B452 <hashimoto@usindia.com> is over quota and can't send mail
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x8004020E): ?T?[?o?[?E?a?A?AÅe??M?O?A?h???X?a?ÅeÅhU?3?e?U?É ???B?T?[?o?[?c?c?IÅÒ?Åg??I???I?A?ÅN?e?A?ÅE?B452 <hashimoto@usindia.com> is over quota and can't send mail
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime)
+DEBUG 2014-05-16 08:49:02,484 sendMail Of search - Error :System.Web.HttpException: ?T?[?o?[?E?a?A?AÅe??M?O?A?h???X?a?ÅeÅhU?3?e?U?É ???B?T?[?o?[?c?c?IÅÒ?Åg??I???I?A?ÅN?e?A?ÅE?B452 <hashimoto@usindia.com> is over quota and can't send mail
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x8004020E): ?T?[?o?[?E?a?A?AÅe??M?O?A?h???X?a?ÅeÅhU?3?e?U?É ???B?T?[?o?[?c?c?IÅÒ?Åg??I???I?A?ÅN?e?A?ÅE?B452 <hashimoto@usindia.com> is over quota and can't send mail
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.search.sendMail(String StrTo, String userRollNo, String UserName, String userPassword, String subjectName, String TotalMarks, String PassingMarks, String TotalTime)
+DEBUG 2014-05-16 09:00:43,625 imgBtnSubmit_Click Of CourseRegistration - Error :System.InvalidCastException: Conversion from string "60%" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Unirecruite.CourseRegistration.imgBtnSubmit_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-05-16 09:00:58,671 imgBtnSubmit_Click Of CourseRegistration - Error :System.InvalidCastException: Conversion from string "60%" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Unirecruite.CourseRegistration.imgBtnSubmit_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-05-16 09:02:00,234 imgBtnSubmit_Click Of CourseRegistration - Error :System.InvalidCastException: Conversion from string "60%" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Unirecruite.CourseRegistration.imgBtnSubmit_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-05-16 09:02:43,390 imgBtnSubmit_Click Of CourseRegistration - Error :System.InvalidCastException: Conversion from string "60%" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Unirecruite.CourseRegistration.imgBtnSubmit_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-05-16 09:03:11,406 imgBtnSubmit_Click Of CourseRegistration - Error :System.InvalidCastException: Conversion from string "60%" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Unirecruite.CourseRegistration.imgBtnSubmit_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-05-16 18:06:37,515 ExportExamDetails Of searchExamAppeared - Error :System.Web.HttpException: The remote host closed the connection. The error code is 0x80072746.
+   at System.Web.Hosting.ISAPIWorkerRequestInProcForIIS6.FlushCore(Byte[] status, Byte[] header, Int32 keepConnected, Int32 totalBodySize, Int32 numBodyFragments, IntPtr[] bodyFragments, Int32[] bodyFragmentLengths, Int32 doneWithSession, Int32 finalStatus, Boolean& async)
+   at System.Web.Hosting.ISAPIWorkerRequest.FlushCachedResponse(Boolean isFinal)
+   at System.Web.Hosting.ISAPIWorkerRequest.FlushResponse(Boolean finalFlush)
+   at System.Web.HttpResponse.Flush(Boolean finalFlush)
+   at System.Web.HttpResponse.Flush()
+   at Unirecruite.AppearedExam.ExportExamDetails()
+DEBUG 2014-05-16 18:06:37,609 ExportAppearedExamDetails_Click Of searchExamAppeared - Error :System.Web.HttpException: Cannot redirect after HTTP headers have been sent.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.AppearedExam.ExportExamDetails()
+   at Unirecruite.AppearedExam.ExportAppearedExamDetails_Click(Object sender, ImageClickEventArgs e)

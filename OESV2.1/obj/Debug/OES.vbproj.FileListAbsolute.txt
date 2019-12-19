@@ -1,0 +1,131 @@
+D:\New OES\OESV2.1\bin\Unirecruite.dll.config
+D:\New OES\OESV2.1\bin\Unirecruite.dll
+D:\New OES\OESV2.1\bin\Unirecruite.pdb
+D:\New OES\OESV2.1\bin\Unirecruite.xml
+D:\New OES\OESV2.1\obj\Debug\OES.vbproj.ResolveComReference.cache
+D:\New OES\OESV2.1\obj\Debug\Unirecruite.unirecruite.admin.resources
+D:\New OES\OESV2.1\obj\Debug\Unirecruite.unirecruite.WebForm3.resources
+D:\New OES\OESV2.1\obj\Debug\Unirecruite.unirecruite.BulkQuestionsInsert.resources
+D:\New OES\OESV2.1\obj\Debug\Unirecruite.unirecruite.CandStatus.resources
+D:\New OES\OESV2.1\obj\Debug\Unirecruite.unirecruite.changepass.resources
+D:\New OES\OESV2.1\obj\Debug\Unirecruite.error.aspx.resources
+D:\New OES\OESV2.1\obj\Debug\Unirecruite.login.aspx.resources
+D:\New OES\OESV2.1\obj\Debug\Unirecruite.question_ans.aspx.resources
+D:\New OES\OESV2.1\obj\Debug\Unirecruite.register.aspx.resources
+D:\New OES\OESV2.1\obj\Debug\Unirecruite.RptPrint.aspx.resources
+D:\New OES\OESV2.1\obj\Debug\Unirecruite.search.aspx.resources
+D:\New OES\OESV2.1\obj\Debug\Unirecruite.searchQuestion.aspx.resources
+D:\New OES\OESV2.1\obj\Debug\Unirecruite.Service1.asmx.resources
+D:\New OES\OESV2.1\obj\Debug\OES.vbproj.GenerateResource.Cache
+D:\New OES\OESV2.1\obj\Debug\Unirecruite.dll
+D:\New OES\OESV2.1\obj\Debug\Unirecruite.xml
+D:\New OES\OESV2.1\obj\Debug\Unirecruite.pdb
+D:\New OES\OESV2.1\obj\Debug\OES.vbprojResolveAssemblyReference.cache
+D:\OESv2\Source Code\Development Area\OESV2.1\bin\Unirecruite.dll.config
+D:\OESv2\Source Code\Development Area\OESV2.1\bin\Unirecruite.dll
+D:\OESv2\Source Code\Development Area\OESV2.1\bin\Unirecruite.pdb
+D:\OESv2\Source Code\Development Area\OESV2.1\bin\Unirecruite.xml
+D:\OESv2\Source Code\Development Area\OESV2.1\obj\Debug\OES.vbproj.ResolveComReference.cache
+D:\OESv2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.unirecruite.admin.resources
+D:\OESv2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.unirecruite.WebForm3.resources
+D:\OESv2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.unirecruite.BulkQuestionsInsert.resources
+D:\OESv2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.unirecruite.CandStatus.resources
+D:\OESv2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.unirecruite.changepass.resources
+D:\OESv2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.error.aspx.resources
+D:\OESv2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.login.aspx.resources
+D:\OESv2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.question_ans.aspx.resources
+D:\OESv2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.register.aspx.resources
+D:\OESv2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.RptPrint.aspx.resources
+D:\OESv2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.search.aspx.resources
+D:\OESv2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.searchQuestion.aspx.resources
+D:\OESv2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.Service1.asmx.resources
+D:\OESv2\Source Code\Development Area\OESV2.1\obj\Debug\OES.vbproj.GenerateResource.Cache
+D:\OESv2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.dll
+D:\OESv2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.xml
+D:\OESv2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.pdb
+D:\OESV2\Source Code\Development Area\OESV2.1\bin\office.dll
+D:\OESV2\Source Code\Development Area\OESV2.1\bin\Microsoft.Vbe.Interop.dll
+D:\OESV2\Source Code\Development Area\OESV2.1\bin\stdole.dll
+D:\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\OES.vbprojAssemblyReference.cache
+D:\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\OES.vbproj.CoreCompileInputs.cache
+D:\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\OES.vbproj.CopyComplete
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\bin\Unirecruite.dll.config
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\bin\Unirecruite.dll
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\bin\Unirecruite.pdb
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\bin\Unirecruite.xml
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\bin\office.dll
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\bin\Microsoft.Vbe.Interop.dll
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\bin\stdole.dll
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\OES.vbprojAssemblyReference.cache
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\OES.vbproj.ResolveComReference.cache
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.unirecruite.admin.resources
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.unirecruite.WebForm3.resources
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.unirecruite.BulkQuestionsInsert.resources
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.unirecruite.CandStatus.resources
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.unirecruite.changepass.resources
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.error.aspx.resources
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.login.aspx.resources
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.question_ans.aspx.resources
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.register.aspx.resources
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.RptPrint.aspx.resources
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.search.aspx.resources
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.searchQuestion.aspx.resources
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.Service1.asmx.resources
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\OES.vbproj.GenerateResource.cache
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\OES.vbproj.CoreCompileInputs.cache
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\OES.vbproj.CopyComplete
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.dll
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.xml
+D:\OES Backup\OESV2\Source Code\Development Area\OESV2.1\obj\Debug\Unirecruite.pdb
+C:\Users\Pranit\Desktop\OESV2.1\bin\Unirecruite.dll.config
+C:\Users\Pranit\Desktop\OESV2.1\bin\Unirecruite.dll
+C:\Users\Pranit\Desktop\OESV2.1\bin\Unirecruite.pdb
+C:\Users\Pranit\Desktop\OESV2.1\bin\Unirecruite.xml
+C:\Users\Pranit\Desktop\OESV2.1\bin\stdole.dll
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\OES.vbprojAssemblyReference.cache
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\OES.vbproj.ResolveComReference.cache
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\Unirecruite.unirecruite.admin.resources
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\Unirecruite.unirecruite.WebForm3.resources
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\Unirecruite.unirecruite.BulkQuestionsInsert.resources
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\Unirecruite.unirecruite.CandStatus.resources
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\Unirecruite.unirecruite.changepass.resources
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\Unirecruite.error.aspx.resources
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\Unirecruite.login.aspx.resources
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\Unirecruite.question_ans.aspx.resources
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\Unirecruite.register.aspx.resources
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\Unirecruite.RptPrint.aspx.resources
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\Unirecruite.search.aspx.resources
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\Unirecruite.searchQuestion.aspx.resources
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\Unirecruite.Service1.asmx.resources
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\OES.vbproj.GenerateResource.cache
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\OES.vbproj.CoreCompileInputs.cache
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\OES.vbproj.CopyComplete
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\Unirecruite.dll
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\Unirecruite.xml
+C:\Users\Pranit\Desktop\OESV2.1\obj\Debug\Unirecruite.pdb
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\bin\Unirecruite.dll.config
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\bin\Unirecruite.dll
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\bin\Unirecruite.pdb
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\bin\Unirecruite.xml
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\bin\stdole.dll
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\OES.vbproj.ResolveComReference.cache
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\Unirecruite.unirecruite.admin.resources
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\Unirecruite.unirecruite.WebForm3.resources
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\Unirecruite.unirecruite.BulkQuestionsInsert.resources
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\Unirecruite.unirecruite.CandStatus.resources
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\Unirecruite.unirecruite.changepass.resources
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\Unirecruite.error.aspx.resources
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\Unirecruite.login.aspx.resources
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\Unirecruite.question_ans.aspx.resources
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\Unirecruite.register.aspx.resources
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\Unirecruite.RptPrint.aspx.resources
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\Unirecruite.search.aspx.resources
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\Unirecruite.searchQuestion.aspx.resources
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\Unirecruite.Service1.asmx.resources
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\OES.vbproj.GenerateResource.cache
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\OES.vbproj.CoreCompileInputs.cache
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\OES.vbproj.CopyComplete
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\Unirecruite.dll
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\Unirecruite.xml
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\Unirecruite.pdb
+D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\obj\Debug\OES.vbprojAssemblyReference.cache

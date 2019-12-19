@@ -1,0 +1,199 @@
+ERROR 2017-11-24 09:10:58,703 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2017-11-24 09:10:58,968 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in C:\Users\Dipendra\Desktop\oes_publish\CandStatus.aspx.vb:line 2096
+DEBUG 2017-11-24 09:10:58,968 ExportExamDetails Of CandStatus - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in C:\Users\Dipendra\Desktop\oes_publish\CandStatus.aspx.vb:line 2096
+ERROR 2017-11-24 09:17:40,000 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2017-11-24 09:17:40,000 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in C:\Users\Dipendra\Desktop\oes_publish\CandStatus.aspx.vb:line 2096
+DEBUG 2017-11-24 09:17:40,000 ExportExamDetails Of CandStatus - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in C:\Users\Dipendra\Desktop\oes_publish\CandStatus.aspx.vb:line 2096
+DEBUG 2017-11-24 09:43:02,125 Page_Load Of question_ans - Error :System.Data.SqlClient.SqlException: Invalid column name 'Audios'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.question_ans.playS(Int32 qid, String testType) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 3748
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 147
+DEBUG 2017-11-24 17:38:21,218 InsertIntoT_Result Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Invalid column name 'Audios'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 5383
+DEBUG 2017-11-24 17:38:21,234 generateQuePanel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.generateQuePanel(Int32 intCurrPage) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 1349
+DEBUG 2017-11-24 17:38:21,234 Page_Load Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 467
+DEBUG 2017-11-24 17:38:21,234 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 659
+DEBUG 2017-11-24 17:39:18,890 InsertIntoT_Result Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Invalid column name 'Audios'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 5383
+DEBUG 2017-11-24 17:39:18,890 generateQuePanel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.generateQuePanel(Int32 intCurrPage) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 1349
+DEBUG 2017-11-24 17:39:18,890 Page_Load Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 467
+DEBUG 2017-11-24 17:39:18,890 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 659
+DEBUG 2017-11-24 17:39:49,375 InsertIntoT_Result Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Invalid column name 'Audios'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 5383
+DEBUG 2017-11-24 17:39:49,375 generateQuePanel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.generateQuePanel(Int32 intCurrPage) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 1349
+DEBUG 2017-11-24 17:39:49,375 Page_Load Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 467
+DEBUG 2017-11-24 17:39:49,375 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 659
+DEBUG 2017-11-24 17:39:57,000 InsertIntoT_Result Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Invalid column name 'Audios'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 5383
+DEBUG 2017-11-24 17:39:57,000 generateQuePanel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.generateQuePanel(Int32 intCurrPage) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 1349
+DEBUG 2017-11-24 17:39:57,000 Page_Load Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 467
+DEBUG 2017-11-24 17:39:57,000 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 659
+DEBUG 2017-11-24 17:43:04,078 InsertIntoT_Result Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Invalid column name 'Audios'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 5383
+DEBUG 2017-11-24 17:43:04,093 generateQuePanel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.generateQuePanel(Int32 intCurrPage) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 1349
+DEBUG 2017-11-24 17:43:04,093 Page_Load Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 467
+DEBUG 2017-11-24 17:43:04,093 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 659
+DEBUG 2017-11-24 17:46:52,125 InsertIntoT_Result Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Invalid column name 'Audios'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 5383
+DEBUG 2017-11-24 17:46:52,125 generateQuePanel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.generateQuePanel(Int32 intCurrPage) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 1349
+DEBUG 2017-11-24 17:46:52,125 Page_Load Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 467
+DEBUG 2017-11-24 17:46:52,140 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 659
+DEBUG 2017-11-24 17:48:33,734 InsertIntoT_Result Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Invalid column name 'Audios'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 5383
+DEBUG 2017-11-24 17:48:33,750 generateQuePanel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.generateQuePanel(Int32 intCurrPage) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 1349
+DEBUG 2017-11-24 17:48:33,750 Page_Load Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 467
+DEBUG 2017-11-24 17:48:33,750 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in C:\Users\Dipendra\Desktop\oes_publish\QuestionPaper.aspx.vb:line 659

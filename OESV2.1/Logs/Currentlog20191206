@@ -1,0 +1,87 @@
+DEBUG 2019-12-06 09:17:39,327 GetVacantSpace Of WeightageManagement - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - セマフォがタイムアウトしました。)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSni(DbAsyncResult asyncResult, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.ReadBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.ReadByte()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Unirecruite.WeightageManagement.GetVacantSpace(String courseid) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\WeightageManagement.aspx.vb:line 1421
+DEBUG 2019-12-06 09:26:55,455 retTestInfo Of searchExamAppeared - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - セマフォがタイムアウトしました。)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSni(DbAsyncResult asyncResult, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.ReadBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.ReadByte()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.AppearedExam.retTestInfo(String sqlstr) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AppearedExam.aspx.vb:line 157
+DEBUG 2019-12-06 09:26:55,467 populate_subjectid Of searchExamAppeared - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - セマフォがタイムアウトしました。)
+   at Unirecruite.AppearedExam.retTestInfo(String sqlstr) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AppearedExam.aspx.vb:line 163
+   at Unirecruite.AppearedExam.populate_subjectid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AppearedExam.aspx.vb:line 106
+DEBUG 2019-12-06 09:26:55,472 Page_Load Of searchExamAppeared - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - セマフォがタイムアウトしました。)
+   at Unirecruite.AppearedExam.populate_subjectid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AppearedExam.aspx.vb:line 134
+   at Unirecruite.AppearedExam.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AppearedExam.aspx.vb:line 40
+DEBUG 2019-12-06 16:28:50,918 Page_Load Of CandStatus - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.CandStatus.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 80
+DEBUG 2019-12-06 16:29:38,226 Page_Load Of CandStatus - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.CandStatus.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 80
+DEBUG 2019-12-06 16:29:38,238 BtnSearch_Click Of CandStatus - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.CandStatus.BtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 1394
+DEBUG 2019-12-06 16:29:59,870 Page_Load Of CandStatus - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.CandStatus.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 80
+DEBUG 2019-12-06 16:30:02,484 Page_Load Of CandStatus - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.CandStatus.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 80
+DEBUG 2019-12-06 16:30:02,503 BtnSearch_Click Of CandStatus - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.CandStatus.BtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 1394
+DEBUG 2019-12-06 16:30:24,944 Page_Load Of CandStatus - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.CandStatus.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 80
+DEBUG 2019-12-06 16:30:27,424 Page_Load Of CandStatus - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.CandStatus.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 80
+DEBUG 2019-12-06 16:30:27,431 BtnSearch_Click Of CandStatus - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.CandStatus.BtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 1394
+DEBUG 2019-12-06 16:30:35,895 Page_Load Of CandStatus - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.CandStatus.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 80
+DEBUG 2019-12-06 16:31:09,099 Page_Load Of CandStatus - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.CandStatus.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 80
+DEBUG 2019-12-06 17:00:37,690 FillListOfCourse_New Of CandStatus - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - 既存の接続はリモート ホストに強制的に切断されました。)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.WriteSni()
+   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode)
+   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()
+   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.CandStatus.FillListOfCourse_New() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 4127
+DEBUG 2019-12-06 17:00:37,706 Page_Load Of CandStatus - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - 既存の接続はリモート ホストに強制的に切断されました。)
+   at Unirecruite.unirecruite.CandStatus.FillListOfCourse_New() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 4191
+   at Unirecruite.unirecruite.CandStatus.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\CandStatus.aspx.vb:line 131

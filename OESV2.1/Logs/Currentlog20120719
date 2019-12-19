@@ -1,0 +1,21 @@
+DEBUG 2012-07-19 17:21:30,828 imgBtnImpData_Click Of question_paper - Error :System.Data.OleDb.OleDbException: 'Questions$' が見つかりません。パラメータや別名が正しいこと、無効な文字や区切り記号が含まれていないこと、または名前が長すぎないことを確認してください。
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Unirecruite.unirecruite.BulkQuestionsInsert.imgBtnImpData_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\UksTraining\Unirecruite\BulkQuestionsImport.aspx.vb:line 700
+DEBUG 2012-07-19 17:23:46,734 imgBtnImpData_Click Of question_paper - Error :System.Data.SqlClient.SqlException: Syntax error converting the varchar value '　' to a column of data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.unirecruite.BulkQuestionsInsert.imgBtnImpData_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\UksTraining\Unirecruite\BulkQuestionsImport.aspx.vb:line 952

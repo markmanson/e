@@ -1,0 +1,52 @@
+DEBUG 2019-04-25 15:33:53,587 update_question Of question_ans - Error :System.Data.SqlClient.SqlException: Incorrect syntax near ', Audios = 203_0.wav WHERE qnid = 1 AND test_type = '.
+Unclosed quotation mark after the character string ''.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.unirecruite.question_ans.update_question(Int32 qid, String testType, Boolean QuesFlag) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2398
+DEBUG 2019-04-25 15:33:53,625 img_update_Click Of question_ans - Error :System.Data.SqlClient.SqlException: Incorrect syntax near ', Audios = 203_0.wav WHERE qnid = 1 AND test_type = '.
+Unclosed quotation mark after the character string ''.
+   at Unirecruite.unirecruite.question_ans.update_question(Int32 qid, String testType, Boolean QuesFlag) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2433
+   at Unirecruite.unirecruite.question_ans.img_update_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2998
+DEBUG 2019-04-25 15:39:20,059 update_question Of question_ans - Error :System.Data.SqlClient.SqlException: Incorrect syntax near ','.
+Unclosed quotation mark after the character string ''.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.unirecruite.question_ans.update_question(Int32 qid, String testType, Boolean QuesFlag) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2398
+DEBUG 2019-04-25 15:39:20,075 img_update_Click Of question_ans - Error :System.Data.SqlClient.SqlException: Incorrect syntax near ','.
+Unclosed quotation mark after the character string ''.
+   at Unirecruite.unirecruite.question_ans.update_question(Int32 qid, String testType, Boolean QuesFlag) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2433
+   at Unirecruite.unirecruite.question_ans.img_update_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2998
+DEBUG 2019-04-25 15:48:13,651 update_question Of question_ans - Error :System.Data.SqlClient.SqlException: Incorrect syntax near 'WHEREqnid'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.unirecruite.question_ans.update_question(Int32 qid, String testType, Boolean QuesFlag) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2398
+DEBUG 2019-04-25 15:48:13,682 img_update_Click Of question_ans - Error :System.Data.SqlClient.SqlException: Incorrect syntax near 'WHEREqnid'.
+   at Unirecruite.unirecruite.question_ans.update_question(Int32 qid, String testType, Boolean QuesFlag) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2433
+   at Unirecruite.unirecruite.question_ans.img_update_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2998
+DEBUG 2019-04-25 15:59:30,264 update_question Of question_ans - Error :System.Data.SqlClient.SqlException: Incorrect syntax near 'WHEREqnid'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.unirecruite.question_ans.update_question(Int32 qid, String testType, Boolean QuesFlag) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2398
+DEBUG 2019-04-25 15:59:30,267 img_update_Click Of question_ans - Error :System.Data.SqlClient.SqlException: Incorrect syntax near 'WHEREqnid'.
+   at Unirecruite.unirecruite.question_ans.update_question(Int32 qid, String testType, Boolean QuesFlag) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2433
+   at Unirecruite.unirecruite.question_ans.img_update_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2998

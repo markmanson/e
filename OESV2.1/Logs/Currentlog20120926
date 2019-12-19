@@ -1,0 +1,5 @@
+DEBUG 2012-09-26 14:13:20,531 Page_Load Of ExamCount - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at Unirecruite.ExamCount.Page_Load(Object sender, EventArgs e)

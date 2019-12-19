@@ -1,0 +1,113 @@
+DEBUG 2019-11-29 08:32:07,625 BindGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 910
+DEBUG 2019-11-29 09:44:35,706 BindGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 910
+DEBUG 2019-11-29 09:47:06,672 BindGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 910
+DEBUG 2019-11-29 09:56:36,681 BindGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 910
+DEBUG 2019-11-29 10:32:41,752 BindGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 910
+DEBUG 2019-11-29 10:40:26,107 BindGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 910
+DEBUG 2019-11-29 10:42:37,955 BindGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 910
+DEBUG 2019-11-29 11:03:47,071 BindGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 910
+DEBUG 2019-11-29 11:38:53,139 BindGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 910
+DEBUG 2019-11-29 11:41:07,153 BindGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 910
+DEBUG 2019-11-29 11:43:42,516 BindGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 910
+DEBUG 2019-11-29 11:44:19,270 BindGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 910
+DEBUG 2019-11-29 11:49:31,027 SearchGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 730
+DEBUG 2019-11-29 11:53:29,260 SearchGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 730
+DEBUG 2019-11-29 13:11:33,654 SearchGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 730
+DEBUG 2019-11-29 16:02:49,005 FillMainCourseCombo Of SubjectRegistration - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - 既存の接続はリモート ホストに強制的に切断されました。)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.WriteSni()
+   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode)
+   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()
+   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.SubjectRegistration.FillMainCourseCombo() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 1510
+DEBUG 2019-11-29 16:02:49,015 Page_Load Of SubjectRegistration - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - 既存の接続はリモート ホストに強制的に切断されました。)
+   at Unirecruite.SubjectRegistration.FillMainCourseCombo() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 1525
+   at Unirecruite.SubjectRegistration.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 51
+DEBUG 2019-11-29 16:16:02,080 Page_Load Of question_ans - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\question_ans.aspx.vb:line 118
+DEBUG 2019-11-29 16:16:08,191 Page_Load Of question_ans - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\question_ans.aspx.vb:line 118
+DEBUG 2019-11-29 16:16:12,418 Page_Load Of question_ans - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\question_ans.aspx.vb:line 118

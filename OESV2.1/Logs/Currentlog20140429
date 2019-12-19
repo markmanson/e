@@ -1,0 +1,10 @@
+DEBUG 2014-04-29 15:10:32,625 Getit Of WebForm3 - Error :System.ArgumentException: Item has already been added. Key in dictionary: 'N3-1'  Key being added: 'N3-1'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.unirecruite.WebForm3.Getit()
+DEBUG 2014-04-29 17:47:38,968 btn_login_Click Of Login - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.unirecruite.login.btn_login_Click(Object sender, ImageClickEventArgs e)

@@ -1,0 +1,65 @@
+DEBUG 2014-01-02 09:29:00,247 CheckImage Of searchExamAppeared - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.AppearedExam.CheckImage(String value)
+DEBUG 2014-01-02 09:29:00,418 ExportExamDetails Of searchExamAppeared - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.AppearedExam.CheckImage(String value)
+   at Unirecruite.AppearedExam.ExportExamDetails()
+DEBUG 2014-01-02 09:29:00,575 ExportAppearedExamDetails_Click Of searchExamAppeared - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.AppearedExam.ExportExamDetails()
+   at Unirecruite.AppearedExam.ExportAppearedExamDetails_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-01-02 09:30:00,918 CheckImage Of searchExamAppeared - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.AppearedExam.CheckImage(String value)
+DEBUG 2014-01-02 09:30:00,918 ExportExamDetails Of searchExamAppeared - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.AppearedExam.CheckImage(String value)
+   at Unirecruite.AppearedExam.ExportExamDetails()
+DEBUG 2014-01-02 09:30:00,918 ExportAppearedExamDetails_Click Of searchExamAppeared - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.AppearedExam.ExportExamDetails()
+   at Unirecruite.AppearedExam.ExportAppearedExamDetails_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-01-02 09:31:09,918 CheckImage Of searchExamAppeared - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.AppearedExam.CheckImage(String value)
+DEBUG 2014-01-02 09:31:09,918 ExportExamDetails Of searchExamAppeared - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.AppearedExam.CheckImage(String value)
+   at Unirecruite.AppearedExam.ExportExamDetails()
+DEBUG 2014-01-02 09:31:09,918 ExportAppearedExamDetails_Click Of searchExamAppeared - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.AppearedExam.ExportExamDetails()
+   at Unirecruite.AppearedExam.ExportAppearedExamDetails_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-01-02 09:31:29,981 CheckImage Of searchExamAppeared - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.AppearedExam.CheckImage(String value)
+DEBUG 2014-01-02 09:31:29,981 ExportExamDetails Of searchExamAppeared - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.AppearedExam.CheckImage(String value)
+   at Unirecruite.AppearedExam.ExportExamDetails()
+DEBUG 2014-01-02 09:31:29,981 ExportAppearedExamDetails_Click Of searchExamAppeared - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.AppearedExam.ExportExamDetails()
+   at Unirecruite.AppearedExam.ExportAppearedExamDetails_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-01-02 09:44:33,372 CheckImage Of searchExamAppeared - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.AppearedExam.CheckImage(String value)
+DEBUG 2014-01-02 09:44:33,372 ExportExamDetails Of searchExamAppeared - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.AppearedExam.CheckImage(String value)
+   at Unirecruite.AppearedExam.ExportExamDetails()
+DEBUG 2014-01-02 09:44:33,372 ExportAppearedExamDetails_Click Of searchExamAppeared - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.AppearedExam.ExportExamDetails()
+   at Unirecruite.AppearedExam.ExportAppearedExamDetails_Click(Object sender, ImageClickEventArgs e)

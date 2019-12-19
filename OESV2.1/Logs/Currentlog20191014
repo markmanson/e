@@ -1,0 +1,52 @@
+DEBUG 2019-10-14 15:31:16,358 FillCenterCombo Of register - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - 既存の接続はリモート ホストに強制的に切断されました。)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.WriteSni()
+   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode)
+   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()
+   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.register.FillCenterCombo() in C:\Users\Pranit\Desktop\OESV2.1\register.aspx.vb:line 1676
+DEBUG 2019-10-14 17:57:49,543 FillCenterCombo Of register - Error :System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: TCP Provider, error: 0 - 既存の接続はリモート ホストに強制的に切断されました。)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.WriteSni()
+   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode)
+   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()
+   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.register.FillCenterCombo() in C:\Users\Pranit\Desktop\OESV2.1\register.aspx.vb:line 1676
+DEBUG 2019-10-14 17:58:20,607 FillCenterCombo Of register - Error :System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at Unirecruite.ConnectDb.connect() in C:\Users\Pranit\Desktop\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.register.FillCenterCombo() in C:\Users\Pranit\Desktop\OESV2.1\register.aspx.vb:line 1667
+DEBUG 2019-10-14 18:02:57,855 Btn_login_Click Of Login - Error :System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at Unirecruite.ConnectDb.connect() in C:\Users\Pranit\Desktop\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in C:\Users\Pranit\Desktop\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-10-14 18:03:38,902 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at Unirecruite.ConnectDb.connect() in C:\Users\Pranit\Desktop\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in C:\Users\Pranit\Desktop\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-10-14 18:05:59,536 Btn_login_Click Of Login - Error :System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at Unirecruite.ConnectDb.connect() in C:\Users\Pranit\Desktop\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in C:\Users\Pranit\Desktop\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-10-14 18:06:00,678 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   at Unirecruite.ConnectDb.connect() in C:\Users\Pranit\Desktop\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in C:\Users\Pranit\Desktop\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-10-14 18:06:43,324 FillCenterCombo Of register - Error :System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at Unirecruite.ConnectDb.connect() in C:\Users\Pranit\Desktop\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.register.FillCenterCombo() in C:\Users\Pranit\Desktop\OESV2.1\register.aspx.vb:line 1667
+DEBUG 2019-10-14 18:06:43,342 FillCenterCombo Of register - Error :System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at Unirecruite.ConnectDb.connect() in C:\Users\Pranit\Desktop\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.register.FillCenterCombo() in C:\Users\Pranit\Desktop\OESV2.1\register.aspx.vb:line 1667
+DEBUG 2019-10-14 18:09:27,104 Btn_login_Click Of Login - Error :System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at Unirecruite.ConnectDb.connect() in C:\Users\Pranit\Desktop\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in C:\Users\Pranit\Desktop\OESV2.1\login.aspx.vb:line 136

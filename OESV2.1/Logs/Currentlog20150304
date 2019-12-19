@@ -1,0 +1,10 @@
+DEBUG 2015-03-04 11:43:28,593 GetMarksForSubject Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '471'  Key being added: '471'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID) in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4707
+DEBUG 2015-03-04 11:43:28,671 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '471'  Key being added: '471'
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID) in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4721
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4368
+DEBUG 2015-03-04 11:43:28,671 Page_Load Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '471'  Key being added: '471'
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 4654
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 399

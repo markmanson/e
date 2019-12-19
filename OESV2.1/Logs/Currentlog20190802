@@ -1,0 +1,63 @@
+ERROR 2019-08-02 11:26:43,354 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2019-08-02 11:26:43,373 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\New OES\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\New OES\OESV2.1\CandStatus.aspx.vb:line 1586
+DEBUG 2019-08-02 11:26:43,374 ExportExamDetails Of CandStatus - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\New OES\OESV2.1\CandStatus.aspx.vb:line 1586
+DEBUG 2019-08-02 11:26:43,588 DGReport_ItemCommand Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\New OES\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\New OES\OESV2.1\CandStatus.aspx.vb:line 2241
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\New OES\OESV2.1\CandStatus.aspx.vb:line 2396
+ERROR 2019-08-02 11:26:46,949 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2019-08-02 11:26:46,950 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\New OES\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\New OES\OESV2.1\CandStatus.aspx.vb:line 1586
+DEBUG 2019-08-02 11:26:46,950 ExportExamDetails Of CandStatus - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\New OES\OESV2.1\CandStatus.aspx.vb:line 1586
+DEBUG 2019-08-02 11:26:47,107 DGReport_ItemCommand Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\New OES\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\New OES\OESV2.1\CandStatus.aspx.vb:line 2241
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\New OES\OESV2.1\CandStatus.aspx.vb:line 2396
+ERROR 2019-08-02 11:26:51,255 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2019-08-02 11:26:51,256 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\New OES\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\New OES\OESV2.1\CandStatus.aspx.vb:line 1586
+DEBUG 2019-08-02 11:26:51,256 ExportExamDetails Of CandStatus - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\New OES\OESV2.1\CandStatus.aspx.vb:line 1586
+DEBUG 2019-08-02 11:26:51,413 DGReport_ItemCommand Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\New OES\OESV2.1\ExcelImport\Student Exam Details.xlt' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\New OES\OESV2.1\CandStatus.aspx.vb:line 2241
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in D:\New OES\OESV2.1\CandStatus.aspx.vb:line 2396
+DEBUG 2019-08-02 11:44:53,001 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in D:\New OES\OESV2.1\QuestionPaper.aspx.vb:line 665
+DEBUG 2019-08-02 11:44:53,076 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in D:\New OES\OESV2.1\QuestionPaper.aspx.vb:line 665
+DEBUG 2019-08-02 11:44:53,083 InsertData Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.InsertData() in D:\New OES\OESV2.1\QuestionPaper.aspx.vb:line 2589
+DEBUG 2019-08-02 11:44:53,120 GetCandidateResult Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Unirecruite.QuestionPaper.GetCandidateResult(String CandidateID, String courseID) in D:\New OES\OESV2.1\QuestionPaper.aspx.vb:line 5897

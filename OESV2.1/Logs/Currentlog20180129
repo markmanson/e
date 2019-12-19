@@ -1,0 +1,2 @@
+DEBUG 2018-01-29 16:54:58,742 Page_Load Of Studentinfo - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.StudentInfo.Page_Load(Object sender, EventArgs e) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\StudentInfo.aspx.vb:line 35

@@ -1,0 +1,62 @@
+ERROR 2017-08-25 14:19:09,770 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-08-25 14:19:09,926 ExportExamDetails Of ExamResult - Error :System.UnauthorizedAccessException: Access to the path 'D:\Virtual host\OES\Excel Import\StudentExamDetails.XLS' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 727
+DEBUG 2017-08-25 14:19:09,926 ExportExamDetails Of ExamResult - Error :   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 727
+ERROR 2017-08-25 14:19:15,645 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-08-25 14:19:15,645 ExportExamDetails Of ExamResult - Error :System.UnauthorizedAccessException: Access to the path 'D:\Virtual host\OES\Excel Import\StudentExamDetails.XLS' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 727
+DEBUG 2017-08-25 14:19:15,645 ExportExamDetails Of ExamResult - Error :   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 727
+ERROR 2017-08-25 14:48:32,620 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-08-25 14:48:32,620 ExportExamDetails Of ExamResult - Error :System.UnauthorizedAccessException: Access to the path 'D:\Virtual host\OES\Excel Import\StudentExamDetails.XLS' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 727
+DEBUG 2017-08-25 14:48:32,620 ExportExamDetails Of ExamResult - Error :   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 727
+ERROR 2017-08-25 14:59:03,550 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-08-25 14:59:03,550 ExportExamDetails Of ExamResult - Error :System.UnauthorizedAccessException: Access to the path 'D:\Virtual host\OES\Excel Import\StudentExamDetails.XLS' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 727
+DEBUG 2017-08-25 14:59:03,550 ExportExamDetails Of ExamResult - Error :   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 727
+DEBUG 2017-08-25 15:03:59,367 ExportExamDetails Of searchExamAppeared - Error :System.UnauthorizedAccessException: Access to the path 'D:\Virtual host\OES\Excel Import\StudentExamDetails.XLS' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 1998
+DEBUG 2017-08-25 15:03:59,398 ExportExamDetails Of searchExamAppeared - Error :   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 1998
+DEBUG 2017-08-25 15:03:59,398 ExportAppearedExamDetails_Click Of searchExamAppeared - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 2028
+   at Unirecruite.AppearedExam.ExportAppearedExamDetails_Click(Object sender, ImageClickEventArgs e) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 3153
+DEBUG 2017-08-25 15:04:25,133 ExportExamDetails Of searchExamAppeared - Error :System.UnauthorizedAccessException: Access to the path 'D:\Virtual host\OES\Excel Import\StudentExamDetails.XLS' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 1998
+DEBUG 2017-08-25 15:04:25,133 ExportExamDetails Of searchExamAppeared - Error :   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 1998
+DEBUG 2017-08-25 15:04:25,133 ExportAppearedExamDetails_Click Of searchExamAppeared - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Unirecruite.AppearedExam.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 2028
+   at Unirecruite.AppearedExam.ExportAppearedExamDetails_Click(Object sender, ImageClickEventArgs e) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\AppearedExam.aspx.vb:line 3153

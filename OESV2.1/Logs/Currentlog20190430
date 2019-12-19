@@ -1,0 +1,97 @@
+DEBUG 2019-04-30 10:42:49,370 CheckImage Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex)
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 764
+DEBUG 2019-04-30 10:42:49,431 populatequesans Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 779
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 538
+DEBUG 2019-04-30 10:42:49,439 Page_Load Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 739
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-04-30 11:42:46,779 update_question Of question_ans - Error :System.InvalidOperationException: ExecuteReader requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.question_ans.update_question(Int32 qid, String testType, Boolean QuesFlag) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2105
+DEBUG 2019-04-30 11:42:55,044 img_update_Click Of question_ans - Error :System.InvalidOperationException: ExecuteReader requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+   at Unirecruite.unirecruite.question_ans.update_question(Int32 qid, String testType, Boolean QuesFlag) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2451
+   at Unirecruite.unirecruite.question_ans.img_update_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 3016
+DEBUG 2019-04-30 11:47:49,966 update_question Of question_ans - Error :System.InvalidOperationException: ExecuteReader requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.question_ans.update_question(Int32 qid, String testType, Boolean QuesFlag) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2107
+DEBUG 2019-04-30 11:47:49,985 img_update_Click Of question_ans - Error :System.InvalidOperationException: ExecuteReader requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+   at Unirecruite.unirecruite.question_ans.update_question(Int32 qid, String testType, Boolean QuesFlag) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2453
+   at Unirecruite.unirecruite.question_ans.img_update_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 3018
+DEBUG 2019-04-30 11:49:07,206 update_question Of question_ans - Error :System.InvalidOperationException: ExecuteReader requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.question_ans.update_question(Int32 qid, String testType, Boolean QuesFlag) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2107
+DEBUG 2019-04-30 11:49:07,228 img_update_Click Of question_ans - Error :System.InvalidOperationException: ExecuteReader requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+   at Unirecruite.unirecruite.question_ans.update_question(Int32 qid, String testType, Boolean QuesFlag) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2453
+   at Unirecruite.unirecruite.question_ans.img_update_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 3018
+DEBUG 2019-04-30 12:02:09,616 update_question Of question_ans - Error :System.InvalidOperationException: ExecuteReader requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.question_ans.update_question(Int32 qid, String testType, Boolean QuesFlag) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2108
+DEBUG 2019-04-30 12:02:09,737 img_update_Click Of question_ans - Error :System.InvalidOperationException: ExecuteReader requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+   at Unirecruite.unirecruite.question_ans.update_question(Int32 qid, String testType, Boolean QuesFlag) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2456
+   at Unirecruite.unirecruite.question_ans.img_update_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 3021
+DEBUG 2019-04-30 13:16:35,855 update_question Of question_ans - Error :System.InvalidOperationException: ExecuteReader requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.question_ans.update_question(Int32 qid, String testType, Boolean QuesFlag) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2108
+DEBUG 2019-04-30 13:16:35,868 img_update_Click Of question_ans - Error :System.InvalidOperationException: ExecuteReader requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+   at Unirecruite.unirecruite.question_ans.update_question(Int32 qid, String testType, Boolean QuesFlag) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 2456
+   at Unirecruite.unirecruite.question_ans.img_update_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 3021
+DEBUG 2019-04-30 13:37:35,161 CheckImage Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex)
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 764
+DEBUG 2019-04-30 13:37:35,177 populatequesans Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 779
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 538
+DEBUG 2019-04-30 13:37:35,182 Page_Load Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 739
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-04-30 13:51:38,988 CheckImage Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex)
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 764
+DEBUG 2019-04-30 13:51:39,002 populatequesans Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 779
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 538
+DEBUG 2019-04-30 13:51:39,003 Page_Load Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 739
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+ERROR 2019-04-30 15:28:15,995 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2019-04-30 15:28:16,049 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A01A8): Exception from HRESULT: 0x800A01A8
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OESV2\Source Code\Development Area\OESV2.1\ExamResult.aspx.vb:line 735
+DEBUG 2019-04-30 15:28:16,049 ExportExamDetails Of ExamResult - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OESV2\Source Code\Development Area\OESV2.1\ExamResult.aspx.vb:line 735

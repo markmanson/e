@@ -1,0 +1,153 @@
+DEBUG 2019-11-28 17:01:44,885 SearchGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 730
+DEBUG 2019-11-28 17:01:44,903 imgBtnSearch_Click Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 762
+   at Unirecruite.SubjectRegistration.imgBtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 577
+DEBUG 2019-11-28 17:05:23,234 SearchGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 730
+DEBUG 2019-11-28 17:05:23,248 imgBtnSearch_Click Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 762
+   at Unirecruite.SubjectRegistration.imgBtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 577
+DEBUG 2019-11-28 17:05:50,068 SearchGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 730
+DEBUG 2019-11-28 17:05:50,076 imgBtnSearch_Click Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 762
+   at Unirecruite.SubjectRegistration.imgBtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 577
+DEBUG 2019-11-28 17:06:53,799 SearchGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 730
+DEBUG 2019-11-28 17:07:04,212 imgBtnSearch_Click Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 762
+   at Unirecruite.SubjectRegistration.imgBtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 577
+DEBUG 2019-11-28 17:09:56,465 SearchGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 730
+DEBUG 2019-11-28 17:10:11,643 imgBtnSearch_Click Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 762
+   at Unirecruite.SubjectRegistration.imgBtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 577
+DEBUG 2019-11-28 17:11:33,223 SearchGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 730
+DEBUG 2019-11-28 17:11:33,234 imgBtnSearch_Click Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 762
+   at Unirecruite.SubjectRegistration.imgBtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 577
+DEBUG 2019-11-28 17:14:58,626 SearchGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 730
+DEBUG 2019-11-28 17:14:58,639 imgBtnSearch_Click Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 762
+   at Unirecruite.SubjectRegistration.imgBtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 577
+DEBUG 2019-11-28 17:27:40,457 SearchGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 730
+DEBUG 2019-11-28 17:27:44,338 imgBtnSearch_Click Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 762
+   at Unirecruite.SubjectRegistration.imgBtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 577
+DEBUG 2019-11-28 17:33:26,729 Btn_login_Click Of Login - Error :System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-11-28 17:33:27,885 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-11-28 17:33:28,130 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-11-28 17:33:28,646 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-11-28 17:33:32,017 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-11-28 17:34:09,855 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-11-28 17:35:05,457 Btn_login_Click Of Login - Error :System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-11-28 17:35:47,272 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-11-28 17:37:05,045 Btn_login_Click Of Login - Error :System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-11-28 17:37:06,212 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-11-28 17:37:06,271 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-11-28 17:37:06,430 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-11-28 17:37:06,617 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-11-28 17:37:06,872 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-11-28 17:37:07,209 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-11-28 17:37:50,545 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-11-28 17:37:50,809 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-11-28 17:37:53,459 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-11-28 17:37:59,994 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136

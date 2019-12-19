@@ -1,0 +1,2 @@
+DEBUG 2019-09-26 09:10:55,458 FillListOfCourse Of register - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.register.FillListOfCourse() in D:\OESV2\Source Code\Development Area\OESV2.1\register.aspx.vb:line 1955

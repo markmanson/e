@@ -1,0 +1,14 @@
+DEBUG 2019-05-16 16:16:41,288 populatequesans Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 543
+DEBUG 2019-05-16 16:16:41,327 Page_Load Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 743
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+ERROR 2019-05-16 17:26:55,511 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2019-05-16 17:26:55,529 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESV2\Source Code\Development Area\OESV2.1\ExcelImport\Student Exam Details.XLT' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OESV2\Source Code\Development Area\OESV2.1\ExamResult.aspx.vb:line 153
+DEBUG 2019-05-16 17:26:55,529 ExportExamDetails Of ExamResult - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OESV2\Source Code\Development Area\OESV2.1\ExamResult.aspx.vb:line 153

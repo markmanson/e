@@ -1,0 +1,33 @@
+DEBUG 2013-07-05 12:48:54,260 Page_Load Of searchQuestion - Error :System.InvalidCastException: Operator '=' is not defined for type 'DBNull' and 'Nothing'.
+   at Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   at Unirecruite.unirecruite.searchQuestion.Page_Load(Object sender, EventArgs e)
+DEBUG 2013-07-05 12:49:33,744 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2013-07-05 12:49:33,775 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2013-07-05 13:07:02,353 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2013-07-05 13:07:02,353 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2013-07-05 13:13:07,025 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2013-07-05 13:13:07,025 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2013-07-05 13:13:08,525 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2013-07-05 13:13:08,525 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2013-07-05 13:14:01,119 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2013-07-05 13:14:01,119 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)

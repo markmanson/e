@@ -1,0 +1,14 @@
+DEBUG 2019-06-20 16:16:26,704 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Office Excel cannot access the file 'D:\OESV2\Source Code\Development Area\OESV2.1\ExcelImport\E01BA100'. There are several possible reasons:
+
+? The file name or path does not exist.
+? The file is being used by another program.
+? The workbook you are trying to save has the same name as a currently open workbook.
+   at Microsoft.Office.Interop.Excel.WorkbookClass.SaveAs(Object Filename, Object FileFormat, Object Password, Object WriteResPassword, Object ReadOnlyRecommended, Object CreateBackup, XlSaveAsAccessMode AccessMode, Object ConflictResolution, Object AddToMru, Object TextCodepage, Object TextVisualLayout, Object Local)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\OESV2\Source Code\Development Area\OESV2.1\searchQuestion.aspx.vb:line 2093
+DEBUG 2019-06-20 16:24:10,365 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Office Excel cannot access the file 'D:\OESV2\Source Code\Development Area\OESV2.1\ExcelImport\B522B100'. There are several possible reasons:
+
+? The file name or path does not exist.
+? The file is being used by another program.
+? The workbook you are trying to save has the same name as a currently open workbook.
+   at Microsoft.Office.Interop.Excel.WorkbookClass.SaveAs(Object Filename, Object FileFormat, Object Password, Object WriteResPassword, Object ReadOnlyRecommended, Object CreateBackup, XlSaveAsAccessMode AccessMode, Object ConflictResolution, Object AddToMru, Object TextCodepage, Object TextVisualLayout, Object Local)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\OESV2\Source Code\Development Area\OESV2.1\searchQuestion.aspx.vb:line 2093

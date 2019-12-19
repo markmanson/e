@@ -1,0 +1,176 @@
+DEBUG 2017-12-12 11:38:50,948 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-12 11:38:51,448 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-12-12 11:38:51,448 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-12-12 11:38:53,777 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-12-12 11:38:53,886 makepdffile Of CandStatus - loading successful
+DEBUG 2017-12-12 11:38:53,886 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-12 11:38:54,449 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-12-12 11:38:54,746 makepdffile Of CandStatus - End Write on page
+INFO  2017-12-12 11:38:54,746 makepdffile Of CandStatus - Int_values
+INFO  2017-12-12 11:38:54,746 makepdffile Of CandStatus - total_values
+INFO  2017-12-12 11:38:54,746 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-12-12 11:38:54,746 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-12-12 11:38:54,746 drawTable Of CandStatus - te(1):
+INFO  2017-12-12 11:38:54,746 drawTable Of CandStatus - End of Write data
+INFO  2017-12-12 11:38:54,746 drawTable Of CandStatus - End of Rows
+INFO  2017-12-12 11:38:54,746 drawTable Of CandStatus - End of Columns
+DEBUG 2017-12-12 11:38:54,949 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-12 11:38:54,949 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-12-12 11:38:54,949 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-12-12 11:38:54,949 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-12-12 11:38:54,996 makepdffile Of CandStatus - loading successful
+DEBUG 2017-12-12 11:38:54,996 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-12 11:38:54,996 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-12-12 11:38:54,996 makepdffile Of CandStatus - End Write on page
+INFO  2017-12-12 11:38:54,996 makepdffile Of CandStatus - Int_values
+INFO  2017-12-12 11:38:54,996 makepdffile Of CandStatus - total_values
+INFO  2017-12-12 11:38:54,996 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-12-12 11:38:54,996 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-12-12 11:38:54,996 drawTable Of CandStatus - te(1):
+INFO  2017-12-12 11:38:54,996 drawTable Of CandStatus - End of Write data
+INFO  2017-12-12 11:38:54,996 drawTable Of CandStatus - End of Rows
+INFO  2017-12-12 11:38:54,996 drawTable Of CandStatus - End of Columns
+DEBUG 2017-12-12 11:45:51,507 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-12 11:45:51,507 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-12-12 11:45:51,507 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-12-12 11:45:51,507 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-12-12 11:45:51,553 makepdffile Of CandStatus - loading successful
+DEBUG 2017-12-12 11:45:51,553 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-12 11:45:51,553 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-12-12 11:45:51,553 makepdffile Of CandStatus - End Write on page
+INFO  2017-12-12 11:45:51,553 makepdffile Of CandStatus - Int_values
+INFO  2017-12-12 11:45:51,553 makepdffile Of CandStatus - total_values
+INFO  2017-12-12 11:45:51,553 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-12-12 11:45:51,553 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-12-12 11:45:51,553 drawTable Of CandStatus - te(1):
+INFO  2017-12-12 11:45:51,553 drawTable Of CandStatus - End of Write data
+INFO  2017-12-12 11:45:51,553 drawTable Of CandStatus - End of Rows
+INFO  2017-12-12 11:45:51,553 drawTable Of CandStatus - End of Columns
+ERROR 2017-12-12 13:22:38,284 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2017-12-12 13:22:38,300 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1529
+DEBUG 2017-12-12 13:22:38,300 ExportExamDetails Of CandStatus - Error :   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1529
+ERROR 2017-12-12 13:23:19,537 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2017-12-12 13:23:19,537 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1529
+DEBUG 2017-12-12 13:23:19,537 ExportExamDetails Of CandStatus - Error :   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1529
+ERROR 2017-12-12 13:23:53,039 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2017-12-12 13:23:53,039 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1529
+DEBUG 2017-12-12 13:23:53,039 ExportExamDetails Of CandStatus - Error :   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1529
+ERROR 2017-12-12 13:24:51,449 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2017-12-12 13:24:51,449 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1529
+DEBUG 2017-12-12 13:24:51,449 ExportExamDetails Of CandStatus - Error :   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1529
+ERROR 2017-12-12 13:25:22,061 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2017-12-12 13:25:22,061 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1529
+DEBUG 2017-12-12 13:25:22,061 ExportExamDetails Of CandStatus - Error :   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1529
+ERROR 2017-12-12 13:25:59,282 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2017-12-12 13:25:59,282 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1529
+DEBUG 2017-12-12 13:25:59,282 ExportExamDetails Of CandStatus - Error :   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1529
+ERROR 2017-12-12 13:31:03,973 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2017-12-12 13:31:03,973 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1529
+DEBUG 2017-12-12 13:31:03,973 ExportExamDetails Of CandStatus - Error :   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1529
+ERROR 2017-12-12 13:31:39,178 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2017-12-12 13:31:39,178 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1529
+DEBUG 2017-12-12 13:31:39,178 ExportExamDetails Of CandStatus - Error :   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in D:\OES\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 1529
+DEBUG 2017-12-12 13:55:57,256 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-12 13:55:57,256 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-12-12 13:55:57,256 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-12-12 13:55:58,412 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-12-12 13:55:58,506 makepdffile Of CandStatus - loading successful
+DEBUG 2017-12-12 13:55:58,506 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-12 13:55:58,662 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-12-12 13:55:58,756 makepdffile Of CandStatus - End Write on page
+INFO  2017-12-12 13:55:58,756 makepdffile Of CandStatus - Int_values
+INFO  2017-12-12 13:55:58,756 makepdffile Of CandStatus - total_values
+INFO  2017-12-12 13:55:58,756 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-12-12 13:55:58,772 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-12-12 13:55:58,772 drawTable Of CandStatus - te(1):
+INFO  2017-12-12 13:55:58,772 drawTable Of CandStatus - End of Write data
+INFO  2017-12-12 13:55:58,772 drawTable Of CandStatus - End of Rows
+INFO  2017-12-12 13:55:58,772 drawTable Of CandStatus - End of Columns
+DEBUG 2017-12-12 14:04:24,507 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-12 14:04:24,507 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-12-12 14:04:24,507 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-12-12 14:04:24,507 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-12-12 14:04:24,554 makepdffile Of CandStatus - loading successful
+DEBUG 2017-12-12 14:04:24,554 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-12 14:04:24,554 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-12-12 14:04:24,554 makepdffile Of CandStatus - End Write on page
+INFO  2017-12-12 14:04:24,554 makepdffile Of CandStatus - Int_values
+INFO  2017-12-12 14:04:24,554 makepdffile Of CandStatus - total_values
+INFO  2017-12-12 14:04:24,554 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-12-12 14:04:24,554 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-12-12 14:04:24,554 drawTable Of CandStatus - te(1):
+INFO  2017-12-12 14:04:24,554 drawTable Of CandStatus - End of Write data
+INFO  2017-12-12 14:04:24,554 drawTable Of CandStatus - End of Rows
+INFO  2017-12-12 14:04:24,554 drawTable Of CandStatus - End of Columns
+DEBUG 2017-12-12 14:05:50,825 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-12 14:05:50,825 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-12-12 14:05:50,825 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-12-12 14:05:50,825 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-12-12 14:05:50,872 makepdffile Of CandStatus - loading successful
+DEBUG 2017-12-12 14:05:50,872 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-12 14:05:50,872 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-12-12 14:05:50,872 makepdffile Of CandStatus - End Write on page
+INFO  2017-12-12 14:05:50,872 makepdffile Of CandStatus - Int_values
+INFO  2017-12-12 14:05:50,872 makepdffile Of CandStatus - total_values
+INFO  2017-12-12 14:05:50,872 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-12-12 14:05:50,872 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-12-12 14:05:50,872 drawTable Of CandStatus - te(1):
+INFO  2017-12-12 14:05:50,872 drawTable Of CandStatus - End of Write data
+INFO  2017-12-12 14:05:50,872 drawTable Of CandStatus - End of Rows
+INFO  2017-12-12 14:05:50,872 drawTable Of CandStatus - End of Columns
+DEBUG 2017-12-12 14:09:23,401 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-12 14:09:23,401 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-12-12 14:09:23,401 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-12-12 14:09:23,401 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-12-12 14:09:23,448 makepdffile Of CandStatus - loading successful
+DEBUG 2017-12-12 14:09:23,448 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-12 14:09:23,448 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-12-12 14:09:23,448 makepdffile Of CandStatus - End Write on page
+INFO  2017-12-12 14:09:23,448 makepdffile Of CandStatus - Int_values
+INFO  2017-12-12 14:09:23,448 makepdffile Of CandStatus - total_values
+INFO  2017-12-12 14:09:23,448 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-12-12 14:09:23,448 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-12-12 14:09:23,448 drawTable Of CandStatus - te(1):
+INFO  2017-12-12 14:09:23,448 drawTable Of CandStatus - End of Write data
+INFO  2017-12-12 14:09:23,448 drawTable Of CandStatus - End of Rows
+INFO  2017-12-12 14:09:23,448 drawTable Of CandStatus - End of Columns
+DEBUG 2017-12-12 14:16:22,303 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-12 14:16:22,303 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-12-12 14:16:22,303 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-12-12 14:16:22,303 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-12-12 14:16:22,350 makepdffile Of CandStatus - loading successful
+DEBUG 2017-12-12 14:16:22,350 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-12 14:16:22,350 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-12-12 14:16:22,350 makepdffile Of CandStatus - End Write on page
+INFO  2017-12-12 14:16:22,350 makepdffile Of CandStatus - Int_values
+INFO  2017-12-12 14:16:22,350 makepdffile Of CandStatus - total_values
+INFO  2017-12-12 14:16:22,350 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-12-12 14:16:22,350 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-12-12 14:16:22,350 drawTable Of CandStatus - te(1):
+INFO  2017-12-12 14:16:22,350 drawTable Of CandStatus - End of Write data
+INFO  2017-12-12 14:16:22,350 drawTable Of CandStatus - End of Rows
+INFO  2017-12-12 14:16:22,350 drawTable Of CandStatus - End of Columns
+DEBUG 2017-12-12 14:22:58,454 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-12 14:22:58,454 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-12-12 14:22:58,454 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-12-12 14:22:58,454 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-12-12 14:22:58,501 makepdffile Of CandStatus - loading successful
+DEBUG 2017-12-12 14:22:58,501 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-12-12 14:22:58,501 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-12-12 14:22:58,501 makepdffile Of CandStatus - End Write on page
+INFO  2017-12-12 14:22:58,501 makepdffile Of CandStatus - Int_values
+INFO  2017-12-12 14:22:58,501 makepdffile Of CandStatus - total_values
+INFO  2017-12-12 14:22:58,501 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-12-12 14:22:58,501 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-12-12 14:22:58,501 drawTable Of CandStatus - te(1):
+INFO  2017-12-12 14:22:58,501 drawTable Of CandStatus - End of Write data
+INFO  2017-12-12 14:22:58,501 drawTable Of CandStatus - End of Rows
+INFO  2017-12-12 14:22:58,501 drawTable Of CandStatus - End of Columns

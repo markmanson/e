@@ -1,0 +1,33 @@
+DEBUG 2012-06-21 16:47:08,281 InsertIntoT_Result Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1) in D:\OESV2\Source Code\Development Area\UksTraining\Unirecruite\QuestionPaper.aspx.vb:line 5088
+DEBUG 2012-06-21 16:47:13,171 InsertIntoT_Result Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '1'  Key being added: '1'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1) in D:\OESV2\Source Code\Development Area\UksTraining\Unirecruite\QuestionPaper.aspx.vb:line 5115
+DEBUG 2012-06-21 17:05:57,625 InsertIntoT_Result Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.InsertIntoT_Result(Hashtable Ht, String testtype, String courseid, ConnectDb objconn, SqlTransaction strans1) in D:\OESV2\Source Code\Development Area\UksTraining\Unirecruite\QuestionPaper.aspx.vb:line 5088
+DEBUG 2012-06-21 17:19:03,937 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\UksTraining\Unirecruite\QuestionPaper.aspx.vb:line 176
+DEBUG 2012-06-21 17:24:10,437 InsertData Of QuestionPaper - Error :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESV2\Source Code\Development Area\UksTraining\Unirecruite\QuestionPaper.aspx.vb:line 2336

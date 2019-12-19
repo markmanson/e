@@ -1,0 +1,4 @@
+DEBUG 2017-11-20 18:49:57,828 GetCandidateResult Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: 'Name'  Key being added: 'Name'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetCandidateResult(String CandidateID, String courseID) in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 5682

@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+</HEAD>
+
+<BODY>
+
+Dear <b>%Name%,<br>
+<!--%SchoolName%<br>
+%Address%<br>
+%City%<br>
+%Taluka%<br>
+%District%<br>
+%State%<br>
+%Contact%<br>
+%Email%<br>-->
+<br>
+</b>
+Welcome to E-Exam Tool. <br><br>
+
+<!--Thank you for your online application. You are requested to submit the duly filled and signed physical Registration Form to get your registration process completed. The activation code will be generated within 48 hours from receiving your duly completed form.<br><br>
+
+After activation you shall get a unique login id and password to access E-Exam Tool portal for student/admin registrations, management and other support services. <br><br>
+-->
+You are being registered for E-Exam Tool.<br><br>
+Login details :-<br>
+Login ID : %LoginID%<br>
+Password : %Password%<br><br>
+
+For Login, please <a href="http://adiinternals.usindia.com:8094/Login.aspx">click here.</a><br><br>
+
+<!--Assuring you of our best support and looking forward to a long and enduring relationship.<br><br>-->
+
+E-EXAM TOOL TEAM<br>
+For Unitech Systems<br>
+
+<p lang="EN-US"
+						style="font-size: 11.0pt; font-family: Times New Roman; font-weight: bold; text-align: center;">
+						<b><span>This is a system generated e-mail. Please do not reply to this e-mail.</span>
+						</b>
+					</p>
+
+</BODY>
+</HTML>

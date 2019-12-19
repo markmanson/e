@@ -1,0 +1,9 @@
+DEBUG 2014-11-17 14:50:41,446 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Office Excel cannot access the file 'D:\Virtual host\OES\Excel Import'. There are several possible reasons:
+
+? The file name or path does not exist.
+? The file is being used by another program.
+? The workbook you are trying to save has the same name as a currently open workbook.
+   at Microsoft.Office.Interop.Excel.WorkbookClass.SaveAs(Object Filename, Object FileFormat, Object Password, Object WriteResPassword, Object ReadOnlyRecommended, Object CreateBackup, XlSaveAsAccessMode AccessMode, Object ConflictResolution, Object AddToMru, Object TextCodepage, Object TextVisualLayout, Object Local)
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 730
+DEBUG 2014-11-17 14:50:41,930 ExportExamDetails Of ExamResult - Error :   at Microsoft.Office.Interop.Excel.WorkbookClass.SaveAs(Object Filename, Object FileFormat, Object Password, Object WriteResPassword, Object ReadOnlyRecommended, Object CreateBackup, XlSaveAsAccessMode AccessMode, Object ConflictResolution, Object AddToMru, Object TextCodepage, Object TextVisualLayout, Object Local)
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 730

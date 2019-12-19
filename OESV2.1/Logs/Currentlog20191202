@@ -1,0 +1,29 @@
+DEBUG 2019-12-02 08:36:36,388 Btn_login_Click Of Login - Error :System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-12-02 11:31:39,724 Btn_login_Click Of Login - Error :System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-12-02 11:31:42,012 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-12-02 11:31:45,339 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-12-02 11:31:46,943 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: SQL Server への接続を確立しているときにネットワーク関連またはインスタンス固有のエラーが発生しました。サーバーが見つからないかアクセスできません。インスタンス名が正しいこと、および SQL Server がリモート接続を許可するように構成されていることを確認してください。 (provider: 名前付きパイプ プロバイダ, error: 40 - SQL Server への接続を開けませんでした)
+   at Unirecruite.ConnectDb.connect() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\ConnectDb.vb:line 21
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 136
+DEBUG 2019-12-02 13:50:39,680 FillCourses Of Addcourse - Error :System.Data.SqlClient.SqlException: Incorrect syntax near 'del_flag'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.AddCourse.FillCourses() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AddCourse.aspx.vb:line 129

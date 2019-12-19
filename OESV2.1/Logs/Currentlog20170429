@@ -1,0 +1,2 @@
+DEBUG 2017-04-29 10:12:06,227 FillListOfCourse Of register - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.register.FillListOfCourse()

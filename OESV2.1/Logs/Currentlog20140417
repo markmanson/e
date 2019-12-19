@@ -1,0 +1,17 @@
+DEBUG 2014-04-17 14:48:55,169 btn_login_Click Of Login - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.unirecruite.login.btn_login_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2014-04-17 17:30:07,029 Getit Of WebForm3 - Error :System.ArgumentException: Item has already been added. Key in dictionary: 'N3-1'  Key being added: 'N3-1'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.unirecruite.WebForm3.Getit()
+DEBUG 2014-04-17 17:30:39,669 Page_Load Of ExamCount - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at Unirecruite.ExamCount.Page_Load(Object sender, EventArgs e)
+DEBUG 2014-04-17 17:39:09,169 Page_Load Of CandStatus - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.CandStatus.Page_Load(Object sender, EventArgs e)

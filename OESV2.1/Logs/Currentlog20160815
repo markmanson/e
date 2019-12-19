@@ -1,0 +1,13 @@
+DEBUG 2016-08-15 21:37:20,031 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80040154.
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category)
+DEBUG 2016-08-15 21:37:41,421 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80040154.
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category)
+DEBUG 2016-08-15 21:42:00,921 imgBtnImpData_Click Of question_paper - Error :System.Data.SqlClient.SqlException: Syntax error converting the varchar value '‚Ì' to a column of data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.unirecruite.BulkQuestionsInsert.imgBtnImpData_Click(Object sender, ImageClickEventArgs e)

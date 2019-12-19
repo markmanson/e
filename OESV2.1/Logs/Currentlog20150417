@@ -1,0 +1,32 @@
+DEBUG 2015-04-17 11:49:04,703 imgBtnImpData_Click Of question_paper - Error :System.IndexOutOfRangeException: Cannot find column 8.
+   at System.Data.DataColumnCollection.get_Item(Int32 index)
+   at System.Data.DataRow.get_Item(Int32 columnIndex)
+   at Unirecruite.unirecruite.BulkQuestionsInsert.imgBtnImpData_Click(Object sender, ImageClickEventArgs e) in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\BulkQuestionsImport.aspx.vb:line 898
+DEBUG 2015-04-17 11:50:35,843 imgBtnImpData_Click Of question_paper - Error :System.IndexOutOfRangeException: Cannot find column 8.
+   at System.Data.DataColumnCollection.get_Item(Int32 index)
+   at System.Data.DataRow.get_Item(Int32 columnIndex)
+   at Unirecruite.unirecruite.BulkQuestionsInsert.imgBtnImpData_Click(Object sender, ImageClickEventArgs e) in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\BulkQuestionsImport.aspx.vb:line 898
+DEBUG 2015-04-17 11:50:55,218 imgBtnImpData_Click Of question_paper - Error :System.IndexOutOfRangeException: Cannot find column 8.
+   at System.Data.DataColumnCollection.get_Item(Int32 index)
+   at System.Data.DataRow.get_Item(Int32 columnIndex)
+   at Unirecruite.unirecruite.BulkQuestionsInsert.imgBtnImpData_Click(Object sender, ImageClickEventArgs e) in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\BulkQuestionsImport.aspx.vb:line 898
+DEBUG 2015-04-17 13:15:55,109 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 645
+DEBUG 2015-04-17 13:15:55,187 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 645
+DEBUG 2015-04-17 13:15:55,203 InsertData Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.InsertData() in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\QuestionPaper.aspx.vb:line 2409
+DEBUG 2015-04-17 15:15:09,937 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2015-04-17 15:15:10,093 ExportExamDetails Of ExamResult - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 150
+DEBUG 2015-04-17 15:16:49,640 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 148
+DEBUG 2015-04-17 15:16:49,640 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 148
+DEBUG 2015-04-17 15:17:19,781 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 148
+DEBUG 2015-04-17 15:17:19,781 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 148
+DEBUG 2015-04-17 15:34:54,687 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 148
+DEBUG 2015-04-17 15:34:54,687 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails() in D:\Project VSS\Repo\OESV2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 148

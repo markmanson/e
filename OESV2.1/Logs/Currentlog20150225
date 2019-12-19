@@ -1,0 +1,9 @@
+DEBUG 2015-02-25 11:42:52,916 Page_Load Of searchQuestion - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.searchQuestion.Page_Load(Object sender, EventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\searchQuestion.aspx.vb:line 96
+DEBUG 2015-02-25 11:43:23,557 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\searchQuestion.aspx.vb:line 1512
+DEBUG 2015-02-25 11:48:25,213 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x80080005): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80080005.
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\searchQuestion.aspx.vb:line 1512
+DEBUG 2015-02-25 13:09:07,729 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x800706BE): リモート プロシージャ コールに失敗しました。 (Exception from HRESULT: 0x800706BE)
+   at Microsoft.Office.Interop.Excel.Workbooks.Add(Object Template)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\searchQuestion.aspx.vb:line 1515

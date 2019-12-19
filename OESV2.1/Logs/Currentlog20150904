@@ -1,0 +1,33 @@
+DEBUG 2015-09-04 08:47:35,219 imgBtnImpData_Click Of question_paper - Error :System.Data.SqlClient.SqlException: Syntax error converting the varchar value '‚Ì' to a column of data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.unirecruite.BulkQuestionsInsert.imgBtnImpData_Click(Object sender, ImageClickEventArgs e)
+DEBUG 2015-09-04 11:07:46,469 CheckImage Of ExamResult - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.ExamResult.CheckImage(String value)
+DEBUG 2015-09-04 11:07:46,797 ExportExamDetails Of ExamResult - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.ExamResult.CheckImage(String value)
+   at Unirecruite.ExamResult.ExportExamDetails()
+DEBUG 2015-09-04 11:07:46,797 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.CheckImage(String value)
+   at Unirecruite.ExamResult.ExportExamDetails()
+DEBUG 2015-09-04 11:35:06,953 GetMarksForSubject Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '29'  Key being added: '29'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+DEBUG 2015-09-04 11:35:07,078 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '29'  Key being added: '29'
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-04 11:35:07,078 Page_Load Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '29'  Key being added: '29'
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-04 17:58:48,265 CheckImage Of ExamResult - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.ExamResult.CheckImage(String value)
+DEBUG 2015-09-04 17:58:48,359 ExportExamDetails Of ExamResult - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.ExamResult.CheckImage(String value)
+   at Unirecruite.ExamResult.ExportExamDetails()
+DEBUG 2015-09-04 17:58:48,359 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.CheckImage(String value)
+   at Unirecruite.ExamResult.ExportExamDetails()

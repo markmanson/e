@@ -1,0 +1,66 @@
+DEBUG 2019-12-03 13:08:56,507 BindGrid Of searchExamAppeared - Error :System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.HtmlControls.HtmlTableRowCollection.get_Item(Int32 index)
+   at Unirecruite.AppearedExam.fillPageNumbers(Int32 range, Int32 len) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AppearedExam.aspx.vb:line 788
+   at Unirecruite.AppearedExam.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AppearedExam.aspx.vb:line 620
+DEBUG 2019-12-03 13:08:56,522 BtnSearch_Click Of searchExamAppeared - Error :System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at Unirecruite.AppearedExam.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AppearedExam.aspx.vb:line 652
+   at Unirecruite.AppearedExam.BtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AppearedExam.aspx.vb:line 387
+DEBUG 2019-12-03 13:15:41,141 BindGrid Of searchExamAppeared - Error :System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.HtmlControls.HtmlTableRowCollection.get_Item(Int32 index)
+   at Unirecruite.AppearedExam.fillPageNumbers(Int32 range, Int32 len) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AppearedExam.aspx.vb:line 788
+   at Unirecruite.AppearedExam.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AppearedExam.aspx.vb:line 620
+DEBUG 2019-12-03 13:15:42,867 BtnSearch_Click Of searchExamAppeared - Error :System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at Unirecruite.AppearedExam.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AppearedExam.aspx.vb:line 652
+   at Unirecruite.AppearedExam.BtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AppearedExam.aspx.vb:line 387
+DEBUG 2019-12-03 13:27:36,100 BindGrid Of searchExamAppeared - Error :System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.HtmlControls.HtmlTableRowCollection.get_Item(Int32 index)
+   at Unirecruite.AppearedExam.fillPageNumbers(Int32 range, Int32 len) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AppearedExam.aspx.vb:line 788
+   at Unirecruite.AppearedExam.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AppearedExam.aspx.vb:line 620
+DEBUG 2019-12-03 13:27:36,101 BtnSearch_Click Of searchExamAppeared - Error :System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at Unirecruite.AppearedExam.BindGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AppearedExam.aspx.vb:line 652
+   at Unirecruite.AppearedExam.BtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AppearedExam.aspx.vb:line 387
+DEBUG 2019-12-03 15:53:08,781 SearchGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 730
+DEBUG 2019-12-03 15:53:08,796 imgBtnSearch_Click Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 763
+   at Unirecruite.SubjectRegistration.imgBtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 576
+DEBUG 2019-12-03 15:53:21,812 SearchGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 730
+DEBUG 2019-12-03 15:53:21,816 imgBtnSearch_Click Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 763
+   at Unirecruite.SubjectRegistration.imgBtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 576
+DEBUG 2019-12-03 15:53:31,712 SearchGrid Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 730
+DEBUG 2019-12-03 15:53:31,720 imgBtnSearch_Click Of SubjectRegistration - Error :System.InvalidCastException: Conversion from string "" to type 'Boolean' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   --- End of inner exception stack trace ---
+   at Unirecruite.SubjectRegistration.SearchGrid() in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 763
+   at Unirecruite.SubjectRegistration.imgBtnSearch_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 576

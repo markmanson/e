@@ -1,0 +1,8 @@
+ERROR 2017-08-29 08:41:13,687 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2017-08-29 08:41:14,437 ExportExamDetails Of ExamResult - Error :System.IO.IOException: The process cannot access the file 'D:\Virtual host\OES\Excel Import\StudentExamDetails.XLS' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 727
+DEBUG 2017-08-29 08:41:14,437 ExportExamDetails Of ExamResult - Error :   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at Unirecruite.ExamResult.ExportExamDetails() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\ExamResult.aspx.vb:line 727

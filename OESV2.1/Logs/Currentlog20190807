@@ -1,0 +1,199 @@
+DEBUG 2019-08-07 09:36:11,262 InsertData Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_T_Result_Option'. Cannot insert duplicate key in object 'dbo.T_Result_Option'. The duplicate key value is (60715).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2664
+DEBUG 2019-08-07 09:36:11,284 InsertData Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2671
+DEBUG 2019-08-07 10:00:41,608 InsertData Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_T_Result_Option'. Cannot insert duplicate key in object 'dbo.T_Result_Option'. The duplicate key value is (60725).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2664
+DEBUG 2019-08-07 10:00:41,610 InsertData Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2671
+DEBUG 2019-08-07 10:00:52,747 InsertData Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_T_Result_Option'. Cannot insert duplicate key in object 'dbo.T_Result_Option'. The duplicate key value is (60725).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2664
+DEBUG 2019-08-07 10:00:52,749 InsertData Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2671
+DEBUG 2019-08-07 10:00:56,919 InsertData Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_T_Result_Option'. Cannot insert duplicate key in object 'dbo.T_Result_Option'. The duplicate key value is (60725).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2664
+DEBUG 2019-08-07 10:00:56,920 InsertData Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2671
+DEBUG 2019-08-07 10:02:07,210 InsertData Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_T_Result_Option'. Cannot insert duplicate key in object 'dbo.T_Result_Option'. The duplicate key value is (60730).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2664
+DEBUG 2019-08-07 10:02:07,211 InsertData Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2671
+DEBUG 2019-08-07 10:02:41,512 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 665
+DEBUG 2019-08-07 10:02:41,563 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 665
+DEBUG 2019-08-07 10:02:41,568 InsertData Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2589
+DEBUG 2019-08-07 10:03:20,052 InsertData Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_T_Result_Option'. Cannot insert duplicate key in object 'dbo.T_Result_Option'. The duplicate key value is (60730).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2664
+DEBUG 2019-08-07 10:03:20,058 InsertData Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2671
+DEBUG 2019-08-07 10:10:17,601 InsertData Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_T_Result_Option'. Cannot insert duplicate key in object 'dbo.T_Result_Option'. The duplicate key value is (60735).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2664
+DEBUG 2019-08-07 10:10:17,615 InsertData Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2671
+DEBUG 2019-08-07 10:29:26,493 InsertData Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_T_Result_Option'. Cannot insert duplicate key in object 'dbo.T_Result_Option'. The duplicate key value is (60735).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2664
+DEBUG 2019-08-07 10:29:27,323 InsertData Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Violation of PRIMARY KEY constraint 'PK_T_Result_Option'. Cannot insert duplicate key in object 'dbo.T_Result_Option'. The duplicate key value is (60735).
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2664
+DEBUG 2019-08-07 10:29:28,046 InsertData Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2671
+DEBUG 2019-08-07 10:29:47,550 InsertData Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2671
+DEBUG 2019-08-07 10:38:20,268 InsertData Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_T_Result_Option'. Cannot insert duplicate key in object 'dbo.T_Result_Option'. The duplicate key value is (60730).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2664
+DEBUG 2019-08-07 10:38:20,277 InsertData Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2671
+DEBUG 2019-08-07 10:39:52,337 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 665
+DEBUG 2019-08-07 10:39:52,434 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 665
+DEBUG 2019-08-07 10:39:52,440 InsertData Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2589
+DEBUG 2019-08-07 10:39:52,465 GetCandidateResult Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Unirecruite.QuestionPaper.GetCandidateResult(String CandidateID, String courseID) in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 5897
+DEBUG 2019-08-07 10:40:48,739 InsertData Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_T_Result_Option'. Cannot insert duplicate key in object 'dbo.T_Result_Option'. The duplicate key value is (60725).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2664
+DEBUG 2019-08-07 10:40:48,745 InsertData Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2671
+DEBUG 2019-08-07 10:41:01,375 InsertData Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_T_Result_Option'. Cannot insert duplicate key in object 'dbo.T_Result_Option'. The duplicate key value is (60725).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2664
+DEBUG 2019-08-07 10:41:01,381 InsertData Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2671
+DEBUG 2019-08-07 10:47:03,345 InsertData Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_T_Result_Option'. Cannot insert duplicate key in object 'dbo.T_Result_Option'. The duplicate key value is (60725).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2664
+DEBUG 2019-08-07 10:47:03,572 InsertData Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.InsertData() in D:\OESv2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 2671

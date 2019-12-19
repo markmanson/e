@@ -1,0 +1,8 @@
+ERROR 2016-08-02 01:19:32,328 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2016-08-02 01:19:32,343 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80040154.
+   at Unirecruite.ExamResult.ExportExamDetails()
+DEBUG 2016-08-02 01:19:32,343 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails()
+ERROR 2016-08-02 01:30:34,765 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2016-08-02 01:30:34,765 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {00024500-0000-0000-C000-000000000046} failed due to the following error: 80040154.
+   at Unirecruite.ExamResult.ExportExamDetails()
+DEBUG 2016-08-02 01:30:34,765 ExportExamDetails Of ExamResult - Error :   at Unirecruite.ExamResult.ExportExamDetails()

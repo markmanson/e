@@ -1,0 +1,27 @@
+DEBUG 2017-06-20 16:09:49,681 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-06-20 16:09:49,853 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-06-20 16:09:49,869 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-06-20 16:09:51,275 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-06-20 16:09:51,400 makepdffile Of CandStatus - loading successful
+DEBUG 2017-06-20 16:09:51,400 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-06-20 16:09:51,635 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-06-20 16:09:51,791 makepdffile Of CandStatus - End Write on page
+INFO  2017-06-20 16:09:51,791 makepdffile Of CandStatus - Int_values
+INFO  2017-06-20 16:09:51,791 makepdffile Of CandStatus - total_values
+INFO  2017-06-20 16:09:51,791 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-06-20 16:09:51,791 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-06-20 16:09:51,791 drawTable Of CandStatus - te(1):
+INFO  2017-06-20 16:09:51,791 drawTable Of CandStatus - End of Write data
+INFO  2017-06-20 16:09:51,791 drawTable Of CandStatus - End of Rows
+INFO  2017-06-20 16:09:51,791 drawTable Of CandStatus - End of Columns
+DEBUG 2017-06-20 20:30:54,197 checkTestAppeared Of QuestionPaper - Error :System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Unirecruite.QuestionPaper.checkTestAppeared()
+DEBUG 2017-06-20 20:30:54,353 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Syntax error converting the varchar value 'J' to a column of data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)

@@ -1,0 +1,10 @@
+DEBUG 2015-10-14 18:28:46,005 GetMarksForSubject Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '16'  Key being added: '16'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+DEBUG 2015-10-14 18:28:46,083 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '16'  Key being added: '16'
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-10-14 18:28:46,083 Page_Load Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '16'  Key being added: '16'
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)

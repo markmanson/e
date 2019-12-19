@@ -1,0 +1,40 @@
+DEBUG 2017-06-06 10:02:56,156 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-06-06 10:02:56,468 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-06-06 10:02:56,468 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-06-06 10:02:57,812 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-06-06 10:02:57,953 makepdffile Of CandStatus - loading successful
+DEBUG 2017-06-06 10:02:57,953 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-06-06 10:02:58,359 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-06-06 10:02:58,562 makepdffile Of CandStatus - End Write on page
+INFO  2017-06-06 10:02:58,562 makepdffile Of CandStatus - Int_values
+INFO  2017-06-06 10:02:58,562 makepdffile Of CandStatus - total_values
+INFO  2017-06-06 10:02:58,562 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-06-06 10:02:58,578 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-06-06 10:02:58,578 drawTable Of CandStatus - te(1):
+INFO  2017-06-06 10:02:58,578 drawTable Of CandStatus - End of Write data
+INFO  2017-06-06 10:02:58,578 drawTable Of CandStatus - End of Rows
+INFO  2017-06-06 10:02:58,578 drawTable Of CandStatus - End of Columns
+DEBUG 2017-06-06 19:50:14,609 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2017-06-06 19:50:14,703 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2017-06-06 19:50:14,703 InsertData Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.InsertData()
+DEBUG 2017-06-06 19:50:14,859 GetCandidateResult Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Unirecruite.QuestionPaper.GetCandidateResult(String CandidateID, String courseID)

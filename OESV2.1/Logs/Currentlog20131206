@@ -1,0 +1,2 @@
+DEBUG 2013-12-06 11:15:15,750 Page_Load Of CandStatus - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.CandStatus.Page_Load(Object sender, EventArgs e)

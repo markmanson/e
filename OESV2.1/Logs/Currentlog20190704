@@ -1,0 +1,20 @@
+DEBUG 2019-07-04 10:36:21,937 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '1'  Key being added: '1'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4650
+DEBUG 2019-07-04 10:36:22,055 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4735
+DEBUG 2019-07-04 10:36:32,964 Page_Load Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4847
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 420
+DEBUG 2019-07-04 13:59:24,581 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '1'  Key being added: '1'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4650
+DEBUG 2019-07-04 13:59:24,694 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4735
+DEBUG 2019-07-04 13:59:24,694 Page_Load Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4847
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 420

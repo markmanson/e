@@ -1,0 +1,267 @@
+DEBUG 2015-09-02 09:37:07,924 GetMarksForSubject Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '135'  Key being added: '135'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+DEBUG 2015-09-02 09:37:08,002 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '135'  Key being added: '135'
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 09:37:08,002 Page_Load Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '135'  Key being added: '135'
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 13:04:08,439 GetMarksForSubject Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '29'  Key being added: '29'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+DEBUG 2015-09-02 13:04:08,580 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '29'  Key being added: '29'
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 13:04:08,580 Page_Load Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '29'  Key being added: '29'
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 13:05:29,689 GetMarksForSubject Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '135'  Key being added: '135'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+DEBUG 2015-09-02 13:05:29,689 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '135'  Key being added: '135'
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 13:05:29,689 Page_Load Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '135'  Key being added: '135'
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 13:06:54,939 GetMarksForSubject Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '29'  Key being added: '29'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+DEBUG 2015-09-02 13:06:54,939 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '29'  Key being added: '29'
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 13:06:54,939 Page_Load Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '29'  Key being added: '29'
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 13:08:41,221 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2015-09-02 13:08:41,252 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 13:08:41,346 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 13:08:41,346 Page_Load Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 13:09:27,033 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2015-09-02 13:09:27,033 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 13:09:27,033 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 13:09:27,033 Page_Load Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 13:12:22,846 GetMarksForSubject Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '79'  Key being added: '79'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+DEBUG 2015-09-02 13:12:22,846 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '79'  Key being added: '79'
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 13:12:22,846 Page_Load Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '79'  Key being added: '79'
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 13:23:05,236 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2015-09-02 13:23:05,252 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 13:23:05,252 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 13:23:05,252 Page_Load Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 13:24:56,596 GetMarksForSubject Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '134'  Key being added: '134'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+DEBUG 2015-09-02 13:24:56,596 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '134'  Key being added: '134'
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 13:24:56,596 Page_Load Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '134'  Key being added: '134'
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 13:26:47,689 GetMarksForSubject Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '134'  Key being added: '134'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+DEBUG 2015-09-02 13:26:47,689 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '134'  Key being added: '134'
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 13:26:47,689 Page_Load Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '134'  Key being added: '134'
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 13:28:10,158 GetMarksForSubject Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '134'  Key being added: '134'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+DEBUG 2015-09-02 13:28:10,158 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '134'  Key being added: '134'
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 13:28:10,158 Page_Load Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '134'  Key being added: '134'
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 13:29:13,611 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2015-09-02 13:29:13,611 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 13:29:13,611 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 13:29:13,611 Page_Load Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 13:32:01,221 GetMarksForSubject Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '79'  Key being added: '79'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+DEBUG 2015-09-02 13:32:01,221 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '79'  Key being added: '79'
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 13:32:01,221 Page_Load Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '79'  Key being added: '79'
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 13:52:20,705 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2015-09-02 13:52:20,705 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 13:52:20,705 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 13:52:20,705 Page_Load Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 13:55:36,971 Page_Load Of CandStatus - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.CandStatus.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 14:01:52,049 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2015-09-02 14:01:52,049 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 14:01:52,049 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 14:01:52,049 Page_Load Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 14:02:03,236 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2015-09-02 14:02:03,236 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 14:02:03,236 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 14:02:03,236 Page_Load Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 14:31:02,955 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2015-09-02 14:31:02,955 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 14:31:02,955 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 14:31:02,955 Page_Load Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 15:12:00,283 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2015-09-02 15:12:00,283 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 15:12:00,283 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 15:12:00,283 Page_Load Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 15:58:55,939 GetMarksForSubject Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '134'  Key being added: '134'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+DEBUG 2015-09-02 15:58:55,939 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '134'  Key being added: '134'
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 15:58:55,939 Page_Load Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '134'  Key being added: '134'
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 16:00:10,549 GetMarksForSubject Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '135'  Key being added: '135'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+DEBUG 2015-09-02 16:00:10,549 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '135'  Key being added: '135'
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 16:00:10,549 Page_Load Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '135'  Key being added: '135'
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 16:13:39,908 GetMarksForSubject Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '134'  Key being added: '134'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+DEBUG 2015-09-02 16:13:39,908 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '134'  Key being added: '134'
+   at Unirecruite.QuestionPaper.GetMarksForSubject(String Course_id, Int32 TotalMarks, String UID)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 16:13:39,908 Page_Load Of QuestionPaper - Error :System.ArgumentException: Item has already been added. Key in dictionary: '134'  Key being added: '134'
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 16:19:37,235 Page_Load Of search - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.search.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 16:21:14,469 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2015-09-02 16:21:14,594 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 16:21:14,610 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 16:21:14,610 Page_Load Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 16:30:22,079 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2015-09-02 16:30:22,079 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 16:30:22,079 CheckQuestions Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2015-09-02 16:30:22,079 Page_Load Of QuestionPaper - Error :System.ArgumentException: Redirect URI cannot contain newline characters.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2015-09-02 16:31:10,188 checkTestAppeared Of QuestionPaper - Error :System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Unirecruite.QuestionPaper.checkTestAppeared()
+DEBUG 2015-09-02 16:31:10,251 Page_Load Of QuestionPaper - Error :System.Data.SqlClient.SqlException: Syntax error converting the varchar value 'J' to a column of data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)

@@ -1,0 +1,16 @@
+DEBUG 2016-09-22 04:59:45,703 FillListOfCourse Of register - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.register.FillListOfCourse()
+DEBUG 2016-09-22 05:00:16,937 FillListOfCourse Of register - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.register.FillListOfCourse()
+DEBUG 2016-09-22 05:01:08,046 FillListOfCourse Of register - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.register.FillListOfCourse()
+DEBUG 2016-09-22 05:02:34,062 FillListOfCourse Of register - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.register.FillListOfCourse()
+DEBUG 2016-09-22 05:02:43,765 Page_Load Of register - Error :System.InvalidCastException: Conversion from string "err" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObjectNotEqual(Object Left, Object Right, Boolean TextCompare)
+   at Unirecruite.unirecruite.register.Page_Load(Object sender, EventArgs e)

@@ -1,0 +1,2 @@
+DEBUG 2014-07-04 11:59:59,109 imgbtn_cancel_Click Of changepassword - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.changepass.imgbtn_cancel_Click(Object sender, ImageClickEventArgs e) in D:\Project VSS\OESV2_VSS\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\changepass.aspx.vb:line 109

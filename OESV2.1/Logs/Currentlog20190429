@@ -1,0 +1,117 @@
+DEBUG 2019-04-29 11:21:24,470 CheckImage Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex)
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 764
+DEBUG 2019-04-29 11:21:24,507 populatequesans Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 779
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 538
+DEBUG 2019-04-29 11:21:24,512 Page_Load Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 739
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-04-29 11:21:38,210 CheckImage Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex)
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 764
+DEBUG 2019-04-29 11:21:38,220 populatequesans Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 779
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 538
+DEBUG 2019-04-29 11:21:38,228 Page_Load Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 739
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-04-29 11:23:49,866 CheckImage Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex)
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 764
+DEBUG 2019-04-29 11:27:57,792 populatequesans Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 779
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 538
+DEBUG 2019-04-29 11:27:57,804 Page_Load Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 739
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-04-29 13:17:29,732 CheckImage Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex)
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 764
+DEBUG 2019-04-29 13:17:29,742 populatequesans Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 779
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 538
+DEBUG 2019-04-29 13:17:29,742 Page_Load Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 739
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-04-29 14:53:20,502 CheckImage Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex)
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 764
+DEBUG 2019-04-29 14:53:20,539 populatequesans Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 779
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 538
+DEBUG 2019-04-29 14:53:20,551 Page_Load Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 739
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-04-29 15:07:06,931 CheckImage Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex)
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 764
+DEBUG 2019-04-29 15:07:06,962 populatequesans Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 779
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 538
+DEBUG 2019-04-29 15:07:06,968 Page_Load Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 739
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-04-29 15:07:09,224 CheckImage Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex)
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 764
+DEBUG 2019-04-29 15:07:09,225 populatequesans Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.CheckImage(String value) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 779
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 538
+DEBUG 2019-04-29 15:07:09,225 Page_Load Of question_ans - Error :System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 739
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+ERROR 2019-04-29 16:52:48,228 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2019-04-29 16:52:48,244 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESV2\Source Code\Development Area\OESV2.1\ExcelImport\Student Exam Details.XLT' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OESV2\Source Code\Development Area\OESV2.1\ExamResult.aspx.vb:line 153
+DEBUG 2019-04-29 16:52:48,244 ExportExamDetails Of ExamResult - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OESV2\Source Code\Development Area\OESV2.1\ExamResult.aspx.vb:line 153
+ERROR 2019-04-29 16:57:33,171 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2019-04-29 16:57:33,193 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Office Excel cannot access the file 'D:\OESV2\Source Code\Development Area\OESV2.1\ExcelImport'. There are several possible reasons:
+
+? The file name or path does not exist.
+? The file is being used by another program.
+? The workbook you are trying to save has the same name as a currently open workbook.
+   at Microsoft.Office.Interop.Excel.WorkbookClass.SaveAs(Object Filename, Object FileFormat, Object Password, Object WriteResPassword, Object ReadOnlyRecommended, Object CreateBackup, XlSaveAsAccessMode AccessMode, Object ConflictResolution, Object AddToMru, Object TextCodepage, Object TextVisualLayout, Object Local)
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OESV2\Source Code\Development Area\OESV2.1\ExamResult.aspx.vb:line 750
+DEBUG 2019-04-29 16:57:33,211 ExportExamDetails Of ExamResult - Error :   at Microsoft.Office.Interop.Excel.WorkbookClass.SaveAs(Object Filename, Object FileFormat, Object Password, Object WriteResPassword, Object ReadOnlyRecommended, Object CreateBackup, XlSaveAsAccessMode AccessMode, Object ConflictResolution, Object AddToMru, Object TextCodepage, Object TextVisualLayout, Object Local)
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OESV2\Source Code\Development Area\OESV2.1\ExamResult.aspx.vb:line 750
+ERROR 2019-04-29 17:01:21,344 ExportExamDetails Of ExamResult - Error occure on Export exam detail 
+DEBUG 2019-04-29 17:01:21,357 ExportExamDetails Of ExamResult - Error :System.Runtime.InteropServices.COMException (0x800A03EC): 'D:\OESV2\Source Code\Development Area\OESV2.1\ExcelImport\Student Exam Details.XLT' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted.
+   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OESV2\Source Code\Development Area\OESV2.1\ExamResult.aspx.vb:line 153
+DEBUG 2019-04-29 17:01:21,357 ExportExamDetails Of ExamResult - Error :   at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at Unirecruite.ExamResult.ExportExamDetails() in D:\OESV2\Source Code\Development Area\OESV2.1\ExamResult.aspx.vb:line 153

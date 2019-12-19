@@ -1,0 +1,139 @@
+DEBUG 2017-11-27 08:44:11,687 Page_Load Of question_ans - Error :System.Data.SqlClient.SqlException: Invalid column name 'Audios'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.question_ans.playS(Int32 qid, String testType) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 3748
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 147
+DEBUG 2017-11-27 08:44:18,578 Page_Load Of question_ans - Error :System.Data.SqlClient.SqlException: Invalid column name 'Audios'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.question_ans.playS(Int32 qid, String testType) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 3748
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 147
+DEBUG 2017-11-27 08:49:47,453 Page_Load Of question_ans - Error :System.Data.SqlClient.SqlException: Invalid column name 'Audios'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.question_ans.playS(Int32 qid, String testType) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 3748
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 147
+DEBUG 2017-11-27 08:49:51,828 Page_Load Of question_ans - Error :System.Data.SqlClient.SqlException: Invalid column name 'Audios'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.question_ans.playS(Int32 qid, String testType) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 3748
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 147
+DEBUG 2017-11-27 08:59:03,750 Page_Load Of question_ans - Error :System.Data.SqlClient.SqlException: Invalid column name 'Audios'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.question_ans.playS(Int32 qid, String testType) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 3748
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 147
+DEBUG 2017-11-27 08:59:49,484 Page_Load Of question_ans - Error :System.Data.SqlClient.SqlException: Invalid column name 'Audios'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.question_ans.playS(Int32 qid, String testType) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 3748
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 147
+DEBUG 2017-11-27 09:00:01,015 Page_Load Of question_ans - Error :System.Data.SqlClient.SqlException: Invalid column name 'Audios'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.question_ans.playS(Int32 qid, String testType) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 3748
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 147
+DEBUG 2017-11-27 09:18:07,546 Page_Load Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.unirecruite.question_ans.playS(Int32 qid, String testType) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 3752
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 147
+DEBUG 2017-11-27 09:18:22,046 Page_Load Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.unirecruite.question_ans.playS(Int32 qid, String testType) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 3752
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in C:\Users\Dipendra\Desktop\oes_publish\question_ans.aspx.vb:line 147
+ERROR 2017-11-27 12:09:49,656 ExportExamDetails Of CandStatus - Error occure on Export exam detail 
+DEBUG 2017-11-27 12:09:49,828 ExportExamDetails Of CandStatus - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Unable to set the Visible property of the PivotItem class
+   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in C:\Users\Nisha\Desktop\Unirecruite27112017\CandStatus.aspx.vb:line 2096
+DEBUG 2017-11-27 12:09:49,828 ExportExamDetails Of CandStatus - Error :   at System.RuntimeType.ForwardCallToInvokeMember(String memberName, BindingFlags flags, Object target, Int32[] aWrapperTypes, MessageData& msgData)
+   at Microsoft.Office.Interop.Excel.PivotItem.set_Visible(Boolean )
+   at Unirecruite.unirecruite.CandStatus.ExportExamDetails(String _CourseID, String _CandidateID, String _CenterID) in C:\Users\Nisha\Desktop\Unirecruite27112017\CandStatus.aspx.vb:line 2096
+DEBUG 2017-11-27 12:11:41,890 DGReport_ItemCommand Of CandStatus - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.unirecruite.CandStatus.DGReport_ItemCommand(Object source, DataGridCommandEventArgs e) in C:\Users\Nisha\Desktop\Unirecruite27112017\CandStatus.aspx.vb:line 2291
+DEBUG 2017-11-27 12:11:49,609 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-11-27 12:11:49,609 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-11-27 12:11:49,609 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-11-27 12:11:51,390 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-11-27 12:11:51,515 makepdffile Of CandStatus - loading successful
+DEBUG 2017-11-27 12:11:51,515 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-11-27 12:11:52,000 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-11-27 12:11:52,234 makepdffile Of CandStatus - End Write on page
+INFO  2017-11-27 12:11:52,234 makepdffile Of CandStatus - Int_values
+INFO  2017-11-27 12:11:52,234 makepdffile Of CandStatus - total_values
+INFO  2017-11-27 12:11:52,234 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-11-27 12:11:52,234 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-11-27 12:11:52,234 drawTable Of CandStatus - te(1):
+INFO  2017-11-27 12:11:52,234 drawTable Of CandStatus - End of Write data
+INFO  2017-11-27 12:11:52,234 drawTable Of CandStatus - End of Rows
+INFO  2017-11-27 12:11:52,234 drawTable Of CandStatus - End of Columns

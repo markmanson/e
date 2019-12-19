@@ -1,0 +1,60 @@
+DEBUG 2017-08-23 09:34:43,156 SendMailFunction Of CandStatus - Error :System.Web.HttpException: The server rejected one or more recipient addresses. The server response was: 553 This server does not accept routed mail
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x8004020F): The server rejected one or more recipient addresses. The server response was: 553 This server does not accept routed mail
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.CandStatus.SendMailFunction() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 5046
+DEBUG 2017-08-23 09:35:32,156 SendMailFunction Of CandStatus - Error :System.Web.HttpException: The server rejected one or more recipient addresses. The server response was: 553 This server does not accept routed mail
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException (0x8004020F): The server rejected one or more recipient addresses. The server response was: 553 This server does not accept routed mail
+
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Type type, Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   --- End of inner exception stack trace ---
+   at System.Web.Mail.SmtpMail.LateBoundAccessHelper.CallMethod(Object obj, String methodName, Object[] args)
+   at System.Web.Mail.SmtpMail.CdoSysHelper.Send(MailMessage message)
+   at System.Web.Mail.SmtpMail.Send(MailMessage message)
+   at Unirecruite.unirecruite.CandStatus.SendMailFunction() in E:\oesv2\Source Code\Development Area\e-ExamTool New\OES_V2 old\Unirecruite\CandStatus.aspx.vb:line 5046
+DEBUG 2017-08-23 11:54:55,171 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-08-23 11:54:55,218 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-08-23 11:54:55,218 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-08-23 11:54:56,609 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-08-23 11:54:56,734 makepdffile Of CandStatus - loading successful
+DEBUG 2017-08-23 11:54:56,734 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-08-23 11:54:57,234 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-08-23 11:54:57,390 makepdffile Of CandStatus - End Write on page
+INFO  2017-08-23 11:54:57,390 makepdffile Of CandStatus - Int_values
+INFO  2017-08-23 11:54:57,390 makepdffile Of CandStatus - total_values
+INFO  2017-08-23 11:54:57,390 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-08-23 11:54:57,390 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-08-23 11:54:57,390 drawTable Of CandStatus - te(1):
+INFO  2017-08-23 11:54:57,390 drawTable Of CandStatus - End of Write data
+INFO  2017-08-23 11:54:57,390 drawTable Of CandStatus - End of Rows
+INFO  2017-08-23 11:54:57,390 drawTable Of CandStatus - End of Columns
+DEBUG 2017-08-23 11:55:06,203 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-08-23 11:55:06,203 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+DEBUG 2017-08-23 11:55:06,203 makepdffile Of CandStatus - Being initialize document
+DEBUG 2017-08-23 11:55:06,203 makepdffile Of CandStatus - load Error document initialization fails
+DEBUG 2017-08-23 11:55:06,250 makepdffile Of CandStatus - loading successful
+DEBUG 2017-08-23 11:55:06,250 makepdffile Of CandStatus - File name:D:\Virtual host\OES\Mark sheet Template\Marksheet.pdf
+INFO  2017-08-23 11:55:06,250 makepdffile Of CandStatus - contentStream in makepdffile Line no:2068
+INFO  2017-08-23 11:55:06,250 makepdffile Of CandStatus - End Write on page
+INFO  2017-08-23 11:55:06,250 makepdffile Of CandStatus - Int_values
+INFO  2017-08-23 11:55:06,250 makepdffile Of CandStatus - total_values
+INFO  2017-08-23 11:55:06,250 makepdffile Of CandStatus - Calling Drwa table function
+INFO  2017-08-23 11:55:06,250 drawTable Of CandStatus - contentStream.setFont:
+INFO  2017-08-23 11:55:06,250 drawTable Of CandStatus - te(1):
+INFO  2017-08-23 11:55:06,250 drawTable Of CandStatus - End of Write data
+INFO  2017-08-23 11:55:06,250 drawTable Of CandStatus - End of Rows
+INFO  2017-08-23 11:55:06,250 drawTable Of CandStatus - End of Columns

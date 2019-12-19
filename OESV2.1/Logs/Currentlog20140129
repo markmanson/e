@@ -1,0 +1,48 @@
+DEBUG 2014-01-29 08:35:11,593 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2014-01-29 08:35:11,796 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2014-01-29 08:35:11,875 generateQuePanel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.generateQuePanel(Int32 intCurrPage)
+DEBUG 2014-01-29 08:35:11,875 Page_Load Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2014-01-29 08:35:11,875 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2014-01-29 08:37:27,937 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2014-01-29 08:38:04,937 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2014-01-29 08:38:49,000 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2014-01-29 08:38:49,328 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2014-01-29 08:38:49,328 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2014-01-29 08:38:49,328 generateQuePanel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.generateQuePanel(Int32 intCurrPage)
+DEBUG 2014-01-29 08:38:49,328 Page_Load Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2014-01-29 08:38:49,328 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2014-01-29 08:39:56,140 AdjustQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+DEBUG 2014-01-29 08:39:56,140 CheckQuestions Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.AdjustQuestions(String test, Int32 diff, Int32 AdjustFromlevel, Int32 Qn_cat, Int32 qlevel, Hashtable& ht)
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid)
+DEBUG 2014-01-29 08:39:56,156 generateQuePanel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.generateQuePanel(Int32 intCurrPage)
+DEBUG 2014-01-29 08:39:56,156 Page_Load Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e)
+DEBUG 2014-01-29 08:39:56,156 UpdateLabel Of QuestionPaper - Error :System.NullReferenceException: Object reference not set to an instance of an object.
+   at Unirecruite.QuestionPaper.UpdateLabel()
+DEBUG 2014-01-29 19:39:35,390 btn_login_Click Of Login - Error :System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at Unirecruite.unirecruite.login.btn_login_Click(Object sender, ImageClickEventArgs e)

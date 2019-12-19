@@ -1,0 +1,1857 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddCourse_ClsCrsDts" xml:space="preserve">
+    <value>クラス/コース 詳細</value>
+  </data>
+  <data name="AddCourse_ClsNm" xml:space="preserve">
+    <value>クラス名</value>
+  </data>
+  <data name="AddCourse_ClsRgsDts" xml:space="preserve">
+    <value>クラス/コース 登録情報</value>
+  </data>
+  <data name="AddCourse_CrsNm" xml:space="preserve">
+    <value>コース名前</value>
+  </data>
+  <data name="AdminList_AdminNm" xml:space="preserve">
+    <value>管理者の名前</value>
+  </data>
+  <data name="AdminList_AdminSrch" xml:space="preserve">
+    <value>管理者検索</value>
+  </data>
+  <data name="AdminList_DOB" xml:space="preserve">
+    <value>生年月日</value>
+  </data>
+  <data name="AdminList_Email" xml:space="preserve">
+    <value>イーメイル</value>
+  </data>
+  <data name="AdminList_LoginNm" xml:space="preserve">
+    <value>ログイン名前</value>
+  </data>
+  <data name="admin_AdminList" xml:space="preserve">
+    <value>管理者一覧</value>
+  </data>
+  <data name="admin_AsgnExam" xml:space="preserve">
+    <value>学生に試験を割り当てる</value>
+  </data>
+  <data name="admin_AssignWeightage" xml:space="preserve">
+    <value>質問の割合を割り当てる</value>
+  </data>
+  <data name="admin_BulkImport" xml:space="preserve">
+    <value>一括インポートしたユーザーデータ</value>
+  </data>
+  <data name="admin_clsMaiten" xml:space="preserve">
+    <value>クラス メンテナンス</value>
+  </data>
+  <data name="admin_CndSts" xml:space="preserve">
+    <value>学生の結果状態</value>
+  </data>
+  <data name="admin_CndtimeInfo" xml:space="preserve">
+    <value>時間情報</value>
+  </data>
+  <data name="admin_CountQuePubl" xml:space="preserve">
+    <value>公開質問の数</value>
+  </data>
+  <data name="admin_CrsMain" xml:space="preserve">
+    <value>コースメンテナンス</value>
+  </data>
+  <data name="admin_Edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="admin_Exam" xml:space="preserve">
+    <value>試験</value>
+  </data>
+  <data name="admin_ExamRpt" xml:space="preserve">
+    <value>結果報告書</value>
+  </data>
+  <data name="admin_Maintenance" xml:space="preserve">
+    <value>メンテナンス</value>
+  </data>
+  <data name="admin_MngCrse" xml:space="preserve">
+    <value>コース 管理</value>
+  </data>
+  <data name="admin_NewUser" xml:space="preserve">
+    <value>新規ユーザー</value>
+  </data>
+  <data name="admin_QstMain" xml:space="preserve">
+    <value>問題管理</value>
+  </data>
+  <data name="admin_Regis" xml:space="preserve">
+    <value>登録</value>
+  </data>
+  <data name="admin_SbjMain" xml:space="preserve">
+    <value>主題メンテナンス</value>
+  </data>
+  <data name="admin_StudList" xml:space="preserve">
+    <value>受講者リスト</value>
+  </data>
+  <data name="admin_SubjectMaintenance" xml:space="preserve">
+    <value>主語のメンテナンス</value>
+  </data>
+  <data name="admin_uplVideo" xml:space="preserve">
+    <value>アップロード　ビデオ</value>
+  </data>
+  <data name="admin_UpVideo" xml:space="preserve">
+    <value>ビデオアップロード</value>
+  </data>
+  <data name="admin_VideoList" xml:space="preserve">
+    <value>ビデオリスト</value>
+  </data>
+  <data name="admin_VidList" xml:space="preserve">
+    <value>ビデオ一覧</value>
+  </data>
+  <data name="AppearedExam_ClsNm" xml:space="preserve">
+    <value>クラス名</value>
+  </data>
+  <data name="AppearedExam_ClsNm1" xml:space="preserve">
+    <value>クラス名</value>
+  </data>
+  <data name="AppearedExam_CndNm" xml:space="preserve">
+    <value>候補者名</value>
+  </data>
+  <data name="AppearedExam_CndNm1" xml:space="preserve">
+    <value>学生の名前</value>
+  </data>
+  <data name="AppearedExam_CrsNm" xml:space="preserve">
+    <value>コース名前</value>
+  </data>
+  <data name="AppearedExam_CrsNm1" xml:space="preserve">
+    <value>コース名前</value>
+  </data>
+  <data name="AppearedExam_dts" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="AppearedExam_Export" xml:space="preserve">
+    <value>輸出</value>
+  </data>
+  <data name="AppearedExam_Export1" xml:space="preserve">
+    <value>輸出</value>
+  </data>
+  <data name="AppearedExam_qno" xml:space="preserve">
+    <value>質問番号</value>
+  </data>
+  <data name="AppearedExam_Ques" xml:space="preserve">
+    <value>質問</value>
+  </data>
+  <data name="AppearedExam_testTyp" xml:space="preserve">
+    <value>試験タイプ</value>
+  </data>
+  <data name="AppearedExam_UserID" xml:space="preserve">
+    <value>ユーザID</value>
+  </data>
+  <data name="AppearedExam_View" xml:space="preserve">
+    <value>展望</value>
+  </data>
+  <data name="BulkImport_btnImpData" xml:space="preserve">
+    <value>インポートデータ</value>
+  </data>
+  <data name="BulkImport_btnImpDts" xml:space="preserve">
+    <value>インポートの詳細</value>
+  </data>
+  <data name="BulkImport_ChoseFile" xml:space="preserve">
+    <value>ファイルを選ぶ</value>
+  </data>
+  <data name="BulkImport_clickhere" xml:space="preserve">
+    <value>クリック</value>
+  </data>
+  <data name="BulkImport_Header" xml:space="preserve">
+    <value>ダウンロードするにはここをクリックしてください。</value>
+  </data>
+  <data name="BulkImport_Please" xml:space="preserve">
+    <value>ダウンロードするにはここを</value>
+  </data>
+  <data name="BulkImport_todownload" xml:space="preserve">
+    <value>してください。</value>
+  </data>
+  <data name="BulkImport_UplDts" xml:space="preserve">
+    <value>アップロードユーザー詳細</value>
+  </data>
+  <data name="CandStatus_ClsNm" xml:space="preserve">
+    <value>クラス名</value>
+  </data>
+  <data name="CandStatus_CndDts" xml:space="preserve">
+    <value>候補者の詳細</value>
+  </data>
+  <data name="CandStatus_CndNm" xml:space="preserve">
+    <value>候補者名</value>
+  </data>
+  <data name="CandStatus_CrsNm" xml:space="preserve">
+    <value>コース名前</value>
+  </data>
+  <data name="CandStatus_DisableExam" xml:space="preserve">
+    <value>無効にする</value>
+  </data>
+  <data name="CandStatus_ExamAppearedDate" xml:space="preserve">
+    <value>試験出演日</value>
+  </data>
+  <data name="CandStatus_ExamAppearedDteTm" xml:space="preserve">
+    <value>試験の日時</value>
+  </data>
+  <data name="CandStatus_ExamAssignedDte" xml:space="preserve">
+    <value>試験割当日（開始日）</value>
+  </data>
+  <data name="CandStatus_ExamDts" xml:space="preserve">
+    <value>試験の詳細</value>
+  </data>
+  <data name="CandStatus_ExamSts" xml:space="preserve">
+    <value>試験ステータス</value>
+  </data>
+  <data name="CandStatus_ExmAssgDte" xml:space="preserve">
+    <value>試験割当日</value>
+  </data>
+  <data name="CandStatus_From" xml:space="preserve">
+    <value>から</value>
+  </data>
+  <data name="CandStatus_Grade" xml:space="preserve">
+    <value>グレード</value>
+  </data>
+  <data name="CandStatus_Grd" xml:space="preserve">
+    <value>グレード</value>
+  </data>
+  <data name="CandStatus_LgnNm" xml:space="preserve">
+    <value>ログイン名</value>
+  </data>
+  <data name="CandStatus_MaxMrks" xml:space="preserve">
+    <value>合計マーク</value>
+  </data>
+  <data name="CandStatus_MrkObt" xml:space="preserve">
+    <value>取得した点数</value>
+  </data>
+  <data name="CandStatus_Pwd" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="CandStatus_Remder" xml:space="preserve">
+    <value>リマインダー</value>
+  </data>
+  <data name="CandStatus_SrchCondition" xml:space="preserve">
+    <value>検索条件</value>
+  </data>
+  <data name="CandStatus_Sts" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="CandStatus_To" xml:space="preserve">
+    <value>間で</value>
+  </data>
+  <data name="centerMaintenance_" xml:space="preserve">
+    <value>件名 メンテナンス</value>
+  </data>
+  <data name="centerMaintenance_btnBack" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="centerMaintenance_btnClear" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="centerMaintenance_btnNewclass" xml:space="preserve">
+    <value>新クラス登録</value>
+  </data>
+  <data name="centerMaintenance_btnSearch" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="centerMaintenance_City" xml:space="preserve">
+    <value>町</value>
+  </data>
+  <data name="centerMaintenance_ClsCode" xml:space="preserve">
+    <value>クラスコード</value>
+  </data>
+  <data name="centerMaintenance_ClsDts" xml:space="preserve">
+    <value>クラス詳細</value>
+  </data>
+  <data name="centerMaintenance_ClsNm" xml:space="preserve">
+    <value>クラス名</value>
+  </data>
+  <data name="centerMaintenance_CntNo" xml:space="preserve">
+    <value>電話番後</value>
+  </data>
+  <data name="centerMaintenance_Country" xml:space="preserve">
+    <value>国</value>
+  </data>
+  <data name="centerMaintenance_OwnerNm" xml:space="preserve">
+    <value>所有者名</value>
+  </data>
+  <data name="centerMaintenance_SrhCon" xml:space="preserve">
+    <value>検索条件</value>
+  </data>
+  <data name="centerMaintenance_SrNo" xml:space="preserve">
+    <value>番号</value>
+  </data>
+  <data name="centerMaintenance_State" xml:space="preserve">
+    <value>州</value>
+  </data>
+  <data name="CenterRegistration_Adrss" xml:space="preserve">
+    <value>住所</value>
+  </data>
+  <data name="CenterRegistration_btnBack" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="CenterRegistration_btnClear" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="CenterRegistration_btnRegis" xml:space="preserve">
+    <value>登録</value>
+  </data>
+  <data name="CenterRegistration_City" xml:space="preserve">
+    <value>町</value>
+  </data>
+  <data name="CenterRegistration_ClassRegis" xml:space="preserve">
+    <value>コース登録</value>
+  </data>
+  <data name="CenterRegistration_clsCode" xml:space="preserve">
+    <value>クラスコード</value>
+  </data>
+  <data name="CenterRegistration_clsNm" xml:space="preserve">
+    <value>クラス名</value>
+  </data>
+  <data name="CenterRegistration_ClsRegDts" xml:space="preserve">
+    <value>コース登録情報</value>
+  </data>
+  <data name="CenterRegistration_CntNo" xml:space="preserve">
+    <value>電話番後</value>
+  </data>
+  <data name="CenterRegistration_Country" xml:space="preserve">
+    <value>国</value>
+  </data>
+  <data name="CenterRegistration_Email" xml:space="preserve">
+    <value>イーメイル</value>
+  </data>
+  <data name="CenterRegistration_OwNm" xml:space="preserve">
+    <value>所有者名</value>
+  </data>
+  <data name="CenterRegistration_Pincd" xml:space="preserve">
+    <value>ピンコード</value>
+  </data>
+  <data name="CenterRegistration_State" xml:space="preserve">
+    <value>州</value>
+  </data>
+  <data name="Common_btnBck" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="Common_btnClr" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="Common_BtnSrch" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="Common_Disable" xml:space="preserve">
+    <value>無効</value>
+  </data>
+  <data name="Common_Enble" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="Common_GoToPage" xml:space="preserve">
+    <value>ページへ行く</value>
+  </data>
+  <data name="Common_Home" xml:space="preserve">
+    <value>ホーム</value>
+  </data>
+  <data name="Common_Regis" xml:space="preserve">
+    <value>登録</value>
+  </data>
+  <data name="Common_Sltall" xml:space="preserve">
+    <value>全ての列</value>
+  </data>
+  <data name="Common_SrNo" xml:space="preserve">
+    <value>番号</value>
+  </data>
+  <data name="Common_TtlRrd" xml:space="preserve">
+    <value>合計レコード</value>
+  </data>
+  <data name="Common_Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="CourseMaintenance_btnBack" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="CourseMaintenance_btnClear" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="CourseMaintenance_btnDelete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="CourseMaintenance_btnDisable" xml:space="preserve">
+    <value>ディセーブル</value>
+  </data>
+  <data name="CourseMaintenance_btnEnable" xml:space="preserve">
+    <value>イネーブル</value>
+  </data>
+  <data name="CourseMaintenance_btnNewCourseregis" xml:space="preserve">
+    <value>新規コース登録</value>
+  </data>
+  <data name="CourseMaintenance_btnSrch" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="CourseMaintenance_CrNm" xml:space="preserve">
+    <value>コース名前</value>
+  </data>
+  <data name="CourseMaintenance_CrsDts" xml:space="preserve">
+    <value>コースの詳細</value>
+  </data>
+  <data name="CourseMaintenance_CrsNm" xml:space="preserve">
+    <value>割り当てられた総試験時間（分）</value>
+  </data>
+  <data name="CourseMaintenance_GotoPageNo" xml:space="preserve">
+    <value>ページへ行く</value>
+  </data>
+  <data name="CourseMaintenance_MainCrs" xml:space="preserve">
+    <value>メインコース</value>
+  </data>
+  <data name="CourseMaintenance_PsingMks" xml:space="preserve">
+    <value>合格点(%)</value>
+  </data>
+  <data name="CourseMaintenance_SltAll" xml:space="preserve">
+    <value>全ての列</value>
+  </data>
+  <data name="CourseMaintenance_SrchCnd" xml:space="preserve">
+    <value>検索条件</value>
+  </data>
+  <data name="CourseMaintenance_SrhResults" xml:space="preserve">
+    <value>検索 結果</value>
+  </data>
+  <data name="CourseMaintenance_SrNo" xml:space="preserve">
+    <value>番号</value>
+  </data>
+  <data name="CourseMaintenance_TtlallotedXamMin" xml:space="preserve">
+    <value>割り当てられた総試験時間（分）</value>
+  </data>
+  <data name="CourseMaintenance_TtlMrks" xml:space="preserve">
+    <value>総点</value>
+  </data>
+  <data name="CourseMaintenance_TtlRrds" xml:space="preserve">
+    <value>合計レコード</value>
+  </data>
+  <data name="CourseMaintenance_Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="CourseRegistration_btnBck" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="CourseRegistration_btnClr" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="CourseRegistration_btnReg" xml:space="preserve">
+    <value>登録</value>
+  </data>
+  <data name="CourseRegistration_CourseCode" xml:space="preserve">
+    <value>コースコード</value>
+  </data>
+  <data name="CourseRegistration_CrsNm" xml:space="preserve">
+    <value>コース名前</value>
+  </data>
+  <data name="CourseRegistration_CrsRegis" xml:space="preserve">
+    <value>コース登録</value>
+  </data>
+  <data name="CourseRegistration_CrsRegisDts" xml:space="preserve">
+    <value>コース登録情報</value>
+  </data>
+  <data name="CourseRegistration_MainCrs" xml:space="preserve">
+    <value>メインコース</value>
+  </data>
+  <data name="CourseRegistration_PsingMrks" xml:space="preserve">
+    <value>合格点(%)</value>
+  </data>
+  <data name="CourseRegistration_ttlAllotExam" xml:space="preserve">
+    <value>割り当てられた総試験時間（分）</value>
+  </data>
+  <data name="CourseRegistration_ttlMrks" xml:space="preserve">
+    <value>総点</value>
+  </data>
+  <data name="ManageCourse_Bck" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="ManageCourse_btnAddNewCourse" xml:space="preserve">
+    <value>新しいコースを追加</value>
+  </data>
+  <data name="ManageCourse_Clr" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="ManageCourse_clsNm" xml:space="preserve">
+    <value>クラス名</value>
+  </data>
+  <data name="ManageCourse_CntrDts" xml:space="preserve">
+    <value>クラス/コース 詳細</value>
+  </data>
+  <data name="ManageCourse_CrsNm" xml:space="preserve">
+    <value>コース名前</value>
+  </data>
+  <data name="ManageCourse_Srch" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="ManageCourse_SrchCndtion" xml:space="preserve">
+    <value>検索条件</value>
+  </data>
+  <data name="ManageVideo_AddCategory" xml:space="preserve">
+    <value>新規追加/削除カテゴリ</value>
+  </data>
+  <data name="ManageVideo_SelectFile" xml:space="preserve">
+    <value>ファイルを選ぶ</value>
+  </data>
+  <data name="ManageVideo_UpVideo" xml:space="preserve">
+    <value>ビデオ/ PPTファイルをアップロード</value>
+  </data>
+  <data name="QuestionAns_Listing" xml:space="preserve">
+    <value>リスニングと単一回答</value>
+  </data>
+  <data name="register_AddDts" xml:space="preserve">
+    <value>住所</value>
+  </data>
+  <data name="register_ClsNm" xml:space="preserve">
+    <value>クラス名</value>
+  </data>
+  <data name="register_ConPwd" xml:space="preserve">
+    <value>パスワード確認</value>
+  </data>
+  <data name="register_DOB" xml:space="preserve">
+    <value>生年月日</value>
+  </data>
+  <data name="register_EmAdd" xml:space="preserve">
+    <value>イーメイルアドレス</value>
+  </data>
+  <data name="register_F" xml:space="preserve">
+    <value>女性</value>
+  </data>
+  <data name="register_Finish1" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="register_FNm" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="register_Gen" xml:space="preserve">
+    <value>性別</value>
+  </data>
+  <data name="register_LgnDts" xml:space="preserve">
+    <value>ログイン詳細</value>
+  </data>
+  <data name="register_logID" xml:space="preserve">
+    <value>ログインID</value>
+  </data>
+  <data name="register_LstNm" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="register_M" xml:space="preserve">
+    <value>男性</value>
+  </data>
+  <data name="register_MidNm" xml:space="preserve">
+    <value>ミドルネーム</value>
+  </data>
+  <data name="register_MobNo" xml:space="preserve">
+    <value>電話番後(10 桁)</value>
+  </data>
+  <data name="register_Photo" xml:space="preserve">
+    <value>写真</value>
+  </data>
+  <data name="register_pwd" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="register_RNo" xml:space="preserve">
+    <value>ロール番号</value>
+  </data>
+  <data name="register_UsDts" xml:space="preserve">
+    <value>ユーザー詳細</value>
+  </data>
+  <data name="register_UserRegis" xml:space="preserve">
+    <value>ユーザー登録情報</value>
+  </data>
+  <data name="register_UserTy" xml:space="preserve">
+    <value>ユーザー型</value>
+  </data>
+  <data name="searchQuestion_QueID" xml:space="preserve">
+    <value>質問ID</value>
+  </data>
+  <data name="searchQuestion_Ques" xml:space="preserve">
+    <value>質問</value>
+  </data>
+  <data name="searchQuestion_QuesAnyKey" xml:space="preserve">
+    <value>質問 (キーワード)</value>
+  </data>
+  <data name="searchQuestion_QueSrch" xml:space="preserve">
+    <value>質問検索</value>
+  </data>
+  <data name="searchQuestion_SelectAll" xml:space="preserve">
+    <value>全て選択</value>
+  </data>
+  <data name="searchQuestion_SltDselt" xml:space="preserve">
+    <value>選定/ 非選択</value>
+  </data>
+  <data name="searchQuestion_SrchCon" xml:space="preserve">
+    <value>検索条件</value>
+  </data>
+  <data name="searchQuestion_SubNm" xml:space="preserve">
+    <value>主題名</value>
+  </data>
+  <data name="searchQuestion_TstTyp" xml:space="preserve">
+    <value>試験タイプ</value>
+  </data>
+  <data name="searchQuestion_Viw" xml:space="preserve">
+    <value>展望</value>
+  </data>
+  <data name="Search_CenterCrsInfo" xml:space="preserve">
+    <value>クラス/コース 詳細</value>
+  </data>
+  <data name="Search_ClsNm" xml:space="preserve">
+    <value>クラス名</value>
+  </data>
+  <data name="Search_CrsNm" xml:space="preserve">
+    <value>コース名前</value>
+  </data>
+  <data name="Search_ExamDate" xml:space="preserve">
+    <value>試験日</value>
+  </data>
+  <data name="StudentSearch_btnDel" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="StudentSearch_CenterNm" xml:space="preserve">
+    <value>センター名</value>
+  </data>
+  <data name="StudentSearch_ClsNm" xml:space="preserve">
+    <value>クラス名</value>
+  </data>
+  <data name="StudentSearch_CndNm" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="StudentSearch_DOB" xml:space="preserve">
+    <value>生年月日</value>
+  </data>
+  <data name="StudentSearch_Email" xml:space="preserve">
+    <value>イーメイル</value>
+  </data>
+  <data name="StudentSearch_RNo" xml:space="preserve">
+    <value>ロール番号</value>
+  </data>
+  <data name="StudentSearch_StdDts" xml:space="preserve">
+    <value>学生の詳細</value>
+  </data>
+  <data name="StudentTimeInfo_AppearExamTo" xml:space="preserve">
+    <value>試験を受けた日付</value>
+  </data>
+  <data name="StudentTimeInfo_ApperExam" xml:space="preserve">
+    <value>試験を受けた日付</value>
+  </data>
+  <data name="StudentTimeInfo_AssignExam" xml:space="preserve">
+    <value>試験を割り当てた時間（分）</value>
+  </data>
+  <data name="StudentTimeInfo_ClsNm" xml:space="preserve">
+    <value>クラス名</value>
+  </data>
+  <data name="StudentTimeInfo_ClsNm1" xml:space="preserve">
+    <value>クラス名</value>
+  </data>
+  <data name="StudentTimeInfo_CndiNm" xml:space="preserve">
+    <value>候補者名</value>
+  </data>
+  <data name="StudentTimeInfo_CndNm" xml:space="preserve">
+    <value>候補者名</value>
+  </data>
+  <data name="StudentTimeInfo_ConsTme" xml:space="preserve">
+    <value>消費時間（分）</value>
+  </data>
+  <data name="StudentTimeInfo_CrsNm" xml:space="preserve">
+    <value>コース名前</value>
+  </data>
+  <data name="StudentTimeInfo_CrsNm1" xml:space="preserve">
+    <value>コース名前</value>
+  </data>
+  <data name="StudentTimeInfo_noOFLogin" xml:space="preserve">
+    <value>ログイン試行回数</value>
+  </data>
+  <data name="StudentTimeInfo_SrchExam" xml:space="preserve">
+    <value>試験を受けた候補者の検索</value>
+  </data>
+  <data name="StudentTimeInfo_Written" xml:space="preserve">
+    <value>筆記テストを受けた日付</value>
+  </data>
+  <data name="SubjectRegistration_SbjSrch" xml:space="preserve">
+    <value>件名検索/登録の詳細</value>
+  </data>
+  <data name="SubjectRegistration_SubCode" xml:space="preserve">
+    <value>主題コード</value>
+  </data>
+  <data name="SubjectRegistration_SubNm" xml:space="preserve">
+    <value>主題名</value>
+  </data>
+  <data name="VideoList_Category" xml:space="preserve">
+    <value>カテゴリー</value>
+  </data>
+  <data name="VideoList_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="VideoList_FileNm" xml:space="preserve">
+    <value>ファイル名</value>
+  </data>
+  <data name="VideoList_Title" xml:space="preserve">
+    <value>ビデオ/ pptタイトル</value>
+  </data>
+  <data name="WeightMgt_BasicQue" xml:space="preserve">
+    <value>基本的な質問(%)</value>
+  </data>
+  <data name="WeightMgt_Blank" xml:space="preserve">
+    <value>穴埋め問題(%)</value>
+  </data>
+  <data name="WeightMgt_bscQue" xml:space="preserve">
+    <value>基本的な質問</value>
+  </data>
+  <data name="WeightMgt_CrsNm" xml:space="preserve">
+    <value>コース名前</value>
+  </data>
+  <data name="WeightMgt_Interque" xml:space="preserve">
+    <value>中級の質問</value>
+  </data>
+  <data name="WeightMgt_Interques" xml:space="preserve">
+    <value>中級の質問(%)</value>
+  </data>
+  <data name="WeightMgt_MultipleChoice" xml:space="preserve">
+    <value>多項選択式の問題 (%)</value>
+  </data>
+  <data name="WeightMgt_SubNm" xml:space="preserve">
+    <value>主題名</value>
+  </data>
+  <data name="WeightMgt_SubWeight" xml:space="preserve">
+    <value>主語　重量 (%)</value>
+  </data>
+  <data name="WeightMgt_TF" xml:space="preserve">
+    <value>○×式問題(%)</value>
+  </data>
+  <data name="WeightMgt_ttlMrk" xml:space="preserve">
+    <value>総点</value>
+  </data>
+  <data name="WeightMgt_ttlMrks" xml:space="preserve">
+    <value>総点</value>
+  </data>
+  <data name="WeightMgt_ttlQue" xml:space="preserve">
+    <value>合計質問</value>
+  </data>
+  <data name="WeightMgt_VctSpceSub" xml:space="preserve">
+    <value>件名のための空きスペース(%)</value>
+  </data>
+  <data name="WeightMgt_WeightageDetails" xml:space="preserve">
+    <value>重量　詳細</value>
+  </data>
+  <data name="WeightSearch_BasicQues" xml:space="preserve">
+    <value>基本的な質問(%)</value>
+  </data>
+  <data name="WeightSearch_Blank" xml:space="preserve">
+    <value>穴埋め問題(%)</value>
+  </data>
+  <data name="WeightSearch_CrsDts" xml:space="preserve">
+    <value>コース 詳細</value>
+  </data>
+  <data name="WeightSearch_CrsNm" xml:space="preserve">
+    <value>コース名前</value>
+  </data>
+  <data name="WeightSearch_InterQues" xml:space="preserve">
+    <value>中級の質問(%)</value>
+  </data>
+  <data name="WeightSearch_Mtlplec" xml:space="preserve">
+    <value>多項選択式の問題(%)</value>
+  </data>
+  <data name="WeightSearch_Rmv" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="WeightSearch_SubNm" xml:space="preserve">
+    <value>主題名</value>
+  </data>
+  <data name="WeightSearch_TF" xml:space="preserve">
+    <value>○×式問題(%)</value>
+  </data>
+  <data name="WeightSearch_Weightage" xml:space="preserve">
+    <value>質問の割合(%)</value>
+  </data>
+  <data name="AdminList_TotRecord" xml:space="preserve">
+    <value>総記録</value>
+  </data>
+  <data name="Common_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Common_First" xml:space="preserve">
+    <value>最初</value>
+  </data>
+  <data name="Common_Last" xml:space="preserve">
+    <value>最終</value>
+  </data>
+  <data name="Common_Next" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="Common_Prev" xml:space="preserve">
+    <value>前</value>
+  </data>
+  <data name="Search_AssignExam" xml:space="preserve">
+    <value>試験を割り当てる</value>
+  </data>
+  <data name="Search_Select" xml:space="preserve">
+    <value>--選択する--</value>
+  </data>
+  <data name="ExamCount_Asked" xml:space="preserve">
+    <value>尋ねた</value>
+  </data>
+  <data name="ExamCount_Question" xml:space="preserve">
+    <value>質問</value>
+  </data>
+  <data name="ExamCount_SrchCon" xml:space="preserve">
+    <value>検索条件</value>
+  </data>
+  <data name="ExamCount_View" xml:space="preserve">
+    <value>見る</value>
+  </data>
+  <data name="ExamCount_CrsNm" xml:space="preserve">
+    <value>コース名</value>
+  </data>
+  <data name="ExamCount_SubNm" xml:space="preserve">
+    <value>件名</value>
+  </data>
+  <data name="Common_Export" xml:space="preserve">
+    <value>輸出</value>
+  </data>
+  <data name="AppearedExam_PSCandidateName" xml:space="preserve">
+    <value>候補者名を選択してください</value>
+  </data>
+  <data name="AppearedExam_PSCentName" xml:space="preserve">
+    <value>センター名を選択してください</value>
+  </data>
+  <data name="Common_NoRecFound" xml:space="preserve">
+    <value>記録が見当たりませんでした</value>
+  </data>
+  <data name="Error_MSG" xml:space="preserve">
+    <value>システムエラーが発生しました。管理者に連絡してください！</value>
+  </data>
+  <data name="CourseMaintainance_NCR" xml:space="preserve">
+    <value>新しいコース登録</value>
+  </data>
+  <data name="CourseMaintenance_TtlTime" xml:space="preserve">
+    <value>合計試験時間（分）</value>
+  </data>
+  <data name="ExamCount_TtlRcrds" xml:space="preserve">
+    <value>合計記録：</value>
+  </data>
+  <data name="ExamCount_TtlXamCon" xml:space="preserve">
+    <value>実行された合計テスト：</value>
+  </data>
+  <data name="Common_Nlnk" xml:space="preserve">
+    <value>新しいリンク</value>
+  </data>
+  <data name="WeightManage_AssSubWeigh" xml:space="preserve">
+    <value>被験者の体重を割り当てることができます</value>
+  </data>
+  <data name="WeightManage_Enternumval" xml:space="preserve">
+    <value>件名の重みに数値を入力してください</value>
+  </data>
+  <data name="WeightManage_EnterSubWeig" xml:space="preserve">
+    <value>件名の重みを入力してください</value>
+  </data>
+  <data name="WeightManage_Entertruefa" xml:space="preserve">
+    <value>値を本当または偽として入力します</value>
+  </data>
+  <data name="WeightManage_EqualtoHundred" xml:space="preserve">
+    <value>質問タイプの割合の合計は100に等しくなければなりません</value>
+  </data>
+  <data name="WeightManage_Intermediate" xml:space="preserve">
+    <value>基本および中間タイプの割合の合計は100に等しくなければなりません</value>
+  </data>
+  <data name="WeightManage_NotSufficien" xml:space="preserve">
+    <value>コースに十分なスペースがありません</value>
+  </data>
+  <data name="WeightManage_SelectCours" xml:space="preserve">
+    <value>コースを選択してください</value>
+  </data>
+  <data name="WeightManage_SelectSubj" xml:space="preserve">
+    <value>件名を選択してください</value>
+  </data>
+  <data name="WeightManage_SubjAlready" xml:space="preserve">
+    <value>このコースはすでにこのコースに登録されています。別のテーマを選択してください。</value>
+  </data>
+  <data name="WeightManage_SuccessReg" xml:space="preserve">
+    <value>正常に登録</value>
+  </data>
+  <data name="WeightManage_SuccessUpd" xml:space="preserve">
+    <value>正常に更新されました</value>
+  </data>
+  <data name="WeightManage_WeighExceed" xml:space="preserve">
+    <value>被験者の体重が被験者の利用可能な体重を超えています。</value>
+  </data>
+  <data name="WeightMgt_IntQ" xml:space="preserve">
+    <value>中級質問に値を入力してください</value>
+  </data>
+  <data name="WeightMgt_MCQ" xml:space="preserve">
+    <value>複数選択に値を入力してください</value>
+  </data>
+  <data name="WeightMgt_NewSubjectCoLi" xml:space="preserve">
+    <value>新しい科目はコースの制限を超えないようにしてください。件名の空きスペースを確認してください。</value>
+  </data>
+  <data name="WeightMgt_NoSpace" xml:space="preserve">
+    <value>このコースには追加科目のスペースはありません。空きスペースを確認してください。</value>
+  </data>
+  <data name="WeightMgt_NumTrFaVal" xml:space="preserve">
+    <value>数値を本当または偽として入力します</value>
+  </data>
+  <data name="WeightMgt_NumValBasicQ" xml:space="preserve">
+    <value>基本的な質問に数値を入力してください</value>
+  </data>
+  <data name="WeightMgt_NumvalBlanks" xml:space="preserve">
+    <value>空白に数値を入力してください</value>
+  </data>
+  <data name="WeightMgt_NumvalMCQ" xml:space="preserve">
+    <value>複数選択に数値を入力してください</value>
+  </data>
+  <data name="WeightMgt_NVIQ" xml:space="preserve">
+    <value>中間質問に数値を入力してください</value>
+  </data>
+  <data name="WeightMgt_ValBasic" xml:space="preserve">
+    <value>基本的な質問に値を入力してください</value>
+  </data>
+  <data name="WeightMgt_ValBlanks" xml:space="preserve">
+    <value>値を空白に入力してください</value>
+  </data>
+  <data name="Common_Reset" xml:space="preserve">
+    <value>リセットする</value>
+  </data>
+  <data name="ChangePass_OlPwd" xml:space="preserve">
+    <value>以前のパスワード</value>
+  </data>
+  <data name="ChangePass_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="ChangePass_ChPwdHe" xml:space="preserve">
+    <value>パスワードを変更する</value>
+  </data>
+  <data name="ChangePass_CPwd" xml:space="preserve">
+    <value>パスワードを認証する</value>
+  </data>
+  <data name="ChangePass_NPwd" xml:space="preserve">
+    <value>新しいパスワード</value>
+  </data>
+  <data name="ChangePass_OPwd" xml:space="preserve">
+    <value>以前のパスワード</value>
+  </data>
+  <data name="ChangePass_PwdChng" xml:space="preserve">
+    <value>パスワードは正常に変更されました</value>
+  </data>
+  <data name="ExamCount_SrchRes" xml:space="preserve">
+    <value>検索結果</value>
+  </data>
+  <data name="SubjectRegistration_Subdet" xml:space="preserve">
+    <value>件名の詳細</value>
+  </data>
+  <data name="AdminList_AdminSrchRes" xml:space="preserve">
+    <value>管理者の検索結果</value>
+  </data>
+  <data name="AdministratorList_AdminLst" xml:space="preserve">
+    <value>管理者リスト</value>
+  </data>
+  <data name="CentreMaintainance_ClsMain" xml:space="preserve">
+    <value>クラスのメンテナンス</value>
+  </data>
+  <data name="Common_SrchResult" xml:space="preserve">
+    <value>検索結果</value>
+  </data>
+  <data name="CourseMaintenance_crsMain" xml:space="preserve">
+    <value>コースメンテナンス</value>
+  </data>
+  <data name="ManageCourse_Managecrs" xml:space="preserve">
+    <value>コースを管理する</value>
+  </data>
+  <data name="SubjectRegistration_SubReg" xml:space="preserve">
+    <value>被験者のメンテナンス</value>
+  </data>
+  <data name="WeightSearch_WgtSrh" xml:space="preserve">
+    <value>重量検索</value>
+  </data>
+  <data name="AppearedExam_Head" xml:space="preserve">
+    <value>試験レポート</value>
+  </data>
+  <data name="ExamCount_Head" xml:space="preserve">
+    <value>公開された質問の数</value>
+  </data>
+  <data name="Search_Head" xml:space="preserve">
+    <value>学生に試験を割り当てる</value>
+  </data>
+  <data name="StudentTimeInfo_Head" xml:space="preserve">
+    <value>候補者の時間情報</value>
+  </data>
+  <data name="ChangePass_NewConNoMch" xml:space="preserve">
+    <value>新しいパスワードと確認パスワードが一致しません</value>
+  </data>
+  <data name="ChangePass_OpwdWrng" xml:space="preserve">
+    <value>古いパスワードが間違っているようです</value>
+  </data>
+  <data name="ChangePass_Pfillcpwd" xml:space="preserve">
+    <value>確認パスワードを入力してください</value>
+  </data>
+  <data name="ChangePass_Pfillnpwd" xml:space="preserve">
+    <value>新しいパスワードを入力してください</value>
+  </data>
+  <data name="ChangePass_Pfillopwd" xml:space="preserve">
+    <value>古いパスワードを入力してください</value>
+  </data>
+  <data name="ChangePass_PwdValidate" xml:space="preserve">
+    <value>パスワードには、少なくとも1つの大文字、1つの小文字、1つの数字、および8〜16文字の範囲の特殊文字が必要です。</value>
+  </data>
+  <data name="register_Admin" xml:space="preserve">
+    <value>管理者</value>
+  </data>
+  <data name="register_Student" xml:space="preserve">
+    <value>学生</value>
+  </data>
+  <data name="Common_Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>セーブ</value>
+  </data>
+  <data name="VideoList_NoVFound" xml:space="preserve">
+    <value>ビデオが見つかりません</value>
+  </data>
+  <data name="Common_Revm" xml:space="preserve">
+    <value>削除する</value>
+  </data>
+  <data name="ManVideo_CatAdd" xml:space="preserve">
+    <value>カテゴリを追加しました</value>
+  </data>
+  <data name="ManVideo_CatAddSucc" xml:space="preserve">
+    <value>カテゴリが正常に追加されました</value>
+  </data>
+  <data name="ManVideo_CatDelSucc" xml:space="preserve">
+    <value>カテゴリが正常に削除されました</value>
+  </data>
+  <data name="ManVideo_EnCatName" xml:space="preserve">
+    <value>カテゴリ名を入力してください</value>
+  </data>
+  <data name="ManVideo_EnNCatName" xml:space="preserve">
+    <value>新しいカテゴリ名を入力してください</value>
+  </data>
+  <data name="ManVideo_GiSoTitle" xml:space="preserve">
+    <value>タイトルをお願いします</value>
+  </data>
+  <data name="ManVideo_PptUpSucc" xml:space="preserve">
+    <value>pptファイルが正常にアップロードされました</value>
+  </data>
+  <data name="ManVideo_RootCntdel" xml:space="preserve">
+    <value>ルートカテゴリは削除できません</value>
+  </data>
+  <data name="ManVideo_SelAnCat" xml:space="preserve">
+    <value>カテゴリを選択してください</value>
+  </data>
+  <data name="ManVideo_SelCat" xml:space="preserve">
+    <value>カテゴリーを選択してください</value>
+  </data>
+  <data name="ManVideo_SelFile" xml:space="preserve">
+    <value>ファイルを選択してください</value>
+  </data>
+  <data name="ManVideo_SelMp4Fo" xml:space="preserve">
+    <value>アップロードに失敗しました。 mp4形式のファイルを選択してください</value>
+  </data>
+  <data name="ManVideo_ViUpSucc" xml:space="preserve">
+    <value>動画が正常にアップロードされました</value>
+  </data>
+  <data name="CandStat_ProMark" xml:space="preserve">
+    <value>暫定マークシート</value>
+  </data>
+  <data name="CandStat_Reassign" xml:space="preserve">
+    <value>再割り当て</value>
+  </data>
+  <data name="SearchQues_BlkInstQues" xml:space="preserve">
+    <value>一括挿入の質問</value>
+  </data>
+  <data name="searchques_Exactm" xml:space="preserve">
+    <value>完全に一致</value>
+  </data>
+  <data name="SearchQues_Export" xml:space="preserve">
+    <value>エクスポート次と一致</value>
+  </data>
+  <data name="SearchQues_ExportQues" xml:space="preserve">
+    <value>質問T / FとMC質問をエクスポート</value>
+  </data>
+  <data name="SearchQues_NewQues" xml:space="preserve">
+    <value>新しい質問</value>
+  </data>
+  <data name="SearchQues_QtnMain" xml:space="preserve">
+    <value>質問のメンテナンス</value>
+  </data>
+  <data name="searchQues_selectsub" xml:space="preserve">
+    <value>件名を選択</value>
+  </data>
+  <data name="BulkImport_BulkUserData" xml:space="preserve">
+    <value>ユーザーデータの一括インポート</value>
+  </data>
+  <data name="BulkImport_ChooseFile" xml:space="preserve">
+    <value>ファイルを選択してください</value>
+  </data>
+  <data name="BulkImport_Import_Data" xml:space="preserve">
+    <value>データをインポートする</value>
+  </data>
+  <data name="BulkImport_Import_Detail" xml:space="preserve">
+    <value>インポートの詳細</value>
+  </data>
+  <data name="BulkImport_ImpSummary" xml:space="preserve">
+    <value>インポートの概要</value>
+  </data>
+  <data name="BulkImport_UpUserDetail" xml:space="preserve">
+    <value>ユーザーの詳細をアップロード</value>
+  </data>
+  <data name="BulQImpo_2007" xml:space="preserve">
+    <value>2007バージョン（.xlsx）ファイルはサポートされていません。 xlsファイルを選択</value>
+  </data>
+  <data name="BulQImpo_BrowImp" xml:space="preserve">
+    <value>データをインポートする前にファイルを参照してください</value>
+  </data>
+  <data name="BulQImpo_DataImpoSucc" xml:space="preserve">
+    <value>正常にインポートされたデータ</value>
+  </data>
+  <data name="BulQImpo_Download" xml:space="preserve">
+    <value>質問の一括データインポートテンプレートファイルをダウンロードするには、以下のリンクをクリックしてください</value>
+  </data>
+  <data name="BulQImpo_DuRec" xml:space="preserve">
+    <value>重複レコード</value>
+  </data>
+  <data name="BulQImpo_ErrCont" xml:space="preserve">
+    <value>エラーが発生しました技術者に連絡してください</value>
+  </data>
+  <data name="BulQImpo_FiAlImpo" xml:space="preserve">
+    <value>ファイルはすでにインポートされています</value>
+  </data>
+  <data name="BulQImpo_FileHavPro" xml:space="preserve">
+    <value>シート名またはファイルに問題があります。 適切なテンプレートを使用して質問をアップロードしてください。</value>
+  </data>
+  <data name="BulQImpo_FillBlank" xml:space="preserve">
+    <value>空白を埋めて、次と一致</value>
+  </data>
+  <data name="BulQImpo_InRec" xml:space="preserve">
+    <value>挿入されたレコード</value>
+  </data>
+  <data name="BulQImpo_InvalidFile" xml:space="preserve">
+    <value>無効なファイル。 有効なファイルを選択してください。</value>
+  </data>
+  <data name="BulQImpo_TFMul" xml:space="preserve">
+    <value>真/偽および複数選択</value>
+  </data>
+  <data name="BulQImpo_Tot" xml:space="preserve">
+    <value>挿入されたレコードの総数：</value>
+  </data>
+  <data name="BulQImpo_TotDuRec" xml:space="preserve">
+    <value>重複レコードの総数：</value>
+  </data>
+  <data name="BulQImpo_TotRec" xml:space="preserve">
+    <value>記録の合計数は：</value>
+  </data>
+  <data name="BulQImpo_UpQDet" xml:space="preserve">
+    <value>質問の詳細をアップロード</value>
+  </data>
+  <data name="Common_DeSelAll" xml:space="preserve">
+    <value>すべての選択を解除</value>
+  </data>
+  <data name="Common_SelectAll" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="ExamCount_SelCoNameFir" xml:space="preserve">
+    <value>最初にコース名を選択してください</value>
+  </data>
+  <data name="ExamCount_SelMainCoFir" xml:space="preserve">
+    <value>最初にメインコースを選択してください</value>
+  </data>
+  <data name="Search_AlreAppForExam" xml:space="preserve">
+    <value>はすでに試験に出ています。</value>
+  </data>
+  <data name="Search_CheEmaID" xml:space="preserve">
+    <value>メールIDを確認してください</value>
+  </data>
+  <data name="Search_EmExamDate" xml:space="preserve">
+    <value>空の試験日。 確認してください！ ！</value>
+  </data>
+  <data name="Search_ExamDueInFut" xml:space="preserve">
+    <value>検査は近い将来に行われるべきであり、過去に実施することはできません。 試験日を変更してください。</value>
+  </data>
+  <data name="Search_ExAssignSucc" xml:space="preserve">
+    <value>試験が正常に割り当てられました</value>
+  </data>
+  <data name="Search_MailNSent" xml:space="preserve">
+    <value>メールが送信されていません</value>
+  </data>
+  <data name="Search_MailSentSucc" xml:space="preserve">
+    <value>メールは正常に送信されました</value>
+  </data>
+  <data name="Search_NotEnoughQ" xml:space="preserve">
+    <value>テストに十分な質問がありません。 確認してください！ ！</value>
+  </data>
+  <data name="Search_PlEnExamDate" xml:space="preserve">
+    <value>試験日を入力してください。</value>
+  </data>
+  <data name="Search_PlEnValExamDate" xml:space="preserve">
+    <value>有効な試験日を入力してください。</value>
+  </data>
+  <data name="Search_PlSelClName" xml:space="preserve">
+    <value>クラス名を選択してください</value>
+  </data>
+  <data name="Search_PlSelCoName" xml:space="preserve">
+    <value>コース名を選択してください</value>
+  </data>
+  <data name="Search_SelAtLeOneChck" xml:space="preserve">
+    <value>試験を割り当てるには、少なくとも1つのチェックボックスを選択します。</value>
+  </data>
+  <data name="Search_SelCenFirst" xml:space="preserve">
+    <value>最初にセンターを選択</value>
+  </data>
+  <data name="QuestionAns_FIBMTF" xml:space="preserve">
+    <value>空白を埋めて、次と一致</value>
+  </data>
+  <data name="QuestionAns_QuesDts" xml:space="preserve">
+    <value>質問の詳細</value>
+  </data>
+  <data name="QuestionAns_TFSA" xml:space="preserve">
+    <value>真偽と単一回答</value>
+  </data>
+  <data name="CenterMaintainance_sltchk" xml:space="preserve">
+    <value>有効化クラスには少なくとも1つのチェックボックスを選択してください</value>
+  </data>
+  <data name="CenterMaintainance_sltchkdisable" xml:space="preserve">
+    <value>クラスを無効にするために少なくとも1つのチェックボックスを選択してください</value>
+  </data>
+  <data name="CenterMaintanance_del" xml:space="preserve">
+    <value>削除するクラスを少なくとも1つ選択してください！</value>
+  </data>
+  <data name="CenterMaintanance_delerr" xml:space="preserve">
+    <value>選択したデータは正常に削除されました</value>
+  </data>
+  <data name="CenterMaintanance_noerr" xml:space="preserve">
+    <value>連絡先番号に番号を入力してください</value>
+  </data>
+  <data name="CenterRegistration_adderr" xml:space="preserve">
+    <value>住所を入力してください。</value>
+  </data>
+  <data name="CenterRegistration_cityerr" xml:space="preserve">
+    <value>都市名を入力してください。</value>
+  </data>
+  <data name="CenterRegistration_clsmdf" xml:space="preserve">
+    <value>クラス修正</value>
+  </data>
+  <data name="CenterRegistration_clsmdfdts" xml:space="preserve">
+    <value>クラス変更の詳細</value>
+  </data>
+  <data name="CenterRegistration_clsnmerr" xml:space="preserve">
+    <value>クラス名を入力してください。！</value>
+  </data>
+  <data name="CenterRegistration_clsregs" xml:space="preserve">
+    <value>クラスの登録に成功しました</value>
+  </data>
+  <data name="CenterRegistration_Clsupdt" xml:space="preserve">
+    <value>クラスが正常に更新されました</value>
+  </data>
+  <data name="CenterRegistration_Contacterr" xml:space="preserve">
+    <value>連絡先を入力してください</value>
+  </data>
+  <data name="CenterRegistration_countryerr" xml:space="preserve">
+    <value>国名を入力してください。</value>
+  </data>
+  <data name="CenterRegistration_emailerr" xml:space="preserve">
+    <value>メールIDを入力してください</value>
+  </data>
+  <data name="CenterRegistration_fnerr" xml:space="preserve">
+    <value>名を入力してください。</value>
+  </data>
+  <data name="CenterRegistration_lnerr" xml:space="preserve">
+    <value>姓を入力してください。</value>
+  </data>
+  <data name="CenterRegistration_pinerr" xml:space="preserve">
+    <value>PINコードを入力してください。</value>
+  </data>
+  <data name="CenterRegistration_stateerr" xml:space="preserve">
+    <value>州名を入力してください。</value>
+  </data>
+  <data name="CenterRegistration_validemailerr" xml:space="preserve">
+    <value>有効なメールアドレスを入力してください</value>
+  </data>
+  <data name="CourseMaintananace_delcrs" xml:space="preserve">
+    <value>少なくとも1つのコースを選択してください。</value>
+  </data>
+  <data name="CourseMaintananace_totalalltedtime" xml:space="preserve">
+    <value>割り当てられた合計試験時間に数値を入力してください（分）</value>
+  </data>
+  <data name="CourseMaintanance_crsdel" xml:space="preserve">
+    <value>コースは正常に削除されました。</value>
+  </data>
+  <data name="CourseMaintanance_crsdisable" xml:space="preserve">
+    <value>試験が学生に割り当てられているため、このコースを無効にすることはできません。 「候補者ステータス検索」リンクを使用して、割り当てられた試験を削除してください。</value>
+  </data>
+  <data name="CourseMaintanance_crsupdted" xml:space="preserve">
+    <value>コースが正常に更新されました</value>
+  </data>
+  <data name="CourseMaintanance_delcrsass" xml:space="preserve">
+    <value>「試験は学生に割り当てられているため、このコースを削除することはできません。）「候補者ステータス検索」リンクを使用して、割り当てられた試験を削除してください。</value>
+  </data>
+  <data name="CourseMaintanance_sltmaincrs" xml:space="preserve">
+    <value>メインコースを選択してください</value>
+  </data>
+  <data name="CourseRegistration_creerr" xml:space="preserve">
+    <value>入力したコース名は既に存在します。 別のコース名を入力してください。</value>
+  </data>
+  <data name="CourseRegistration_crscd" xml:space="preserve">
+    <value>コースコードを入力してください。</value>
+  </data>
+  <data name="CourseRegistration_crsmd" xml:space="preserve">
+    <value>コース変更</value>
+  </data>
+  <data name="CourseRegistration_crsmddts" xml:space="preserve">
+    <value>コース変更の詳細</value>
+  </data>
+  <data name="CourseRegistration_crsnmer" xml:space="preserve">
+    <value>コース名を入力してください。</value>
+  </data>
+  <data name="CourseRegistration_crsregsucl" xml:space="preserve">
+    <value>コースが正常に登録されました</value>
+  </data>
+  <data name="CourseRegistration_pasmrks" xml:space="preserve">
+    <value>合格点合計を入力してください。</value>
+  </data>
+  <data name="CourseRegistration_sltadDis" xml:space="preserve">
+    <value>障害者用に少なくとも1つの管理を選択してください</value>
+  </data>
+  <data name="CourseRegistration_sltoneade" xml:space="preserve">
+    <value>有効にするために少なくとも1つの管理を選択してください</value>
+  </data>
+  <data name="CourseRegistration_taet" xml:space="preserve">
+    <value>割り当てられた合計試験時間を分単位で入力してください。</value>
+  </data>
+  <data name="CourseRegistration_totalmrks" xml:space="preserve">
+    <value>合計マークを入力してください。</value>
+  </data>
+  <data name="QuestionAns_Ans" xml:space="preserve">
+    <value>回答</value>
+  </data>
+  <data name="QuestionAns_Anserr" xml:space="preserve">
+    <value>回答値を入力してください</value>
+  </data>
+  <data name="QuestionAns_atone" xml:space="preserve">
+    <value>少なくとも1つの正しいオプションを選択してください</value>
+  </data>
+  <data name="QuestionAns_audioerr" xml:space="preserve">
+    <value>音声ファイルをアップロードしてください</value>
+  </data>
+  <data name="Questionans_Coaf" xml:space="preserve">
+    <value>音声ファイルのみを選択</value>
+  </data>
+  <data name="Questionans_coimf" xml:space="preserve">
+    <value>画像ファイルのみを選択</value>
+  </data>
+  <data name="QuestionAns_Correctoptn" xml:space="preserve">
+    <value>正しいオプション</value>
+  </data>
+  <data name="QuestionAns_Digerr" xml:space="preserve">
+    <value>数字のみを入力してください</value>
+  </data>
+  <data name="QuestionAns_ep1" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="QuestionAns_ep2" xml:space="preserve">
+    <value> と</value>
+  </data>
+  <data name="QuestionAns_ep3" xml:space="preserve">
+    <value>の値は同じです。 ユニークなオプションを提供してください</value>
+  </data>
+  <data name="QuestionAns_errms" xml:space="preserve">
+    <value>同様の質問がすでに存在します。</value>
+  </data>
+  <data name="Questionans_errmsg" xml:space="preserve">
+    <value>これは必須フィールドです</value>
+  </data>
+  <data name="QuestionAns_Fiberr" xml:space="preserve">
+    <value>空白を入力するか、次のタイプの質問と一致してください</value>
+  </data>
+  <data name="QuestionAns_fileerr" xml:space="preserve">
+    <value>無効なファイル形式は.wavおよび.mp3ファイル形式のみを使用します</value>
+  </data>
+  <data name="QuestionAns_imgerr" xml:space="preserve">
+    <value>無効なファイル形式では画像形式のみを使用します（例：bmp、gif、png、jpg、jpeg）</value>
+  </data>
+  <data name="QuestionAns_onlyans" xml:space="preserve">
+    <value>のみ入力してください</value>
+  </data>
+  <data name="QuestionAns_opterr1" xml:space="preserve">
+    <value>オプション1は空白にできません</value>
+  </data>
+  <data name="QuestionAns_opterr2" xml:space="preserve">
+    <value>オプション2は空白にできません</value>
+  </data>
+  <data name="QuestionAns_optn" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="Questionans_preview" xml:space="preserve">
+    <value>プレビュー</value>
+  </data>
+  <data name="QuestionAns_qcb" xml:space="preserve">
+    <value>質問は空欄にできません</value>
+  </data>
+  <data name="QuestionAns_QMD" xml:space="preserve">
+    <value>質問の修正の詳細</value>
+  </data>
+  <data name="QuestionAns_QRD" xml:space="preserve">
+    <value>質問登録の詳細</value>
+  </data>
+  <data name="QuestionAns_Que" xml:space="preserve">
+    <value>問題</value>
+  </data>
+  <data name="QuestionAns_Quesnlvl" xml:space="preserve">
+    <value>質問レベル</value>
+  </data>
+  <data name="QuestionAns_regsuces" xml:space="preserve">
+    <value>質問が正常に登録されました</value>
+  </data>
+  <data name="Questionans_Subnam" xml:space="preserve">
+    <value>件名</value>
+  </data>
+  <data name="QuestionAns_uperr" xml:space="preserve">
+    <value>アップロードファイルを表示するには数分かかります</value>
+  </data>
+  <data name="SubjectRegistration_maincrs" xml:space="preserve">
+    <value>メインコースを選択してください。</value>
+  </data>
+  <data name="SubjectRegistration_subname" xml:space="preserve">
+    <value>件名を入力してください。</value>
+  </data>
+  <data name="AddCourse_crsexisted" xml:space="preserve">
+    <value>選択した特定のコースはすでにこのクラスに登録されています</value>
+  </data>
+  <data name="AddCourse_crssucreg" xml:space="preserve">
+    <value>コースが正常に登録されました</value>
+  </data>
+  <data name="AddCourse_sltclserr" xml:space="preserve">
+    <value>クラスを選択してください</value>
+  </data>
+  <data name="AddCourse_sltcrserr" xml:space="preserve">
+    <value>コースを選択してください</value>
+  </data>
+  <data name="AddCourse_wgtcrs" xml:space="preserve">
+    <value>このコースの重量は不完全です</value>
+  </data>
+  <data name="AddCourse_wgtntassgn" xml:space="preserve">
+    <value>このコースには重みが割り当てられていません</value>
+  </data>
+  <data name="CandStatus_chkbxdel" xml:space="preserve">
+    <value>少なくとも1つのチェックボックスを選択して削除してください</value>
+  </data>
+  <data name="CandStatus_dateerr" xml:space="preserve">
+    <value>YYYY / MM / DD形式で試験開始日を入力してください</value>
+  </data>
+  <data name="CandStatus_delsuc" xml:space="preserve">
+    <value>テストレコードが正常に削除されました。</value>
+  </data>
+  <data name="CandStatus_Examapgrtrexm" xml:space="preserve">
+    <value>試験の開始日よりも大きい試験の日付を入力してください。</value>
+  </data>
+  <data name="CandStatus_Examappdate" xml:space="preserve">
+    <value>受験日を入力してください。</value>
+  </data>
+  <data name="CandStatus_Examasdat" xml:space="preserve">
+    <value>試験割り当て日から入力してください。</value>
+  </data>
+  <data name="CandStatus_Examdategreater" xml:space="preserve">
+    <value>試験割り当て日よりも大きい試験割り当て日を入力してください。</value>
+  </data>
+  <data name="CandStatus_Mailerr" xml:space="preserve">
+    <value>名前またはメールIDが空のため、メールを送信できません。</value>
+  </data>
+  <data name="CandStatus_mailsent" xml:space="preserve">
+    <value>メールが正常に送信されました。</value>
+  </data>
+  <data name="CandStatus_verify" xml:space="preserve">
+    <value>テストに十分な質問がありません。 確認してください！！</value>
+  </data>
+  <data name="CandStatus_vlddateerr" xml:space="preserve">
+    <value>有効な試験開始日を入力してください。</value>
+  </data>
+  <data name="StudentSearch_delerr" xml:space="preserve">
+    <value>試験記録が存在するため、この学生を削除することはできません。 [候補ステータス]リンクを使用して試験記録を削除してください。</value>
+  </data>
+  <data name="StudentSearch_recupdated" xml:space="preserve">
+    <value>レコードが正常に更新されました</value>
+  </data>
+  <data name="StudentSearch_sltonecand" xml:space="preserve">
+    <value>有効にする候補を少なくとも1つ選択してください</value>
+  </data>
+  <data name="StudentSearch_sltoneDelete" xml:space="preserve">
+    <value>削除する候補を少なくとも1つ選択してください</value>
+  </data>
+  <data name="StudentSearch_sltonedisable" xml:space="preserve">
+    <value>無効にする候補を少なくとも1つ選択してください</value>
+  </data>
+  <data name="StudentSearch_sndelsuc" xml:space="preserve">
+    <value>学生名が正常に削除されました。</value>
+  </data>
+  <data name="SubjectMaintenance_passingmarks" xml:space="preserve">
+    <value>合格マークを入力してください。</value>
+  </data>
+  <data name="SubjectMaintenance_sltdelsuc" xml:space="preserve">
+    <value>選択したデータは正常に削除されました</value>
+  </data>
+  <data name="SubjectMaintenance_sltonechkdisable" xml:space="preserve">
+    <value>サブジェクトを無効にするために、少なくとも1つのチェックボックスを選択してください</value>
+  </data>
+  <data name="SubjectMaintenance_sltonechkenable" xml:space="preserve">
+    <value>件名を有効にするには、少なくとも1つのチェックボックスを選択してください</value>
+  </data>
+  <data name="SubjectMaintenance_sltonedel" xml:space="preserve">
+    <value>削除する対象を少なくとも1つ選択してください！</value>
+  </data>
+  <data name="SubjectMaintenance_Subdelsuc" xml:space="preserve">
+    <value>件名が正常に削除されました</value>
+  </data>
+  <data name="SubjectMaintenance_subdisreff" xml:space="preserve">
+    <value>このサブジェクトはコースで参照されているため、このサブジェクトを無効にすることはできません</value>
+  </data>
+  <data name="SubjectMaintenance_Subdtsupdated" xml:space="preserve">
+    <value>件名の詳細が正常に更新されました。</value>
+  </data>
+  <data name="SubjectMaintenance_subexist" xml:space="preserve">
+    <value>このサブジェクトはすでにシステムとしてコースとして登録されています。 別のサブジェクト名を選択してください。</value>
+  </data>
+  <data name="SubjectMaintenance_subregerr" xml:space="preserve">
+    <value>このサブジェクトはすでにシステムに登録されています。 別のサブジェクト名を選択してください。</value>
+  </data>
+  <data name="SubjectMaintenance_subregsuc" xml:space="preserve">
+    <value>件名が正常に登録されました。</value>
+  </data>
+  <data name="WeightSearch_sltrecdisable" xml:space="preserve">
+    <value>無効にするレコードを少なくとも1つ選択してください</value>
+  </data>
+  <data name="WeightSearch_sltrecenable" xml:space="preserve">
+    <value>有効にするレコードを少なくとも1つ選択してください</value>
+  </data>
+  <data name="WeightSearch_subrmcrs" xml:space="preserve">
+    <value>被験者はコースから削除されました。</value>
+  </data>
+  <data name="AdminList_SelDel" xml:space="preserve">
+    <value>削除する管理を少なくとも1つ選択してください</value>
+  </data>
+  <data name="Registration_addvalid" xml:space="preserve">
+    <value>住所の詳細を100文字未満で入力してください</value>
+  </data>
+  <data name="Registration_contactno" xml:space="preserve">
+    <value>10桁の携帯電話番号を入力してください。</value>
+  </data>
+  <data name="Registration_DOBvalid" xml:space="preserve">
+    <value>生年月日を入力してください。</value>
+  </data>
+  <data name="Registration_emailvalid" xml:space="preserve">
+    <value>メールアドレスを入力してください</value>
+  </data>
+  <data name="Registration_existuser" xml:space="preserve">
+    <value>このログイン名またはパスワードを持つユーザーは既に存在します</value>
+  </data>
+  <data name="Registration_invldpicerr" xml:space="preserve">
+    <value>写真のファイルは無効です</value>
+  </data>
+  <data name="Registration_loginid" xml:space="preserve">
+    <value>ログインIDを入力してください。</value>
+  </data>
+  <data name="Registration_loginidvalid" xml:space="preserve">
+    <value>有効なログインIDを入力してください。</value>
+  </data>
+  <data name="Registration_msgbox" xml:space="preserve">
+    <value>データが正常に保存されました</value>
+  </data>
+  <data name="Registration_passd" xml:space="preserve">
+    <value>パスワードを入力してください</value>
+  </data>
+  <data name="Registration_pswdcnfpswdvalid" xml:space="preserve">
+    <value>パスワードとパスワードの確認は異なります。 両方をもう一度入力してください。</value>
+  </data>
+  <data name="Registration_pswdcnpsd" xml:space="preserve">
+    <value>パスワードを入力してパスワードを確認してください</value>
+  </data>
+  <data name="Registration_rollnoval" xml:space="preserve">
+    <value>ロール番号を入力してください。</value>
+  </data>
+  <data name="Registration_validemail" xml:space="preserve">
+    <value>有効なメールアドレスを入力してください</value>
+  </data>
+  <data name="Registration_vldalpha" xml:space="preserve">
+    <value>アルファベットのみを入力してください。</value>
+  </data>
+  <data name="Register_UsMoDet" xml:space="preserve">
+    <value>ユーザー変更の詳細</value>
+  </data>
+  <data name="MasterPage_Home" xml:space="preserve">
+    <value>ホーム</value>
+  </data>
+  <data name="MasterPage_Welcome" xml:space="preserve">
+    <value>ようこそ</value>
+  </data>
+  <data name="AssignedExam_AssignedExam" xml:space="preserve">
+    <value>割り当てられた試験</value>
+  </data>
+  <data name="AssignedExam_centrnm" xml:space="preserve">
+    <value>センター名</value>
+  </data>
+  <data name="AssignedExam_crsnm" xml:space="preserve">
+    <value>コース名</value>
+  </data>
+  <data name="AssignedExam_examid" xml:space="preserve">
+    <value>試験ID</value>
+  </data>
+  <data name="AssignedExam_Exampass" xml:space="preserve">
+    <value>試験パスワード</value>
+  </data>
+  <data name="AssignedExam_Exmdate" xml:space="preserve">
+    <value>試験日</value>
+  </data>
+  <data name="AssignedExam_LastDate" xml:space="preserve">
+    <value>最後の日付</value>
+  </data>
+  <data name="AssignedExam_link" xml:space="preserve">
+    <value>リンク</value>
+  </data>
+  <data name="AssignedExam_Rollno" xml:space="preserve">
+    <value>ロールなし</value>
+  </data>
+  <data name="ResultBox_Examapdat" xml:space="preserve">
+    <value>受験日</value>
+  </data>
+  <data name="ResultBox_obtainedmarks" xml:space="preserve">
+    <value>取得したマーク</value>
+  </data>
+  <data name="ResultBox_Result" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="Register_Inst" xml:space="preserve">
+    <value>拡張子が.jpg、.jpeg、.png、.bmp、.tiffの写真のみをアップロードします</value>
+  </data>
+  <data name="changepass_PlEnAllField" xml:space="preserve">
+    <value>すべてのフィールドに入力してください</value>
+  </data>
+  <data name="ManageVideo_VideoFormat" xml:space="preserve">
+    <value>拡張子が.mp4、.ppt、.pptxの動画/ PPTのみをアップロード</value>
+  </data>
+  <data name="ManageVideo_flv" xml:space="preserve">
+    <value>ビデオの.flv形式はサポートされていません</value>
+  </data>
+  <data name="Master_AssExam" xml:space="preserve">
+    <value>割り当てられた試験</value>
+  </data>
+  <data name="Master_ChangePass" xml:space="preserve">
+    <value>パスワードを変更</value>
+  </data>
+  <data name="Master_ExamBox" xml:space="preserve">
+    <value>試験箱</value>
+  </data>
+  <data name="Master_Livevdo" xml:space="preserve">
+    <value>ライブ映像</value>
+  </data>
+  <data name="Master_Persnal" xml:space="preserve">
+    <value>個人情報</value>
+  </data>
+  <data name="Master_Profile" xml:space="preserve">
+    <value>プロフィール</value>
+  </data>
+  <data name="StudHome_Dashboard" xml:space="preserve">
+    <value>ダッシュボード</value>
+  </data>
+  <data name="StudHome_ExamData" xml:space="preserve">
+    <value>試験のステータス</value>
+  </data>
+  <data name="StudHome_SecData" xml:space="preserve">
+    <value>セクションワイズパフォーマンス</value>
+  </data>
+  <data name="admin_grmrper" xml:space="preserve">
+    <value>文法パフォーマンス</value>
+  </data>
+  <data name="admin_listningper" xml:space="preserve">
+    <value>聴解パフォーマンス</value>
+  </data>
+  <data name="admin_Readingper" xml:space="preserve">
+    <value>読解パフォーマンス</value>
+  </data>
+  <data name="admin_vbpr" xml:space="preserve">
+    <value>文字語彙パフォーマンス</value>
+  </data>
+  <data name="Master_logout" xml:space="preserve">
+    <value>ログアウト</value>
+  </data>
+  <data name="VideoLive_livevdo" xml:space="preserve">
+    <value>ライブ映像</value>
+  </data>
+  <data name="Common_AddMo" xml:space="preserve">
+    <value>さらに追加</value>
+  </data>
+  <data name="Common_NoOfRecords" xml:space="preserve">
+    <value>記録数:</value>
+  </data>
+  <data name="Common_record" xml:space="preserve">
+    <value>記録</value>
+  </data>
+  <data name="Common_Show" xml:space="preserve">
+    <value>見せる</value>
+  </data>
+  <data name="Common_ChoosePhoto" xml:space="preserve">
+    <value>写真を選択</value>
+  </data>
+  <data name="Common_Basic" xml:space="preserve">
+    <value>ベーシック</value>
+  </data>
+  <data name="Common_InterMediate" xml:space="preserve">
+    <value>中級</value>
+  </data>
+  <data name="WeightMana_DifLevel" xml:space="preserve">
+    <value>難易度</value>
+  </data>
+  <data name="CandStatus_Appeared" xml:space="preserve">
+    <value>登場日</value>
+  </data>
+  <data name="CandStatus_AssgnDate" xml:space="preserve">
+    <value>割り当てられた日付</value>
+  </data>
+  <data name="CandStatus_Class" xml:space="preserve">
+    <value>クラス</value>
+  </data>
+  <data name="CandStatus_Course" xml:space="preserve">
+    <value>コース</value>
+  </data>
+  <data name="CandStatus_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="CourseMain_SectionDesc" xml:space="preserve">
+    <value>セクションの説明</value>
+  </data>
+  <data name="AnswerDetail_ans" xml:space="preserve">
+    <value>回答の詳細</value>
+  </data>
+  <data name="Ans_AnsOption" xml:space="preserve">
+    <value>回答済みオプション</value>
+  </data>
+  <data name="Ans_CorOption" xml:space="preserve">
+    <value>正しいオプション</value>
+  </data>
+  <data name="Ans_Not" xml:space="preserve">
+    <value>未試行</value>
+  </data>
+  <data name="Ans_option" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="WeightMgmt_Blnk" xml:space="preserve">
+    <value>ブランク</value>
+  </data>
+  <data name="WeightMgmt_Mchoic" xml:space="preserve">
+    <value>複数の選択肢</value>
+  </data>
+  <data name="WeightMgmt_QuesTypWiseWeight" xml:space="preserve">
+    <value>質問タイプ賢明な重み</value>
+  </data>
+  <data name="WeightMgmt_Trfa" xml:space="preserve">
+    <value>正しいか間違っているか</value>
+  </data>
+  <data name="Cand_Status_ExcelSheet" xml:space="preserve">
+    <value>ごめんなさい！ エクセルシートをダウンロードできません</value>
+  </data>
+</root>

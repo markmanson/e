@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+</HEAD>
+
+<BODY>
+Dear <b>&#Name#&,</b><br><br>
+
+Please refer your exam result as below.<br><br>
+
+Class Name	       :  &#ClassName#&<br>
+Test Name          :  &#TestName#&<br>
+Exam appeared date :  &#Date#&<br>
+Total Marks        :  &#TotalMarks#&<br>
+Marks obtained     :  &#Marksobtained#&<br>
+Status             :  &#status#&<br><br><br>
+
+
+
+Thanking You,<br>
+Administrator<br>
+E-EXAM TOOL TEAM<br>
+Unitech Systems<br><br><br>
+
+
+<p lang="EN-US"
+						style="font-size: 11.0pt; font-family: Times New Roman; font-weight: bold; text-align: center;">
+						<b><span>This is a system generated e-mail. Please do not reply to this e-mail.</span>
+						</b>
+					</p>
+
+</BODY>
+</HTML>

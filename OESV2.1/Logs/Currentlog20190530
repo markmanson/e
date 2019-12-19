@@ -1,0 +1,23 @@
+DEBUG 2019-05-30 14:30:16,078 Getit Of searchQuestion - Error :System.Runtime.InteropServices.COMException (0x800A03EC): Microsoft Office Excel cannot access the file 'D:\OESV2\Source Code\Development Area\OESV2.1\ExcelImport\798F4100'. There are several possible reasons:
+
+? The file name or path does not exist.
+? The file is being used by another program.
+? The workbook you are trying to save has the same name as a currently open workbook.
+   at Microsoft.Office.Interop.Excel.WorkbookClass.SaveAs(Object Filename, Object FileFormat, Object Password, Object WriteResPassword, Object ReadOnlyRecommended, Object CreateBackup, XlSaveAsAccessMode AccessMode, Object ConflictResolution, Object AddToMru, Object TextCodepage, Object TextVisualLayout, Object Local)
+   at Unirecruite.unirecruite.searchQuestion.Getit(String SubjectName, String category) in D:\OESV2\Source Code\Development Area\OESV2.1\searchQuestion.aspx.vb:line 2093
+DEBUG 2019-05-30 14:33:57,865 imgBtnImpData_Click Of question_paper - Error :System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OESV2\Source Code\Development Area\OESV2.1\ExcelImport\2019_5_30_14_33_57_748_ExportedQuestion (41).xls'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at Unirecruite.unirecruite.BulkQuestionsInsert.imgBtnImpData_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\BulkQuestionsImport.aspx.vb:line 703
+DEBUG 2019-05-30 14:36:43,729 imgBtnImpData_Click Of question_paper - Error :System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\OESV2\Source Code\Development Area\OESV2.1\ExcelImport\2019_5_30_14_36_43_719_Bulk Question Import Format (3)1.xls'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at Unirecruite.unirecruite.BulkQuestionsInsert.imgBtnImpData_Click(Object sender, ImageClickEventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\BulkQuestionsImport.aspx.vb:line 703

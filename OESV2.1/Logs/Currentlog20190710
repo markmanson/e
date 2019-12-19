@@ -1,0 +1,15 @@
+DEBUG 2019-07-10 11:48:43,822 populatequesans Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 551
+DEBUG 2019-07-10 11:48:43,890 Page_Load Of question_ans - Error :System.InvalidCastException: Conversion from type 'DBNull' to type 'String' is not valid.
+   at Unirecruite.unirecruite.question_ans.populatequesans(Int32 qid, String testType) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 754
+   at Unirecruite.unirecruite.question_ans.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\question_ans.aspx.vb:line 147
+DEBUG 2019-07-10 14:45:31,767 Page_Load Of QuestionPaper - Error :System.InvalidCastException: Unable to cast object of type 'System.Collections.Hashtable' to type 'System.Collections.SortedList'.
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 422
+DEBUG 2019-07-10 14:51:01,957 Page_Load Of QuestionPaper - Error :System.InvalidCastException: Unable to cast object of type 'System.Collections.Hashtable' to type 'System.Collections.SortedList'.
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 422
+DEBUG 2019-07-10 14:55:26,635 CheckQuestions Of QuestionPaper - Error :System.InvalidCastException: Unable to cast object of type 'System.Collections.Hashtable' to type 'System.Collections.SortedList'.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4840
+DEBUG 2019-07-10 14:55:28,160 Page_Load Of QuestionPaper - Error :System.InvalidCastException: Unable to cast object of type 'System.Collections.Hashtable' to type 'System.Collections.SortedList'.
+   at Unirecruite.QuestionPaper.CheckQuestions(String Cid) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 4859
+   at Unirecruite.QuestionPaper.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.1\QuestionPaper.aspx.vb:line 420

@@ -1,0 +1,80 @@
+DEBUG 2019-12-05 11:00:05,802 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 145
+DEBUG 2019-12-05 11:00:38,718 Btn_login_Click Of Login - Error :System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at Unirecruite.unirecruite.login.Btn_login_Click(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\login.aspx.vb:line 145
+DEBUG 2019-12-05 15:20:59,369 Page_Load Of Answerdetail - Error :System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Unirecruite.AnswerDetail.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AnswerDetail.aspx.vb:line 125
+DEBUG 2019-12-05 15:30:38,302 Page_Load Of Answerdetail - Error :System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Unirecruite.AnswerDetail.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AnswerDetail.aspx.vb:line 125
+DEBUG 2019-12-05 15:39:29,849 Page_Load Of Answerdetail - Error :System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Unirecruite.AnswerDetail.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AnswerDetail.aspx.vb:line 125
+DEBUG 2019-12-05 15:42:29,181 Page_Load Of Answerdetail - Error :System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Unirecruite.AnswerDetail.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AnswerDetail.aspx.vb:line 125
+DEBUG 2019-12-05 15:45:52,737 Page_Load Of Answerdetail - Error :System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Unirecruite.AnswerDetail.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AnswerDetail.aspx.vb:line 125
+DEBUG 2019-12-05 15:46:08,368 Page_Load Of Answerdetail - Error :System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Unirecruite.AnswerDetail.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AnswerDetail.aspx.vb:line 125
+DEBUG 2019-12-05 15:46:20,861 Page_Load Of Answerdetail - Error :System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Unirecruite.AnswerDetail.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AnswerDetail.aspx.vb:line 125
+DEBUG 2019-12-05 15:49:03,225 Page_Load Of Answerdetail - Error :System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Unirecruite.AnswerDetail.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AnswerDetail.aspx.vb:line 125
+DEBUG 2019-12-05 15:49:09,720 Page_Load Of Answerdetail - Error :System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Unirecruite.AnswerDetail.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AnswerDetail.aspx.vb:line 125
+DEBUG 2019-12-05 15:49:13,278 Page_Load Of Answerdetail - Error :System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Unirecruite.AnswerDetail.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AnswerDetail.aspx.vb:line 125
+DEBUG 2019-12-05 15:49:30,631 Page_Load Of Answerdetail - Error :System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Unirecruite.AnswerDetail.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AnswerDetail.aspx.vb:line 125
+DEBUG 2019-12-05 15:49:30,654 Page_Load Of Answerdetail - Error :System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Unirecruite.AnswerDetail.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AnswerDetail.aspx.vb:line 125
+DEBUG 2019-12-05 15:51:11,069 Page_Load Of Answerdetail - Error :System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Unirecruite.AnswerDetail.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AnswerDetail.aspx.vb:line 125
+DEBUG 2019-12-05 15:51:19,921 Page_Load Of Answerdetail - Error :System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Unirecruite.AnswerDetail.Page_Load(Object sender, EventArgs e) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AnswerDetail.aspx.vb:line 125
+DEBUG 2019-12-05 15:51:19,964 Page_Load Of Answerdetail - Error :System.Web.HttpException: コントロールにコード ブロック (<% ... %>) が含まれているため、コントロールのコレクションを変更できません。
+   場所 System.Web.UI.ControlCollection.Add(Control child)
+   場所 Unirecruite.AnswerDetail.Page_Load(Object sender, EventArgs e) 場所 D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\AnswerDetail.aspx.vb:行 125
+DEBUG 2019-12-05 16:51:26,890 enableDisable Of SubjectRegistration - ChkSelect ALL : 
+System.InvalidCastException: Conversion from string "" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Unirecruite.SubjectRegistration.enableDisable(Boolean flg, Boolean blflg) in D:\OESV2\Source Code\Development Area\OESV2.2\OESV2.1\SubjectRegistration.aspx.vb:line 1631
